@@ -2,7 +2,7 @@ name: Daily OpenAI Job Monitor
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
           "email_password": "${{ secrets.EMAIL_PASSWORD }}",
           "smtp_server": "smtp.gmail.com",
           "smtp_port": 587,
-          "check_time": "09:00",
+          "check_time": "20:00",
           "first_run_days": 7,
           "include_remote": [],
           "attach_csv": true
