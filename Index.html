@@ -554,7 +554,7 @@
 
             container.innerHTML = jobs.map(job => {
                 // Use the actual publishedAt date from OpenAI
-                const actualPostDate = new Date(job.publishedAt.replace('Z', '+00:00'));
+                const actualPostDate = new Date(job.publishedAt);
                 const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
                 const dateListedFormatted = actualPostDate.toLocaleDateString('en-US', {
                     month: 'short',
