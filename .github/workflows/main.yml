@@ -57,8 +57,19 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add job_data/*.json
-        git diff --staged --quiet || git commit -m "Update job database - $(date +'%Y-%m-%d %H:%M:%S')"
-        git push
+        
+        # Create job_data directory if it doesn't exist
+        mkdir -p job_data
+        
+        # Add all JSON files in job_data directory
+        git add job_data/*.json || echo "No JSON files to add yet"
+        
+        # Only commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update job database - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
