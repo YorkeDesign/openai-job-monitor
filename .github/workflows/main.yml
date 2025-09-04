@@ -2,7 +2,7 @@ name: Daily OpenAI Job Monitor
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Runs at 9:00 AM UTC daily
+    - cron: '18 6 * * *'  # Runs at 9:00 AM UTC daily
   workflow_dispatch:  # Allows manual running for testing
 
 jobs:
