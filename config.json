@@ -1,0 +1,12 @@
+{
+  "email_enabled": true,
+  "email_from": "yorke.subs@gmail.com",
+  "email_to": "simon.yorke@icloud.com",
+  "email_password": "cxbc lwou gecu uabl",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "check_time": "09:00",
+  "first_run_days": 7,
+  "include_remote": [],
+  "attach_csv": false
+}
