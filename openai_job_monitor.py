@@ -327,33 +327,57 @@ class OpenAIJobMonitor:
             return
         
         try:
+            # Clean the report text to avoid encoding issues
+            clean_report = report.encode('ascii', 'ignore').decode('ascii')
+            
             msg = MIMEMultipart()
             msg['From'] = self.config['email_from']
             msg['To'] = self.config['email_to']
-            msg['Subject'] = f"🚀 {len(new_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
+            msg['Subject'] = f"{len(new_jobs)} New OpenAI Jobs in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
             
-            msg.attach(MIMEText(report, 'plain'))
+            # Add the plain text report
+            msg.attach(MIMEText(clean_report, 'plain', 'utf-8'))
             
-            # Attach CSV if requested
+            # Attach CSV if requested - skip attachment for now to isolate the issue
             if self.config.get('attach_csv') and self.csv_file.exists():
-                with open(self.csv_file, 'r', encoding='utf-8') as f:
-                    csv_content = f.read()
-                    attachment = MIMEText(csv_content, 'plain')
-                    attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
-                    msg.attach(attachment)
+                try:
+                    with open(self.csv_file, 'r', encoding='utf-8') as f:
+                        csv_data = f.read()
+                    
+                    # Create CSV attachment
+                    from email.mime.application import MIMEApplication
+                    csv_attachment = MIMEApplication(csv_data.encode('utf-8'), _subtype='csv')
+                    csv_attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
+                    msg.attach(csv_attachment)
+                except Exception as csv_error:
+                    logger.warning(f"Could not attach CSV: {csv_error}")
             
-            # Send email
+            # Send email using basic SMTP
             server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
             server.starttls()
             server.login(self.config['email_from'], self.config['email_password'])
-            text = msg.as_string()
-            server.sendmail(self.config['email_from'], self.config['email_to'], text)
+            
+            # Convert message to string and send
+            email_string = msg.as_string()
+            server.sendmail(self.config['email_from'], [self.config['email_to']], email_string)
             server.quit()
             
             logger.info("Email notification sent successfully")
             
         except Exception as e:
             logger.error(f"Failed to send email: {e}")
+            # Try sending just a basic text email without attachments as fallback
+            try:
+                server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
+                server.starttls()
+                server.login(self.config['email_from'], self.config['email_password'])
+                
+                basic_msg = f"Subject: {len(new_jobs)} New OpenAI Jobs Found\n\n{clean_report}"
+                server.sendmail(self.config['email_from'], [self.config['email_to']], basic_msg)
+                server.quit()
+                logger.info("Basic email notification sent successfully")
+            except Exception as fallback_error:
+                logger.error(f"Fallback email also failed: {fallback_error}")
     
     def run_check(self):
         """Main method to run a job check"""
