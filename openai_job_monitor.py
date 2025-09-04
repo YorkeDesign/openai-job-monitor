@@ -392,22 +392,54 @@ class OpenAIJobMonitor:
         # Filter for San Francisco
         sf_jobs = self.filter_san_francisco_jobs(all_jobs)
         
-        # Identify new jobs
-        new_jobs = self.identify_new_jobs(sf_jobs)
+        # Update database and identify new jobs
+        new_jobs = self.update_job_database(sf_jobs)
         
-        # Generate report
+        # Generate report for new jobs only
         report = self.generate_report(new_jobs)
         print(report)
         
-        # Save data
+        # Generate dashboard data export
+        self.generate_dashboard_data()
+        
+        # Save data and send notifications
         if new_jobs:
             self.save_to_csv(new_jobs)
             self.send_email_notification(report, new_jobs)
         
-        # Always save current state for next comparison
+        # Always save current state for backup
         self.save_current_jobs(sf_jobs)
         
         logger.info("Job check completed")
+    
+    def generate_dashboard_data(self):
+        """Generate JSON data file for the web dashboard"""
+        database = self.load_job_database()
+        
+        # Separate active and closed jobs for dashboard
+        active_jobs = [job for job in database if job['status'] == 'ACTIVE']
+        closed_jobs = [job for job in database if job['status'] == 'CLOSED']
+        
+        dashboard_data = {
+            'generated_at': datetime.now().isoformat(),
+            'active_jobs': active_jobs,
+            'closed_jobs': closed_jobs,
+            'stats': {
+                'total_active': len(active_jobs),
+                'total_closed': len(closed_jobs),
+                'departments': list(set(job.get('department', 'Unknown') for job in active_jobs)),
+                'salary_ranges': [self.extract_compensation(job) for job in active_jobs if job.get('compensation')]
+            }
+        }
+        
+        # Save dashboard data
+        dashboard_file = self.data_dir / "dashboard_data.json"
+        try:
+            with open(dashboard_file, 'w') as f:
+                json.dump(dashboard_data, f, indent=2)
+            logger.info(f"Dashboard data saved to {dashboard_file}")
+        except Exception as e:
+            logger.error(f"Failed to save dashboard data: {e}")
     
     def start_scheduler(self):
         """Start the scheduled monitoring"""
