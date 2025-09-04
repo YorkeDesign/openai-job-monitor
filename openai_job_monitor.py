@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-OpenAI Job Monitor - Clean API-based Solution
-Monitors OpenAI jobs via Ashby API and reports new listings in San Francisco area
+OpenAI Job Monitor - Enhanced with Job Lifecycle Tracking
+Monitors OpenAI jobs via Ashby API and tracks job status over time
 """
 
 import requests
@@ -30,7 +30,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class OpenAIJobMonitor:
-    """Monitor OpenAI jobs using Ashby's public API"""
+    """Monitor OpenAI jobs using Ashby's public API with lifecycle tracking"""
     
     def __init__(self, config: Dict):
         self.config = config
@@ -40,6 +40,7 @@ class OpenAIJobMonitor:
         
         # Files for tracking
         self.current_jobs_file = self.data_dir / "current_openai_jobs.json"
+        self.master_database_file = self.data_dir / "openai_jobs_database.json"
         self.report_file = self.data_dir / f"openai_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
         self.csv_file = self.data_dir / f"openai_jobs_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     
@@ -90,43 +91,100 @@ class OpenAIJobMonitor:
         logger.info(f"Filtered to {len(sf_jobs)} San Francisco area jobs")
         return sf_jobs
     
-    def identify_new_jobs(self, current_jobs: List[Dict]) -> List[Dict]:
-        """Identify new jobs since last check"""
-        if not self.current_jobs_file.exists():
-            # First run - all jobs are "new" but we'll only report recent ones
-            logger.info("First run - checking for recently published jobs")
-            cutoff_date = datetime.now() - timedelta(days=self.config.get('first_run_days', 7))
-            
-            new_jobs = []
-            for job in current_jobs:
-                published_at = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
-                if published_at.replace(tzinfo=None) > cutoff_date:
-                    new_jobs.append(job)
-            
-            logger.info(f"Found {len(new_jobs)} jobs published in last {self.config.get('first_run_days', 7)} days")
-            return new_jobs
+    def load_job_database(self) -> List[Dict]:
+        """Load the master job database"""
+        if not self.master_database_file.exists():
+            return []
         
-        # Load previous jobs
         try:
-            with open(self.current_jobs_file, 'r') as f:
-                previous_jobs = json.load(f)
+            with open(self.master_database_file, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load job database: {e}")
+            return []
+    
+    def save_job_database(self, jobs: List[Dict]):
+        """Save the master job database"""
+        try:
+            with open(self.master_database_file, 'w') as f:
+                json.dump(jobs, f, indent=2)
+            logger.info(f"Saved {len(jobs)} jobs to database")
+        except Exception as e:
+            logger.error(f"Failed to save job database: {e}")
+    
+    def update_job_database(self, current_sf_jobs: List[Dict]) -> List[Dict]:
+        """Update the master database with job lifecycle tracking"""
+        database = self.load_job_database()
+        current_date = datetime.now()
+        
+        # Create lookup of current jobs by URL
+        current_job_urls = {job['jobUrl'] for job in current_sf_jobs}
+        
+        # Create lookup of existing jobs in database
+        db_jobs_by_url = {job['jobUrl']: job for job in database}
+        
+        new_jobs = []
+        updated_database = []
+        
+        # Process current jobs from API
+        for job in current_sf_jobs:
+            job_url = job['jobUrl']
             
-            previous_job_urls = {job['jobUrl'] for job in previous_jobs}
-            new_jobs = [job for job in current_jobs if job['jobUrl'] not in previous_job_urls]
-            
-            logger.info(f"Found {len(new_jobs)} new jobs since last check")
-            return new_jobs
-            
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            logger.warning(f"Could not load previous jobs file: {e}")
-            # Fallback to date-based filtering
-            return self.identify_new_jobs(current_jobs)
+            if job_url in db_jobs_by_url:
+                # Existing job - update it
+                existing_job = db_jobs_by_url[job_url]
+                existing_job.update(job)  # Update with latest data
+                existing_job['status'] = 'ACTIVE'
+                existing_job['last_seen'] = current_date.isoformat()
+                
+                # Calculate days since first listed
+                first_seen = datetime.fromisoformat(existing_job['first_seen'])
+                existing_job['days_since_listed'] = (current_date - first_seen).days
+                
+                updated_database.append(existing_job)
+            else:
+                # New job
+                job['status'] = 'ACTIVE'
+                job['first_seen'] = current_date.isoformat()
+                job['last_seen'] = current_date.isoformat()
+                job['days_since_listed'] = 0
+                updated_database.append(job)
+                new_jobs.append(job)
+        
+        # Process existing jobs that are no longer current (mark as CLOSED)
+        for job in database:
+            if job['jobUrl'] not in current_job_urls:
+                if job['status'] == 'ACTIVE':
+                    # Just became closed
+                    job['status'] = 'CLOSED'
+                    job['closed_date'] = current_date.isoformat()
+                    logger.info(f"Job closed: {job['title']}")
+                
+                # Calculate days until deletion for closed jobs
+                if job['status'] == 'CLOSED':
+                    closed_date = datetime.fromisoformat(job['closed_date'])
+                    days_closed = (current_date - closed_date).days
+                    job['days_until_deletion'] = max(0, 5 - days_closed)
+                    
+                    # Only keep if within 5-day window
+                    if days_closed < 5:
+                        # Calculate days since first listed
+                        first_seen = datetime.fromisoformat(job['first_seen'])
+                        job['days_since_listed'] = (closed_date - first_seen).days
+                        updated_database.append(job)
+                    else:
+                        logger.info(f"Job deleted: {job['title']} (closed for 5 days)")
+        
+        self.save_job_database(updated_database)
+        return new_jobs
     
     def extract_compensation(self, job: Dict) -> Dict:
         """Extract and format compensation data from job posting"""
         compensation_info = {
             'salary_summary': '',
             'salary_range': '',
+            'salary_min': '',
+            'salary_max': '',
             'equity': '',
             'bonus': '',
             'full_compensation': ''
@@ -136,36 +194,61 @@ class OpenAIJobMonitor:
         
         # Check if compensation data exists
         if not compensation or not compensation.get('compensationTierSummary'):
-            logger.info(f"No compensation data for {job.get('title', 'Unknown')}")
             return compensation_info
         
-        logger.info(f"Found compensation data for {job.get('title', 'Unknown')}")
-        
-        # Get human-readable summaries directly from API
-        compensation_info['full_compensation'] = compensation.get('compensationTierSummary', '')
-        compensation_info['salary_range'] = compensation.get('scrapeableCompensationSalarySummary', '')
-        
-        # Parse detailed compensation components for more granular data
-        summary_components = compensation.get('summaryComponents', [])
-        for component in summary_components:
-            comp_type = component.get('compensationType', '')
-            min_val = component.get('minValue')
-            max_val = component.get('maxValue')
-            currency = component.get('currencyCode', 'USD')
+        try:
+            # Get human-readable summaries directly from API - fix encoding issues
+            full_comp_raw = compensation.get('compensationTierSummary', '')
+            # Fix UTF-8 encoding issues - replace problematic characters
+            compensation_info['full_compensation'] = (full_comp_raw
+                .replace('–', '-')           # em dash to hyphen
+                .replace('—', '-')           # en dash to hyphen  
+                .replace('•', '•')           # bullet point
+                .replace('\u2013', '-')     # unicode en dash
+                .replace('\u2014', '-')     # unicode em dash
+                .replace('\u2022', '•')     # unicode bullet
+                .encode('ascii', 'ignore').decode('ascii'))  # remove any remaining non-ASCII
+            compensation_info['salary_range'] = compensation.get('scrapeableCompensationSalarySummary', '')
             
-            if comp_type == 'Salary' and min_val and max_val:
-                compensation_info['salary_summary'] = f"${min_val:,.0f} - ${max_val:,.0f} {currency}"
-            elif comp_type == 'EquityPercentage' and min_val and max_val:
-                compensation_info['equity'] = f"{min_val}% - {max_val}%"
-            elif comp_type == 'EquityCashValue':
-                compensation_info['equity'] = 'Offered'
-            elif comp_type == 'Bonus':
-                compensation_info['bonus'] = 'Yes' if min_val or max_val else 'Offered'
-        
-        return compensation_info
+            # Parse detailed compensation components for more granular data
+            summary_components = compensation.get('summaryComponents', [])
+            for component in summary_components:
+                comp_type = component.get('compensationType', '')
+                min_val = component.get('minValue')
+                max_val = component.get('maxValue')
+                currency = component.get('currencyCode', 'USD')
+                
+                if comp_type == 'Salary':
+                    if min_val and max_val:
+                        # Salary range
+                        compensation_info['salary_summary'] = f"${min_val:,.0f} - ${max_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(max_val))
+                    elif min_val and not max_val:
+                        # Single salary value - put in both min and max
+                        compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(min_val))
+                    elif max_val and not min_val:
+                        # Only max value (rare case)
+                        compensation_info['salary_summary'] = f"Up to ${max_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(max_val))
+                        compensation_info['salary_max'] = str(int(max_val))
+                elif comp_type == 'EquityPercentage' and min_val and max_val:
+                    compensation_info['equity'] = f"{min_val}% - {max_val}%"
+                elif comp_type == 'EquityCashValue':
+                    compensation_info['equity'] = 'Offered'
+                elif comp_type == 'Bonus':
+                    compensation_info['bonus'] = 'Yes' if min_val or max_val else 'Offered'
+            
+            return compensation_info
+            
+        except Exception as e:
+            logger.error(f"ERROR in extract_compensation for {job.get('title')}: {e}")
+            return compensation_info
     
     def save_current_jobs(self, jobs: List[Dict]):
-        """Save current job state for next comparison"""
+        """Save current job state for backup"""
         try:
             with open(self.current_jobs_file, 'w') as f:
                 json.dump(jobs, f, indent=2)
@@ -265,7 +348,6 @@ class OpenAIJobMonitor:
                         compensation_data = job.get('compensation', {})
                         if compensation_data and compensation_data.get('compensationTierSummary'):
                             full_comp_raw = compensation_data.get('compensationTierSummary', '')
-                            # Fix UTF-8 encoding issues - replace problematic characters
                             comp['full_compensation'] = (full_comp_raw
                                 .replace('–', '-')           # em dash to hyphen
                                 .replace('—', '-')           # en dash to hyphen  
@@ -273,7 +355,7 @@ class OpenAIJobMonitor:
                                 .replace('\u2013', '-')     # unicode en dash
                                 .replace('\u2014', '-')     # unicode em dash
                                 .replace('\u2022', '•')     # unicode bullet
-                                .encode('ascii', 'ignore').decode('ascii'))  # remove any remaining non-ASCII
+                                .encode('ascii', 'ignore').decode('ascii'))
                             comp['salary_range'] = compensation_data.get('scrapeableCompensationSalarySummary', '')
                             
                             # Parse salary components
@@ -293,8 +375,6 @@ class OpenAIJobMonitor:
                                         comp['salary_min'] = str(int(max_val))
                                 elif component.get('compensationType') == 'EquityCashValue':
                                     comp['equity'] = 'Offered'
-                        
-                        logger.info(f"Processing job {i+1}: {job.get('title', 'Unknown')} - Min: {comp['salary_min']}, Max: {comp['salary_max']}")
                         
                         writer.writerow([
                             job['title'],
@@ -327,57 +407,60 @@ class OpenAIJobMonitor:
             return
         
         try:
-            # Clean the report text to avoid encoding issues
-            clean_report = report.encode('ascii', 'ignore').decode('ascii')
-            
             msg = MIMEMultipart()
             msg['From'] = self.config['email_from']
             msg['To'] = self.config['email_to']
-            msg['Subject'] = f"{len(new_jobs)} New OpenAI Jobs in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
+            msg['Subject'] = f"🚀 {len(new_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
             
-            # Add the plain text report
-            msg.attach(MIMEText(clean_report, 'plain', 'utf-8'))
+            msg.attach(MIMEText(report, 'plain'))
             
-            # Attach CSV if requested - skip attachment for now to isolate the issue
+            # Attach CSV if requested
             if self.config.get('attach_csv') and self.csv_file.exists():
-                try:
-                    with open(self.csv_file, 'r', encoding='utf-8') as f:
-                        csv_data = f.read()
-                    
-                    # Create CSV attachment
-                    from email.mime.application import MIMEApplication
-                    csv_attachment = MIMEApplication(csv_data.encode('utf-8'), _subtype='csv')
-                    csv_attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
-                    msg.attach(csv_attachment)
-                except Exception as csv_error:
-                    logger.warning(f"Could not attach CSV: {csv_error}")
+                with open(self.csv_file, 'r') as f:
+                    attachment = MIMEText(f.read(), 'csv')
+                    attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
+                    msg.attach(attachment)
             
-            # Send email using basic SMTP
+            # Send email
             server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
             server.starttls()
             server.login(self.config['email_from'], self.config['email_password'])
-            
-            # Convert message to string and send
-            email_string = msg.as_string()
-            server.sendmail(self.config['email_from'], [self.config['email_to']], email_string)
+            server.send_message(msg)
             server.quit()
             
             logger.info("Email notification sent successfully")
             
         except Exception as e:
             logger.error(f"Failed to send email: {e}")
-            # Try sending just a basic text email without attachments as fallback
-            try:
-                server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
-                server.starttls()
-                server.login(self.config['email_from'], self.config['email_password'])
-                
-                basic_msg = f"Subject: {len(new_jobs)} New OpenAI Jobs Found\n\n{clean_report}"
-                server.sendmail(self.config['email_from'], [self.config['email_to']], basic_msg)
-                server.quit()
-                logger.info("Basic email notification sent successfully")
-            except Exception as fallback_error:
-                logger.error(f"Fallback email also failed: {fallback_error}")
+    
+    def generate_dashboard_data(self):
+        """Generate JSON data file for the web dashboard"""
+        database = self.load_job_database()
+        
+        # Separate active and closed jobs for dashboard
+        active_jobs = [job for job in database if job['status'] == 'ACTIVE']
+        closed_jobs = [job for job in database if job['status'] == 'CLOSED']
+        
+        dashboard_data = {
+            'generated_at': datetime.now().isoformat(),
+            'active_jobs': active_jobs,
+            'closed_jobs': closed_jobs,
+            'stats': {
+                'total_active': len(active_jobs),
+                'total_closed': len(closed_jobs),
+                'departments': list(set(job.get('department', 'Unknown') for job in active_jobs)),
+                'salary_ranges': [self.extract_compensation(job) for job in active_jobs if job.get('compensation')]
+            }
+        }
+        
+        # Save dashboard data
+        dashboard_file = self.data_dir / "dashboard_data.json"
+        try:
+            with open(dashboard_file, 'w') as f:
+                json.dump(dashboard_data, f, indent=2)
+            logger.info(f"Dashboard data saved to {dashboard_file}")
+        except Exception as e:
+            logger.error(f"Failed to save dashboard data: {e}")
     
     def run_check(self):
         """Main method to run a job check"""
@@ -411,35 +494,6 @@ class OpenAIJobMonitor:
         self.save_current_jobs(sf_jobs)
         
         logger.info("Job check completed")
-    
-    def generate_dashboard_data(self):
-        """Generate JSON data file for the web dashboard"""
-        database = self.load_job_database()
-        
-        # Separate active and closed jobs for dashboard
-        active_jobs = [job for job in database if job['status'] == 'ACTIVE']
-        closed_jobs = [job for job in database if job['status'] == 'CLOSED']
-        
-        dashboard_data = {
-            'generated_at': datetime.now().isoformat(),
-            'active_jobs': active_jobs,
-            'closed_jobs': closed_jobs,
-            'stats': {
-                'total_active': len(active_jobs),
-                'total_closed': len(closed_jobs),
-                'departments': list(set(job.get('department', 'Unknown') for job in active_jobs)),
-                'salary_ranges': [self.extract_compensation(job) for job in active_jobs if job.get('compensation')]
-            }
-        }
-        
-        # Save dashboard data
-        dashboard_file = self.data_dir / "dashboard_data.json"
-        try:
-            with open(dashboard_file, 'w') as f:
-                json.dump(dashboard_data, f, indent=2)
-            logger.info(f"Dashboard data saved to {dashboard_file}")
-        except Exception as e:
-            logger.error(f"Failed to save dashboard data: {e}")
     
     def start_scheduler(self):
         """Start the scheduled monitoring"""
