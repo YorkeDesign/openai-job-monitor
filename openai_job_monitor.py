@@ -336,8 +336,9 @@ class OpenAIJobMonitor:
             
             # Attach CSV if requested
             if self.config.get('attach_csv') and self.csv_file.exists():
-                with open(self.csv_file, 'r') as f:
-                    attachment = MIMEText(f.read(), 'csv')
+                with open(self.csv_file, 'r', encoding='utf-8') as f:
+                    csv_content = f.read()
+                    attachment = MIMEText(csv_content, 'plain')
                     attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
                     msg.attach(attachment)
             
@@ -345,7 +346,8 @@ class OpenAIJobMonitor:
             server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
             server.starttls()
             server.login(self.config['email_from'], self.config['email_password'])
-            server.send_message(msg)
+            text = msg.as_string()
+            server.sendmail(self.config['email_from'], self.config['email_to'], text)
             server.quit()
             
             logger.info("Email notification sent successfully")
