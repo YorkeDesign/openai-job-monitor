@@ -38,6 +38,10 @@ jobs:
           "attach_csv": true
         }
         EOF
-    
+    - name: Debug config (without showing secrets)
+      run: |
+        echo "Config file exists: $(test -f config.json && echo 'YES' || echo 'NO')"
+        echo "Email enabled in config: $(grep -o '"email_enabled": true' config.json || echo 'NOT FOUND')"
+        echo "FROM field populated: $(grep -c 'yorke.subs' config.json || echo '0')"
     - name: Run job monitor
       run: python openai_job_monitor.py --run-once
