@@ -2,8 +2,8 @@ name: Daily OpenAI Job Monitor
 
 on:
   schedule:
-    - cron: '18 6 * * *'  # Runs at 9:00 AM UTC daily
-  workflow_dispatch:  # Allows manual running for testing
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
   monitor-jobs:
@@ -16,6 +16,14 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
+    
+    - name: Set locale for emoji support
+      run: |
+        export LANG=en_US.UTF-8
+        export LC_ALL=en_US.UTF-8
+        sudo apt-get update
+        sudo apt-get install -y locales
+        sudo locale-gen en_US.UTF-8
     
     - name: Install dependencies
       run: |
@@ -38,10 +46,9 @@ jobs:
           "attach_csv": true
         }
         EOF
-    - name: Debug config (without showing secrets)
-      run: |
-        echo "Config file exists: $(test -f config.json && echo 'YES' || echo 'NO')"
-        echo "Email enabled in config: $(grep -o '"email_enabled": true' config.json || echo 'NOT FOUND')"
-        echo "FROM field populated: $(grep -c 'yorke.subs' config.json || echo '0')"
+    
     - name: Run job monitor
-      run: python openai_job_monitor.py --run-once
+      run: |
+        export LANG=en_US.UTF-8
+        export LC_ALL=en_US.UTF-8
+        python openai_job_monitor.py --run-once
