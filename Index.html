@@ -110,7 +110,7 @@
             padding: 18px 20px;
             border-bottom: 1px solid #f1f3f4;
             display: grid;
-            grid-template-columns: 100px 60px 300px 150px 150px 120px 120px 150px 100px;
+            grid-template-columns: 100px 60px 300px 150px 150px 120px 120px 150px 80px 80px;
             gap: 15px;
             align-items: center;
             transition: background-color 0.2s ease;
@@ -127,6 +127,38 @@
         .job-row.closed {
             opacity: 0.7;
             background-color: #fff5f5;
+        }
+
+        .job-details {
+            grid-column: 1 / -1;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .job-details.expanded {
+            display: block;
+        }
+
+        .job-description {
+            line-height: 1.6;
+            color: #495057;
+        }
+
+        .job-description h3 {
+            color: #2c3e50;
+            margin: 20px 0 10px 0;
+        }
+
+        .job-description ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .job-description li {
+            margin: 5px 0;
         }
 
         .date-listed {
@@ -160,6 +192,14 @@
         .job-title {
             font-weight: 500;
             color: #1a1a1a;
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: transparent;
+            transition: text-decoration-color 0.2s ease;
+        }
+
+        .job-title:hover {
+            text-decoration-color: #007bff;
         }
 
         .job-title.closed::after {
@@ -167,6 +207,12 @@
             color: #dc3545;
             font-size: 0.8rem;
             font-weight: normal;
+        }
+
+        .expand-icon {
+            margin-left: 5px;
+            font-size: 0.8rem;
+            color: #666;
         }
 
         .team, .department {
@@ -182,6 +228,24 @@
         .location {
             color: #666;
             font-size: 0.9rem;
+        }
+
+        .btn-link {
+            background: #6c757d;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+            text-align: center;
+        }
+
+        .btn-link:hover {
+            background: #5a6268;
+            text-decoration: none;
+            color: white;
         }
 
         .apply-link {
@@ -229,7 +293,7 @@
         @media (max-width: 1400px) {
             .table-header,
             .job-row {
-                grid-template-columns: 90px 50px 250px 130px 130px 100px 100px 130px 90px;
+                grid-template-columns: 90px 50px 250px 120px 120px 90px 90px 120px 70px 70px;
                 gap: 10px;
                 font-size: 0.85rem;
             }
@@ -332,6 +396,7 @@
                 <div>Salary Min</div>
                 <div>Salary Max</div>
                 <div>Location</div>
+                <div>Link</div>
                 <div>Apply</div>
             </div>
             <div id="jobsList">
@@ -394,9 +459,29 @@
         }
 
         function getDaysBadgeClass(days) {
-            if (days === 0) return 'days-new';
-            if (days <= 7) return 'days-normal';
+            if (days <= 7) return 'days-new';
+            if (days <= 14) return 'days-normal';
             return 'days-urgent';
+        }
+
+        function calculateDaysSincePosted(publishedAt) {
+            const publishedDate = new Date(publishedAt.replace('Z', '+00:00'));
+            const currentDate = new Date();
+            const timeDiff = currentDate - publishedDate;
+            return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        }
+
+        function toggleJobDetails(jobUrl) {
+            const detailsElement = document.getElementById(`details-${btoa(jobUrl).replace(/[^a-zA-Z0-9]/g, '')}`);
+            const iconElement = document.getElementById(`icon-${btoa(jobUrl).replace(/[^a-zA-Z0-9]/g, '')}`);
+            
+            if (detailsElement.classList.contains('expanded')) {
+                detailsElement.classList.remove('expanded');
+                iconElement.textContent = '▼';
+            } else {
+                detailsElement.classList.add('expanded');
+                iconElement.textContent = '▲';
+            }
         }
 
         function filterAndDisplayJobs() {
@@ -415,12 +500,12 @@
 
                 switch (field) {
                     case 'days':
-                        aVal = a.days_since_listed || 0;
-                        bVal = b.days_since_listed || 0;
+                        aVal = calculateDaysSincePosted(a.publishedAt);
+                        bVal = calculateDaysSincePosted(b.publishedAt);
                         break;
                     case 'first':
-                        aVal = new Date(a.first_seen);
-                        bVal = new Date(b.first_seen);
+                        aVal = new Date(a.publishedAt);
+                        bVal = new Date(b.publishedAt);
                         break;
                     case 'title':
                         aVal = a.title.toLowerCase();
@@ -468,32 +553,48 @@
             }
 
             container.innerHTML = jobs.map(job => {
-                const dateListedFormatted = new Date(job.first_seen).toLocaleDateString('en-US', {
+                // Use the actual publishedAt date from OpenAI
+                const actualPostDate = new Date(job.publishedAt.replace('Z', '+00:00'));
+                const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
+                const dateListedFormatted = actualPostDate.toLocaleDateString('en-US', {
                     month: 'short',
                     day: 'numeric',
                     year: 'numeric'
                 });
                 
-                const daysClass = getDaysBadgeClass(job.days_since_listed || 0);
+                const daysClass = getDaysBadgeClass(daysSincePosted);
                 const salaryMin = formatSalary(getSalaryValue(job, 'min'));
                 const salaryMax = formatSalary(getSalaryValue(job, 'max'));
                 const isActive = job.status === 'ACTIVE';
+                const jobId = btoa(job.jobUrl).replace(/[^a-zA-Z0-9]/g, '');
                 
                 return `
                     <div class="job-row ${job.status.toLowerCase()}">
                         <div class="date-listed" data-label="Date Listed">${dateListedFormatted}</div>
-                        <div class="days-since ${daysClass}" data-label="Days">${job.days_since_listed || 0}</div>
-                        <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title">${job.title}</div>
+                        <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
+                        <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title" 
+                             onclick="toggleJobDetails('${job.jobUrl}')">
+                            ${job.title}
+                            <span class="expand-icon" id="icon-${jobId}">▼</span>
+                        </div>
                         <div class="team" data-label="Team">${job.team || '-'}</div>
                         <div class="department" data-label="Department">${job.department || '-'}</div>
                         <div class="salary" data-label="Salary Min">${salaryMin}</div>
                         <div class="salary" data-label="Salary Max">${salaryMax}</div>
                         <div class="location" data-label="Location">${job.location}</div>
+                        <div data-label="Link">
+                            <a href="${job.jobUrl}" target="_blank" class="btn-link">Link</a>
+                        </div>
                         <div data-label="Apply">
                             <a href="${job.applyUrl}" target="_blank" class="apply-link ${job.status.toLowerCase()}" 
                                ${isActive ? '' : 'onclick="return false;"'}>
                                 ${isActive ? 'Apply' : 'Closed'}
                             </a>
+                        </div>
+                        <div class="job-details" id="details-${jobId}">
+                            <div class="job-description">
+                                ${job.descriptionHtml || job.descriptionPlain || 'Job description not available.'}
+                            </div>
                         </div>
                     </div>
                 `;
