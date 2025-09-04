@@ -190,7 +190,7 @@ class OpenAIJobMonitor:
             compensation = self.extract_compensation(job)
             
             report_lines.extend([
-                f"{i}. **{job['title']}**",
+                f"{i}. {job['title']}",
                 f"   📍 Location: {job['location']}",
                 f"   🏢 Department: {job.get('department', 'N/A')}",
                 f"   👥 Team: {job.get('team', 'N/A')}",
