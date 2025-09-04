@@ -553,14 +553,9 @@
             }
 
             container.innerHTML = jobs.map(job => {
-                // Use the actual publishedAt date from OpenAI
-                const actualPostDate = new Date(job.publishedAt);
+                // Use the actual publishedAt date from OpenAI with robust parsing
                 const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
-                const dateListedFormatted = actualPostDate.toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric'
-                });
+                const dateListedFormatted = formatDateForDisplay(job.publishedAt);
                 
                 const daysClass = getDaysBadgeClass(daysSincePosted);
                 const salaryMin = formatSalary(getSalaryValue(job, 'min'));
