@@ -129,38 +129,6 @@
             background-color: #fff5f5;
         }
 
-        .job-details {
-            grid-column: 1 / -1;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            margin-top: 15px;
-            display: none;
-        }
-
-        .job-details.expanded {
-            display: block;
-        }
-
-        .job-description {
-            line-height: 1.6;
-            color: #495057;
-        }
-
-        .job-description h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-        }
-
-        .job-description ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-
-        .job-description li {
-            margin: 5px 0;
-        }
-
         .date-listed {
             color: #666;
             font-size: 0.9rem;
@@ -192,14 +160,6 @@
         .job-title {
             font-weight: 500;
             color: #1a1a1a;
-            cursor: pointer;
-            text-decoration: underline;
-            text-decoration-color: transparent;
-            transition: text-decoration-color 0.2s ease;
-        }
-
-        .job-title:hover {
-            text-decoration-color: #007bff;
         }
 
         .job-title.closed::after {
@@ -207,12 +167,6 @@
             color: #dc3545;
             font-size: 0.8rem;
             font-weight: normal;
-        }
-
-        .expand-icon {
-            margin-left: 5px;
-            font-size: 0.8rem;
-            color: #666;
         }
 
         .team, .department {
@@ -356,10 +310,8 @@
             <div class="control-group">
                 <label for="sortBy">Sort by:</label>
                 <select id="sortBy">
-                    <option value="days_since_listed_desc">Days Since Listed (High to Low)</option>
-                    <option value="days_since_listed_asc">Days Since Listed (Low to High)</option>
-                    <option value="first_seen_desc">Date Listed (Newest)</option>
-                    <option value="first_seen_asc">Date Listed (Oldest)</option>
+                    <option value="publishedAt_desc">Date Listed (Newest)</option>
+                    <option value="publishedAt_asc">Date Listed (Oldest)</option>
                     <option value="title_asc">Job Title (A-Z)</option>
                     <option value="title_desc">Job Title (Z-A)</option>
                     <option value="team_asc">Team (A-Z)</option>
@@ -465,23 +417,10 @@
         }
 
         function calculateDaysSincePosted(publishedAt) {
-            const publishedDate = new Date(publishedAt.replace('Z', '+00:00'));
+            const publishedDate = new Date(publishedAt);
             const currentDate = new Date();
             const timeDiff = currentDate - publishedDate;
             return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-        }
-
-        function toggleJobDetails(jobUrl) {
-            const detailsElement = document.getElementById(`details-${btoa(jobUrl).replace(/[^a-zA-Z0-9]/g, '')}`);
-            const iconElement = document.getElementById(`icon-${btoa(jobUrl).replace(/[^a-zA-Z0-9]/g, '')}`);
-            
-            if (detailsElement.classList.contains('expanded')) {
-                detailsElement.classList.remove('expanded');
-                iconElement.textContent = '▼';
-            } else {
-                detailsElement.classList.add('expanded');
-                iconElement.textContent = '▲';
-            }
         }
 
         function filterAndDisplayJobs() {
@@ -499,11 +438,7 @@
                 let aVal, bVal;
 
                 switch (field) {
-                    case 'days':
-                        aVal = calculateDaysSincePosted(a.publishedAt);
-                        bVal = calculateDaysSincePosted(b.publishedAt);
-                        break;
-                    case 'first':
+                    case 'publishedAt':
                         aVal = new Date(a.publishedAt);
                         bVal = new Date(b.publishedAt);
                         break;
@@ -553,25 +488,23 @@
             }
 
             container.innerHTML = jobs.map(job => {
-                // Use the actual publishedAt date from OpenAI with robust parsing
-                const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
-                const dateListedFormatted = formatDateForDisplay(job.publishedAt);
+                const dateListedFormatted = new Date(job.publishedAt).toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
                 
+                const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
                 const daysClass = getDaysBadgeClass(daysSincePosted);
                 const salaryMin = formatSalary(getSalaryValue(job, 'min'));
                 const salaryMax = formatSalary(getSalaryValue(job, 'max'));
                 const isActive = job.status === 'ACTIVE';
-                const jobId = btoa(job.jobUrl).replace(/[^a-zA-Z0-9]/g, '');
                 
                 return `
                     <div class="job-row ${job.status.toLowerCase()}">
                         <div class="date-listed" data-label="Date Listed">${dateListedFormatted}</div>
                         <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
-                        <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title" 
-                             onclick="toggleJobDetails('${job.jobUrl}')">
-                            ${job.title}
-                            <span class="expand-icon" id="icon-${jobId}">▼</span>
-                        </div>
+                        <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title">${job.title}</div>
                         <div class="team" data-label="Team">${job.team || '-'}</div>
                         <div class="department" data-label="Department">${job.department || '-'}</div>
                         <div class="salary" data-label="Salary Min">${salaryMin}</div>
@@ -585,11 +518,6 @@
                                ${isActive ? '' : 'onclick="return false;"'}>
                                 ${isActive ? 'Apply' : 'Closed'}
                             </a>
-                        </div>
-                        <div class="job-details" id="details-${jobId}">
-                            <div class="job-description">
-                                ${job.descriptionHtml || job.descriptionPlain || 'Job description not available.'}
-                            </div>
                         </div>
                     </div>
                 `;
