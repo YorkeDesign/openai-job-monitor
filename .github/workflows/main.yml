@@ -2,7 +2,7 @@ name: Daily OpenAI Job Monitor
 
 on:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 20 * * *'  # 8 PM UTC = 9 AM NZDT
   workflow_dispatch:
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
           "email_password": "${{ secrets.EMAIL_PASSWORD }}",
           "smtp_server": "smtp.gmail.com",
           "smtp_port": 587,
-          "check_time": "20:00",
+          "check_time": "09:00",
           "first_run_days": 7,
           "include_remote": [],
           "attach_csv": true
@@ -52,3 +52,13 @@ jobs:
         export LANG=en_US.UTF-8
         export LC_ALL=en_US.UTF-8
         python openai_job_monitor.py --run-once
+    
+    - name: Commit database updates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add job_data/*.json
+        git diff --staged --quiet || git commit -m "Update job database - $(date +'%Y-%m-%d %H:%M:%S')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
