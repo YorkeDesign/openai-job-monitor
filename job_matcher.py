@@ -1,4 +1,150 @@
-#!/usr/bin/env python3
+# Enhanced leadership-focused scoring algorithm
+            leadership_weight_map = {
+                'expert': 15,
+                'proficient': 10, 
+                'familiar': 5
+            }
+            
+            # Calculate weighted leadership/strategy skill score
+            skill_score = 0
+            skill_details = []
+            
+            tech_skills = profile.get('technical_skills', {})
+            
+            # Prioritize leadership and strategy skills over coding skills
+            leadership_skill_categories = [
+                'visual_scripting_tools',
+                'ai_ml_leadership', 
+                'innovation_methodologies',
+                'automation_strategy',
+                'collaboration_leadership'
+            ]
+            
+            individual_contributor_categories = [
+                'programming_languages',
+                'frameworks_libraries',
+                'databases'
+            ]
+            
+            # Check if this is a leadership role vs IC role
+            job_title_lower = job_info.get('title', '').lower()
+            job_desc_lower = job_text.lower()
+            
+            is_leadership_role = any(keyword in job_title_lower or keyword in job_desc_lower for keyword in [
+                'director', 'head of', 'vp', 'vice president', 'chief', 'leader', 'manager', 
+                'strategy', 'lead', 'principal', 'senior manager', 'executive', 'advisory'
+            ])
+            
+            is_ic_role = any(keyword in job_title_lower for keyword in [
+                'engineer', 'developer', 'scientist', 'analyst', 'specialist', 'researcher'
+            ]) and not any(keyword in job_title_lower for keyword in [
+                'senior', 'principal', 'staff', 'lead', 'manager', 'director'
+            ])
+            
+            # Score based on role type alignment
+            if is_leadership_role:
+                # Leadership role - prioritize leadership skills
+                for category in leadership_skill_categories:
+                    if category in tech_skills:
+                        for skill_level, weight in leadership_weight_map.items():
+                            if skill_level in tech_skills[category]:
+                                skills_at_level = [s.lower() for s in tech_skills[category][skill_level]]
+                                matches_at_level = [s for s in skills_at_level if any(word in job_text for word in s.split())]
+                                skill_score += len(matches_at_level) * weight
+                                skill_details.extend([(s, skill_level, 'leadership') for s in matches_at_level])
+                
+                # Reduce impact of coding-specific matches for leadership roles
+                for category in individual_contributor_categories:
+                    if category in tech_skills:
+                        for skill_level, skills in tech_skills[category].items():
+                            skills_at_level = [s.lower() for s in skills]
+                            matches_at_level = [s for s in skills_at_level if s in job_text]
+                            skill_score += len(matches_at_level) * 2  # Much lower weight for IC skills in leadership roles
+                            skill_details.extend([(s, skill_level, 'technical') for s in matches_at_level])
+                            
+            elif is_ic_role:
+                # Individual contributor role - this is likely not a good fit
+                # Still check for technical leadership aspects but score lower overall
+                skill_score = 10  # Base low score for IC roles
+                skill_details.append(('Role appears to be individual contributor focused', 'note', 'mismatch'))
+                
+            else:
+                # Mixed or unclear role - score normally but emphasize leadership
+                for category, skills_dict in tech_skills.items():
+                    if category in leadership_skill_categories:
+                        multiplier = 1.5  # Boost leadership skills
+                    else:
+                        multiplier = 0.5  # Reduce IC skills
+                        
+                    for skill_level, weight in leadership_weight_map.items():
+                        if isinstance(skills_dict, dict) and skill_level in skills_dict:
+                            skills_at_level = [s.lower() for s in skills_dict[skill_level]]
+                            matches_at_level = [s for s in skills_at_level if any(word in job_text for word in s.split())]
+                            skill_score += len(matches_at_level) * weight * multiplier
+                            skill_details.extend([(s, skill_level, category) for s in matches_at_level])
+            
+            # Cap skill score at 60 points
+            skill_score = min(skill_score, 60)
+            
+            # Enhanced title/role matching (30 points max)
+            candidate_titles = [t.lower() for t in profile.get('personal_info', {}).get('preferred_roles', [])]
+            title_score = 0
+            
+            for title in candidate_titles:
+                title_words = title.split()
+                job_title_words = job_title.split()
+                
+                # Exact title match
+                if title in job_title:
+                    title_score = 30
+                    break
+                # Partial match with key leadership terms
+                elif any(word in job_title for word in ['director', 'head', 'vp', 'chief', 'leader']) and \
+                     any(word in job_title for word in title_words):
+                    title_score = max(title_score, 25)
+                # Good leadership keyword match
+                elif any(word in job_title for word in title_words):
+                    title_score = max(title_score, 20)
+                # AI/Innovation related
+                elif any(ai_word in job_title for ai_word in ['ai', 'innovation', 'strategy', 'digital']) and \
+                     any(ai_word in title for ai_word in ['ai', 'innovation', 'strategy', 'digital']):
+                    title_score = max(title_score, 18)
+            
+            # Experience level matching with leadership bias (15 points max)
+            experience_years = profile.get('personal_info', {}).get('years_experience', 0)
+            exp_score = 0
+            
+            if is_leadership_role and experience_years >= 15:
+                exp_score = 15  # Perfect for senior leadership
+            elif is_leadership_role and experience_years >= 10:
+                exp_score = 12  # Good for leadership
+            elif is_leadership_role and experience_years >= 5:
+                exp_score = 8   # Acceptable for junior leadership
+            elif is_ic_role:
+                exp_score = 3   # IC roles not ideal regardless of experience
+            else:
+                # Mixed roles - standard scoring
+                if experience_years >= 15:
+                    exp_score = 12
+                elif experience_years >= 10:
+                    exp_score = 10
+                elif experience_years >= 5:
+                    exp_score = 7
+            
+            # Location/remote bonus (10 points max) 
+            location_score = 0
+            if 'san francisco' in job_info.get('location', '').lower():
+                location_score = 10
+            elif job_info.get('is_remote'):
+                location_score = 8
+            elif 'california' in job_info.get('location', '').lower():
+                location_score = 6
+            
+            # Calculate final score
+            final_score = min(skill_score + title_score + exp_score + location_score, 100)
+            
+            # Adjust recommendation based on role type alignment
+            if is_ic_role and final_score > #!/usr/bin/env python3
 """
 Job Matcher - AI-powered CV matching and scoring for OpenAI jobs
 Uses Claude API to analyze job descriptions against candidate profile
