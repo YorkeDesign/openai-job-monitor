@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenAI Jobs Dashboard - San Francisco</title>
+    <title>OpenAI Jobs Dashboard - San Francisco with CV Matching</title>
     <style>
         * {
             margin: 0;
@@ -19,7 +19,7 @@
         }
 
         .container {
-            max-width: 1600px;
+            max-width: 1800px;
             margin: 0 auto;
             padding: 40px 20px;
         }
@@ -39,6 +39,43 @@
         .header p {
             color: #666;
             font-size: 1.1rem;
+        }
+
+        /* Match Statistics Panel */
+        .match-stats {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+
+        .match-stats h2 {
+            margin: 0 0 20px 0;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+
+        .match-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
         }
 
         .controls {
@@ -164,7 +201,7 @@
             font-weight: 600;
             color: #495057;
             display: grid;
-            grid-template-columns: 100px 60px 300px 150px 150px 120px 120px 150px 80px 80px;
+            grid-template-columns: 90px 80px 60px 280px 140px 140px 110px 110px 140px 70px 70px;
             gap: 15px;
             font-size: 0.9rem;
             align-items: center;
@@ -174,7 +211,7 @@
             padding: 18px 20px;
             border-bottom: 1px solid #f1f3f4;
             display: grid;
-            grid-template-columns: 100px 60px 300px 150px 150px 120px 120px 150px 80px 80px;
+            grid-template-columns: 90px 80px 60px 280px 140px 140px 110px 110px 140px 70px 70px;
             gap: 15px;
             align-items: center;
             transition: background-color 0.2s ease;
@@ -191,6 +228,65 @@
         .job-row.closed {
             opacity: 0.7;
             background-color: #fff5f5;
+        }
+
+        /* Match Score Styling */
+        .match-score {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .match-score.score-high {
+            color: #28a745;
+        }
+
+        .match-score.score-good {
+            color: #ffc107;
+        }
+
+        .match-score.score-medium {
+            color: #fd7e14;
+        }
+
+        .match-score.score-low {
+            color: #dc3545;
+        }
+
+        .match-score.no-score {
+            color: #6c757d;
+        }
+
+        .recommendation-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .rec-should-apply {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .rec-consider-applying {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .rec-weak-match {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .rec-manual-review {
+            background: #e2e3e5;
+            color: #383d41;
         }
 
         .date-listed {
@@ -308,12 +404,88 @@
             margin-top: 20px;
         }
 
+        .job-details-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            margin: 20px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+        }
+
+        .match-details {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .match-section {
+            margin: 10px 0;
+        }
+
+        .match-section h4 {
+            margin: 0 0 8px 0;
+            color: #495057;
+            font-size: 0.9rem;
+        }
+
+        .match-section ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .match-section li {
+            margin: 4px 0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 1600px) {
+            .table-header,
+            .job-row {
+                grid-template-columns: 80px 70px 50px 240px 120px 120px 90px 90px 120px 60px 60px;
+                gap: 10px;
+                font-size: 0.85rem;
+            }
+        }
+
         @media (max-width: 1400px) {
             .table-header,
             .job-row {
-                grid-template-columns: 90px 50px 250px 120px 120px 90px 90px 120px 70px 70px;
-                gap: 10px;
-                font-size: 0.85rem;
+                grid-template-columns: 70px 60px 40px 200px 100px 100px 80px 80px 100px 50px 50px;
+                gap: 8px;
+                font-size: 0.8rem;
             }
         }
 
@@ -349,6 +521,10 @@
             .department-checkboxes {
                 grid-template-columns: 1fr;
             }
+
+            .match-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
@@ -364,6 +540,10 @@
             .control-group {
                 justify-content: space-between;
             }
+
+            .match-stats-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -371,13 +551,38 @@
     <div class="container">
         <header class="header">
             <h1>OpenAI Jobs Dashboard</h1>
-            <p>San Francisco Bay Area Opportunities</p>
+            <p>San Francisco Bay Area Opportunities with CV Matching</p>
         </header>
+
+        <!-- Match Statistics Panel -->
+        <div class="match-stats" id="matchStats" style="display: none;">
+            <h2>📊 CV Match Statistics</h2>
+            <div class="match-stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalAnalyzed">0</div>
+                    <div class="stat-label">Jobs Analyzed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="highMatches">0</div>
+                    <div class="stat-label">High Matches (70%+)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="shouldApply">0</div>
+                    <div class="stat-label">Recommended to Apply</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="averageScore">0%</div>
+                    <div class="stat-label">Average Match Score</div>
+                </div>
+            </div>
+        </div>
 
         <div class="controls">
             <div class="control-group">
                 <label for="sortBy">Sort by:</label>
                 <select id="sortBy">
+                    <option value="match_score_desc">Match Score (Highest)</option>
+                    <option value="match_score_asc">Match Score (Lowest)</option>
                     <option value="publishedAt_desc">Date Listed (Newest)</option>
                     <option value="publishedAt_asc">Date Listed (Oldest)</option>
                     <option value="title_asc">Job Title (A-Z)</option>
@@ -400,6 +605,17 @@
                     <option value="CLOSED">Closed Jobs Only</option>
                 </select>
             </div>
+            <div class="control-group">
+                <label for="matchFilter">Match Filter:</label>
+                <select id="matchFilter">
+                    <option value="all">All Matches</option>
+                    <option value="high">High Match (70%+)</option>
+                    <option value="good">Good Match (50-69%)</option>
+                    <option value="low">Low Match (<50%)</option>
+                    <option value="should_apply">Recommended to Apply</option>
+                    <option value="consider_applying">Consider Applying</option>
+                </select>
+            </div>
         </div>
 
         <!-- Department Filter Section -->
@@ -420,7 +636,8 @@
 
         <div class="jobs-table">
             <div class="table-header">
-                <div>Date Listed</div>
+                <div>Match Score</div>
+                <div>Recommendation</div>
                 <div>Days</div>
                 <div>Job Title</div>
                 <div>Team</div>
@@ -437,6 +654,19 @@
         </div>
 
         <div class="last-updated" id="lastUpdated"></div>
+    </div>
+
+    <!-- Job Details Modal -->
+    <div class="job-details-modal" id="jobModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Job Details</h3>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+            </div>
+            <div id="modalContent">
+                <!-- Job details will be populated here -->
+            </div>
+        </div>
     </div>
 
     <script>
@@ -456,6 +686,7 @@
                 )].sort();
                 
                 createDepartmentFilter();
+                updateMatchStats();
                 updateStats();
                 filterAndDisplayJobs();
                 updateLastUpdated();
@@ -468,6 +699,17 @@
                         <p>Please make sure the dashboard data is available.</p>
                     </div>
                 `;
+            }
+        }
+
+        function updateMatchStats() {
+            const stats = dashboardData.stats?.match_stats;
+            if (stats) {
+                document.getElementById('matchStats').style.display = 'block';
+                document.getElementById('totalAnalyzed').textContent = stats.total_analyzed || 0;
+                document.getElementById('highMatches').textContent = stats.high_matches || 0;
+                document.getElementById('shouldApply').textContent = stats.should_apply || 0;
+                document.getElementById('averageScore').textContent = (stats.average_score || 0) + '%';
             }
         }
 
@@ -530,12 +772,23 @@
                 // Show filtered count
                 const filteredActive = filteredJobs.filter(job => job.status === 'ACTIVE').length;
                 const filteredClosed = filteredJobs.filter(job => job.status === 'CLOSED').length;
-                document.getElementById('statsInfo').textContent = 
-                    `Showing ${filteredJobs.length} jobs (${filteredActive} active, ${filteredClosed} recently closed) | Total: ${activeJobs.length + closedJobs.length} jobs`;
+                const matchedJobs = filteredJobs.filter(job => job.match_analysis).length;
+                
+                let statsText = `Showing ${filteredJobs.length} jobs (${filteredActive} active, ${filteredClosed} recently closed)`;
+                if (matchedJobs > 0) {
+                    statsText += ` | ${matchedJobs} analyzed for CV match`;
+                }
+                statsText += ` | Total: ${activeJobs.length + closedJobs.length} jobs`;
+                
+                document.getElementById('statsInfo').textContent = statsText;
             } else {
                 // Show all counts
-                document.getElementById('statsInfo').textContent = 
-                    `Showing ${activeJobs.length + closedJobs.length} jobs (${activeJobs.length} active, ${closedJobs.length} recently closed)`;
+                const totalAnalyzed = (dashboardData.stats?.match_stats?.total_analyzed || 0);
+                let statsText = `Showing ${activeJobs.length + closedJobs.length} jobs (${activeJobs.length} active, ${closedJobs.length} recently closed)`;
+                if (totalAnalyzed > 0) {
+                    statsText += ` | ${totalAnalyzed} analyzed for CV match`;
+                }
+                document.getElementById('statsInfo').textContent = statsText;
             }
         }
 
@@ -548,7 +801,7 @@
 
         function formatSalary(amount) {
             if (!amount) return '-';
-            return `$${Math.round(amount / 1000)}K`;
+            return `${Math.round(amount / 1000)}K`;
         }
 
         function getDaysBadgeClass(days) {
@@ -564,9 +817,47 @@
             return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         }
 
+        function getMatchScoreClass(score) {
+            if (score >= 80) return 'score-high';
+            if (score >= 70) return 'score-good';
+            if (score >= 50) return 'score-medium';
+            if (score > 0) return 'score-low';
+            return 'no-score';
+        }
+
+        function getMatchScoreEmoji(score) {
+            if (score >= 80) return '🎯';
+            if (score >= 70) return '✅';
+            if (score >= 60) return '👍';
+            if (score >= 40) return '⚠️';
+            if (score > 0) return '❌';
+            return '-';
+        }
+
+        function getRecommendationClass(recommendation) {
+            const classMap = {
+                'should_apply': 'rec-should-apply',
+                'consider_applying': 'rec-consider-applying',
+                'weak_match': 'rec-weak-match',
+                'manual_review': 'rec-manual-review'
+            };
+            return classMap[recommendation] || 'rec-manual-review';
+        }
+
+        function getRecommendationText(recommendation) {
+            const textMap = {
+                'should_apply': 'Apply',
+                'consider_applying': 'Consider',
+                'weak_match': 'Weak',
+                'manual_review': 'Review'
+            };
+            return textMap[recommendation] || 'N/A';
+        }
+
         function filterAndDisplayJobs() {
             const statusFilter = document.getElementById('statusFilter').value;
             const sortBy = document.getElementById('sortBy').value;
+            const matchFilter = document.getElementById('matchFilter').value;
             
             // Get selected departments
             const selectedDepartments = Array.from(
@@ -589,7 +880,37 @@
                     departmentMatch = false;
                 }
                 
-                return statusMatch && departmentMatch;
+                // Match filter
+                let matchFilterMatch = true;
+                if (matchFilter !== 'all') {
+                    const matchAnalysis = job.match_analysis;
+                    if (!matchAnalysis) {
+                        matchFilterMatch = false;
+                    } else {
+                        const score = matchAnalysis.match_score || 0;
+                        const recommendation = matchAnalysis.recommendation;
+                        
+                        switch (matchFilter) {
+                            case 'high':
+                                matchFilterMatch = score >= 70;
+                                break;
+                            case 'good':
+                                matchFilterMatch = score >= 50 && score < 70;
+                                break;
+                            case 'low':
+                                matchFilterMatch = score < 50;
+                                break;
+                            case 'should_apply':
+                                matchFilterMatch = recommendation === 'should_apply';
+                                break;
+                            case 'consider_applying':
+                                matchFilterMatch = recommendation === 'consider_applying';
+                                break;
+                        }
+                    }
+                }
+                
+                return statusMatch && departmentMatch && matchFilterMatch;
             });
 
             // Sort jobs
@@ -598,6 +919,12 @@
                 let aVal, bVal;
 
                 switch (field) {
+                    case 'match':
+                        if (sortBy === 'match_score_desc' || sortBy === 'match_score_asc') {
+                            aVal = a.match_analysis?.match_score || 0;
+                            bVal = b.match_analysis?.match_score || 0;
+                        }
+                        break;
                     case 'publishedAt':
                         aVal = new Date(a.publishedAt);
                         bVal = new Date(b.publishedAt);
@@ -660,9 +987,23 @@
                 const salaryMax = formatSalary(getSalaryValue(job, 'max'));
                 const isActive = job.status === 'ACTIVE';
                 
+                // Match analysis data
+                const matchAnalysis = job.match_analysis || {};
+                const matchScore = matchAnalysis.match_score || 0;
+                const matchScoreClass = getMatchScoreClass(matchScore);
+                const matchEmoji = getMatchScoreEmoji(matchScore);
+                const recommendation = matchAnalysis.recommendation || '';
+                const recommendationClass = getRecommendationClass(recommendation);
+                const recommendationText = getRecommendationText(recommendation);
+                
                 return `
-                    <div class="job-row ${job.status.toLowerCase()}">
-                        <div class="date-listed" data-label="Date Listed">${dateListedFormatted}</div>
+                    <div class="job-row ${job.status.toLowerCase()}" onclick="showJobDetails('${job.jobUrl}')">
+                        <div class="match-score ${matchScoreClass}" data-label="Match Score">
+                            ${matchScore ? `${matchScore}% ${matchEmoji}` : 'N/A'}
+                        </div>
+                        <div data-label="Recommendation">
+                            ${recommendation ? `<span class="recommendation-badge ${recommendationClass}">${recommendationText}</span>` : '-'}
+                        </div>
                         <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
                         <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title">${job.title}</div>
                         <div class="team" data-label="Team">${job.team || '-'}</div>
@@ -671,17 +1012,99 @@
                         <div class="salary" data-label="Salary Max">${salaryMax}</div>
                         <div class="location" data-label="Location">${job.location}</div>
                         <div data-label="Link">
-                            <a href="${job.jobUrl}" target="_blank" class="btn-link">Link</a>
+                            <a href="${job.jobUrl}" target="_blank" class="btn-link" onclick="event.stopPropagation()">Link</a>
                         </div>
                         <div data-label="Apply">
                             <a href="${job.applyUrl}" target="_blank" class="apply-link ${job.status.toLowerCase()}" 
-                               ${isActive ? '' : 'onclick="return false;"'}>
+                               onclick="event.stopPropagation()" ${isActive ? '' : 'onclick="return false;"'}>
                                 ${isActive ? 'Apply' : 'Closed'}
                             </a>
                         </div>
                     </div>
                 `;
             }).join('');
+        }
+
+        function showJobDetails(jobUrl) {
+            const job = allJobs.find(j => j.jobUrl === jobUrl);
+            if (!job) return;
+
+            const modal = document.getElementById('jobModal');
+            const titleEl = document.getElementById('modalTitle');
+            const contentEl = document.getElementById('modalContent');
+
+            titleEl.textContent = job.title;
+
+            const matchAnalysis = job.match_analysis || {};
+            let matchDetailsHTML = '';
+
+            if (matchAnalysis.match_score) {
+                const matchEmoji = getMatchScoreEmoji(matchAnalysis.match_score);
+                const recommendationText = getRecommendationText(matchAnalysis.recommendation);
+                
+                matchDetailsHTML = `
+                    <div class="match-details">
+                        <h3>🎯 CV Match Analysis</h3>
+                        <p><strong>Match Score:</strong> ${matchAnalysis.match_score}% ${matchEmoji}</p>
+                        <p><strong>Recommendation:</strong> ${recommendationText}</p>
+                        <p><strong>Analysis:</strong> ${matchAnalysis.analysis || 'No detailed analysis available'}</p>
+                        
+                        ${matchAnalysis.strong_matches && matchAnalysis.strong_matches.length > 0 ? `
+                            <div class="match-section">
+                                <h4>✅ Strong Matches:</h4>
+                                <ul>
+                                    ${matchAnalysis.strong_matches.map(match => `<li>${match}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                        
+                        ${matchAnalysis.missing_skills && matchAnalysis.missing_skills.length > 0 ? `
+                            <div class="match-section">
+                                <h4>⚠️ Missing Skills:</h4>
+                                <ul>
+                                    ${matchAnalysis.missing_skills.map(skill => `<li>${skill}</li>`).join('')}
+                                </ul>
+                            </div>
+                        ` : ''}
+                        
+                        ${matchAnalysis.salary_fit ? `
+                            <p><strong>Salary Fit:</strong> ${matchAnalysis.salary_fit}</p>
+                        ` : ''}
+                        
+                        ${matchAnalysis.growth_potential ? `
+                            <p><strong>Growth Potential:</strong> ${matchAnalysis.growth_potential}</p>
+                        ` : ''}
+                    </div>
+                `;
+            }
+
+            const publishedDate = new Date(job.publishedAt).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+
+            contentEl.innerHTML = `
+                <div>
+                    <p><strong>Department:</strong> ${job.department || 'N/A'}</p>
+                    <p><strong>Team:</strong> ${job.team || 'N/A'}</p>
+                    <p><strong>Location:</strong> ${job.location}</p>
+                    <p><strong>Published:</strong> ${publishedDate}</p>
+                    <p><strong>Remote:</strong> ${job.isRemote ? 'Yes' : 'No'}</p>
+                    <p><strong>Employment Type:</strong> ${job.employmentType || 'N/A'}</p>
+                </div>
+                ${matchDetailsHTML}
+                <div style="margin-top: 20px; text-align: center;">
+                    <a href="${job.applyUrl}" target="_blank" class="apply-link" style="margin-right: 10px;">Apply Now</a>
+                    <a href="${job.jobUrl}" target="_blank" class="btn-link">View Full Details</a>
+                </div>
+            `;
+
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('jobModal').style.display = 'none';
         }
 
         function updateLastUpdated() {
@@ -695,6 +1118,14 @@
         // Event listeners
         document.getElementById('sortBy').addEventListener('change', filterAndDisplayJobs);
         document.getElementById('statusFilter').addEventListener('change', filterAndDisplayJobs);
+        document.getElementById('matchFilter').addEventListener('change', filterAndDisplayJobs);
+
+        // Close modal when clicking outside
+        document.getElementById('jobModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
 
         // Load data when page loads
         loadJobData();
