@@ -1,4 +1,4 @@
-name: Daily OpenAI Job Monitor
+name: Daily OpenAI Job Monitor with CV Matching
 
 on:
   schedule:
@@ -43,11 +43,13 @@ jobs:
           "check_time": "09:00",
           "first_run_days": 7,
           "include_remote": [],
-          "attach_csv": true
+          "attach_csv": true,
+          "enable_cv_matching": true,
+          "profile_path": "profile.json"
         }
         EOF
     
-    - name: Run job monitor
+    - name: Run job monitor with CV matching (keyword-based)
       run: |
         export LANG=en_US.UTF-8
         export LC_ALL=en_US.UTF-8
@@ -68,7 +70,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update job database - $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "Update job database with CV matching - $(date +'%Y-%m-%d %H:%M:%S')"
           git push
         fi
       env:
