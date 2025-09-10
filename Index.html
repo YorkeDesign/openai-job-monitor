@@ -384,18 +384,21 @@
             }
         }
 
-        function updateStats() {
+        function updateStats(filteredJobs = null) {
             const activeJobs = dashboardData.active_jobs || [];
             const closedJobs = dashboardData.closed_jobs || [];
-            const statusFilter = document.getElementById('statusFilter').value;
             
-            let displayCount = 0;
-            if (statusFilter === 'all') displayCount = activeJobs.length + closedJobs.length;
-            else if (statusFilter === 'ACTIVE') displayCount = activeJobs.length;
-            else if (statusFilter === 'CLOSED') displayCount = closedJobs.length;
-            
-            document.getElementById('statsInfo').textContent = 
-                `Showing ${displayCount} jobs (${activeJobs.length} active, ${closedJobs.length} recently closed)`;
+            if (filteredJobs) {
+                // Show filtered count
+                const filteredActive = filteredJobs.filter(job => job.status === 'ACTIVE').length;
+                const filteredClosed = filteredJobs.filter(job => job.status === 'CLOSED').length;
+                document.getElementById('statsInfo').textContent = 
+                    `Showing ${filteredJobs.length} jobs (${filteredActive} active, ${filteredClosed} recently closed) | Total: ${activeJobs.length + closedJobs.length} jobs`;
+            } else {
+                // Show all counts
+                document.getElementById('statsInfo').textContent = 
+                    `Showing ${activeJobs.length + closedJobs.length} jobs (${activeJobs.length} active, ${closedJobs.length} recently closed)`;
+            }
         }
 
         function getSalaryValue(job, type) {
