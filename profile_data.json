@@ -1,91 +1,273 @@
 {
   "personal_info": {
-    "name": "Your Name",
-    "title": "Senior Software Engineer / Data Scientist",
-    "location": "Christchurch, Canterbury, NZ (willing to relocate to San Francisco)",
-    "years_experience": 8,
-    "preferred_roles": ["Software Engineer", "Senior Software Engineer", "Principal Engineer", "Data Scientist", "ML Engineer", "AI Engineer"]
+    "name": "Simon Yorke",
+    "title": "Applied Innovation Leader | Digital Strategy | AI | Innovation | R&D",
+    "location": "Christchurch, NZ (willing to relocate to San Francisco)",
+    "years_experience": 20,
+    "preferred_roles": [
+      "Applied Innovation Leader",
+      "Innovation Director", 
+      "Chief Technology Officer",
+      "Head of Innovation",
+      "AI Strategy Leader",
+      "Digital Transformation Leader",
+      "VP of Innovation",
+      "Head of Applied AI",
+      "Innovation Program Manager",
+      "Technology Strategy Director",
+      "R&D Director",
+      "Product Strategy Leader",
+      "Applied AI Research Director"
+    ],
+    "role_focus": "leadership_and_strategy",
+    "technical_approach": "visual_scripting_and_team_leadership"
   },
   "technical_skills": {
-    "programming_languages": {
-      "expert": ["Python", "JavaScript", "TypeScript"],
-      "proficient": ["Java", "C++", "SQL", "R"],
-      "familiar": ["Go", "Rust", "Swift"]
+    "visual_scripting_tools": {
+      "expert": ["Autodesk Dynamo", "Rhino-Grasshopper", "Visual Scripting", "Node-based Programming", "Workflow Automation Tools"],
+      "proficient": ["Zapier", "Make.com", "N8n", "No-code/Low-code Platforms"],
+      "familiar": ["Unreal Engine Blueprints", "Unity Visual Scripting"]
     },
-    "frameworks_libraries": {
-      "expert": ["React", "Node.js", "FastAPI", "Django", "Flask"],
-      "proficient": ["Vue.js", "Express.js", "Pandas", "NumPy", "Scikit-learn"],
-      "familiar": ["TensorFlow", "PyTorch", "Angular"]
+    "ai_ml_leadership": {
+      "expert": ["AI Strategy", "AI Advisory", "Applied AI Implementation", "AI Team Leadership", "AI Product Strategy"],
+      "proficient": ["OpenAI ChatGPT", "Anthropic Claude", "Perplexity", "Google Gemini", "AI Workflows", "Agent Based AI Simulation", "Generative AI Strategy"],
+      "familiar": ["Machine Learning Strategy", "AI Ethics", "AI Governance"]
     },
-    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite"],
-    "cloud_platforms": ["AWS", "Google Cloud", "Azure", "Netlify", "Vercel"],
-    "devops_tools": ["Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Terraform"],
-    "ai_ml": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "MLOps", "Model Deployment"],
-    "data_tools": ["Apache Spark", "Airflow", "Jupyter", "Tableau", "Power BI"]
+    "design_engineering_leadership": {
+      "expert": ["BIM Strategy", "Digital Twins Leadership", "Computational Design Strategy", "Engineering Innovation", "Technical Solution Architecture"],
+      "proficient": ["Autodesk Ecosystem", "Reality Capture Strategy", "3D Modeling Strategy", "Simulation Strategy"],
+      "familiar": ["CAD Management", "Engineering Software Strategy"]
+    },
+    "immersive_technologies": {
+      "expert": ["VR/AR Strategy", "Immersive Experience Strategy", "Interactive Design Leadership", "Gamification Strategy", "Virtual Training Strategy"],
+      "proficient": ["UX Strategy", "Human Centered Design", "Experiential Design Leadership"],
+      "familiar": ["WebXR Strategy", "Mixed Reality Strategy"]
+    },
+    "innovation_methodologies": {
+      "expert": ["Design Thinking", "Innovation Strategy", "Applied Innovation", "Technology Roadmapping", "Emerging Technology Assessment"],
+      "proficient": ["Product Strategy", "Solution Architecture", "Technology Due Diligence", "Innovation Portfolio Management"],
+      "familiar": ["Lean Startup", "Agile Innovation", "Design Sprints"]
+    },
+    "data_capture_leadership": {
+      "expert": ["Reality Capture Strategy", "Spatial Data Strategy", "UAV/ROV Operations", "3D Capture Technology Leadership"],
+      "proficient": ["Laser Scanning Programs", "Photogrammetry Strategy", "Point Cloud Strategy"],
+      "familiar": ["LiDAR Strategy", "Geospatial Technology"]
+    },
+    "automation_strategy": {
+      "expert": ["Workflow Optimization Strategy", "Process Automation Leadership", "Digital Transformation", "Technology Integration"],
+      "proficient": ["Automation Strategy", "Digital Workflows", "System Integration Strategy"],
+      "familiar": ["RPA Strategy", "API Strategy"]
+    },
+    "collaboration_leadership": {
+      "expert": ["Team Collaboration Strategy", "Design Process Leadership", "Innovation Team Management", "Cross-functional Leadership"],
+      "proficient": ["Design Tool Strategy", "Creative Process Management", "Digital Collaboration"],
+      "familiar": ["Remote Team Leadership", "Distributed Innovation"]
+    },
+    "fabrication_innovation": {
+      "expert": ["Digital Fabrication Strategy", "3D Printing Innovation", "Rapid Prototyping Leadership", "Manufacturing Innovation"],
+      "proficient": ["Additive Manufacturing Strategy", "Product Design Leadership", "Prototyping Strategy"],
+      "familiar": ["Industrial Design Strategy", "Manufacturing Technology"]
+    },
+    "technology_platforms": {
+      "proficient": ["Cloud Strategy", "SaaS Platforms", "Technology Architecture", "Platform Strategy"],
+      "familiar": ["Enterprise Technology", "Digital Infrastructure", "Technology Evaluation"]
+    },
+    "programming_note": "Non-coder: Achieves technical outcomes through visual scripting, team leadership, and strategic technology implementation rather than direct coding"
+  },
+  "leadership_experience": {
+    "team_leadership": {
+      "max_team_size": 25,
+      "leadership_styles": ["Innovation Team Leadership", "Cross-functional Collaboration", "Technical Team Management", "Strategic Leadership", "Agile Leadership"],
+      "technical_leadership_approach": "Leads technical teams without coding - focuses on strategy, architecture, and empowering developers"
+    },
+    "strategic_roles": [
+      "Global Innovation Leadership Committee Member",
+      "NZ Digital Leadership Group Member", 
+      "C-suite Technology Advisor",
+      "Innovation Strategy Director",
+      "Applied Innovation Capability Leader"
+    ],
+    "advisory_expertise": [
+      "AI Strategy and Implementation",
+      "Digital Transformation Leadership", 
+      "Emerging Technology Assessment",
+      "Innovation Program Development",
+      "Technology Investment Strategy"
+    ]
   },
   "experience": {
     "current_role": {
-      "title": "Senior Software Engineer",
-      "company": "Tech Company",
-      "duration": "2+ years",
+      "title": "Applied Innovation Leader",
+      "company": "Aurecon Group",
+      "duration": "2022-2024",
       "responsibilities": [
-        "Led development of machine learning pipeline processing 1M+ records daily",
-        "Built scalable web applications serving 100k+ users",
-        "Mentored junior developers and conducted code reviews",
-        "Collaborated with data science team on ML model deployment",
-        "Implemented CI/CD pipelines reducing deployment time by 60%"
+        "Led global Applied Innovation capability shaping strategic technology direction",
+        "Served on global innovation leadership committee and NZ digital leadership group",
+        "Advised C-suite on technology direction and transformation objectives", 
+        "Created scalable solutions from emerging technologies (CDE, Digital Twins, AI workflows)",
+        "Attracted and led top-tier innovation talent including software developers and technical specialists",
+        "Mentored senior leaders for AI and emerging technology readiness",
+        "Secured sustained ranking among Australasia's most innovative companies through strategic innovation"
       ]
     },
     "previous_roles": [
       {
-        "title": "Full Stack Developer",
-        "company": "Previous Company",
-        "duration": "3 years",
+        "title": "Solution Development Leader", 
+        "company": "Aurecon Group",
+        "duration": "2021-2022",
         "key_achievements": [
-          "Developed customer-facing web applications",
-          "Integrated third-party APIs and payment systems",
-          "Optimized database queries improving performance by 40%"
+          "Led end-to-end product development of immersive VR wheelchair accessibility system through team leadership",
+          "Directed development of beyond-line-of-sight remote-controlled digger operations for Christ Church Cathedral",
+          "Architected solutions using 120 optimized 3D printed components through design and fabrication team leadership",
+          "Achieved 3-month schedule gain and global recognition at World Demolition Awards through innovative problem-solving"
+        ]
+      },
+      {
+        "title": "Design Technology Leader",
+        "company": "Aurecon Group", 
+        "duration": "2016-2021",
+        "key_achievements": [
+          "Built and led agile startup-style innovation team of developers and technical specialists",
+          "Directed development of generative-AI assisted iOS AR workflows for telecommunications through technical team leadership",
+          "Architected automated geotechnical rock-mapping software solution (Hong Kong CIC Innovation Award)",
+          "Led enterprise-wide BIM and Digital Twin advancement through strategic technology leadership",
+          "Pioneered UAV technology adoption in AEC sector through innovation team and custom development leadership"
+        ]
+      },
+      {
+        "title": "AI Simulation Development Leader",
+        "company": "Aurecon Group",
+        "duration": "2011-2012", 
+        "key_achievements": [
+          "Established Agent Based AI Simulation capability globally through technical team leadership",
+          "Directed delivery of world's first multimodal AI transport simulation environments",
+          "Led creation of predictive human behavior modeling for infrastructure design",
+          "Architected Urban Comfort Modeling with meteorological data integration through technical collaboration"
         ]
       }
     ]
   },
+  "entrepreneurship": {
+    "company": "Yorke Labs",
+    "role": "Founder",
+    "duration": "2013-Present",
+    "focus_areas": [
+      "AI and immersive technology strategy consulting",
+      "Product innovation advisory services", 
+      "Strategic technology leadership",
+      "End-to-end product strategy and team leadership",
+      "Digital manufacturing innovation strategy"
+    ]
+  },
   "education": {
-    "degree": "Bachelor of Computer Science",
-    "university": "University Name",
-    "year": "2016",
-    "relevant_courses": ["Algorithms", "Data Structures", "Machine Learning", "Database Systems", "Software Engineering"]
+    "primary": {
+      "degree": "Bachelor of Architecture & Computer Science (1st year)",
+      "university": "University of Canterbury", 
+      "year": "2001",
+      "note": "Architecture focus with computer science exposure - strategic technology understanding rather than programming"
+    },
+    "additional": {
+      "diploma": "Diploma in Engineering (NZDE)",
+      "institution": "ARA Institute of Canterbury",
+      "years": "2005-2007"
+    }
   },
   "certifications": [
-    "AWS Certified Solutions Architect",
-    "Google Cloud Professional Data Engineer",
-    "Certified Kubernetes Administrator"
+    "CAA Civil Aviation Authority RPA Flight Management Part 101 Certified (2016 & 2022)",
+    "Advanced UAV Operations Leadership",
+    "Reality Capture Technology Strategy",
+    "BIM Leadership and Management",
+    "Innovation Leadership"
+  ],
+  "awards_recognition": [
+    "CIC Innovation Award - Digital Rock Mapping Software Leadership - Hong Kong",
+    "World Demolition Awards - Remote Digger Camera System Innovation - Austria", 
+    "Aurecons Innovation Award - Virtual Kayak for Public Engagement",
+    "Top Speaker Award - BILT Conference Asia",
+    "Multiple Autodesk University Keynote Speaker (7x)",
+    "Global conference keynote speaker on AI and innovation (20+ conferences)"
+  ],
+  "speaking_expertise": [
+    "Applied AI Strategy and Implementation",
+    "Digital Transformation Leadership",
+    "Innovation Leadership in Technology",
+    "Emerging Technology Strategy",
+    "AI-driven Business Transformation",
+    "Future of Work and Technology",
+    "Innovation Culture Development"
   ],
   "projects": [
     {
-      "name": "OpenAI Job Monitor",
-      "description": "Automated job monitoring system with web dashboard",
-      "technologies": ["Python", "JavaScript", "GitHub Actions", "Netlify"]
+      "name": "Generative-AI Assisted AR Workflows",
+      "description": "Led team to create revolutionary iOS AR system compressing telecom site selection from weeks to minutes",
+      "leadership_role": "Product Strategy and Technical Team Leadership",
+      "technologies": ["iOS AR Strategy", "AI/ML Team Leadership", "Computer Vision Strategy"]
     },
     {
-      "name": "ML-Powered Analytics Platform",
-      "description": "Real-time data processing and machine learning platform",
-      "technologies": ["Python", "Apache Spark", "TensorFlow", "AWS"]
+      "name": "Agent Based AI Simulation Platform", 
+      "description": "Established world's first multimodal AI transport simulation through technical team leadership",
+      "leadership_role": "AI Strategy and Development Team Leadership",
+      "technologies": ["AI Simulation Strategy", "Machine Learning Team Leadership", "Behavioral Modeling Strategy"]
+    },
+    {
+      "name": "Immersive VR Wheelchair Accessibility System",
+      "description": "Directed end-to-end mechatronic system development enabling inclusive infrastructure design",
+      "leadership_role": "Product Development Leadership and Technical Strategy",
+      "technologies": ["VR Strategy", "Mechatronics Team Leadership", "UX Strategy", "3D Printing Innovation"]
+    },
+    {
+      "name": "Automated Geotechnical Rock-Mapping Software",
+      "description": "Architected AI-powered analysis solution reducing months of work to minutes (CIC Innovation Award)",
+      "leadership_role": "Solution Architecture and Technical Team Leadership", 
+      "technologies": ["Computer Vision Strategy", "AI/ML Team Leadership", "Automation Strategy"]
     }
   ],
   "soft_skills": [
-    "Problem Solving",
-    "Team Leadership",
-    "Communication",
-    "Project Management",
-    "Mentoring",
-    "Cross-functional Collaboration"
+    "Visionary Innovation Leadership",
+    "Strategic Technology Foresight", 
+    "Cross-functional Team Leadership",
+    "AI and Technology Strategy",
+    "Design Thinking and Innovation",
+    "Systems Architecture and Strategy",
+    "Technical Mentoring and Development",
+    "C-suite and Executive Advisory",
+    "Global Conference Speaking and Thought Leadership",
+    "Technology Evangelism and Adoption",
+    "Change Management and Transformation",
+    "Creative Problem Solving and Innovation"
   ],
   "interests": [
-    "Artificial Intelligence",
-    "Open Source Contributions",
-    "Tech Innovation",
-    "Automation",
-    "Data Science",
-    "DevOps"
+    "Applied Artificial Intelligence Strategy",
+    "Emerging Technology Research and Assessment",
+    "Digital Transformation Leadership",
+    "Innovation Strategy and Implementation",
+    "Technology Investment and Due Diligence", 
+    "Design and Architecture",
+    "Financial Markets and Technology",
+    "Product Strategy and Innovation",
+    "Property and Technology Integration",
+    "Golf and Strategic Thinking",
+    "Skiing and Adventure", 
+    "Mountain Biking and Exploration",
+    "Global Travel and Cultural Technology Adoption"
+  ],
+  "industry_expertise": [
+    "Applied AI Strategy and Implementation",
+    "Innovation Leadership and Management",
+    "Digital Transformation Strategy",
+    "Emerging Technology Assessment", 
+    "Product Strategy and Development",
+    "Technology Investment and Advisory",
+    "Engineering and Construction Technology",
+    "Infrastructure and Smart City Technology",
+    "Immersive Technology Strategy",
+    "Spatial Technology and Digital Twins"
+  ],
+  "key_differentiators": [
+    "20+ years leading technical innovation without coding - proven ability to architect and deliver breakthrough technology solutions through strategic leadership",
+    "Global recognition for converting cutting-edge AI and emerging technologies into measurable business transformation",
+    "Unique combination of strategic foresight, technical depth, and design thinking that turns emerging technologies into real-world impact",
+    "Proven track record attracting and leading top-tier technical talent to deliver world-first innovations",
+    "C-suite advisory experience helping organizations navigate AI-driven disruption and digital transformation"
   ]
 }
