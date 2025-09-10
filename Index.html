@@ -79,6 +79,70 @@
             border-color: #007bff;
         }
 
+        /* Department Filter Styles */
+        .department-filter {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .department-filter h3 {
+            margin: 0 0 15px 0;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .filter-btn {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            color: #495057;
+            transition: background-color 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            background: #e9ecef;
+        }
+
+        .department-checkboxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 0;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin: 0;
+        }
+
+        .checkbox-item label {
+            font-size: 0.9rem;
+            cursor: pointer;
+            color: #495057;
+            margin: 0;
+        }
+
         .stats {
             text-align: center;
             margin-bottom: 20px;
@@ -281,6 +345,10 @@
                 display: inline-block;
                 width: 120px;
             }
+
+            .department-checkboxes {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 768px) {
@@ -334,6 +402,18 @@
             </div>
         </div>
 
+        <!-- Department Filter Section -->
+        <div class="department-filter" id="departmentFilter" style="display: none;">
+            <h3>Filter by Department:</h3>
+            <div class="filter-controls">
+                <button class="filter-btn" onclick="selectAllDepartments()">Select All</button>
+                <button class="filter-btn" onclick="deselectAllDepartments()">Deselect All</button>
+            </div>
+            <div class="department-checkboxes" id="departmentCheckboxes">
+                <!-- Department checkboxes will be populated here -->
+            </div>
+        </div>
+
         <div class="stats" id="statsInfo">
             Loading...
         </div>
@@ -362,6 +442,7 @@
     <script>
         let allJobs = [];
         let dashboardData = {};
+        let availableDepartments = [];
 
         async function loadJobData() {
             try {
@@ -369,6 +450,12 @@
                 dashboardData = await response.json();
                 allJobs = [...dashboardData.active_jobs, ...dashboardData.closed_jobs];
                 
+                // Extract unique departments
+                availableDepartments = [...new Set(
+                    allJobs.map(job => job.department).filter(dept => dept && dept.trim() !== '')
+                )].sort();
+                
+                createDepartmentFilter();
                 updateStats();
                 filterAndDisplayJobs();
                 updateLastUpdated();
@@ -382,6 +469,57 @@
                     </div>
                 `;
             }
+        }
+
+        // Create department filter checkboxes
+        function createDepartmentFilter() {
+            const container = document.getElementById('departmentCheckboxes');
+            container.innerHTML = '';
+            
+            if (availableDepartments.length === 0) {
+                document.getElementById('departmentFilter').style.display = 'none';
+                return;
+            }
+            
+            document.getElementById('departmentFilter').style.display = 'block';
+            
+            availableDepartments.forEach(department => {
+                const checkboxItem = document.createElement('div');
+                checkboxItem.className = 'checkbox-item';
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `dept-${department.replace(/\s+/g, '-').replace(/[^a-zA-Z0-9-]/g, '')}`;
+                checkbox.value = department;
+                checkbox.checked = true; // All departments selected by default
+                checkbox.addEventListener('change', filterAndDisplayJobs);
+                
+                const label = document.createElement('label');
+                label.htmlFor = checkbox.id;
+                label.textContent = department;
+                
+                checkboxItem.appendChild(checkbox);
+                checkboxItem.appendChild(label);
+                container.appendChild(checkboxItem);
+            });
+        }
+
+        // Select all departments
+        function selectAllDepartments() {
+            const checkboxes = document.querySelectorAll('#departmentCheckboxes input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = true;
+            });
+            filterAndDisplayJobs();
+        }
+
+        // Deselect all departments
+        function deselectAllDepartments() {
+            const checkboxes = document.querySelectorAll('#departmentCheckboxes input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            filterAndDisplayJobs();
         }
 
         function updateStats(filteredJobs = null) {
@@ -429,10 +567,29 @@
         function filterAndDisplayJobs() {
             const statusFilter = document.getElementById('statusFilter').value;
             const sortBy = document.getElementById('sortBy').value;
+            
+            // Get selected departments
+            const selectedDepartments = Array.from(
+                document.querySelectorAll('#departmentCheckboxes input[type="checkbox"]:checked')
+            ).map(checkbox => checkbox.value);
 
             let filteredJobs = allJobs.filter(job => {
-                if (statusFilter === 'all') return true;
-                return job.status === statusFilter;
+                // Status filter
+                let statusMatch = true;
+                if (statusFilter !== 'all') {
+                    statusMatch = job.status === statusFilter;
+                }
+                
+                // Department filter
+                let departmentMatch = true;
+                if (selectedDepartments.length > 0) {
+                    departmentMatch = selectedDepartments.includes(job.department);
+                } else if (availableDepartments.length > 0) {
+                    // If no departments are selected, show no jobs
+                    departmentMatch = false;
+                }
+                
+                return statusMatch && departmentMatch;
             });
 
             // Sort jobs
@@ -474,7 +631,7 @@
             });
 
             displayJobs(filteredJobs);
-            updateStats();
+            updateStats(filteredJobs);
         }
 
         function displayJobs(jobs) {
