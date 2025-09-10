@@ -1,0 +1,91 @@
+{
+  "personal_info": {
+    "name": "Your Name",
+    "title": "Senior Software Engineer / Data Scientist",
+    "location": "Christchurch, Canterbury, NZ (willing to relocate to San Francisco)",
+    "years_experience": 8,
+    "preferred_roles": ["Software Engineer", "Senior Software Engineer", "Principal Engineer", "Data Scientist", "ML Engineer", "AI Engineer"]
+  },
+  "technical_skills": {
+    "programming_languages": {
+      "expert": ["Python", "JavaScript", "TypeScript"],
+      "proficient": ["Java", "C++", "SQL", "R"],
+      "familiar": ["Go", "Rust", "Swift"]
+    },
+    "frameworks_libraries": {
+      "expert": ["React", "Node.js", "FastAPI", "Django", "Flask"],
+      "proficient": ["Vue.js", "Express.js", "Pandas", "NumPy", "Scikit-learn"],
+      "familiar": ["TensorFlow", "PyTorch", "Angular"]
+    },
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite"],
+    "cloud_platforms": ["AWS", "Google Cloud", "Azure", "Netlify", "Vercel"],
+    "devops_tools": ["Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Terraform"],
+    "ai_ml": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "MLOps", "Model Deployment"],
+    "data_tools": ["Apache Spark", "Airflow", "Jupyter", "Tableau", "Power BI"]
+  },
+  "experience": {
+    "current_role": {
+      "title": "Senior Software Engineer",
+      "company": "Tech Company",
+      "duration": "2+ years",
+      "responsibilities": [
+        "Led development of machine learning pipeline processing 1M+ records daily",
+        "Built scalable web applications serving 100k+ users",
+        "Mentored junior developers and conducted code reviews",
+        "Collaborated with data science team on ML model deployment",
+        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      ]
+    },
+    "previous_roles": [
+      {
+        "title": "Full Stack Developer",
+        "company": "Previous Company",
+        "duration": "3 years",
+        "key_achievements": [
+          "Developed customer-facing web applications",
+          "Integrated third-party APIs and payment systems",
+          "Optimized database queries improving performance by 40%"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "degree": "Bachelor of Computer Science",
+    "university": "University Name",
+    "year": "2016",
+    "relevant_courses": ["Algorithms", "Data Structures", "Machine Learning", "Database Systems", "Software Engineering"]
+  },
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "Google Cloud Professional Data Engineer",
+    "Certified Kubernetes Administrator"
+  ],
+  "projects": [
+    {
+      "name": "OpenAI Job Monitor",
+      "description": "Automated job monitoring system with web dashboard",
+      "technologies": ["Python", "JavaScript", "GitHub Actions", "Netlify"]
+    },
+    {
+      "name": "ML-Powered Analytics Platform",
+      "description": "Real-time data processing and machine learning platform",
+      "technologies": ["Python", "Apache Spark", "TensorFlow", "AWS"]
+    }
+  ],
+  "soft_skills": [
+    "Problem Solving",
+    "Team Leadership",
+    "Communication",
+    "Project Management",
+    "Mentoring",
+    "Cross-functional Collaboration"
+  ],
+  "interests": [
+    "Artificial Intelligence",
+    "Open Source Contributions",
+    "Tech Innovation",
+    "Automation",
+    "Data Science",
+    "DevOps"
+  ]
+}
