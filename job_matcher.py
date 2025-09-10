@@ -11,17 +11,30 @@ from pathlib import Path
 import requests
 import time
 import re
+import os
 
 logger = logging.getLogger(__name__)
 
 class JobMatcher:
     """AI-powered job matching using Claude API"""
     
-    def __init__(self, profile_path: str = "profile.json"):
-        """Initialize with candidate profile"""
+    def __init__(self, profile_path: str = "profile.json", api_key: Optional[str] = None):
+        """Initialize with candidate profile and API configuration"""
         self.profile_path = Path(profile_path)
         self.profile = self.load_profile()
         self.api_url = "https://api.anthropic.com/v1/messages"
+        
+        # Get API key from parameter, environment variable, or config
+        self.api_key = (
+            api_key or 
+            os.environ.get('ANTHROPIC_API_KEY') or 
+            os.environ.get('CLAUDE_API_KEY')
+        )
+        
+        if self.api_key:
+            logger.info("Claude API key configured - AI matching enabled")
+        else:
+            logger.warning("No Claude API key found - falling back to keyword matching only")
         
     def load_profile(self) -> Dict:
         """Load candidate profile from JSON file"""
@@ -46,7 +59,10 @@ class JobMatcher:
                 'match_reasons': ['Profile not loaded'],
                 'missing_skills': [],
                 'strong_matches': [],
-                'analysis': 'Profile data not available'
+                'analysis': 'Profile data not available',
+                'recommendation': 'manual_review',
+                'salary_fit': 'Unknown',
+                'growth_potential': 'Unknown'
             }
         
         try:
@@ -62,17 +78,18 @@ class JobMatcher:
                 'is_remote': job.get('isRemote', False)
             }
             
-            # Create analysis prompt
-            analysis_prompt = self.create_analysis_prompt(job_info, self.profile)
+            # Try AI analysis first if API key is available
+            if self.api_key:
+                analysis_prompt = self.create_analysis_prompt(job_info, self.profile)
+                response = self.call_claude_api(analysis_prompt)
+                
+                if response:
+                    return self.parse_analysis_response(response)
+                else:
+                    logger.warning("Claude API failed, falling back to keyword analysis")
             
-            # Call Claude API for analysis
-            response = self.call_claude_api(analysis_prompt)
-            
-            if response:
-                return self.parse_analysis_response(response)
-            else:
-                # Fallback to basic keyword matching
-                return self.basic_keyword_analysis(job_info, self.profile)
+            # Fallback to keyword analysis
+            return self.basic_keyword_analysis(job_info, self.profile)
                 
         except Exception as e:
             logger.error(f"Error analyzing job match: {e}")
@@ -126,17 +143,25 @@ Consider these factors in your scoring:
 - Career growth potential (10%)
 
 Be honest but constructive. Focus on specific alignments and gaps.
+
+Respond ONLY with valid JSON. Do not include any text outside the JSON structure.
 """
         return prompt
     
     def call_claude_api(self, prompt: str, max_retries: int = 3) -> Optional[str]:
         """Call Claude API with retry logic"""
+        if not self.api_key:
+            logger.warning("No API key available for Claude API")
+            return None
+            
         headers = {
             "Content-Type": "application/json",
+            "x-api-key": self.api_key,
+            "anthropic-version": "2023-06-01"
         }
         
         data = {
-            "model": "claude-sonnet-4-20250514",
+            "model": "claude-3-5-sonnet-20241022",
             "max_tokens": 1000,
             "messages": [
                 {"role": "user", "content": prompt}
@@ -155,6 +180,13 @@ Be honest but constructive. Focus on specific alignments and gaps.
                 if response.status_code == 200:
                     result = response.json()
                     return result['content'][0]['text']
+                elif response.status_code == 401:
+                    logger.error("Claude API authentication failed - check your API key")
+                    return None
+                elif response.status_code == 429:
+                    logger.warning(f"Claude API rate limit hit, retrying in {2 ** attempt} seconds...")
+                    time.sleep(2 ** attempt)
+                    continue
                 else:
                     logger.warning(f"Claude API returned status {response.status_code}: {response.text}")
                     
@@ -247,27 +279,54 @@ Be honest but constructive. Focus on specific alignments and gaps.
                     matched_skills.append(skill)
             
             # Calculate basic score
-            base_score = min(len(matched_skills) * 10, 70)  # Max 70 from skills
+            base_score = min(len(matched_skills) * 8, 60)  # Max 60 from skills
             
             # Bonus for title match
             candidate_titles = [t.lower() for t in profile.get('personal_info', {}).get('preferred_roles', [])]
             job_title = job_info.get('title', '').lower()
-            title_bonus = 20 if any(title in job_title for title in candidate_titles) else 0
+            title_bonus = 25 if any(title in job_title for title in candidate_titles) else 0
             
             # Location bonus
-            location_bonus = 10 if 'san francisco' in job_info.get('location', '').lower() or job_info.get('is_remote') else 0
+            location_bonus = 15 if 'san francisco' in job_info.get('location', '').lower() or job_info.get('is_remote') else 0
             
             final_score = min(base_score + title_bonus + location_bonus, 100)
             
+            # Generate meaningful analysis
+            analysis_parts = []
+            if skill_details:
+                expert_skills = [s for s, level in skill_details if level == 'expert']
+                if expert_skills:
+                    analysis_parts.append(f"Strong match on expert skills: {', '.join(expert_skills[:3])}")
+            
+            if title_score >= 20:
+                analysis_parts.append("Excellent job title alignment")
+            elif title_score >= 10:
+                analysis_parts.append("Good job title match")
+                
+            if exp_score >= 12:
+                analysis_parts.append("Experience level is well-suited")
+                
+            analysis_text = '. '.join(analysis_parts) if analysis_parts else "Basic skills analysis completed"
+            
+            # Identify missing skills (simple heuristic)
+            job_keywords = ['python', 'javascript', 'react', 'aws', 'kubernetes', 'machine learning', 'sql']
+            found_skills = [s.lower() for s, _ in skill_details]
+            potential_missing = [kw for kw in job_keywords if kw in job_text and kw not in found_skills]
+            
             return {
                 'match_score': final_score,
-                'match_reasons': [f"Matched skills: {', '.join(matched_skills[:3])}"] if matched_skills else [],
-                'missing_skills': ['Detailed analysis requires AI API'],
-                'strong_matches': matched_skills[:3],
-                'analysis': f"Basic keyword analysis found {len(matched_skills)} matching skills. For detailed analysis, configure Claude API access.",
-                'recommendation': 'should_apply' if final_score >= 70 else 'consider_applying' if final_score >= 50 else 'weak_match',
-                'salary_fit': 'Basic analysis',
-                'growth_potential': 'Basic analysis'
+                'match_reasons': [
+                    f"Found {len(skill_details)} relevant skills" if skill_details else "Basic compatibility analysis",
+                    f"Job title alignment: {title_score}/25 points" if title_score > 0 else None,
+                    f"Experience level fit: {exp_score}/15 points" if exp_score > 0 else None,
+                    f"Location preference: {location_score}/10 points" if location_score > 0 else None
+                ],
+                'missing_skills': potential_missing[:3],
+                'strong_matches': [f"{skill} ({level})" for skill, level in skill_details[:4]],
+                'analysis': f"{analysis_text}. Score: {final_score}/100. Enhanced keyword analysis with skill weighting.",
+                'recommendation': recommendation,
+                'salary_fit': f'Experience level ({experience_years} years) suggests {"senior" if experience_years >= 5 else "mid" if experience_years >= 3 else "junior"} role fit',
+                'growth_potential': 'Enhanced analysis - configure Claude API for detailed career growth assessment'
             }
             
         except Exception as e:
@@ -278,7 +337,7 @@ Be honest but constructive. Focus on specific alignments and gaps.
                 'missing_skills': [],
                 'strong_matches': [],
                 'analysis': 'Analysis failed',
-                'recommendation': 'consider_applying',
+                'recommendation': 'manual_review',
                 'salary_fit': 'Unknown',
                 'growth_potential': 'Unknown'
             }
@@ -298,7 +357,7 @@ Be honest but constructive. Focus on specific alignments and gaps.
                 analyzed_jobs.append(job)
                 
                 # Rate limiting - wait between API calls
-                if i < len(jobs) - 1:  # Don't wait after the last job
+                if i < len(jobs) - 1 and self.api_key:  # Only wait if using API
                     time.sleep(1)  # 1 second between jobs to be respectful to API
                     
             except Exception as e:
@@ -341,3 +400,38 @@ Be honest but constructive. Focus on specific alignments and gaps.
             'manual_review': '👀'
         }
         return emoji_map.get(recommendation, '❓')
+
+    @staticmethod
+    def setup_instructions():
+        """Print setup instructions for Claude API"""
+        print("""
+🔧 CLAUDE API SETUP INSTRUCTIONS:
+
+1. Get your API key from: https://console.anthropic.com/
+2. Add it to your environment in one of these ways:
+
+   For GitHub Actions (recommended):
+   - Go to your repo Settings > Secrets and variables > Actions
+   - Add new secret: ANTHROPIC_API_KEY = your-api-key-here
+   
+   For local development:
+   - export ANTHROPIC_API_KEY="your-api-key-here"
+   - Or add to your .env file
+   
+   For Netlify deployment:
+   - Go to Site settings > Environment variables
+   - Add: ANTHROPIC_API_KEY = your-api-key-here
+
+3. The system will automatically detect and use the API key
+4. Without an API key, it falls back to basic keyword matching
+
+💰 API COSTS:
+- Claude 3.5 Sonnet: ~$3 per 1M input tokens, ~$15 per 1M output tokens
+- Typical job analysis: ~500-1000 tokens per job
+- Daily cost for 5-10 new jobs: ~$0.01-0.05
+
+🔒 SECURITY:
+- Never commit API keys to your repository
+- Use environment variables or GitHub Secrets
+- The job matcher will warn if no API key is found
+        """)
