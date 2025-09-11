@@ -255,7 +255,7 @@ def main():
         monitor.start_scheduler()
 
 if __name__ == "__main__":
-    main()info(f"Job closed: {job['title']}")
+    logger.info(f"Job closed: {job['title']}")
                 
                 # Calculate days until deletion for closed jobs
                 if job['status'] == 'CLOSED':
