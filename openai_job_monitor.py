@@ -687,7 +687,7 @@ def main():
         monitor.start_scheduler()
 
 if __name__ == "__main__":
-    main() = str(int(max_val))
+                            compensation_info['salary_max'] = str(int(max_val))
                     elif min_val and not max_val:
                         # Single salary value - put in both min and max
                         compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
