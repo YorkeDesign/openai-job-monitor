@@ -201,8 +201,8 @@
             font-weight: 600;
             color: #495057;
             display: grid;
-            grid-template-columns: 90px 80px 60px 280px 140px 140px 110px 110px 140px 70px 70px;
-            gap: 15px;
+            grid-template-columns: 100px 60px 100px 240px 120px 120px 100px 100px 140px 70px 70px;
+            gap: 12px;
             font-size: 0.9rem;
             align-items: center;
         }
@@ -211,8 +211,8 @@
             padding: 18px 20px;
             border-bottom: 1px solid #f1f3f4;
             display: grid;
-            grid-template-columns: 90px 80px 60px 280px 140px 140px 110px 110px 140px 70px 70px;
-            gap: 15px;
+            grid-template-columns: 100px 60px 100px 240px 120px 120px 100px 100px 140px 70px 70px;
+            gap: 12px;
             align-items: center;
             transition: background-color 0.2s ease;
         }
@@ -258,35 +258,6 @@
 
         .match-score.no-score {
             color: #6c757d;
-        }
-
-        .recommendation-badge {
-            display: inline-block;
-            padding: 3px 8px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        .rec-should-apply {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .rec-consider-applying {
-            background: #fff3cd;
-            color: #856404;
-        }
-
-        .rec-weak-match {
-            background: #f8d7da;
-            color: #721c24;
-        }
-
-        .rec-manual-review {
-            background: #e2e3e5;
-            color: #383d41;
         }
 
         .date-listed {
@@ -474,7 +445,7 @@
         @media (max-width: 1600px) {
             .table-header,
             .job-row {
-                grid-template-columns: 90px 80px 50px 220px 110px 110px 90px 90px 120px 60px 60px;
+                grid-template-columns: 90px 50px 90px 220px 110px 110px 90px 90px 120px 60px 60px;
                 gap: 10px;
                 font-size: 0.85rem;
             }
@@ -483,7 +454,7 @@
         @media (max-width: 1400px) {
             .table-header,
             .job-row {
-                grid-template-columns: 80px 75px 40px 200px 100px 100px 80px 80px 100px 50px 50px;
+                grid-template-columns: 80px 40px 80px 200px 100px 100px 80px 80px 100px 50px 50px;
                 gap: 8px;
                 font-size: 0.8rem;
             }
@@ -581,9 +552,9 @@
             <div class="control-group">
                 <label for="sortBy">Sort by:</label>
                 <select id="sortBy">
+                    <option value="publishedAt_desc" selected>Date Listed (Newest)</option>
                     <option value="match_score_desc">Match Score (Highest)</option>
                     <option value="match_score_asc">Match Score (Lowest)</option>
-                    <option value="publishedAt_desc">Date Listed (Newest)</option>
                     <option value="publishedAt_asc">Date Listed (Oldest)</option>
                     <option value="title_asc">Job Title (A-Z)</option>
                     <option value="title_desc">Job Title (Z-A)</option>
@@ -636,9 +607,9 @@
 
         <div class="jobs-table">
             <div class="table-header">
-                <div>Match Score</div>
-                <div>Recommendation</div>
+                <div>Date Listed</div>
                 <div>Days</div>
+                <div>Match Score</div>
                 <div>Job Title</div>
                 <div>Team</div>
                 <div>Department</div>
@@ -801,7 +772,7 @@
 
         function formatSalary(amount) {
             if (!amount) return '-';
-            return `${Math.round(amount / 1000)}K`;
+            return `$${Math.round(amount / 1000)}K`;
         }
 
         function getDaysBadgeClass(days) {
@@ -834,29 +805,9 @@
             return '-';
         }
 
-        function getRecommendationClass(recommendation) {
-            const classMap = {
-                'should_apply': 'rec-should-apply',
-                'consider_applying': 'rec-consider-applying',
-                'weak_match': 'rec-weak-match',
-                'manual_review': 'rec-manual-review'
-            };
-            return classMap[recommendation] || 'rec-manual-review';
-        }
-
-        function getRecommendationText(recommendation) {
-            const textMap = {
-                'should_apply': 'Apply',
-                'consider_applying': 'Consider',
-                'weak_match': 'Weak',
-                'manual_review': 'Review'
-            };
-            return textMap[recommendation] || 'N/A';
-        }
-
         function filterAndDisplayJobs() {
             const statusFilter = document.getElementById('statusFilter').value;
-            const sortBy = document.getElementById('sortBy').value;
+            const sortBy = document.getElementById('sortBy').value || 'publishedAt_desc';
             const matchFilter = document.getElementById('matchFilter').value;
             
             // Get selected departments
@@ -947,7 +898,10 @@
                         bVal = getSalaryValue(b, minMax);
                         break;
                     default:
-                        return 0;
+                        // Default to publishedAt desc if no valid sort field
+                        aVal = new Date(a.publishedAt);
+                        bVal = new Date(b.publishedAt);
+                        return bVal - aVal; // Newest first
                 }
 
                 if (direction === 'asc') {
@@ -963,170 +917,3 @@
 
         function displayJobs(jobs) {
             const container = document.getElementById('jobsList');
-            
-            if (jobs.length === 0) {
-                container.innerHTML = `
-                    <div class="no-results">
-                        <h3>No jobs match your criteria</h3>
-                        <p>Try adjusting your filters.</p>
-                    </div>
-                `;
-                return;
-            }
-
-            container.innerHTML = jobs.map(job => {
-                const dateListedFormatted = new Date(job.publishedAt).toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric'
-                });
-                
-                const daysSincePosted = calculateDaysSincePosted(job.publishedAt);
-                const daysClass = getDaysBadgeClass(daysSincePosted);
-                const salaryMin = formatSalary(getSalaryValue(job, 'min'));
-                const salaryMax = formatSalary(getSalaryValue(job, 'max'));
-                const isActive = job.status === 'ACTIVE';
-                
-                // Match analysis data
-                const matchAnalysis = job.match_analysis || {};
-                const matchScore = matchAnalysis.match_score || 0;
-                const matchScoreClass = getMatchScoreClass(matchScore);
-                const matchEmoji = getMatchScoreEmoji(matchScore);
-                const recommendation = matchAnalysis.recommendation || '';
-                const recommendationClass = getRecommendationClass(recommendation);
-                const recommendationText = getRecommendationText(recommendation);
-                
-                return `
-                    <div class="job-row ${job.status.toLowerCase()}" onclick="showJobDetails('${job.jobUrl}')">
-                        <div class="date-listed" data-label="Date Listed">${dateListedFormatted}</div>
-                        <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
-                        <div class="match-score ${matchScoreClass}" data-label="Match Score">
-                            ${matchScore ? `${matchScore}% ${matchEmoji}` : 'N/A'}
-                        </div>
-                        <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title">${job.title}</div>
-                        <div class="team" data-label="Team">${job.team || '-'}</div>
-                        <div class="department" data-label="Department">${job.department || '-'}</div>
-                        <div class="salary" data-label="Salary Min">${salaryMin}</div>
-                        <div class="salary" data-label="Salary Max">${salaryMax}</div>
-                        <div class="location" data-label="Location">${job.location}</div>
-                        <div data-label="Link">
-                            <a href="${job.jobUrl}" target="_blank" class="btn-link" onclick="event.stopPropagation()">Link</a>
-                        </div>
-                        <div data-label="Apply">
-                            <a href="${job.applyUrl}" target="_blank" class="apply-link ${job.status.toLowerCase()}" 
-                               onclick="event.stopPropagation()" ${isActive ? '' : 'onclick="return false;"'}>
-                                ${isActive ? 'Apply' : 'Closed'}
-                            </a>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function showJobDetails(jobUrl) {
-            const job = allJobs.find(j => j.jobUrl === jobUrl);
-            if (!job) return;
-
-            const modal = document.getElementById('jobModal');
-            const titleEl = document.getElementById('modalTitle');
-            const contentEl = document.getElementById('modalContent');
-
-            titleEl.textContent = job.title;
-
-            const matchAnalysis = job.match_analysis || {};
-            let matchDetailsHTML = '';
-
-            if (matchAnalysis.match_score) {
-                const matchEmoji = getMatchScoreEmoji(matchAnalysis.match_score);
-                const recommendationText = getRecommendationText(matchAnalysis.recommendation);
-                
-                matchDetailsHTML = `
-                    <div class="match-details">
-                        <h3>🎯 CV Match Analysis</h3>
-                        <p><strong>Match Score:</strong> ${matchAnalysis.match_score}% ${matchEmoji}</p>
-                        <p><strong>Recommendation:</strong> ${recommendationText}</p>
-                        <p><strong>Analysis:</strong> ${matchAnalysis.analysis || 'No detailed analysis available'}</p>
-                        
-                        ${matchAnalysis.strong_matches && matchAnalysis.strong_matches.length > 0 ? `
-                            <div class="match-section">
-                                <h4>✅ Strong Matches:</h4>
-                                <ul>
-                                    ${matchAnalysis.strong_matches.map(match => `<li>${match}</li>`).join('')}
-                                </ul>
-                            </div>
-                        ` : ''}
-                        
-                        ${matchAnalysis.missing_skills && matchAnalysis.missing_skills.length > 0 ? `
-                            <div class="match-section">
-                                <h4>⚠️ Missing Skills:</h4>
-                                <ul>
-                                    ${matchAnalysis.missing_skills.map(skill => `<li>${skill}</li>`).join('')}
-                                </ul>
-                            </div>
-                        ` : ''}
-                        
-                        ${matchAnalysis.salary_fit ? `
-                            <p><strong>Salary Fit:</strong> ${matchAnalysis.salary_fit}</p>
-                        ` : ''}
-                        
-                        ${matchAnalysis.growth_potential ? `
-                            <p><strong>Growth Potential:</strong> ${matchAnalysis.growth_potential}</p>
-                        ` : ''}
-                    </div>
-                `;
-            }
-
-            const publishedDate = new Date(job.publishedAt).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-
-            contentEl.innerHTML = `
-                <div>
-                    <p><strong>Department:</strong> ${job.department || 'N/A'}</p>
-                    <p><strong>Team:</strong> ${job.team || 'N/A'}</p>
-                    <p><strong>Location:</strong> ${job.location}</p>
-                    <p><strong>Published:</strong> ${publishedDate}</p>
-                    <p><strong>Remote:</strong> ${job.isRemote ? 'Yes' : 'No'}</p>
-                    <p><strong>Employment Type:</strong> ${job.employmentType || 'N/A'}</p>
-                </div>
-                ${matchDetailsHTML}
-                <div style="margin-top: 20px; text-align: center;">
-                    <a href="${job.applyUrl}" target="_blank" class="apply-link" style="margin-right: 10px;">Apply Now</a>
-                    <a href="${job.jobUrl}" target="_blank" class="btn-link">View Full Details</a>
-                </div>
-            `;
-
-            modal.style.display = 'flex';
-        }
-
-        function closeModal() {
-            document.getElementById('jobModal').style.display = 'none';
-        }
-
-        function updateLastUpdated() {
-            if (dashboardData.generated_at) {
-                const date = new Date(dashboardData.generated_at);
-                document.getElementById('lastUpdated').textContent = 
-                    `Last updated: ${date.toLocaleString()}`;
-            }
-        }
-
-        // Event listeners
-        document.getElementById('sortBy').addEventListener('change', filterAndDisplayJobs);
-        document.getElementById('statusFilter').addEventListener('change', filterAndDisplayJobs);
-        document.getElementById('matchFilter').addEventListener('change', filterAndDisplayJobs);
-
-        // Close modal when clicking outside
-        document.getElementById('jobModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeModal();
-            }
-        });
-
-        // Load data when page loads
-        loadJobData();
-    </script>
-</body>
-</html>
