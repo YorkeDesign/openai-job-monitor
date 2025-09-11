@@ -217,323 +217,7 @@ class OpenAIJobMonitor:
         else:
             logger.info("CV matching disabled in config")
             return all_jobs
-    
-    def extract_compensation(self, job: Dict) -> Dict:
-        """Extract and format compensation data from job posting"""
-        compensation_info = {
-            'salary_summary': '',
-            'salary_range': '',
-            'salary_min': '',
-            'salary_max': '',
-            'equity': '',
-            'bonus': '',
-            'full_compensation': ''
-        }
-        
-        compensation = job.get('compensation', {})
-        
-        # Check if compensation data exists
-        if not compensation or not compensation.get('compensationTierSummary'):
-            return compensation_info
-        
-        try:
-            # Get human-readable summaries directly from API - fix encoding issues
-            full_comp_raw = compensation.get('compensationTierSummary', '')
-            # Fix UTF-8 encoding issues - replace problematic characters
-            compensation_info['full_compensation'] = (full_comp_raw
-                .replace('–', '-')           # em dash to hyphen
-                .replace('—', '-')           # en dash to hyphen  
-                .replace('•', '•')           # bullet point
-                .replace('\u2013', '-')     # unicode en dash
-                .replace('\u2014', '-')     # unicode em dash
-                .replace('\u2022', '•')     # unicode bullet
-                .encode('ascii', 'ignore').decode('ascii'))  # remove any remaining non-ASCII
-            compensation_info['salary_range'] = compensation.get('scrapeableCompensationSalarySummary', '')
-            
-            # Parse detailed compensation components for more granular data
-            summary_components = compensation.get('summaryComponents', [])
-            for component in summary_components:
-                comp_type = component.get('compensationType', '')
-                min_val = component.get('minValue')
-                max_val = component.get('maxValue')
-                currency = component.get('currencyCode', 'USD')
-                
-                if comp_type == 'Salary':
-                    if min_val and max_val:
-                        # Salary range
-                        compensation_info['salary_summary'] = f"${min_val:,.0f} - ${max_val:,.0f} {currency}"
-                        compensation_info['salary_min'] = str(int(min_val))
-                        compensation_info['salary_max'] = str(int(max_val))
-                    elif min_val and not max_val:
-                        # Single salary value - put in both min and max
-                        compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
-                        compensation_info['salary_min'] = str(int(min_val))
-                        compensation_info['salary_max'] = str(int(min_val))
-                    elif max_val and not min_val:
-                        # Only max value (rare case)
-                        compensation_info['salary_summary'] = f"Up to ${max_val:,.0f} {currency}"
-                        compensation_info['salary_min'] = str(int(max_val))
-                        compensation_info['salary_max'] = str(int(max_val))
-                elif comp_type == 'EquityPercentage' and min_val and max_val:
-                    compensation_info['equity'] = f"{min_val}% - {max_val}%"
-                elif comp_type == 'EquityCashValue':
-                    compensation_info['equity'] = 'Offered'
-                elif comp_type == 'Bonus':
-                    compensation_info['bonus'] = 'Yes' if min_val or max_val else 'Offered'
-            
-            return compensation_info
-            
-        except Exception as e:
-            logger.error(f"ERROR in extract_compensation for {job.get('title')}: {e}")
-            return compensation_info
-    
-    def save_current_jobs(self, jobs: List[Dict]):
-        """Save current job state for backup"""
-        try:
-            with open(self.current_jobs_file, 'w') as f:
-                json.dump(jobs, f, indent=2)
-            logger.info(f"Saved {len(jobs)} current jobs to {self.current_jobs_file}")
-        except Exception as e:
-            logger.error(f"Failed to save current jobs: {e}")
-    
-    def generate_enhanced_report(self, new_jobs: List[Dict]) -> str:
-        """Generate a human-readable report with CV match scores"""
-        if not new_jobs:
-            return "No new OpenAI jobs found in San Francisco area."
-        
-        # Sort jobs by match score (if available)
-        sorted_jobs = sorted(new_jobs, 
-                           key=lambda x: x.get('match_analysis', {}).get('match_score', 0), 
-                           reverse=True)
-        
-        report_lines = [
-            f"🚀 NEW OPENAI JOBS REPORT - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-            f"{'='*60}",
-            f"Found {len(new_jobs)} new job(s) in San Francisco area (sorted by match score):",
-            ""
-        ]
-        
-        for i, job in enumerate(sorted_jobs, 1):
-            published_date = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
-            compensation = self.extract_compensation(job)
-            match_analysis = job.get('match_analysis', {})
-            
-            # Get match score and emoji
-            match_score = match_analysis.get('match_score', 0)
-            score_emoji = self.job_matcher.get_match_score_emoji(match_score)
-            recommendation = match_analysis.get('recommendation', 'consider_applying')
-            rec_emoji = self.job_matcher.get_recommendation_emoji(recommendation)
-            
-            report_lines.extend([
-                f"{i}. {job['title']} {score_emoji}",
-                f"   🎯 Match Score: {match_score}% {rec_emoji}",
-                f"   📍 Location: {job['location']}",
-                f"   🏢 Department: {job.get('department', 'N/A')}",
-                f"   👥 Team: {job.get('team', 'N/A')}",
-                f"   📅 Published: {published_date.strftime('%Y-%m-%d %H:%M:%S')}",
-                f"   🌐 Remote: {'Yes' if job.get('isRemote') else 'No'}",
-            ])
-            
-            # Add compensation info if available
-            if compensation['full_compensation']:
-                report_lines.append(f"   💰 Compensation: {compensation['full_compensation']}")
-            elif compensation['salary_range']:
-                report_lines.append(f"   💰 Salary: {compensation['salary_range']}")
-            
-            # Add match analysis
-            if match_analysis:
-                analysis_summary = match_analysis.get('analysis', '')[:150]
-                if len(match_analysis.get('analysis', '')) > 150:
-                    analysis_summary += '...'
-                
-                report_lines.extend([
-                    f"   🔍 Analysis: {analysis_summary}",
-                ])
-                
-                if match_analysis.get('strong_matches'):
-                    strong_matches = ', '.join(match_analysis['strong_matches'][:3])
-                    report_lines.append(f"   ✅ Strong Matches: {strong_matches}")
-                
-                if match_analysis.get('missing_skills'):
-                    missing_skills = ', '.join(match_analysis['missing_skills'][:3])
-                    report_lines.append(f"   ⚠️ Missing Skills: {missing_skills}")
-            
-            report_lines.extend([
-                f"   🔗 Apply: {job['applyUrl']}",
-                f"   📋 Details: {job['jobUrl']}",
-                ""
-            ])
-            
-            # Add secondary locations if any
-            if job.get('secondaryLocations'):
-                secondary_locs = [loc['location'] for loc in job['secondaryLocations']]
-                report_lines.append(f"   📍 Also available in: {', '.join(secondary_locs)}")
-                report_lines.append("")
-        
-        # Add summary statistics
-        if any(job.get('match_analysis') for job in new_jobs):
-            high_match_jobs = len([j for j in new_jobs if j.get('match_analysis', {}).get('match_score', 0) >= 70])
-            should_apply_jobs = len([j for j in new_jobs if j.get('match_analysis', {}).get('recommendation') == 'should_apply'])
-            
-            report_lines.extend([
-                "📊 MATCH SUMMARY:",
-                f"   🎯 High match jobs (70%+): {high_match_jobs}",
-                f"   🚀 Recommended to apply: {should_apply_jobs}",
-                ""
-            ])
-        
-        report = "\n".join(report_lines)
-        
-        # Save report to file
-        try:
-            with open(self.report_file, 'w') as f:
-                f.write(report)
-            logger.info(f"Report saved to {self.report_file}")
-        except Exception as e:
-            logger.error(f"Failed to save report: {e}")
-        
-        return report
-    
-    def save_to_csv(self, jobs: List[Dict]):
-        """Save jobs data to CSV format with match scores"""
-        if not jobs:
-            logger.info("No jobs to save to CSV")
-            return
-        
-        try:
-            logger.info(f"Attempting to save {len(jobs)} jobs to CSV")
-            with open(self.csv_file, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.writer(f)
-                
-                # Enhanced headers with match data
-                writer.writerow([
-                    'Title', 'Location', 'Department', 'Team', 'Published', 
-                    'Remote', 'Employment Type', 'Salary Range', 'Salary Min', 'Salary Max',
-                    'Full Compensation', 'Equity', 'Bonus', 'Apply URL', 'Job URL',
-                    'Match Score', 'Recommendation', 'Analysis', 'Strong Matches', 'Missing Skills'
-                ])
-                
-                # Data rows
-                for i, job in enumerate(jobs):
-                    try:
-                        published_date = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
-                        
-                        # Initialize compensation data with all required keys
-                        comp = {
-                            'salary_range': '',
-                            'salary_min': '',
-                            'salary_max': '', 
-                            'full_compensation': '',
-                            'equity': '',
-                            'bonus': ''
-                        }
-                        
-                        # Extract compensation if available
-                        compensation_data = job.get('compensation', {})
-                        if compensation_data and compensation_data.get('compensationTierSummary'):
-                            full_comp_raw = compensation_data.get('compensationTierSummary', '')
-                            comp['full_compensation'] = (full_comp_raw
-                                .replace('–', '-')           # em dash to hyphen
-                                .replace('—', '-')           # en dash to hyphen  
-                                .replace('•', '•')           # bullet point
-                                .replace('\u2013', '-')     # unicode en dash
-                                .replace('\u2014', '-')     # unicode em dash
-                                .replace('\u2022', '•')     # unicode bullet
-                                .encode('ascii', 'ignore').decode('ascii'))
-                            comp['salary_range'] = compensation_data.get('scrapeableCompensationSalarySummary', '')
-                            
-                            # Parse salary components
-                            summary_components = compensation_data.get('summaryComponents', [])
-                            for component in summary_components:
-                                if component.get('compensationType') == 'Salary':
-                                    min_val = component.get('minValue')
-                                    max_val = component.get('maxValue')
-                                    if min_val:
-                                        comp['salary_min'] = str(int(min_val))
-                                    if max_val:
-                                        comp['salary_max'] = str(int(max_val))
-                                    # If only one value, use it for both min and max
-                                    if min_val and not max_val:
-                                        comp['salary_max'] = str(int(min_val))
-                                    elif max_val and not min_val:
-                                        comp['salary_min'] = str(int(max_val))
-                                elif component.get('compensationType') == 'EquityCashValue':
-                                    comp['equity'] = 'Offered'
-                        
-                        # Extract match analysis
-                        match_analysis = job.get('match_analysis', {})
-                        match_score = match_analysis.get('match_score', '')
-                        recommendation = match_analysis.get('recommendation', '')
-                        analysis = match_analysis.get('analysis', '')[:200]  # Limit length
-                        strong_matches = ', '.join(match_analysis.get('strong_matches', [])[:3])
-                        missing_skills = ', '.join(match_analysis.get('missing_skills', [])[:3])
-                        
-                        writer.writerow([
-                            job['title'],
-                            job['location'],
-                            job.get('department', ''),
-                            job.get('team', ''),
-                            published_date.strftime('%Y-%m-%d %H:%M:%S'),
-                            'Yes' if job.get('isRemote') else 'No',
-                            job.get('employmentType', ''),
-                            comp['salary_range'],
-                            comp['salary_min'],
-                            comp['salary_max'],
-                            comp['full_compensation'],
-                            comp['equity'],
-                            comp['bonus'],
-                            job['applyUrl'],
-                            job['jobUrl'],
-                            match_score,
-                            recommendation,
-                            analysis,
-                            strong_matches,
-                            missing_skills
-                        ])
-                    except Exception as e:
-                        logger.error(f"Error processing job {i+1} ({job.get('title', 'Unknown')}): {e}")
-                        continue
-            
-            logger.info(f"CSV data saved to {self.csv_file}")
-        except Exception as e:
-            logger.error(f"Failed to save CSV: {e}")
-    
-    def send_email_notification(self, report: str, new_jobs: List[Dict]):
-        """Send email notification with enhanced match information"""
-        if not new_jobs or not self.config.get('email_enabled'):
-            return
-        
-        try:
-            # Count high-match jobs for subject line
-            high_match_count = len([j for j in new_jobs if j.get('match_analysis', {}).get('match_score', 0) >= 70])
-            match_info = f" ({high_match_count} high matches)" if high_match_count > 0 else ""
-            
-            msg = MIMEMultipart()
-            msg['From'] = self.config['email_from']
-            msg['To'] = self.config['email_to']
-            msg['Subject'] = f"🚀 {len(new_jobs)} New OpenAI Job(s){match_info} - {datetime.now().strftime('%Y-%m-%d')}"
-            
-            msg.attach(MIMEText(report, 'plain'))
-            
-            # Attach CSV if requested
-            if self.config.get('attach_csv') and self.csv_file.exists():
-                with open(self.csv_file, 'r') as f:
-                    attachment = MIMEText(f.read(), 'csv')
-                    attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
-                    msg.attach(attachment)
-            
-            # Send email
-            server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
-            server.starttls()
-            server.login(self.config['email_from'], self.config['email_password'])
-            server.send_message(msg)
-            server.quit()
-            
-            logger.info("Email notification sent successfully")
-            
-        except Exception as e:
-            logger.error(f"Failed to send email: {e}")
-    
+
     def generate_dashboard_data(self):
         """Generate enhanced JSON data file for the web dashboard"""
         database = self.load_job_database()
@@ -563,7 +247,6 @@ class OpenAIJobMonitor:
                 'total_active': len(active_jobs),
                 'total_closed': len(closed_jobs),
                 'departments': list(set(job.get('department', 'Unknown') for job in active_jobs)),
-                'salary_ranges': [self.extract_compensation(job) for job in active_jobs if job.get('compensation')],
                 'match_stats': match_stats
             }
         }
@@ -607,29 +290,10 @@ class OpenAIJobMonitor:
             analyzed_new_jobs = self.analyze_all_jobs(new_jobs) if new_jobs else []
             analyzed_all_jobs = all_current_jobs
         
-        # Filter analyzed jobs to get only the new ones for reporting
-        analyzed_new_jobs = [job for job in analyzed_all_jobs if job['jobUrl'] in [nj['jobUrl'] for nj in new_jobs]]
-        
-        # Generate enhanced report (only for new jobs)
-        if analyzed_new_jobs:
-            report = self.generate_enhanced_report(analyzed_new_jobs)
-            print(report)
-        else:
-            report = "No new OpenAI jobs found in San Francisco area."
-            print(report)
-        
         # Generate dashboard data export (includes all jobs with updated scores)
         self.generate_dashboard_data()
         
-        # Save data and send notifications (only for new jobs)
-        if analyzed_new_jobs:
-            self.save_to_csv(analyzed_new_jobs)
-            self.send_email_notification(report, analyzed_new_jobs)
-        
-        # Always save current state for backup
-        self.save_current_jobs(sf_jobs)
-        
-        logger.info(f"Job check completed - analyzed {len(analyzed_all_jobs)} total jobs, {len(analyzed_new_jobs)} new jobs")
+        logger.info(f"Job check completed - analyzed {len(analyzed_all_jobs)} total jobs, {len(new_jobs)} new jobs")
         
         # Log score statistics
         if analyzed_all_jobs:
@@ -641,22 +305,12 @@ class OpenAIJobMonitor:
                 logger.info(f"High scoring jobs (70%+): {high_scores}/{len(valid_scores)}")
             else:
                 logger.warning("No valid match scores found - check CV matching configuration")
-    
-    def start_scheduler(self):
-        """Start the scheduled monitoring"""
-        check_time = self.config.get('check_time', '09:00')
-        schedule.every().day.at(check_time).do(self.run_check)
-        
-        logger.info(f"Scheduler started - will check for new jobs daily at {check_time}")
-        
-        while True:
-            schedule.run_pending()
-            time.sleep(60)
 
 def load_config(config_file: str = "config.json") -> Dict:
     """Load configuration from JSON file"""
     default_config = {
         "email_enabled": False,
+        "email_from": "",
         "email_to": "",
         "email_password": "",
         "smtp_server": "smtp.gmail.com",
@@ -680,29 +334,6 @@ def load_config(config_file: str = "config.json") -> Dict:
     
     return default_config
 
-def create_sample_config():
-    """Create a sample configuration file"""
-    sample_config = {
-        "email_enabled": False,
-        "email_from": "your_email@gmail.com",
-        "email_to": "recipient@gmail.com", 
-        "email_password": "your_app_password",
-        "smtp_server": "smtp.gmail.com",
-        "smtp_port": 587,
-        "check_time": "09:00",
-        "first_run_days": 7,
-        "include_remote": [],
-        "attach_csv": True,
-        "enable_cv_matching": True,
-        "profile_path": "profile.json"
-    }
-    
-    with open("config_sample.json", 'w') as f:
-        json.dump(sample_config, f, indent=2)
-    
-    print("Sample configuration created as 'config_sample.json'")
-    print("Copy to 'config.json' and customize as needed.")
-
 def main():
     parser = argparse.ArgumentParser(description='OpenAI Job Monitor with CV Matching')
     parser.add_argument('--run-once', action='store_true', help='Run once and exit')
@@ -710,10 +341,6 @@ def main():
     parser.add_argument('--config', default='config.json', help='Config file path')
     
     args = parser.parse_args()
-    
-    if args.create_config:
-        create_sample_config()
-        return
     
     config = load_config(args.config)
     monitor = OpenAIJobMonitor(config)
@@ -725,4 +352,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        "
