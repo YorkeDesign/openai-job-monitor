@@ -348,30 +348,31 @@ class OpenAIJobMonitor:
         except Exception as e:
             logger.error(f"Failed to save CSV: {e}")
     
-    def send_email_notification(self, report: str, new_jobs: List[Dict]):
-        """Send email notification if new jobs found (filtered by department preferences)"""
-        # Check if test mode is enabled
-        test_mode = self.config.get('test_email_mode', False)
-        
-        if not self.config.get('email_enabled'):
+def send_email_notification(self, report: str, new_jobs: List[Dict]):
+    """Send email notification if new jobs found (filtered by department preferences)"""
+    if not self.config.get('email_enabled'):
+        return
+    
+    # Check if test mode is enabled FIRST
+    test_mode = self.config.get('test_email_mode', False)
+    
+    # In test mode, use all current jobs if no new jobs
+    if test_mode and not new_jobs:
+        logger.info("Test mode enabled - using current jobs for email test")
+        # Get some current jobs for testing
+        database = self.load_job_database()
+        active_jobs = [job for job in database if job['status'] == 'ACTIVE'][:3]  # Use first 3 active jobs
+        if active_jobs:
+            new_jobs = active_jobs
+            report = self.generate_report(new_jobs)
+            report = f"🧪 TEST MODE EMAIL 🧪\n\n{report}"
+        else:
+            logger.info("No jobs available for test mode")
             return
-        
-        # In test mode, use all current jobs if no new jobs
-        if test_mode and not new_jobs:
-            logger.info("Test mode enabled - using current jobs for email test")
-            # Get some current jobs for testing
-            database = self.load_job_database()
-            active_jobs = [job for job in database if job['status'] == 'ACTIVE'][:3]  # Use first 3 active jobs
-            if active_jobs:
-                new_jobs = active_jobs
-                report = self.generate_report(new_jobs)
-                report = f"🧪 TEST MODE EMAIL 🧪\n\n{report}"
-            else:
-                logger.info("No jobs available for test mode")
-                return
-        
-        if not new_jobs:
-            return
+    
+    # NOW check if we have jobs to send
+    if not new_jobs:
+        return
         
         # Filter out excluded departments for email notifications
         excluded_departments = self.config.get('excluded_departments', [])
