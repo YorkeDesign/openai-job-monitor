@@ -474,7 +474,7 @@
         @media (max-width: 1600px) {
             .table-header,
             .job-row {
-                grid-template-columns: 80px 70px 50px 240px 120px 120px 90px 90px 120px 60px 60px;
+                grid-template-columns: 90px 80px 50px 220px 110px 110px 90px 90px 120px 60px 60px;
                 gap: 10px;
                 font-size: 0.85rem;
             }
@@ -483,7 +483,7 @@
         @media (max-width: 1400px) {
             .table-header,
             .job-row {
-                grid-template-columns: 70px 60px 40px 200px 100px 100px 80px 80px 100px 50px 50px;
+                grid-template-columns: 80px 75px 40px 200px 100px 100px 80px 80px 100px 50px 50px;
                 gap: 8px;
                 font-size: 0.8rem;
             }
@@ -998,13 +998,11 @@
                 
                 return `
                     <div class="job-row ${job.status.toLowerCase()}" onclick="showJobDetails('${job.jobUrl}')">
+                        <div class="date-listed" data-label="Date Listed">${dateListedFormatted}</div>
+                        <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
                         <div class="match-score ${matchScoreClass}" data-label="Match Score">
                             ${matchScore ? `${matchScore}% ${matchEmoji}` : 'N/A'}
                         </div>
-                        <div data-label="Recommendation">
-                            ${recommendation ? `<span class="recommendation-badge ${recommendationClass}">${recommendationText}</span>` : '-'}
-                        </div>
-                        <div class="days-since ${daysClass}" data-label="Days">${daysSincePosted}</div>
                         <div class="job-title ${job.status.toLowerCase()}" data-label="Job Title">${job.title}</div>
                         <div class="team" data-label="Team">${job.team || '-'}</div>
                         <div class="department" data-label="Department">${job.department || '-'}</div>
