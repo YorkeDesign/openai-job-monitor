@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-OpenAI Job Monitor - Enhanced with Job Lifecycle Tracking and CV Matching
-Monitors OpenAI jobs via Ashby API, tracks job status, and scores matches against CV
+OpenAI Job Monitor - Simple Version
+Monitors OpenAI jobs via Ashby API and tracks job status
 """
 
 import requests
@@ -17,7 +17,6 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 import argparse
-from job_matcher import JobMatcher
 
 # Configure logging
 logging.basicConfig(
@@ -31,16 +30,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class OpenAIJobMonitor:
-    """Monitor OpenAI jobs using Ashby's public API with lifecycle tracking and CV matching"""
+    """Monitor OpenAI jobs using Ashby's public API"""
     
     def __init__(self, config: Dict):
         self.config = config
         self.api_url = "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
         self.data_dir = Path("job_data")
         self.data_dir.mkdir(exist_ok=True)
-        
-        # Initialize job matcher
-        self.job_matcher = JobMatcher(config.get('profile_path', 'profile.json'))
         
         # Files for tracking
         self.current_jobs_file = self.data_dir / "current_openai_jobs.json"
@@ -135,16 +131,11 @@ class OpenAIJobMonitor:
             job_url = job['jobUrl']
             
             if job_url in db_jobs_by_url:
-                # Existing job - update it but clear old match analysis for re-analysis
+                # Existing job - update it
                 existing_job = db_jobs_by_url[job_url]
-                
                 existing_job.update(job)  # Update with latest data
                 existing_job['status'] = 'ACTIVE'
                 existing_job['last_seen'] = current_date.isoformat()
-                
-                # Remove old match analysis - will be re-analyzed with current profile
-                if 'match_analysis' in existing_job:
-                    del existing_job['match_analysis']
                 
                 # Calculate days since first listed
                 first_seen = datetime.fromisoformat(existing_job['first_seen'])
@@ -180,64 +171,222 @@ class OpenAIJobMonitor:
                         # Calculate days since first listed
                         first_seen = datetime.fromisoformat(job['first_seen'])
                         job['days_since_listed'] = (closed_date - first_seen).days
-                        
-                        # Remove old match analysis for closed jobs too (in case they reopen)
-                        if 'match_analysis' in job:
-                            del job['match_analysis']
-                        
                         updated_database.append(job)
                     else:
                         logger.info(f"Job deleted: {job['title']} (closed for 5 days)")
         
         self.save_job_database(updated_database)
         return new_jobs
-
-    def analyze_all_jobs(self, all_jobs: List[Dict]) -> List[Dict]:
-        """Analyze ALL jobs (new and existing) for CV matching with current profile"""
-        if not all_jobs:
-            return []
+    
+    def extract_compensation(self, job: Dict) -> Dict:
+        """Extract and format compensation data from job posting"""
+        compensation_info = {
+            'salary_summary': '',
+            'salary_range': '',
+            'salary_min': '',
+            'salary_max': '',
+            'equity': '',
+            'bonus': '',
+            'full_compensation': ''
+        }
         
-        logger.info(f"Re-analyzing all {len(all_jobs)} jobs with current CV profile...")
+        compensation = job.get('compensation', {})
         
-        if self.config.get('enable_cv_matching', True):
-            analyzed_jobs = self.job_matcher.batch_analyze_jobs(all_jobs)
+        # Check if compensation data exists
+        if not compensation or not compensation.get('compensationTierSummary'):
+            return compensation_info
+        
+        try:
+            # Get human-readable summaries directly from API
+            full_comp_raw = compensation.get('compensationTierSummary', '')
+            compensation_info['full_compensation'] = full_comp_raw.encode('ascii', 'ignore').decode('ascii')
+            compensation_info['salary_range'] = compensation.get('scrapeableCompensationSalarySummary', '')
             
-            # Update database with fresh match analysis for all jobs
-            database = self.load_job_database()
-            for analyzed_job in analyzed_jobs:
-                # Find and update the job in database
-                for db_job in database:
-                    if db_job['jobUrl'] == analyzed_job['jobUrl']:
-                        db_job['match_analysis'] = analyzed_job['match_analysis']
-                        break
+            # Parse detailed compensation components
+            summary_components = compensation.get('summaryComponents', [])
+            for component in summary_components:
+                comp_type = component.get('compensationType', '')
+                min_val = component.get('minValue')
+                max_val = component.get('maxValue')
+                currency = component.get('currencyCode', 'USD')
+                
+                if comp_type == 'Salary':
+                    if min_val and max_val:
+                        compensation_info['salary_summary'] = f"${min_val:,.0f} - ${max_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(max_val))
+                    elif min_val and not max_val:
+                        compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(min_val))
+                    elif max_val and not min_val:
+                        compensation_info['salary_summary'] = f"Up to ${max_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(max_val))
+                        compensation_info['salary_max'] = str(int(max_val))
+                elif comp_type == 'EquityPercentage' and min_val and max_val:
+                    compensation_info['equity'] = f"{min_val}% - {max_val}%"
+                elif comp_type == 'EquityCashValue':
+                    compensation_info['equity'] = 'Offered'
+                elif comp_type == 'Bonus':
+                    compensation_info['bonus'] = 'Yes' if min_val or max_val else 'Offered'
             
-            self.save_job_database(database)
-            logger.info(f"Updated match analysis for all {len(analyzed_jobs)} jobs")
-            return analyzed_jobs
-        else:
-            logger.info("CV matching disabled in config")
-            return all_jobs
-
+            return compensation_info
+            
+        except Exception as e:
+            logger.error(f"Error in extract_compensation for {job.get('title')}: {e}")
+            return compensation_info
+    
+    def save_current_jobs(self, jobs: List[Dict]):
+        """Save current job state for backup"""
+        try:
+            with open(self.current_jobs_file, 'w') as f:
+                json.dump(jobs, f, indent=2)
+            logger.info(f"Saved {len(jobs)} current jobs to {self.current_jobs_file}")
+        except Exception as e:
+            logger.error(f"Failed to save current jobs: {e}")
+    
+    def generate_report(self, new_jobs: List[Dict]) -> str:
+        """Generate a human-readable report of new jobs"""
+        if not new_jobs:
+            return "No new OpenAI jobs found in San Francisco area."
+        
+        report_lines = [
+            f"NEW OPENAI JOBS REPORT - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            f"{'='*60}",
+            f"Found {len(new_jobs)} new job(s) in San Francisco area:",
+            ""
+        ]
+        
+        for i, job in enumerate(new_jobs, 1):
+            published_date = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
+            compensation = self.extract_compensation(job)
+            
+            report_lines.extend([
+                f"{i}. {job['title']}",
+                f"   Location: {job['location']}",
+                f"   Department: {job.get('department', 'N/A')}",
+                f"   Team: {job.get('team', 'N/A')}",
+                f"   Published: {published_date.strftime('%Y-%m-%d %H:%M:%S')}",
+                f"   Remote: {'Yes' if job.get('isRemote') else 'No'}",
+            ])
+            
+            # Add compensation info if available
+            if compensation['full_compensation']:
+                report_lines.append(f"   Compensation: {compensation['full_compensation']}")
+            elif compensation['salary_range']:
+                report_lines.append(f"   Salary: {compensation['salary_range']}")
+            
+            report_lines.extend([
+                f"   Apply: {job['applyUrl']}",
+                f"   Details: {job['jobUrl']}",
+                ""
+            ])
+            
+            # Add secondary locations if any
+            if job.get('secondaryLocations'):
+                secondary_locs = [loc['location'] for loc in job['secondaryLocations']]
+                report_lines.append(f"   Also available in: {', '.join(secondary_locs)}")
+                report_lines.append("")
+        
+        report = "\n".join(report_lines)
+        
+        # Save report to file
+        try:
+            with open(self.report_file, 'w') as f:
+                f.write(report)
+            logger.info(f"Report saved to {self.report_file}")
+        except Exception as e:
+            logger.error(f"Failed to save report: {e}")
+        
+        return report
+    
+    def save_to_csv(self, jobs: List[Dict]):
+        """Save jobs data to CSV format"""
+        if not jobs:
+            logger.info("No jobs to save to CSV")
+            return
+        
+        try:
+            with open(self.csv_file, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                
+                # Headers
+                writer.writerow([
+                    'Title', 'Location', 'Department', 'Team', 'Published', 
+                    'Remote', 'Employment Type', 'Salary Range', 'Salary Min', 'Salary Max',
+                    'Full Compensation', 'Equity', 'Bonus', 'Apply URL', 'Job URL'
+                ])
+                
+                # Data rows
+                for job in jobs:
+                    try:
+                        published_date = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
+                        comp = self.extract_compensation(job)
+                        
+                        writer.writerow([
+                            job['title'],
+                            job['location'],
+                            job.get('department', ''),
+                            job.get('team', ''),
+                            published_date.strftime('%Y-%m-%d %H:%M:%S'),
+                            'Yes' if job.get('isRemote') else 'No',
+                            job.get('employmentType', ''),
+                            comp['salary_range'],
+                            comp['salary_min'],
+                            comp['salary_max'],
+                            comp['full_compensation'],
+                            comp['equity'],
+                            comp['bonus'],
+                            job['applyUrl'],
+                            job['jobUrl']
+                        ])
+                    except Exception as e:
+                        logger.error(f"Error processing job {job.get('title', 'Unknown')}: {e}")
+                        continue
+            
+            logger.info(f"CSV data saved to {self.csv_file}")
+        except Exception as e:
+            logger.error(f"Failed to save CSV: {e}")
+    
+    def send_email_notification(self, report: str, new_jobs: List[Dict]):
+        """Send email notification if new jobs found"""
+        if not new_jobs or not self.config.get('email_enabled'):
+            return
+        
+        try:
+            msg = MIMEMultipart()
+            msg['From'] = self.config['email_from']
+            msg['To'] = self.config['email_to']
+            msg['Subject'] = f"{len(new_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
+            
+            msg.attach(MIMEText(report, 'plain'))
+            
+            # Attach CSV if requested
+            if self.config.get('attach_csv') and self.csv_file.exists():
+                with open(self.csv_file, 'r') as f:
+                    attachment = MIMEText(f.read(), 'csv')
+                    attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
+                    msg.attach(attachment)
+            
+            # Send email
+            server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
+            server.starttls()
+            server.login(self.config['email_from'], self.config['email_password'])
+            server.send_message(msg)
+            server.quit()
+            
+            logger.info("Email notification sent successfully")
+            
+        except Exception as e:
+            logger.error(f"Failed to send email: {e}")
+    
     def generate_dashboard_data(self):
-        """Generate enhanced JSON data file for the web dashboard"""
+        """Generate JSON data file for the web dashboard"""
         database = self.load_job_database()
         
         # Separate active and closed jobs for dashboard
         active_jobs = [job for job in database if job['status'] == 'ACTIVE']
         closed_jobs = [job for job in database if job['status'] == 'CLOSED']
-        
-        # Calculate match statistics
-        match_stats = {
-            'total_analyzed': len([j for j in active_jobs if j.get('match_analysis')]),
-            'high_matches': len([j for j in active_jobs if j.get('match_analysis', {}).get('match_score', 0) >= 70]),
-            'should_apply': len([j for j in active_jobs if j.get('match_analysis', {}).get('recommendation') == 'should_apply']),
-            'average_score': 0
-        }
-        
-        analyzed_jobs = [j for j in active_jobs if j.get('match_analysis')]
-        if analyzed_jobs:
-            scores = [j['match_analysis']['match_score'] for j in analyzed_jobs]
-            match_stats['average_score'] = round(sum(scores) / len(scores), 1)
         
         dashboard_data = {
             'generated_at': datetime.now().isoformat(),
@@ -246,8 +395,7 @@ class OpenAIJobMonitor:
             'stats': {
                 'total_active': len(active_jobs),
                 'total_closed': len(closed_jobs),
-                'departments': list(set(job.get('department', 'Unknown') for job in active_jobs)),
-                'match_stats': match_stats
+                'departments': list(set(job.get('department', 'Unknown') for job in active_jobs))
             }
         }
         
@@ -261,8 +409,8 @@ class OpenAIJobMonitor:
             logger.error(f"Failed to save dashboard data: {e}")
     
     def run_check(self):
-        """Main method to run a job check with comprehensive CV matching"""
-        logger.info("Starting OpenAI job check with comprehensive CV matching...")
+        """Main method to run a job check"""
+        logger.info("Starting OpenAI job check...")
         
         # Fetch current jobs
         all_jobs = self.fetch_jobs()
@@ -276,35 +424,33 @@ class OpenAIJobMonitor:
         # Update database and identify new jobs
         new_jobs = self.update_job_database(sf_jobs)
         
-        # Get all current jobs from database (both new and existing)
-        database = self.load_job_database()
-        all_current_jobs = [job for job in database if job['status'] == 'ACTIVE']
+        # Generate report for new jobs only
+        report = self.generate_report(new_jobs)
+        print(report)
         
-        # Re-analyze ALL current jobs with latest profile (ensures scores stay current)
-        if self.config.get('reanalyze_all_jobs', True):
-            logger.info(f"Re-analyzing all {len(all_current_jobs)} active jobs with current profile...")
-            analyzed_all_jobs = self.analyze_all_jobs(all_current_jobs)
-        else:
-            # Only analyze new jobs
-            logger.info(f"Analyzing only {len(new_jobs)} new jobs (reanalyze_all_jobs disabled)")
-            analyzed_new_jobs = self.analyze_all_jobs(new_jobs) if new_jobs else []
-            analyzed_all_jobs = all_current_jobs
-        
-        # Generate dashboard data export (includes all jobs with updated scores)
+        # Generate dashboard data export
         self.generate_dashboard_data()
         
-        logger.info(f"Job check completed - analyzed {len(analyzed_all_jobs)} total jobs, {len(new_jobs)} new jobs")
+        # Save data and send notifications
+        if new_jobs:
+            self.save_to_csv(new_jobs)
+            self.send_email_notification(report, new_jobs)
         
-        # Log score statistics
-        if analyzed_all_jobs:
-            scores = [job.get('match_analysis', {}).get('match_score', 0) for job in analyzed_all_jobs]
-            valid_scores = [s for s in scores if s > 0]
-            if valid_scores:
-                logger.info(f"Score range: {min(valid_scores)}-{max(valid_scores)}%, Average: {sum(valid_scores)/len(valid_scores):.1f}%")
-                high_scores = len([s for s in valid_scores if s >= 70])
-                logger.info(f"High scoring jobs (70%+): {high_scores}/{len(valid_scores)}")
-            else:
-                logger.warning("No valid match scores found - check CV matching configuration")
+        # Always save current state for backup
+        self.save_current_jobs(sf_jobs)
+        
+        logger.info("Job check completed")
+    
+    def start_scheduler(self):
+        """Start the scheduled monitoring"""
+        check_time = self.config.get('check_time', '09:00')
+        schedule.every().day.at(check_time).do(self.run_check)
+        
+        logger.info(f"Scheduler started - will check for new jobs daily at {check_time}")
+        
+        while True:
+            schedule.run_pending()
+            time.sleep(60)
 
 def load_config(config_file: str = "config.json") -> Dict:
     """Load configuration from JSON file"""
@@ -318,10 +464,7 @@ def load_config(config_file: str = "config.json") -> Dict:
         "check_time": "09:00",
         "first_run_days": 7,
         "include_remote": [],
-        "attach_csv": True,
-        "enable_cv_matching": True,
-        "profile_path": "profile.json",
-        "reanalyze_all_jobs": True
+        "attach_csv": True
     }
     
     if Path(config_file).exists():
@@ -335,9 +478,8 @@ def load_config(config_file: str = "config.json") -> Dict:
     return default_config
 
 def main():
-    parser = argparse.ArgumentParser(description='OpenAI Job Monitor with CV Matching')
+    parser = argparse.ArgumentParser(description='OpenAI Job Monitor')
     parser.add_argument('--run-once', action='store_true', help='Run once and exit')
-    parser.add_argument('--create-config', action='store_true', help='Create sample config file')
     parser.add_argument('--config', default='config.json', help='Config file path')
     
     args = parser.parse_args()
