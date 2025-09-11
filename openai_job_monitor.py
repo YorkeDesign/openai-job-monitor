@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OpenAI Job Monitor - Enhanced with CV Matching and Job Scoring
+OpenAI Job Monitor - Enhanced with Job Lifecycle Tracking and CV Matching
 Monitors OpenAI jobs via Ashby API, tracks job status, and scores matches against CV
 """
 
@@ -135,17 +135,16 @@ class OpenAIJobMonitor:
             job_url = job['jobUrl']
             
             if job_url in db_jobs_by_url:
-                # Existing job - update it but preserve match analysis
+                # Existing job - update it but clear old match analysis for re-analysis
                 existing_job = db_jobs_by_url[job_url]
-                match_analysis = existing_job.get('match_analysis')  # Preserve existing analysis
                 
                 existing_job.update(job)  # Update with latest data
                 existing_job['status'] = 'ACTIVE'
                 existing_job['last_seen'] = current_date.isoformat()
                 
-                # Restore match analysis if it existed
-                if match_analysis:
-                    existing_job['match_analysis'] = match_analysis
+                # Remove old match analysis - will be re-analyzed with current profile
+                if 'match_analysis' in existing_job:
+                    del existing_job['match_analysis']
                 
                 # Calculate days since first listed
                 first_seen = datetime.fromisoformat(existing_job['first_seen'])
@@ -168,7 +167,95 @@ class OpenAIJobMonitor:
                     # Just became closed
                     job['status'] = 'CLOSED'
                     job['closed_date'] = current_date.isoformat()
-                    logger.info(f"Job closed: {job['title']}")
+                    logger.warning("No valid match scores found - check CV matching configuration")
+    
+    def start_scheduler(self):
+        """Start the scheduled monitoring"""
+        check_time = self.config.get('check_time', '09:00')
+        schedule.every().day.at(check_time).do(self.run_check)
+        
+        logger.info(f"Scheduler started - will check for new jobs daily at {check_time}")
+        
+        while True:
+            schedule.run_pending()
+            time.sleep(60)
+
+def load_config(config_file: str = "config.json") -> Dict:
+    """Load configuration from JSON file"""
+    default_config = {
+        "email_enabled": False,
+        "email_from": "",
+        "email_to": "",
+        "email_password": "",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "check_time": "09:00",
+        "first_run_days": 7,
+        "include_remote": [],  # Add "remote" to include remote jobs
+        "attach_csv": True,
+        "enable_cv_matching": True,  # New setting for CV matching
+        "profile_path": "profile.json",  # Path to CV/profile data
+        "reanalyze_all_jobs": True  # Re-analyze all jobs every run (keeps scores current with profile changes)
+    }
+    
+    if Path(config_file).exists():
+        try:
+            with open(config_file, 'r') as f:
+                user_config = json.load(f)
+            default_config.update(user_config)
+        except Exception as e:
+            logger.warning(f"Could not load config file: {e}")
+    
+    return default_config
+
+def create_sample_config():
+    """Create a sample configuration file"""
+    sample_config = {
+        "email_enabled": False,
+        "email_from": "your_email@gmail.com",
+        "email_to": "recipient@gmail.com", 
+        "email_password": "your_app_password",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "check_time": "09:00",
+        "first_run_days": 7,
+        "include_remote": [],
+        "attach_csv": True,
+        "enable_cv_matching": True,
+        "profile_path": "profile.json"
+    }
+    
+    with open("config_sample.json", 'w') as f:
+        json.dump(sample_config, f, indent=2)
+    
+    print("Sample configuration created as 'config_sample.json'")
+    print("Copy to 'config.json' and customize as needed.")
+    print("\nTo enable CV matching:")
+    print("1. Create 'profile.json' with your CV/skills data")
+    print("2. Set 'enable_cv_matching': true in config")
+
+def main():
+    parser = argparse.ArgumentParser(description='OpenAI Job Monitor with CV Matching')
+    parser.add_argument('--run-once', action='store_true', help='Run once and exit')
+    parser.add_argument('--create-config', action='store_true', help='Create sample config file')
+    parser.add_argument('--config', default='config.json', help='Config file path')
+    
+    args = parser.parse_args()
+    
+    if args.create_config:
+        create_sample_config()
+        return
+    
+    config = load_config(args.config)
+    monitor = OpenAIJobMonitor(config)
+    
+    if args.run_once:
+        monitor.run_check()
+    else:
+        monitor.start_scheduler()
+
+if __name__ == "__main__":
+    main()info(f"Job closed: {job['title']}")
                 
                 # Calculate days until deletion for closed jobs
                 if job['status'] == 'CLOSED':
@@ -181,24 +268,29 @@ class OpenAIJobMonitor:
                         # Calculate days since first listed
                         first_seen = datetime.fromisoformat(job['first_seen'])
                         job['days_since_listed'] = (closed_date - first_seen).days
+                        
+                        # Remove old match analysis for closed jobs too (in case they reopen)
+                        if 'match_analysis' in job:
+                            del job['match_analysis']
+                        
                         updated_database.append(job)
                     else:
                         logger.info(f"Job deleted: {job['title']} (closed for 5 days)")
         
         self.save_job_database(updated_database)
         return new_jobs
-    
-    def analyze_new_jobs(self, new_jobs: List[Dict]) -> List[Dict]:
-        """Analyze new jobs for CV matching"""
-        if not new_jobs:
+
+    def analyze_all_jobs(self, all_jobs: List[Dict]) -> List[Dict]:
+        """Analyze ALL jobs (new and existing) for CV matching with current profile"""
+        if not all_jobs:
             return []
         
-        logger.info(f"Analyzing {len(new_jobs)} new jobs for CV matching...")
+        logger.info(f"Re-analyzing all {len(all_jobs)} jobs with current CV profile...")
         
         if self.config.get('enable_cv_matching', True):
-            analyzed_jobs = self.job_matcher.batch_analyze_jobs(new_jobs)
+            analyzed_jobs = self.job_matcher.batch_analyze_jobs(all_jobs)
             
-            # Update database with match analysis
+            # Update database with fresh match analysis for all jobs
             database = self.load_job_database()
             for analyzed_job in analyzed_jobs:
                 # Find and update the job in database
@@ -208,10 +300,11 @@ class OpenAIJobMonitor:
                         break
             
             self.save_job_database(database)
+            logger.info(f"Updated match analysis for all {len(analyzed_jobs)} jobs")
             return analyzed_jobs
         else:
             logger.info("CV matching disabled in config")
-            return new_jobs
+            return all_jobs
     
     def extract_compensation(self, job: Dict) -> Dict:
         """Extract and format compensation data from job posting"""
@@ -258,6 +351,16 @@ class OpenAIJobMonitor:
                         # Salary range
                         compensation_info['salary_summary'] = f"${min_val:,.0f} - ${max_val:,.0f} {currency}"
                         compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(max_val))
+                    elif min_val and not max_val:
+                        # Single salary value - put in both min and max
+                        compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(min_val))
+                        compensation_info['salary_max'] = str(int(min_val))
+                    elif max_val and not min_val:
+                        # Only max value (rare case)
+                        compensation_info['salary_summary'] = f"Up to ${max_val:,.0f} {currency}"
+                        compensation_info['salary_min'] = str(int(max_val))
                         compensation_info['salary_max'] = str(int(max_val))
                 elif comp_type == 'EquityPercentage' and min_val and max_val:
                     compensation_info['equity'] = f"{min_val}% - {max_val}%"
@@ -563,8 +666,8 @@ class OpenAIJobMonitor:
             logger.error(f"Failed to save dashboard data: {e}")
     
     def run_check(self):
-        """Main method to run a job check with CV matching"""
-        logger.info("Starting OpenAI job check with CV matching...")
+        """Main method to run a job check with comprehensive CV matching"""
+        logger.info("Starting OpenAI job check with comprehensive CV matching...")
         
         # Fetch current jobs
         all_jobs = self.fetch_jobs()
@@ -578,20 +681,35 @@ class OpenAIJobMonitor:
         # Update database and identify new jobs
         new_jobs = self.update_job_database(sf_jobs)
         
-        # Analyze new jobs for CV matching
-        if new_jobs:
-            analyzed_new_jobs = self.analyze_new_jobs(new_jobs)
+        # Get all current jobs from database (both new and existing)
+        database = self.load_job_database()
+        all_current_jobs = [job for job in database if job['status'] == 'ACTIVE']
+        
+        # Re-analyze ALL current jobs with latest profile (ensures scores stay current)
+        if self.config.get('reanalyze_all_jobs', True):
+            logger.info(f"Re-analyzing all {len(all_current_jobs)} active jobs with current profile...")
+            analyzed_all_jobs = self.analyze_all_jobs(all_current_jobs)
         else:
-            analyzed_new_jobs = []
+            # Only analyze new jobs
+            logger.info(f"Analyzing only {len(new_jobs)} new jobs (reanalyze_all_jobs disabled)")
+            analyzed_new_jobs = self.analyze_all_jobs(new_jobs) if new_jobs else []
+            analyzed_all_jobs = all_current_jobs
         
-        # Generate enhanced report
-        report = self.generate_enhanced_report(analyzed_new_jobs)
-        print(report)
+        # Filter analyzed jobs to get only the new ones for reporting
+        analyzed_new_jobs = [job for job in analyzed_all_jobs if job['jobUrl'] in [nj['jobUrl'] for nj in new_jobs]]
         
-        # Generate dashboard data export
+        # Generate enhanced report (only for new jobs)
+        if analyzed_new_jobs:
+            report = self.generate_enhanced_report(analyzed_new_jobs)
+            print(report)
+        else:
+            report = "No new OpenAI jobs found in San Francisco area."
+            print(report)
+        
+        # Generate dashboard data export (includes all jobs with updated scores)
         self.generate_dashboard_data()
         
-        # Save data and send notifications
+        # Save data and send notifications (only for new jobs)
         if analyzed_new_jobs:
             self.save_to_csv(analyzed_new_jobs)
             self.send_email_notification(report, analyzed_new_jobs)
@@ -599,102 +717,15 @@ class OpenAIJobMonitor:
         # Always save current state for backup
         self.save_current_jobs(sf_jobs)
         
-        logger.info("Job check with CV matching completed")
-    
-    def start_scheduler(self):
-        """Start the scheduled monitoring"""
-        check_time = self.config.get('check_time', '09:00')
-        schedule.every().day.at(check_time).do(self.run_check)
+        logger.info(f"Job check completed - analyzed {len(analyzed_all_jobs)} total jobs, {len(analyzed_new_jobs)} new jobs")
         
-        logger.info(f"Scheduler started - will check for new jobs daily at {check_time}")
-        
-        while True:
-            schedule.run_pending()
-            time.sleep(60)
-
-def load_config(config_file: str = "config.json") -> Dict:
-    """Load configuration from JSON file"""
-    default_config = {
-        "email_enabled": False,
-        "email_from": "",
-        "email_to": "",
-        "email_password": "",
-        "smtp_server": "smtp.gmail.com",
-        "smtp_port": 587,
-        "check_time": "09:00",
-        "first_run_days": 7,
-        "include_remote": [],  # Add "remote" to include remote jobs
-        "attach_csv": True,
-        "enable_cv_matching": True,  # New setting for CV matching
-        "profile_path": "profile.json",  # Path to CV/profile data
-        "reanalyze_all_jobs": True  # Re-analyze all jobs every run (keeps scores current with profile changes)
-    }
-    
-    if Path(config_file).exists():
-        try:
-            with open(config_file, 'r') as f:
-                user_config = json.load(f)
-            default_config.update(user_config)
-        except Exception as e:
-            logger.warning(f"Could not load config file: {e}")
-    
-    return default_config
-
-def create_sample_config():
-    """Create a sample configuration file"""
-    sample_config = {
-        "email_enabled": False,
-        "email_from": "your_email@gmail.com",
-        "email_to": "recipient@gmail.com", 
-        "email_password": "your_app_password",
-        "smtp_server": "smtp.gmail.com",
-        "smtp_port": 587,
-        "check_time": "09:00",
-        "first_run_days": 7,
-        "include_remote": [],
-        "attach_csv": True,
-        "enable_cv_matching": True,
-        "profile_path": "profile.json"
-    }
-    
-    with open("config_sample.json", 'w') as f:
-        json.dump(sample_config, f, indent=2)
-    
-    print("Sample configuration created as 'config_sample.json'")
-    print("Copy to 'config.json' and customize as needed.")
-    print("\nTo enable CV matching:")
-    print("1. Create 'profile.json' with your CV/skills data")
-    print("2. Set 'enable_cv_matching': true in config")
-
-def main():
-    parser = argparse.ArgumentParser(description='OpenAI Job Monitor with CV Matching')
-    parser.add_argument('--run-once', action='store_true', help='Run once and exit')
-    parser.add_argument('--create-config', action='store_true', help='Create sample config file')
-    parser.add_argument('--config', default='config.json', help='Config file path')
-    
-    args = parser.parse_args()
-    
-    if args.create_config:
-        create_sample_config()
-        return
-    
-    config = load_config(args.config)
-    monitor = OpenAIJobMonitor(config)
-    
-    if args.run_once:
-        monitor.run_check()
-    else:
-        monitor.start_scheduler()
-
-if __name__ == "__main__":
-                            compensation_info['salary_max'] = str(int(max_val))
-                    elif min_val and not max_val:
-                        # Single salary value - put in both min and max
-                        compensation_info['salary_summary'] = f"${min_val:,.0f} {currency}"
-                        compensation_info['salary_min'] = str(int(min_val))
-                        compensation_info['salary_max'] = str(int(min_val))
-                    elif max_val and not min_val:
-                        # Only max value (rare case)
-                        compensation_info['salary_summary'] = f"Up to ${max_val:,.0f} {currency}"
-                        compensation_info['salary_min'] = str(int(max_val))
-                        compensation_info['salary_max']
+        # Log score statistics
+        if analyzed_all_jobs:
+            scores = [job.get('match_analysis', {}).get('match_score', 0) for job in analyzed_all_jobs]
+            valid_scores = [s for s in scores if s > 0]
+            if valid_scores:
+                logger.info(f"Score range: {min(valid_scores)}-{max(valid_scores)}%, Average: {sum(valid_scores)/len(valid_scores):.1f}%")
+                high_scores = len([s for s in valid_scores if s >= 70])
+                logger.info(f"High scoring jobs (70%+): {high_scores}/{len(valid_scores)}")
+            else:
+                logger.
