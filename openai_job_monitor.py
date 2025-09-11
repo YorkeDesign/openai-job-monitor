@@ -246,12 +246,12 @@ class OpenAIJobMonitor:
             logger.error(f"Failed to save current jobs: {e}")
     
     def generate_report(self, new_jobs: List[Dict]) -> str:
-        """Generate a human-readable report of new jobs"""
+        """Generate a human-readable report of new jobs with emojis"""
         if not new_jobs:
             return "No new OpenAI jobs found in San Francisco area."
         
         report_lines = [
-            f"NEW OPENAI JOBS REPORT - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            f"🚀 NEW OPENAI JOBS REPORT - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             f"{'='*60}",
             f"Found {len(new_jobs)} new job(s) in San Francisco area:",
             ""
@@ -263,22 +263,22 @@ class OpenAIJobMonitor:
             
             report_lines.extend([
                 f"{i}. {job['title']}",
-                f"   Location: {job['location']}",
-                f"   Department: {job.get('department', 'N/A')}",
-                f"   Team: {job.get('team', 'N/A')}",
-                f"   Published: {published_date.strftime('%Y-%m-%d %H:%M:%S')}",
-                f"   Remote: {'Yes' if job.get('isRemote') else 'No'}",
+                f"📍 Location: {job['location']}",
+                f"🏢 Department: {job.get('department', 'N/A')}",
+                f"👥 Team: {job.get('team', 'N/A')}",
+                f"📅 Published: {published_date.strftime('%Y-%m-%d %H:%M:%S')}",
+                f"🌍 Remote: {'Yes' if job.get('isRemote') else 'No'}",
             ])
             
             # Add compensation info if available
             if compensation['full_compensation']:
-                report_lines.append(f"   Compensation: {compensation['full_compensation']}")
+                report_lines.append(f"💰 Compensation: {compensation['full_compensation']}")
             elif compensation['salary_range']:
-                report_lines.append(f"   Salary: {compensation['salary_range']}")
+                report_lines.append(f"💰 Salary: {compensation['salary_range']}")
             
             report_lines.extend([
-                f"   Apply: {job['applyUrl']}",
-                f"   Details: {job['jobUrl']}",
+                f"🔗 Apply: {job['applyUrl']}",
+                f"📄 Details: {job['jobUrl']}",
                 ""
             ])
             
@@ -350,7 +350,27 @@ class OpenAIJobMonitor:
     
     def send_email_notification(self, report: str, new_jobs: List[Dict]):
         """Send email notification if new jobs found (filtered by department preferences)"""
-        if not new_jobs or not self.config.get('email_enabled'):
+        # Check if test mode is enabled
+        test_mode = self.config.get('test_email_mode', False)
+        
+        if not self.config.get('email_enabled'):
+            return
+        
+        # In test mode, use all current jobs if no new jobs
+        if test_mode and not new_jobs:
+            logger.info("Test mode enabled - using current jobs for email test")
+            # Get some current jobs for testing
+            database = self.load_job_database()
+            active_jobs = [job for job in database if job['status'] == 'ACTIVE'][:3]  # Use first 3 active jobs
+            if active_jobs:
+                new_jobs = active_jobs
+                report = self.generate_report(new_jobs)
+                report = f"🧪 TEST MODE EMAIL 🧪\n\n{report}"
+            else:
+                logger.info("No jobs available for test mode")
+                return
+        
+        if not new_jobs:
             return
         
         # Filter out excluded departments for email notifications
@@ -370,13 +390,13 @@ class OpenAIJobMonitor:
             excluded_titles = [job['title'] for job in excluded_jobs]
             logger.info(f"Excluding {len(excluded_jobs)} jobs from email (filtered departments): {excluded_titles}")
         
-        # If no jobs remain after filtering, don't send email
-        if not email_jobs:
+        # If no jobs remain after filtering, don't send email (unless test mode)
+        if not email_jobs and not test_mode:
             logger.info("No jobs to email after department filtering")
             return
         
         # Generate filtered report for email
-        filtered_report = self.generate_report(email_jobs)
+        filtered_report = self.generate_report(email_jobs) if email_jobs else report
         if excluded_jobs:
             filtered_report += f"\n\nNote: {len(excluded_jobs)} job(s) in filtered departments (Finance, Legal, Security, Strategic Finance, People) were excluded from this email."
         
@@ -384,15 +404,19 @@ class OpenAIJobMonitor:
             msg = MIMEMultipart()
             msg['From'] = self.config['email_from']
             msg['To'] = self.config['email_to']
-            msg['Subject'] = f"{len(email_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
+            
+            # Add test mode indicator to subject
+            subject_prefix = "🧪 TEST - " if test_mode else ""
+            msg['Subject'] = f"{subject_prefix}🚀 {len(email_jobs) if email_jobs else len(new_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
             
             msg.attach(MIMEText(filtered_report, 'plain'))
             
             # Attach CSV if requested (only filtered jobs)
-            if self.config.get('attach_csv') and email_jobs:
+            if self.config.get('attach_csv') and (email_jobs or test_mode):
+                jobs_to_csv = email_jobs if email_jobs else new_jobs
                 # Create temporary CSV file with only email jobs
                 temp_csv = self.data_dir / f"email_jobs_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-                self.save_jobs_to_csv(email_jobs, temp_csv)
+                self.save_jobs_to_csv(jobs_to_csv, temp_csv)
                 
                 if temp_csv.exists():
                     with open(temp_csv, 'r') as f:
@@ -407,7 +431,9 @@ class OpenAIJobMonitor:
             server.send_message(msg)
             server.quit()
             
-            logger.info(f"Email notification sent successfully for {len(email_jobs)} jobs")
+            email_count = len(email_jobs) if email_jobs else len(new_jobs)
+            test_indicator = " (TEST MODE)" if test_mode else ""
+            logger.info(f"Email notification sent successfully for {email_count} jobs{test_indicator}")
             
         except Exception as e:
             logger.error(f"Failed to send email: {e}")
@@ -508,7 +534,9 @@ class OpenAIJobMonitor:
         # Save data and send notifications
         if new_jobs:
             self.save_to_csv(new_jobs)
-            self.send_email_notification(report, new_jobs)
+        
+        # Send email (will handle test mode internally)
+        self.send_email_notification(report, new_jobs)
         
         # Always save current state for backup
         self.save_current_jobs(sf_jobs)
@@ -538,7 +566,9 @@ def load_config(config_file: str = "config.json") -> Dict:
         "check_time": "09:00",
         "first_run_days": 7,
         "include_remote": [],
-        "attach_csv": True
+        "attach_csv": True,
+        "excluded_departments": [],
+        "test_email_mode": False
     }
     
     if Path(config_file).exists():
