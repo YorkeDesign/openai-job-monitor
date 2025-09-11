@@ -349,24 +349,56 @@ class OpenAIJobMonitor:
             logger.error(f"Failed to save CSV: {e}")
     
     def send_email_notification(self, report: str, new_jobs: List[Dict]):
-        """Send email notification if new jobs found"""
+        """Send email notification if new jobs found (filtered by department preferences)"""
         if not new_jobs or not self.config.get('email_enabled'):
             return
+        
+        # Filter out excluded departments for email notifications
+        excluded_departments = self.config.get('excluded_departments', [])
+        email_jobs = []
+        excluded_jobs = []
+        
+        for job in new_jobs:
+            job_department = job.get('department', '')
+            if job_department in excluded_departments:
+                excluded_jobs.append(job)
+            else:
+                email_jobs.append(job)
+        
+        # Log the filtering results
+        if excluded_jobs:
+            excluded_titles = [job['title'] for job in excluded_jobs]
+            logger.info(f"Excluding {len(excluded_jobs)} jobs from email (filtered departments): {excluded_titles}")
+        
+        # If no jobs remain after filtering, don't send email
+        if not email_jobs:
+            logger.info("No jobs to email after department filtering")
+            return
+        
+        # Generate filtered report for email
+        filtered_report = self.generate_report(email_jobs)
+        if excluded_jobs:
+            filtered_report += f"\n\nNote: {len(excluded_jobs)} job(s) in filtered departments (Finance, Legal, Security, Strategic Finance, People) were excluded from this email."
         
         try:
             msg = MIMEMultipart()
             msg['From'] = self.config['email_from']
             msg['To'] = self.config['email_to']
-            msg['Subject'] = f"{len(new_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
+            msg['Subject'] = f"{len(email_jobs)} New OpenAI Job(s) in San Francisco - {datetime.now().strftime('%Y-%m-%d')}"
             
-            msg.attach(MIMEText(report, 'plain'))
+            msg.attach(MIMEText(filtered_report, 'plain'))
             
-            # Attach CSV if requested
-            if self.config.get('attach_csv') and self.csv_file.exists():
-                with open(self.csv_file, 'r') as f:
-                    attachment = MIMEText(f.read(), 'csv')
-                    attachment.add_header('Content-Disposition', 'attachment', filename=self.csv_file.name)
-                    msg.attach(attachment)
+            # Attach CSV if requested (only filtered jobs)
+            if self.config.get('attach_csv') and email_jobs:
+                # Create temporary CSV file with only email jobs
+                temp_csv = self.data_dir / f"email_jobs_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+                self.save_jobs_to_csv(email_jobs, temp_csv)
+                
+                if temp_csv.exists():
+                    with open(temp_csv, 'r') as f:
+                        attachment = MIMEText(f.read(), 'csv')
+                        attachment.add_header('Content-Disposition', 'attachment', filename=temp_csv.name)
+                        msg.attach(attachment)
             
             # Send email
             server = smtplib.SMTP(self.config['smtp_server'], self.config['smtp_port'])
@@ -375,10 +407,52 @@ class OpenAIJobMonitor:
             server.send_message(msg)
             server.quit()
             
-            logger.info("Email notification sent successfully")
+            logger.info(f"Email notification sent successfully for {len(email_jobs)} jobs")
             
         except Exception as e:
             logger.error(f"Failed to send email: {e}")
+    
+    def save_jobs_to_csv(self, jobs: List[Dict], file_path: Path):
+        """Save specific jobs to a CSV file"""
+        try:
+            with open(file_path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                
+                # Headers
+                writer.writerow([
+                    'Title', 'Location', 'Department', 'Team', 'Published', 
+                    'Remote', 'Employment Type', 'Salary Range', 'Salary Min', 'Salary Max',
+                    'Full Compensation', 'Equity', 'Bonus', 'Apply URL', 'Job URL'
+                ])
+                
+                # Data rows
+                for job in jobs:
+                    try:
+                        published_date = datetime.fromisoformat(job['publishedAt'].replace('Z', '+00:00'))
+                        comp = self.extract_compensation(job)
+                        
+                        writer.writerow([
+                            job['title'],
+                            job['location'],
+                            job.get('department', ''),
+                            job.get('team', ''),
+                            published_date.strftime('%Y-%m-%d %H:%M:%S'),
+                            'Yes' if job.get('isRemote') else 'No',
+                            job.get('employmentType', ''),
+                            comp['salary_range'],
+                            comp['salary_min'],
+                            comp['salary_max'],
+                            comp['full_compensation'],
+                            comp['equity'],
+                            comp['bonus'],
+                            job['applyUrl'],
+                            job['jobUrl']
+                        ])
+                    except Exception as e:
+                        logger.error(f"Error processing job {job.get('title', 'Unknown')}: {e}")
+                        continue
+        except Exception as e:
+            logger.error(f"Failed to save CSV to {file_path}: {e}")
     
     def generate_dashboard_data(self):
         """Generate JSON data file for the web dashboard"""
