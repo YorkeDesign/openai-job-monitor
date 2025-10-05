@@ -3003,82 +3003,6 @@
     }
   },
   {
-    "id": "bb7f3bb7-06d7-4902-bda4-dc81592095da",
-    "title": "Financial Systems Integrations Engineer",
-    "department": "Finance",
-    "team": "Finance",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-10-03T23:55:23.434+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/bb7f3bb7-06d7-4902-bda4-dc81592095da",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/bb7f3bb7-06d7-4902-bda4-dc81592095da/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Finance Platform &amp; Technology team at OpenAI builds and scales the future-proof systems and data architecture that power our core financial operations. We enable business agility, compliance, and operational excellence across order-to-cash, procure-to-pay, inventory, and asset management for both B2B and B2C. Our focus is on modernizing workflows through strategic integrations, scalable automation, and seamless data flows\u2014empowering smarter decisions, reliable reporting, and sustainable growth as OpenAI evolves.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As a Financial Systems Integrations Engineer, you\u2019ll design, build, and optimize the integrations that connect OpenAI\u2019s finance technology ecosystem. You\u2019ll work at the intersection of Oracle Fusion Cloud ERP, NetSuite, Workato, and Oracle Integration Cloud (OIC)\u2014engineering the automation and data flows that power our ERP transformation. You\u2019ll partner closely with Finance, IT, and cross-functional teams to ensure data integrity, streamline operations, and enable a seamless migration from legacy systems to modern, cloud-native platforms.</p><p style=\"min-height:1.5em\">This role combines hands-on technical execution with strategic impact, driving reliable, scalable, and compliant integrations that support OpenAI\u2019s growth and financial operations.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement robust automations and integrations using Oracle Integration Cloud (OIC), including recipes, triggers, actions, and custom connectors.</p></li><li><p style=\"min-height:1.5em\">Support and enhance integrations across Oracle Fusion, Salesforce, Zip, Workday, and Databricks, leveraging OIC, Workato, and REST/SOAP APIs.</p></li><li><p style=\"min-height:1.5em\">Partner with Finance, IT, and Engineering stakeholders on ERP transformation efforts, leading technical aspects of data migration, integration validation, and system cutover.</p></li><li><p style=\"min-height:1.5em\">Troubleshoot and resolve integration and platform issues, including data synchronization errors, API failures, and performance bottlenecks.</p></li><li><p style=\"min-height:1.5em\">Monitor integration health across OIC and Workato, proactively identifying opportunities to improve reliability and performance.</p></li><li><p style=\"min-height:1.5em\">Document integration architectures, migration runbooks, and technical processes to ensure knowledge transfer and operational readiness.</p></li><li><p style=\"min-height:1.5em\">Support SOX compliance initiatives by embedding security, segregation of duties, and audit-readiness into integration design.</p></li><li><p style=\"min-height:1.5em\">Contribute to functional testing, UAT, and production cutover as part of the ERP migration lifecycle.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">6-8+ years of experience in enterprise business systems, including 3+ years focused on iPaaS platforms such as Oracle Integration Cloud (OIC) and Workato.</p></li><li><p style=\"min-height:1.5em\">Proven track record leading or supporting large-scale ERP transformation or migration programs, ideally from NetSuite to Oracle Fusion or comparable platforms.</p></li><li><p style=\"min-height:1.5em\">Experience designing scalable, reusable integration architectures with built-in monitoring, error handling, and recovery frameworks to ensure long-term reliability.</p></li><li><p style=\"min-height:1.5em\">Strong proficiency with SQL, JSON, REST/SOAP APIs, and experience using NetSuite Restlets or reports to feed data into other systems.</p></li><li><p style=\"min-height:1.5em\">Background supporting Finance and Accounting functions, with exposure to billing, revenue recognition, financial close, and multi-entity consolidation.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with parallel run operations, reconciliation processes, and migration validation techniques.</p></li><li><p style=\"min-height:1.5em\">Excellent documentation skills and ability to produce migration runbooks, technical specs, and system diagrams.</p></li><li><p style=\"min-height:1.5em\">Familiarity with Oracle Fusion Accounting Hub (FAH) and Advanced Transaction Processing (ATP), and how they integrate with upstream and downstream finance systems.</p></li><li><p style=\"min-height:1.5em\">Familiarity with SOX compliance frameworks, secure system design, and audit readiness practices.</p></li><li><p style=\"min-height:1.5em\">Experience in fast-paced, hypergrowth, or multi-entity international organizations where scalability and reliability are critical.</p></li><li><p style=\"min-height:1.5em\">Knowledge of Oracle Fusion Financials (GL, AP, AR, FAH), Oracle Supply Chain, and tools like Oracle SQL Developer for data reconciliation.</p></li><li><p style=\"min-height:1.5em\">Comfort working with modern SaaS finance tools such as Zip, and Workday, alongside ERP and integration platforms.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nThe Finance Platform & Technology team at OpenAI builds and scales the future-proof systems and data architecture that power our core financial operations. We enable business agility, compliance, and operational excellence across order-to-cash, procure-to-pay, inventory, and asset management for both B2B and B2C. Our focus is on modernizing workflows through strategic integrations, scalable automation, and seamless data flows\u2014empowering smarter decisions, reliable reporting, and sustainable growth as OpenAI evolves.\n\nAbout the Role\n\nAs a Financial Systems Integrations Engineer, you\u2019ll design, build, and optimize the integrations that connect OpenAI\u2019s finance technology ecosystem. You\u2019ll work at the intersection of Oracle Fusion Cloud ERP, NetSuite, Workato, and Oracle Integration Cloud (OIC)\u2014engineering the automation and data flows that power our ERP transformation. You\u2019ll partner closely with Finance, IT, and cross-functional teams to ensure data integrity, streamline operations, and enable a seamless migration from legacy systems to modern, cloud-native platforms.\n\nThis role combines hands-on technical execution with strategic impact, driving reliable, scalable, and compliant integrations that support OpenAI\u2019s growth and financial operations.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Design and implement robust automations and integrations using Oracle Integration Cloud (OIC), including recipes, triggers, actions, and custom connectors.\n\n - Support and enhance integrations across Oracle Fusion, Salesforce, Zip, Workday, and Databricks, leveraging OIC, Workato, and REST/SOAP APIs.\n\n - Partner with Finance, IT, and Engineering stakeholders on ERP transformation efforts, leading technical aspects of data migration, integration validation, and system cutover.\n\n - Troubleshoot and resolve integration and platform issues, including data synchronization errors, API failures, and performance bottlenecks.\n\n - Monitor integration health across OIC and Workato, proactively identifying opportunities to improve reliability and performance.\n\n - Document integration architectures, migration runbooks, and technical processes to ensure knowledge transfer and operational readiness.\n\n - Support SOX compliance initiatives by embedding security, segregation of duties, and audit-readiness into integration design.\n\n - Contribute to functional testing, UAT, and production cutover as part of the ERP migration lifecycle.\n\nYou might thrive in this role if you have:\n\n - 6-8+ years of experience in enterprise business systems, including 3+ years focused on iPaaS platforms such as Oracle Integration Cloud (OIC) and Workato.\n\n - Proven track record leading or supporting large-scale ERP transformation or migration programs, ideally from NetSuite to Oracle Fusion or comparable platforms.\n\n - Experience designing scalable, reusable integration architectures with built-in monitoring, error handling, and recovery frameworks to ensure long-term reliability.\n\n - Strong proficiency with SQL, JSON, REST/SOAP APIs, and experience using NetSuite Restlets or reports to feed data into other systems.\n\n - Background supporting Finance and Accounting functions, with exposure to billing, revenue recognition, financial close, and multi-entity consolidation.\n\n - Hands-on experience with parallel run operations, reconciliation processes, and migration validation techniques.\n\n - Excellent documentation skills and ability to produce migration runbooks, technical specs, and system diagrams.\n\n - Familiarity with Oracle Fusion Accounting Hub (FAH) and Advanced Transaction Processing (ATP), and how they integrate with upstream and downstream finance systems.\n\n - Familiarity with SOX compliance frameworks, secure system design, and audit readiness practices.\n\n - Experience in fast-paced, hypergrowth, or multi-entity international organizations where scalability and reliability are critical.\n\n - Knowledge of Oracle Fusion Financials (GL, AP, AR, FAH), Oracle Supply Chain, and tools like Oracle SQL Developer for data reconciliation.\n\n - Comfort working with modern SaaS finance tools such as Zip, and Workday, alongside ERP and integration platforms.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$228K \u2013 $288K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$228K - $288K",
-      "compensationTiers": [
-        {
-          "id": "260921a7-a53e-45e7-8770-fa3fa5d0c382",
-          "tierSummary": "$228K \u2013 $288K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "9efe75bd-1ca3-4eb4-997c-48b6cdc2f708",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "3688465e-25cd-43e3-9b6c-11bcd3514fe4",
-              "summary": "$228K \u2013 $288K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 228000,
-              "maxValue": 288000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 228000,
-          "maxValue": 288000
-        }
-      ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
-  },
-  {
     "id": "20afadbf-baeb-4cf8-805a-b7488018b556",
     "title": "Customer Education Program Lead - ChatGPT for Business",
     "department": "Go To Market",
@@ -3564,11 +3488,7 @@
           "maxValue": 393000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "e253cfa4-bf03-44d5-b2cb-12a7ecc6f44a",
@@ -4792,11 +4712,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c1316397-25bb-4add-9e9d-0e3ea8ba929a",
@@ -7339,11 +7255,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "a43452f1-85a2-4121-91a2-3212a6833c18",
@@ -8736,11 +8648,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "f44a68f7-a8d1-4d4b-9d55-fd7cf31f7abf",
@@ -19900,11 +19808,7 @@
           "maxValue": 325000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-10-04T20:13:07.914488",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "80348319-f6de-43fb-997d-458d307fc086",
