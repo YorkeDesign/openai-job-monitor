@@ -10058,7 +10058,7 @@
   },
   {
     "id": "07153f7c-7e8b-4283-a879-cb07a224e083",
-    "title": "Software Engineer, Data Platform",
+    "title": "Software Engineer, Privacy Infrastructure",
     "department": "Security",
     "team": "Security",
     "employmentType": "FullTime",
@@ -20632,11 +20632,7 @@
           "maxValue": 405000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-11T20:12:49.054759",
-    "last_seen": "2025-10-11T20:12:49.054759",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "e6c4ae02-e467-4b93-9d77-bc64586a99d8",
@@ -20708,11 +20704,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-11T20:12:49.054759",
-    "last_seen": "2025-10-11T20:12:49.054759",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "cf844a38-e3a4-4956-9f93-109c552b4545",
@@ -20784,10 +20776,6 @@
           "maxValue": 405000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-10-11T20:12:49.054759",
-    "last_seen": "2025-10-11T20:12:49.054759",
-    "days_since_listed": 0
+    }
   }
 ]
