@@ -2000,78 +2000,6 @@
     }
   },
   {
-    "id": "45864848-8313-420c-98b0-47ab3beaeed9",
-    "title": "GTM Systems Engineer, Integrations",
-    "department": "Go To Market",
-    "team": "Revenue Operations",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-08-15T20:58:29.972+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/45864848-8313-420c-98b0-47ab3beaeed9",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/45864848-8313-420c-98b0-47ab3beaeed9/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world\u2019s best scientists, engineers, and business professionals into one lab together to accomplish this.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">In pursuit of this mission, our Revenue Operations team is responsible for equipping and enabling the Go To Market (GTM) as they seek to help customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Customer Success, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring AI to as many users as possible.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">We\u2019re seeking a GTM Systems Engineer with a strong focus on integrations to design, build, and maintain the connections, automations, and workflows that power our GTM operations. This is an execution-driven role for someone eager to work across multiple systems, improve data flows, and ensure our platforms work seamlessly together.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You will collaborate with Enterprise Systems Managers, fellow engineers, and cross-functional teams to deliver integration projects, automate key workflows, and enhance the stability and scalability of our GTM tech stack. You\u2019ll contribute to a variety of initiatives, sometimes leading a project from start to finish, other times working as a critical contributor to larger systems engineering efforts.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in our San Francisco HQ. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you'll:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build, and maintain integrations between GTM platforms, including Salesforce, data warehouses, Retool and other enterprise tools.</p></li><li><p style=\"min-height:1.5em\">Implement automation and data transformation workflows to improve efficiency and reduce manual work.</p></li><li><p style=\"min-height:1.5em\">Troubleshoot and resolve integration issues quickly, ensuring minimal disruption to GTM operations.</p></li><li><p style=\"min-height:1.5em\">Collaborate cross-functionally to gather requirements, refine solutions, and deliver high-quality technical outcomes.<br />Ensure integrations follow best practices for security, scalability, and maintainability.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Proven ability to deliver technical projects in a fast-paced environment.</p></li><li><p style=\"min-height:1.5em\">Experience with API-based integrations, automation platforms, and enterprise system workflows.</p></li><li><p style=\"min-height:1.5em\">Strong troubleshooting skills and attention to detail in diagnosing and fixing integration issues</p></li><li><p style=\"min-height:1.5em\">Working knowledge of data governance and security practices.</p></li><li><p style=\"min-height:1.5em\">A willingness to learn new tools and adapt to changing business priorities.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the team\n\nOpenAI\u2019s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world\u2019s best scientists, engineers, and business professionals into one lab together to accomplish this.\n\nIn pursuit of this mission, our Revenue Operations team is responsible for equipping and enabling the Go To Market (GTM) as they seek to help customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Customer Success, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring AI to as many users as possible.\n\nAbout the role\n\nWe\u2019re seeking a GTM Systems Engineer with a strong focus on integrations to design, build, and maintain the connections, automations, and workflows that power our GTM operations. This is an execution-driven role for someone eager to work across multiple systems, improve data flows, and ensure our platforms work seamlessly together.\n\nYou will collaborate with Enterprise Systems Managers, fellow engineers, and cross-functional teams to deliver integration projects, automate key workflows, and enhance the stability and scalability of our GTM tech stack. You\u2019ll contribute to a variety of initiatives, sometimes leading a project from start to finish, other times working as a critical contributor to larger systems engineering efforts.\n\nThis role is based in our San Francisco HQ. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you'll:\n\n - Design, build, and maintain integrations between GTM platforms, including Salesforce, data warehouses, Retool and other enterprise tools.\n\n - Implement automation and data transformation workflows to improve efficiency and reduce manual work.\n\n - Troubleshoot and resolve integration issues quickly, ensuring minimal disruption to GTM operations.\n\n - Collaborate cross-functionally to gather requirements, refine solutions, and deliver high-quality technical outcomes.\n   Ensure integrations follow best practices for security, scalability, and maintainability.\n\nYou might thrive in this role if you have:\n\n - Proven ability to deliver technical projects in a fast-paced environment.\n\n - Experience with API-based integrations, automation platforms, and enterprise system workflows.\n\n - Strong troubleshooting skills and attention to detail in diagnosing and fixing integration issues\n\n - Working knowledge of data governance and security practices.\n\n - A willingness to learn new tools and adapt to changing business priorities.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$288K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$288K",
-      "compensationTiers": [
-        {
-          "id": "ae11bcbf-20e7-421e-9704-4134e079cadd",
-          "tierSummary": "Base Salary $288K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "eef56a40-c720-4346-a102-9dad26015355",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "86cd34fb-c546-4936-a958-74280c170044",
-              "summary": "Base Salary $288K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 288000,
-              "maxValue": 288000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 288000,
-          "maxValue": 288000
-        }
-      ]
-    }
-  },
-  {
     "id": "44ed82fd-7d97-4f37-bd96-f8bacaad5557",
     "title": "Research Engineer/Scientist, Strategic Deployment",
     "department": "Research",
@@ -4126,78 +4054,6 @@
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 295000,
-          "maxValue": 440000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
-    "id": "97d3670c-e75a-4bb2-a235-171765f5f10e",
-    "title": "Researcher (Engineer/Scientist), Training Architecture",
-    "department": "Research",
-    "team": "Training",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-05-14T21:43:27.150+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI's Training team is responsible for producing the large language models that power our research, our products, and ultimately bring us closer to AGI. Achieving this goal requires combining deep research into improving our current architecture, datasets and optimization techniques, alongside long-term bets aimed at improving the efficiency and capability of future generations of models. We are responsible for integrating these techniques and producing model artifacts used by the rest of the company, and ensuring that these models are world-class in every respect. Recent examples of artifacts with major contributions from our team include GPT4-Turbo, GPT-4o and o1-mini.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As a member of the architecture team, you will push the frontier of architecture development for OpenAI's flagship models, enhancing intelligence, efficiency, and adding new capabilities.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Ideal candidates have a deep understanding of LLM architectures, a sophisticated understanding of model inference, and a hands-on empirical approach. A good fit for this role will be equally happy coming up with a creative breakthrough, investing in strengthening a baseline, designing an eval, debugging a thorny regression, or tracking down a bottleneck.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, prototype and scale up new architectures to improve model intelligence</p></li><li><p style=\"min-height:1.5em\">Execute and analyze experiments autonomously and collaboratively</p></li><li><p style=\"min-height:1.5em\">Study, debug, and optimize both model performance and computational performance</p></li><li><p style=\"min-height:1.5em\">Contribute to training and inference infrastructure</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have experience landing contributions to major LLM training runs</p></li><li><p style=\"min-height:1.5em\">Can thoroughly evaluate and improve deep learning architectures in a self-directed fashion</p></li><li><p style=\"min-height:1.5em\">Are motivated by safely deploying LLMs in the real world</p></li><li><p style=\"min-height:1.5em\">Are well-versed in the state of the art transformer modifications for efficiency</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nOpenAI's Training team is responsible for producing the large language models that power our research, our products, and ultimately bring us closer to AGI. Achieving this goal requires combining deep research into improving our current architecture, datasets and optimization techniques, alongside long-term bets aimed at improving the efficiency and capability of future generations of models. We are responsible for integrating these techniques and producing model artifacts used by the rest of the company, and ensuring that these models are world-class in every respect. Recent examples of artifacts with major contributions from our team include GPT4-Turbo, GPT-4o and o1-mini.\n\nAbout the Role\n\nAs a member of the architecture team, you will push the frontier of architecture development for OpenAI's flagship models, enhancing intelligence, efficiency, and adding new capabilities.\n\nIdeal candidates have a deep understanding of LLM architectures, a sophisticated understanding of model inference, and a hands-on empirical approach. A good fit for this role will be equally happy coming up with a creative breakthrough, investing in strengthening a baseline, designing an eval, debugging a thorny regression, or tracking down a bottleneck.\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Design, prototype and scale up new architectures to improve model intelligence\n\n - Execute and analyze experiments autonomously and collaboratively\n\n - Study, debug, and optimize both model performance and computational performance\n\n - Contribute to training and inference infrastructure\n\nYou might thrive in this role if you:\n\n - Have experience landing contributions to major LLM training runs\n\n - Can thoroughly evaluate and improve deep learning architectures in a self-directed fashion\n\n - Are motivated by safely deploying LLMs in the real world\n\n - Are well-versed in the state of the art transformer modifications for efficiency\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$360K \u2013 $440K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$360K - $440K",
-      "compensationTiers": [
-        {
-          "id": "a1e339a2-48a3-4fec-b42f-019cd89fb53a",
-          "tierSummary": "$360K \u2013 $440K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "5862fe88-94bc-4954-ab8c-9cb20b568639",
-              "summary": "$360K \u2013 $440K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 360000,
-              "maxValue": 440000
-            },
-            {
-              "id": "4253e9e5-62a5-416a-b637-35276319b576",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 360000,
           "maxValue": 440000
         },
         {
@@ -7906,78 +7762,6 @@
     }
   },
   {
-    "id": "802ff832-3248-46ef-b75f-a1fb8696997c",
-    "title": "Software Engineer, AI Data Platform",
-    "department": "Applied AI",
-    "team": "Applied AI Engineering",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-10-07T23:52:45.216+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/802ff832-3248-46ef-b75f-a1fb8696997c",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/802ff832-3248-46ef-b75f-a1fb8696997c/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Platform Team at OpenAI owns the foundational data and processing stack powering the OpenAI API and products built on top of it. We innovate on the infrastructure needed to serve the latest models and agentic workflows at an unprecedented pace of growth and scale with high performance and reliability. Join us to build and operate the core platform that underpins OpenAI\u2019s products and allows our customers to deploy AI themselves.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">This role is centered on designing and deploying services and infrastructure that empower our models and agents to generate insights and execute tasks, all grounded in authorized data sources and internal systems. You\u2019ll help define the most effective data access patterns to unlock higher model accuracy and task performance. You will own the full lifecycle of your work\u2014from architecture and implementation to production operations and on-call responsibilities.</p><p style=\"min-height:1.5em\">Success in this role requires a solid understanding of enterprise data management fundamentals, including security, identity and access, performance, and reliability.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build, and maintain data infrastructure and networking systems that connect structured and unstructured data to LLMs in a performant and reliable manner</p></li><li><p style=\"min-height:1.5em\">Design, build, and maintain secure and compliant systems to process sensitive and valuable data</p></li><li><p style=\"min-height:1.5em\">Ensure our data platform can scale by orders of magnitude while remaining reliable and efficient</p></li><li><p style=\"min-height:1.5em\">Integrate data access and authentication with our production model and agent systems</p></li><li><p style=\"min-height:1.5em\">Collaborate with product, research and forward-deployed engineering teams to fill in the full picture on how to deploy production systems and achieve world-class results on overall task capabilities</p></li><li><p style=\"min-height:1.5em\">Own the reliability of the systems you build, including participation in an on-call rotation for critical incidents</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have expertise in deploying, configuring, and operating software systems within customer-managed infrastructure and networks</p></li><li><p style=\"min-height:1.5em\">Are excited to bring the power of AGI to the infrastructure the world runs on today</p></li><li><p style=\"min-height:1.5em\">Are comfortable with ambiguity and rapid change</p></li><li><p style=\"min-height:1.5em\">Have an intrinsic desire to learn and fill in missing skills, and an equally strong talent for sharing learnings clearly and concisely with others</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nThe Platform Team at OpenAI owns the foundational data and processing stack powering the OpenAI API and products built on top of it. We innovate on the infrastructure needed to serve the latest models and agentic workflows at an unprecedented pace of growth and scale with high performance and reliability. Join us to build and operate the core platform that underpins OpenAI\u2019s products and allows our customers to deploy AI themselves.\n\nAbout the Role\n\nThis role is centered on designing and deploying services and infrastructure that empower our models and agents to generate insights and execute tasks, all grounded in authorized data sources and internal systems. You\u2019ll help define the most effective data access patterns to unlock higher model accuracy and task performance. You will own the full lifecycle of your work\u2014from architecture and implementation to production operations and on-call responsibilities.\n\nSuccess in this role requires a solid understanding of enterprise data management fundamentals, including security, identity and access, performance, and reliability.\n\nIn this role, you will:\n\n - Design, build, and maintain data infrastructure and networking systems that connect structured and unstructured data to LLMs in a performant and reliable manner\n\n - Design, build, and maintain secure and compliant systems to process sensitive and valuable data\n\n - Ensure our data platform can scale by orders of magnitude while remaining reliable and efficient\n\n - Integrate data access and authentication with our production model and agent systems\n\n - Collaborate with product, research and forward-deployed engineering teams to fill in the full picture on how to deploy production systems and achieve world-class results on overall task capabilities\n\n - Own the reliability of the systems you build, including participation in an on-call rotation for critical incidents\n\nYou might thrive in this role if you:\n\n - Have expertise in deploying, configuring, and operating software systems within customer-managed infrastructure and networks\n\n - Are excited to bring the power of AGI to the infrastructure the world runs on today\n\n - Are comfortable with ambiguity and rapid change\n\n - Have an intrinsic desire to learn and fill in missing skills, and an equally strong talent for sharing learnings clearly and concisely with others\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$255K - $405K",
-      "compensationTiers": [
-        {
-          "id": "7bc22ff3-5e33-4a78-b091-1f0e3c55cfa1",
-          "tierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "da99b2c1-d897-4151-b002-e0899a18d1e9",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "2cc584db-4c31-4cbf-94cf-f512294fd1de",
-              "summary": "$255K \u2013 $405K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 255000,
-              "maxValue": 405000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 255000,
-          "maxValue": 405000
-        }
-      ]
-    }
-  },
-  {
     "id": "4d6a5951-9838-434c-830a-22cb938ea228",
     "title": "Software Engineer, Research - Human Data",
     "department": "Research",
@@ -8048,6 +7832,82 @@
         }
       ]
     }
+  },
+  {
+    "id": "621bb104-9daa-4c9e-949a-03d5730334e8",
+    "title": "Software Engineer, Infrastructure Reliability",
+    "department": "Applied AI",
+    "team": "Applied AI Infrastructure",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-10-14T11:07:27.091+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">We\u2019re hiring software engineers to join our broader Infrastructure organization, which supports multiple high-impact teams. Depending on your interests and experience, you could work on one of several focus areas\u2014including Core Distributed Systems, Databases, Observability, or Cloud Infrastructure. All teams operate with a high degree of autonomy and are deeply collaborative, with a shared mandate to raise the bar on safety, reliability, and velocity across OpenAI.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">You\u2019ll be at the heart of scaling and hardening the infrastructure that powers some of the most widely used AI systems in the world. You\u2019ll help ensure our systems are highly reliable, observable, performant, and secure\u2014so researchers can iterate quickly, and products like ChatGPT and the OpenAI API can serve millions of users safely and effectively.</p><p style=\"min-height:1.5em\">This is a hands-on, high-leverage role for engineers who thrive on ownership, love solving deep technical problems across the stack, and want to work on systems that support cutting-edge research and deploy at global scale. You\u2019ll play a key part in shaping technical direction, proactively improving system resilience, and collaborating closely with infra, product, and research teams to turn complex infrastructure into reliable platforms.</p><p style=\"min-height:1.5em\"><strong>In this role you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build, and operate reliable and performant systems used across engineering.</p></li><li><p style=\"min-height:1.5em\">Identify and fix performance bottlenecks and inefficiencies, ensuring our infrastructure can scale to the next order of magnitude.</p></li><li><p style=\"min-height:1.5em\">Dig deep to resolve complex issues.</p></li><li><p style=\"min-height:1.5em\">Continuously improve automation to reduce manual work. Improve internal tooling and our developer experience.</p></li><li><p style=\"min-height:1.5em\">Contribute to incident response, postmortems, and the development of best practices around system reliability and scalability.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have a deep understanding of distributed systems principles and a proven track record in building and operating scalable and reliable systems.</p></li><li><p style=\"min-height:1.5em\">Have a keen eye for performance and optimization. You know how to squeeze the most performance out of complex, globally-distributed systems.</p></li><li><p style=\"min-height:1.5em\">Have experience operating orchestration systems such as Kubernetes at scale and building abstractions over cloud platforms</p></li><li><p style=\"min-height:1.5em\">Are comfortable working in Linux environments, and with tools like Kubernetes, Terraform, CI/CD pipelines, and modern observability stacks.</p></li><li><p style=\"min-height:1.5em\">Are experienced in collaborating with cross-functional teams to ensure that reliability and scalability are considered in the design and development of new features and services.</p></li><li><p style=\"min-height:1.5em\">Have a humble attitude, an eagerness to help your colleagues, and a desire to do whatever it takes to make the team succeed.</p></li><li><p style=\"min-height:1.5em\">Own problems end-to-end, and are willing to pick up whatever knowledge you're missing to get the job done.</p></li><li><p style=\"min-height:1.5em\">Are comfortable with ambiguity and rapid change.</p></li></ul><p style=\"min-height:1.5em\"><strong>Qualifications:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">4+ years of relevant industry experience, with 2+ years leading large scale, complex projects or teams as an engineer or tech lead</p></li><li><p style=\"min-height:1.5em\">A passion for distributed systems at scale with a focus on reliability, scalability, security, and continuous improvement.</p></li><li><p style=\"min-height:1.5em\">Proven experience as an reliability engineer, production engineer, or a similar role in a fast-paced, rapidly scaling company.</p></li><li><p style=\"min-height:1.5em\">Strong proficiency in cloud infrastructure  (like AWS, GCP, Azure) and IaC tools such as Terraform. Proficiency in programming / scripting languages.</p></li><li><p style=\"min-height:1.5em\">Experience with containerization technologies and container orchestration platforms like Kubernetes.</p></li><li><p style=\"min-height:1.5em\">Experience with observability tools such as Datadog, Prometheus, Grafana, Splunk and ELK stack.</p></li><li><p style=\"min-height:1.5em\">Experience with microservices architecture and service mesh technologies.</p></li><li><p style=\"min-height:1.5em\">Knowledge of security best practices in cloud environments.</p></li><li><p style=\"min-height:1.5em\">Strong understanding of distributed systems, networking, and database technologies.</p></li><li><p style=\"min-height:1.5em\">Excellent problem-solving skills and ability to work in a fast-paced environment.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nWe\u2019re hiring software engineers to join our broader Infrastructure organization, which supports multiple high-impact teams. Depending on your interests and experience, you could work on one of several focus areas\u2014including Core Distributed Systems, Databases, Observability, or Cloud Infrastructure. All teams operate with a high degree of autonomy and are deeply collaborative, with a shared mandate to raise the bar on safety, reliability, and velocity across OpenAI.\n\nAbout the Role\n\nYou\u2019ll be at the heart of scaling and hardening the infrastructure that powers some of the most widely used AI systems in the world. You\u2019ll help ensure our systems are highly reliable, observable, performant, and secure\u2014so researchers can iterate quickly, and products like ChatGPT and the OpenAI API can serve millions of users safely and effectively.\n\nThis is a hands-on, high-leverage role for engineers who thrive on ownership, love solving deep technical problems across the stack, and want to work on systems that support cutting-edge research and deploy at global scale. You\u2019ll play a key part in shaping technical direction, proactively improving system resilience, and collaborating closely with infra, product, and research teams to turn complex infrastructure into reliable platforms.\n\nIn this role you will:\n\n - Design, build, and operate reliable and performant systems used across engineering.\n\n - Identify and fix performance bottlenecks and inefficiencies, ensuring our infrastructure can scale to the next order of magnitude.\n\n - Dig deep to resolve complex issues.\n\n - Continuously improve automation to reduce manual work. Improve internal tooling and our developer experience.\n\n - Contribute to incident response, postmortems, and the development of best practices around system reliability and scalability.\n\nYou might thrive in this role if you:\n\n - Have a deep understanding of distributed systems principles and a proven track record in building and operating scalable and reliable systems.\n\n - Have a keen eye for performance and optimization. You know how to squeeze the most performance out of complex, globally-distributed systems.\n\n - Have experience operating orchestration systems such as Kubernetes at scale and building abstractions over cloud platforms\n\n - Are comfortable working in Linux environments, and with tools like Kubernetes, Terraform, CI/CD pipelines, and modern observability stacks.\n\n - Are experienced in collaborating with cross-functional teams to ensure that reliability and scalability are considered in the design and development of new features and services.\n\n - Have a humble attitude, an eagerness to help your colleagues, and a desire to do whatever it takes to make the team succeed.\n\n - Own problems end-to-end, and are willing to pick up whatever knowledge you're missing to get the job done.\n\n - Are comfortable with ambiguity and rapid change.\n\nQualifications:\n\n - 4+ years of relevant industry experience, with 2+ years leading large scale, complex projects or teams as an engineer or tech lead\n\n - A passion for distributed systems at scale with a focus on reliability, scalability, security, and continuous improvement.\n\n - Proven experience as an reliability engineer, production engineer, or a similar role in a fast-paced, rapidly scaling company.\n\n - Strong proficiency in cloud infrastructure (like AWS, GCP, Azure) and IaC tools such as Terraform. Proficiency in programming / scripting languages.\n\n - Experience with containerization technologies and container orchestration platforms like Kubernetes.\n\n - Experience with observability tools such as Datadog, Prometheus, Grafana, Splunk and ELK stack.\n\n - Experience with microservices architecture and service mesh technologies.\n\n - Knowledge of security best practices in cloud environments.\n\n - Strong understanding of distributed systems, networking, and database technologies.\n\n - Excellent problem-solving skills and ability to work in a fast-paced environment.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$255K - $405K",
+      "compensationTiers": [
+        {
+          "id": "7aada4ee-6919-4cde-8160-976c3e8e057d",
+          "tierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "c7c03643-5edc-4fa7-afda-6df2bd769a0f",
+              "summary": "$255K \u2013 $405K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 255000,
+              "maxValue": 405000
+            },
+            {
+              "id": "20f1f85d-3096-468d-8a0a-690f73beefcc",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 255000,
+          "maxValue": 405000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-10-14T20:15:11.205867",
+    "last_seen": "2025-10-14T20:15:11.205867",
+    "days_since_listed": 0
   },
   {
     "id": "e9bea775-7eb6-438a-ab96-27d5f941e69d",
@@ -9265,78 +9125,6 @@
     }
   },
   {
-    "id": "0b1e4c6c-8db6-4f8f-9cae-5e3529275e07",
-    "title": "Engineering Manager, Infrastructure ",
-    "department": "Applied AI",
-    "team": "Applied AI Engineering",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-08-15T14:17:18.422+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/0b1e4c6c-8db6-4f8f-9cae-5e3529275e07",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/0b1e4c6c-8db6-4f8f-9cae-5e3529275e07/application",
-    "descriptionHtml": "<h2><strong>About the Team:</strong></h2><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The <strong>Cloud Infrastructure Automation</strong> team designs, builds, and operates the systems that power OpenAI\u2019s global AI platforms. We manage Kubernetes clusters at massive scale, global networking and load balancing, service mesh deployments, and infrastructure automation that keeps our services fast, reliable, and secure.</p><p style=\"min-height:1.5em\">Our mission is to enable OpenAI to deliver products like ChatGPT, DALL\u00b7E, and our APIs (GPT-5, GPT-4o, embeddings, fine-tuning) to millions of developers and users worldwide \u2014 safely, efficiently, and at scale.</p><p style=\"min-height:1.5em\">We\u2019re seeking an experienced and forward-thinking engineering leader to scale our Cloud Infrastructure Automation function. You\u2019ll be responsible for Kubernetes operations at global scale, high-performance networking, global load balancing, and the automation systems that tie it all together</p><h2></h2><h2><strong>In this role, you will:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Be hands-on in shaping technical direction, team structure, and execution:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Build and lead</strong> a high-performing, diverse engineering team (including ICs and managers) focused on automation, Kubernetes, networking, and global traffic routing.</p></li><li><p style=\"min-height:1.5em\"><strong>Set and own</strong> core infrastructure KPIs/SLOs (availability, latency, scalability) and continuously improve them.</p></li><li><p style=\"min-height:1.5em\"><strong>Architect and scale</strong> multi-region Kubernetes clusters, global load balancing, and service mesh deployments.</p></li><li><p style=\"min-height:1.5em\"><strong>Automate everything</strong> \u2014 from provisioning to upgrades to failover \u2014 using Terraform, CI/CD, and custom tooling.</p></li><li><p style=\"min-height:1.5em\"><strong>Strengthen reliability and security</strong>, including network hardening, traffic shaping, and proactive incident prevention.</p></li><li><p style=\"min-height:1.5em\"><strong>Partner with research and product teams</strong> to streamline the interface between experimental workloads and production deployments.</p></li><li><p style=\"min-height:1.5em\"><strong>Coach and grow</strong> engineers and managers, fostering technical excellence and leadership depth.</p></li><li><p style=\"min-height:1.5em\"><strong>Champion a healthy culture</strong> of inclusion, transparency, and high-trust collaboration.</p></li></ul><p style=\"min-height:1.5em\"></p></li></ul><h2><strong>You might thrive in this role if you:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have <strong>5+ years in engineering leadership</strong>, including managing managers and distributed teams.</p></li><li><p style=\"min-height:1.5em\">Bring deep experience in <strong>Kubernetes at scale</strong>, networking (L4/L7), service mesh (e.g., Istio, Envoy), and cloud-native automation.</p></li><li><p style=\"min-height:1.5em\">Have designed and operated <strong>global load balancing</strong> and traffic routing at internet scale.</p></li><li><p style=\"min-height:1.5em\">Are fluent in infrastructure-as-code, modern CI/CD, and large-scale system observability.</p></li><li><p style=\"min-height:1.5em\">Can <strong>dive deep technically</strong> while also operating at the strategic, organizational level.</p></li><li><p style=\"min-height:1.5em\">Have a track record of <strong>recruiting and retaining top engineering talent</strong> in a competitive market.</p></li><li><p style=\"min-height:1.5em\">Excel in environments with <strong>high ambiguity</strong> and rapid change, bringing clarity and execution focus.</p></li></ul><p style=\"min-height:1.5em\">Care deeply about <strong>security, reliability, and operational excellence</strong> as first-class priorities.<strong><br /></strong></p><h2><strong>Technical Environment</strong></h2><p style=\"min-height:1.5em\">Our stack includes:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Kubernetes</strong> across dozens of clusters and multiple regions</p></li><li><p style=\"min-height:1.5em\"><strong>Service mesh</strong> (Istio, Envoy) for secure, observable, and resilient traffic routing</p></li><li><p style=\"min-height:1.5em\"><strong>Global networking &amp; load balancing</strong> via Cloudflare and cloud provider primitives</p></li><li><p style=\"min-height:1.5em\"><strong>Infrastructure automation</strong> using Terraform and internal tooling</p></li><li><p style=\"min-height:1.5em\">Observability pipelines with Prometheus, Grafana, and distributed tracing</p></li><li><p style=\"min-height:1.5em\">Datastores including Postgres, Cosmos DB, and Kafka<strong><br /></strong></p></li></ul><p style=\"min-height:1.5em\"><strong>Location:</strong></p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE TEAM:\n\nThe Cloud Infrastructure Automation team designs, builds, and operates the systems that power OpenAI\u2019s global AI platforms. We manage Kubernetes clusters at massive scale, global networking and load balancing, service mesh deployments, and infrastructure automation that keeps our services fast, reliable, and secure.\n\nOur mission is to enable OpenAI to deliver products like ChatGPT, DALL\u00b7E, and our APIs (GPT-5, GPT-4o, embeddings, fine-tuning) to millions of developers and users worldwide \u2014 safely, efficiently, and at scale.\n\nWe\u2019re seeking an experienced and forward-thinking engineering leader to scale our Cloud Infrastructure Automation function. You\u2019ll be responsible for Kubernetes operations at global scale, high-performance networking, global load balancing, and the automation systems that tie it all together\n\n\n\n\n\nIN THIS ROLE, YOU WILL:\n\n - Be hands-on in shaping technical direction, team structure, and execution:\n   \n   - Build and lead a high-performing, diverse engineering team (including ICs and managers) focused on automation, Kubernetes, networking, and global traffic routing.\n   \n   - Set and own core infrastructure KPIs/SLOs (availability, latency, scalability) and continuously improve them.\n   \n   - Architect and scale multi-region Kubernetes clusters, global load balancing, and service mesh deployments.\n   \n   - Automate everything \u2014 from provisioning to upgrades to failover \u2014 using Terraform, CI/CD, and custom tooling.\n   \n   - Strengthen reliability and security, including network hardening, traffic shaping, and proactive incident prevention.\n   \n   - Partner with research and product teams to streamline the interface between experimental workloads and production deployments.\n   \n   - Coach and grow engineers and managers, fostering technical excellence and leadership depth.\n   \n   - Champion a healthy culture of inclusion, transparency, and high-trust collaboration.\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Have 5+ years in engineering leadership, including managing managers and distributed teams.\n\n - Bring deep experience in Kubernetes at scale, networking (L4/L7), service mesh (e.g., Istio, Envoy), and cloud-native automation.\n\n - Have designed and operated global load balancing and traffic routing at internet scale.\n\n - Are fluent in infrastructure-as-code, modern CI/CD, and large-scale system observability.\n\n - Can dive deep technically while also operating at the strategic, organizational level.\n\n - Have a track record of recruiting and retaining top engineering talent in a competitive market.\n\n - Excel in environments with high ambiguity and rapid change, bringing clarity and execution focus.\n\nCare deeply about security, reliability, and operational excellence as first-class priorities.\n\n\n\nTECHNICAL ENVIRONMENT\n\nOur stack includes:\n\n - Kubernetes across dozens of clusters and multiple regions\n\n - Service mesh (Istio, Envoy) for secure, observable, and resilient traffic routing\n\n - Global networking & load balancing via Cloudflare and cloud provider primitives\n\n - Infrastructure automation using Terraform and internal tooling\n\n - Observability pipelines with Prometheus, Grafana, and distributed tracing\n\n - Datastores including Postgres, Cosmos DB, and Kafka\n   \n\nLocation:\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$325K \u2013 $405K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$325K - $405K",
-      "compensationTiers": [
-        {
-          "id": "e3c160c4-e34e-4e5f-85a1-a79faa53d98e",
-          "tierSummary": "$325K \u2013 $405K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "2e06b2ea-27a3-46b5-a835-69483bb84329",
-              "summary": "$325K \u2013 $405K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 325000,
-              "maxValue": 405000
-            },
-            {
-              "id": "3179aeb0-48e6-48a1-8589-e3cfd9f0b4ee",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 325000,
-          "maxValue": 405000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "4f5a0df1-22d7-49a6-8ea1-c15c886fbade",
     "title": "Engineering Manager, Data Infrastructure ",
     "department": "Applied AI",
@@ -9700,7 +9488,7 @@
     "id": "a2c9f105-b41a-41db-afd8-e70a54b3f21c",
     "title": "Full Stack Software Engineer, GTM Innovation ",
     "department": "Applied AI",
-    "team": "Applied AI Engineering",
+    "team": "Applied AI",
     "employmentType": "FullTime",
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
@@ -9772,7 +9560,7 @@
     "id": "3bb3c9f8-78d1-4df5-b47e-235f8ed5cbf9",
     "title": "Product Engineer, GTM Innovation ",
     "department": "Applied AI",
-    "team": "Applied AI Engineering",
+    "team": "Applied AI",
     "employmentType": "FullTime",
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
@@ -13487,7 +13275,7 @@
     "id": "43174eb6-0ffe-4744-9323-c7969e7ea2e1",
     "title": "Backend Software Engineer, GTM Innovation ",
     "department": "Applied AI",
-    "team": "Applied AI Engineering",
+    "team": "Applied AI",
     "employmentType": "FullTime",
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
@@ -19780,15 +19568,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "f58d376a-8ece-4286-8874-d45d1dd2ffa6",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "bdc47153-807a-44d1-8752-d380f7348960",
               "summary": "$350K",
               "compensationType": "Salary",
@@ -19796,24 +19575,33 @@
               "currencyCode": "USD",
               "minValue": 350000,
               "maxValue": 350000
+            },
+            {
+              "id": "f58d376a-8ece-4286-8874-d45d1dd2ffa6",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 350000,
           "maxValue": 350000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -19963,6 +19751,82 @@
     }
   },
   {
+    "id": "7b826c9c-bd82-4cfa-985c-5c18e8c2dd3e",
+    "title": "ML Evals Engineer",
+    "department": "Consumer Products",
+    "team": "Consumer Products",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-10-14T17:25:00.348+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/7b826c9c-bd82-4cfa-985c-5c18e8c2dd3e",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/7b826c9c-bd82-4cfa-985c-5c18e8c2dd3e/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong><br />The <strong>Consumer Products Team</strong> at OpenAI is building the next generation of consumer hardware and software interfaces\u2014the future of how people interact with AI. Our mission is to design deeply personal, multimodal experiences that make advanced AI feel natural, useful, and human. Evaluation is at the heart of this mission: reliable, insightful metrics help us understand not just whether the model is correct, but whether the interaction feels right.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong><br />We are looking for an <strong>ML Evals Engineer</strong> to design and build the systems that measure model and product quality across the full stack\u2014from low-level multimodal perception to the user experience. You will work at the intersection of ML, product, and hardware, creating tools that help the team translate qualitative goals into measurable signals.</p><p style=\"min-height:1.5em\">This role is based in <strong>San Francisco, CA</strong>. It is <strong>fully onsite, 4 days per week</strong>, and we offer <strong>relocation assistance</strong> to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement extensible evaluation harnesses for multimodal tasks spanning speech, vision, and text</p></li><li><p style=\"min-height:1.5em\">Build interactive visualization and analysis tools that help engineers, designers, and researchers inspect model and UX performance</p></li><li><p style=\"min-height:1.5em\">Empower product and design teams to define and extend evaluation suites aligned with real-world usage and product vision</p></li><li><p style=\"min-height:1.5em\">Automate continuous evaluation and regression tracking to ensure each model and hardware iteration improves the experience</p></li><li><p style=\"min-height:1.5em\">Collaborate with hardware, software, research, and design teams to turn qualitative goals into quantitative evaluation metrics</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Are a software engineer with hands-on experience building tools or pipelines around LLMs or multimodal models</p></li><li><p style=\"min-height:1.5em\">Are proficient in Python for backend/data workflows and familiar with TypeScript/React or similar frameworks for visualization</p></li><li><p style=\"min-height:1.5em\">Enjoy working in tight iteration loops with product and design, translating user feel into measurable metrics</p></li><li><p style=\"min-height:1.5em\">Are comfortable working across ML, product, and hardware domains where small perception or interaction improvements have outsized impact</p></li><li><p style=\"min-height:1.5em\">Are motivated by curiosity and care deeply about the quality of user experience and the systems that measure it</p></li></ul><p style=\"min-height:1.5em\"><strong>Preferred qualifications:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with evaluation or visualization of multimodal models (speech, vision, or sensors)</p></li><li><p style=\"min-height:1.5em\">Familiarity with hardware prototyping or embedded ML</p></li><li><p style=\"min-height:1.5em\">Background in human-in-the-loop evaluation or UX research tooling</p></li></ul><p style=\"min-height:1.5em\"><strong>Why this role matters</strong><br />Consumer Products is OpenAI\u2019s bridge between intelligence and embodiment\u2014the team building the future of computing. Evaluation is how we learn what works, what feels right, and what needs to improve. As an ML Evals Engineer, you\u2019ll create the backbone that enables us to iterate confidently on entirely new AI-powered devices and experiences.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\nThe Consumer Products Team at OpenAI is building the next generation of consumer hardware and software interfaces\u2014the future of how people interact with AI. Our mission is to design deeply personal, multimodal experiences that make advanced AI feel natural, useful, and human. Evaluation is at the heart of this mission: reliable, insightful metrics help us understand not just whether the model is correct, but whether the interaction feels right.\n\nAbout the Role\nWe are looking for an ML Evals Engineer to design and build the systems that measure model and product quality across the full stack\u2014from low-level multimodal perception to the user experience. You will work at the intersection of ML, product, and hardware, creating tools that help the team translate qualitative goals into measurable signals.\n\nThis role is based in San Francisco, CA. It is fully onsite, 4 days per week, and we offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Design and implement extensible evaluation harnesses for multimodal tasks spanning speech, vision, and text\n\n - Build interactive visualization and analysis tools that help engineers, designers, and researchers inspect model and UX performance\n\n - Empower product and design teams to define and extend evaluation suites aligned with real-world usage and product vision\n\n - Automate continuous evaluation and regression tracking to ensure each model and hardware iteration improves the experience\n\n - Collaborate with hardware, software, research, and design teams to turn qualitative goals into quantitative evaluation metrics\n\nYou might thrive in this role if you:\n\n - Are a software engineer with hands-on experience building tools or pipelines around LLMs or multimodal models\n\n - Are proficient in Python for backend/data workflows and familiar with TypeScript/React or similar frameworks for visualization\n\n - Enjoy working in tight iteration loops with product and design, translating user feel into measurable metrics\n\n - Are comfortable working across ML, product, and hardware domains where small perception or interaction improvements have outsized impact\n\n - Are motivated by curiosity and care deeply about the quality of user experience and the systems that measure it\n\nPreferred qualifications:\n\n - Experience with evaluation or visualization of multimodal models (speech, vision, or sensors)\n\n - Familiarity with hardware prototyping or embedded ML\n\n - Background in human-in-the-loop evaluation or UX research tooling\n\nWhy this role matters\nConsumer Products is OpenAI\u2019s bridge between intelligence and embodiment\u2014the team building the future of computing. Evaluation is how we learn what works, what feels right, and what needs to improve. As an ML Evals Engineer, you\u2019ll create the backbone that enables us to iterate confidently on entirely new AI-powered devices and experiences.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$255K - $325K",
+      "compensationTiers": [
+        {
+          "id": "7f5876ea-244a-4a5f-bb09-80ebd5b0d14a",
+          "tierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "a5d42f29-0fcb-4d04-80f6-2239056fe665",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "423df2dc-503e-4d67-8b56-097eb00b26f8",
+              "summary": "$255K \u2013 $325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 255000,
+              "maxValue": 325000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 255000,
+          "maxValue": 325000
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-10-14T20:15:11.205867",
+    "last_seen": "2025-10-14T20:15:11.205867",
+    "days_since_listed": 0
+  },
+  {
     "id": "18021d39-fb98-44a8-bd75-12c1a9bf0774",
     "title": "Sr. Employee Relations Partner (Non-Investigations)",
     "department": "People",
@@ -20105,6 +19969,82 @@
         }
       ]
     }
+  },
+  {
+    "id": "36811989-d6ce-4a33-8d50-f65e38e5d2b6",
+    "title": "Software Acceleration Engineer, Consumer Products",
+    "department": "Consumer Products",
+    "team": "Consumer Products",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-10-14T17:26:05.698+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/36811989-d6ce-4a33-8d50-f65e38e5d2b6",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/36811989-d6ce-4a33-8d50-f65e38e5d2b6/application",
+    "descriptionHtml": "<h2>About the Team</h2><p style=\"min-height:1.5em\">The Software Acceleration team is responsible for building the tools, systems, and processes that super-charge engineering velocity across our consumer hardware and software stack. We partner with hardware, embedded, and cloud teams to remove friction, reduce toil, and improve code health\u2014while keeping build and release pipelines fast, scalable, and reliable.</p><p style=\"min-height:1.5em\"></p><h2>About the Role</h2><p style=\"min-height:1.5em\">As a Software Acceleration Engineer, you will design and build the infrastructure and developer tools that enable rapid, high-quality engineering across embedded, application, and cloud layers. You\u2019ll work directly with cross-functional teams to identify pain points, create scalable solutions, and ensure our build and release systems remain performant and reproducible.</p><p style=\"min-height:1.5em\">We\u2019re looking for engineers who are passionate about accelerating development workflows, improving code health, and architecting systems that make other engineers more productive.</p><p style=\"min-height:1.5em\"><strong>This role is based in San Francisco, CA. We use a hybrid work model of 4 days in the office per week and offer relocation assistance to new employees.</strong></p><p style=\"min-height:1.5em\"></p><h2>In this role, you will:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Engineering acceleration &amp; tooling</strong>: Design, develop, and maintain systems that speed up development workflows, reduce manual effort, and raise product quality across embedded, application, and cloud layers.</p></li><li><p style=\"min-height:1.5em\"><strong>Cross-team enablement</strong>: Work directly with hardware and software teams to map pain points, capture requirements, and build tools that solve real-world bottlenecks.</p></li><li><p style=\"min-height:1.5em\"><strong>Existing ecosystem integration</strong>: Collaborate with the broader Engineering Acceleration team to adopt and evolve their internal systems for the unique needs of consumer hardware and software.</p></li><li><p style=\"min-height:1.5em\"><strong>Code organization &amp; health</strong>: Drive consistent code structure, dependency management, and hygiene across heterogeneous stacks and third-party vendor integrations.</p></li><li><p style=\"min-height:1.5em\"><strong>Build &amp; infrastructure systems</strong>: Architect and scale performant build systems from on-device embedded software to cloud infrastructure, ensuring reproducibility and rapid iteration.</p></li></ul><h2>You might thrive in this role if you:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have deep experience designing and building scalable software systems.</p></li><li><p style=\"min-height:1.5em\">Are proficient in Python, C, C++, or Rust, with solid Linux fundamentals (build systems, networking, process management).</p></li><li><p style=\"min-height:1.5em\">Have a strong desire to architect systems that accelerate engineering velocity while simultaneously improving product quality.</p></li><li><p style=\"min-height:1.5em\">Empathize with the frustrations and processes that slow engineering teams down, informed by hands-on experience.</p></li><li><p style=\"min-height:1.5em\"><em>(Nice to have)</em> Are familiar with Git, Bazel, Terraform, Buildkite, Postgres, Cosmos DB, FastAPI, or similar tooling.</p></li><li><p style=\"min-height:1.5em\"><em>(Nice to have)</em> Have a voracious and intrinsic desire to learn new skills and share knowledge clearly and concisely.</p></li><li><p style=\"min-height:1.5em\"><em>(Nice to have)</em> Are comfortable with ambiguity and rapidly changing conditions, seeing change as an opportunity to add structure and order when needed.</p></li><li><p style=\"min-height:1.5em\"><em>(Nice to have)</em> Have experience maintaining a quality bar and engineering velocity for products shipped at large scale.</p></li><li><p style=\"min-height:1.5em\"><em>(Nice to have)</em> Have built and developed engineering systems at an early stage from zero to one.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "ABOUT THE TEAM\n\nThe Software Acceleration team is responsible for building the tools, systems, and processes that super-charge engineering velocity across our consumer hardware and software stack. We partner with hardware, embedded, and cloud teams to remove friction, reduce toil, and improve code health\u2014while keeping build and release pipelines fast, scalable, and reliable.\n\n\nABOUT THE ROLE\n\nAs a Software Acceleration Engineer, you will design and build the infrastructure and developer tools that enable rapid, high-quality engineering across embedded, application, and cloud layers. You\u2019ll work directly with cross-functional teams to identify pain points, create scalable solutions, and ensure our build and release systems remain performant and reproducible.\n\nWe\u2019re looking for engineers who are passionate about accelerating development workflows, improving code health, and architecting systems that make other engineers more productive.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 4 days in the office per week and offer relocation assistance to new employees.\n\n\nIN THIS ROLE, YOU WILL:\n\n - Engineering acceleration & tooling: Design, develop, and maintain systems that speed up development workflows, reduce manual effort, and raise product quality across embedded, application, and cloud layers.\n\n - Cross-team enablement: Work directly with hardware and software teams to map pain points, capture requirements, and build tools that solve real-world bottlenecks.\n\n - Existing ecosystem integration: Collaborate with the broader Engineering Acceleration team to adopt and evolve their internal systems for the unique needs of consumer hardware and software.\n\n - Code organization & health: Drive consistent code structure, dependency management, and hygiene across heterogeneous stacks and third-party vendor integrations.\n\n - Build & infrastructure systems: Architect and scale performant build systems from on-device embedded software to cloud infrastructure, ensuring reproducibility and rapid iteration.\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Have deep experience designing and building scalable software systems.\n\n - Are proficient in Python, C, C++, or Rust, with solid Linux fundamentals (build systems, networking, process management).\n\n - Have a strong desire to architect systems that accelerate engineering velocity while simultaneously improving product quality.\n\n - Empathize with the frustrations and processes that slow engineering teams down, informed by hands-on experience.\n\n - (Nice to have) Are familiar with Git, Bazel, Terraform, Buildkite, Postgres, Cosmos DB, FastAPI, or similar tooling.\n\n - (Nice to have) Have a voracious and intrinsic desire to learn new skills and share knowledge clearly and concisely.\n\n - (Nice to have) Are comfortable with ambiguity and rapidly changing conditions, seeing change as an opportunity to add structure and order when needed.\n\n - (Nice to have) Have experience maintaining a quality bar and engineering velocity for products shipped at large scale.\n\n - (Nice to have) Have built and developed engineering systems at an early stage from zero to one.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$325K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$325K",
+      "compensationTiers": [
+        {
+          "id": "95761f2b-b4db-491e-81e3-de0d00399567",
+          "tierSummary": "$325K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "6c3bf03b-65c1-4f50-bcde-f90ce34d46ee",
+              "summary": "$325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 325000,
+              "maxValue": 325000
+            },
+            {
+              "id": "893b6189-fa16-4653-a69f-6faedf4c425f",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 325000,
+          "maxValue": 325000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-10-14T20:15:11.205867",
+    "last_seen": "2025-10-14T20:15:11.205867",
+    "days_since_listed": 0
   },
   {
     "id": "529feb11-4b9b-4baf-9b3f-f2b100156c5a",
@@ -20563,6 +20503,226 @@
           "currencyCode": "USD",
           "minValue": 255000,
           "maxValue": 405000
+        }
+      ]
+    }
+  },
+  {
+    "id": "e84e7b7e-a82e-411e-929a-615dc3080280",
+    "title": "Director, Data Engineering Finance",
+    "department": "Finance",
+    "team": "Finance",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-10-14T20:01:15.807+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/e84e7b7e-a82e-411e-929a-615dc3080280",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/e84e7b7e-a82e-411e-929a-615dc3080280/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">We are looking for a Director of Data Engineering and Agentic AI Automation to lead the next generation of our finance data infrastructure. As OpenAI expands its Finance operations, we need scalable and trustworthy data systems to match the pace and complexity of our growth. This includes well-modeled, auditable data for revenue recognition, financial reporting, and planning, supported by reliable pipelines that connect ERP, planning, and operational systems. You will lead a group of analytics engineers, data engineers, and AI engineers to build the data pipelines that connect our internal engineering systems with enterprise platforms such as Oracle Fusion ERP. This role will also define the roadmap for agentic AI automation, enabling intelligent workflows, process automation, and AI-driven decision-making across Finance.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Build and maintain scalable, auditable data infrastructure that powers accurate financial information, with a focus on revenue recognition, compute attribution, and close automation.</p></li><li><p style=\"min-height:1.5em\">Lead and grow teams of analytics engineers, data engineers, and AI engineers to deliver high-impact, intelligent data systems.</p></li><li><p style=\"min-height:1.5em\">Guide work across financial close and allocations automation, B2C revenue automation from engineering systems to ERP (including reconciliation with cash and source systems), and other mission-critical financial processes.</p></li><li><p style=\"min-height:1.5em\">Design and implement data pipelines connecting ERP, planning, and operational systems, including Oracle Fusion, Anaplan, and Workday.</p></li><li><p style=\"min-height:1.5em\">Build and support scalable, audit-proof architecture that enables reliable financial reporting and compliance.</p></li><li><p style=\"min-height:1.5em\">Develop data and AI-powered workflows that enhance forecasting accuracy, compliance automation, and operational efficiency.</p></li><li><p style=\"min-height:1.5em\">Create and maintain data marts and products that support stakeholders across Revenue, FP&amp;A, Tax, Procurement, Hardware Accounting, and Controller teams.</p></li><li><p style=\"min-height:1.5em\">Define and enforce best practices for data modeling, lineage, observability, and reconciliation across finance data domains.</p></li><li><p style=\"min-height:1.5em\">Set the technical direction and manage team structure, mentoring engineers and overseeing contractors or system integrators to ensure delivery of high-quality outcomes.</p></li><li><p style=\"min-height:1.5em\">Partner with senior leaders across Finance, Engineering, and Infrastructure to align on priorities and integrate new automation capabilities.</p></li><li><p style=\"min-height:1.5em\">Ensure data systems are AI-ready and capable of supporting predictive analytics, autonomous agent workflows, and large-scale automation.</p></li><li><p style=\"min-height:1.5em\">Own and maintain Tier-1 data pipelines with strict SLA, data quality, and compliance standards.</p></li><li><p style=\"min-height:1.5em\">Drive the long-term roadmap for agentic AI enablement to build the foundation for \u201cFinance on OpenAI.\u201d</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">12+ years in data engineering, with proven experience building and managing enterprise-scale, auditable ETL pipelines and complex datasets</p></li><li><p style=\"min-height:1.5em\">Proficiency in SQL and Python, with demonstrated experience in schema design, data modeling, and orchestration frameworks</p></li><li><p style=\"min-height:1.5em\">Expertise in distributed data processing technologies such as Apache Spark, Kafka, and cloud-native storage (e.g., S3, ADLS)</p></li><li><p style=\"min-height:1.5em\">Deep knowledge of enterprise data architecture, especially within Finance and Supply Chain</p></li><li><p style=\"min-height:1.5em\">Familiarity with financial processes (close, allocations, revenue recognition) and supply chain data models (Supply and demand planning, procurement, vendor master), along with experience in ingesting data from internal engineering systems with large volumes of B2C</p></li><li><p style=\"min-height:1.5em\">Experience integrating with contract manufacturers and external logistics providers is a strong plus</p></li><li><p style=\"min-height:1.5em\">Strong track record of partnering with senior business stakeholders and translating complex requirements into scalable technical solutions</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nWe are looking for a Director of Data Engineering and Agentic AI Automation to lead the next generation of our finance data infrastructure. As OpenAI expands its Finance operations, we need scalable and trustworthy data systems to match the pace and complexity of our growth. This includes well-modeled, auditable data for revenue recognition, financial reporting, and planning, supported by reliable pipelines that connect ERP, planning, and operational systems. You will lead a group of analytics engineers, data engineers, and AI engineers to build the data pipelines that connect our internal engineering systems with enterprise platforms such as Oracle Fusion ERP. This role will also define the roadmap for agentic AI automation, enabling intelligent workflows, process automation, and AI-driven decision-making across Finance.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Build and maintain scalable, auditable data infrastructure that powers accurate financial information, with a focus on revenue recognition, compute attribution, and close automation.\n\n - Lead and grow teams of analytics engineers, data engineers, and AI engineers to deliver high-impact, intelligent data systems.\n\n - Guide work across financial close and allocations automation, B2C revenue automation from engineering systems to ERP (including reconciliation with cash and source systems), and other mission-critical financial processes.\n\n - Design and implement data pipelines connecting ERP, planning, and operational systems, including Oracle Fusion, Anaplan, and Workday.\n\n - Build and support scalable, audit-proof architecture that enables reliable financial reporting and compliance.\n\n - Develop data and AI-powered workflows that enhance forecasting accuracy, compliance automation, and operational efficiency.\n\n - Create and maintain data marts and products that support stakeholders across Revenue, FP&A, Tax, Procurement, Hardware Accounting, and Controller teams.\n\n - Define and enforce best practices for data modeling, lineage, observability, and reconciliation across finance data domains.\n\n - Set the technical direction and manage team structure, mentoring engineers and overseeing contractors or system integrators to ensure delivery of high-quality outcomes.\n\n - Partner with senior leaders across Finance, Engineering, and Infrastructure to align on priorities and integrate new automation capabilities.\n\n - Ensure data systems are AI-ready and capable of supporting predictive analytics, autonomous agent workflows, and large-scale automation.\n\n - Own and maintain Tier-1 data pipelines with strict SLA, data quality, and compliance standards.\n\n - Drive the long-term roadmap for agentic AI enablement to build the foundation for \u201cFinance on OpenAI.\u201d\n\nYou might thrive in this role if you have:\n\n - 12+ years in data engineering, with proven experience building and managing enterprise-scale, auditable ETL pipelines and complex datasets\n\n - Proficiency in SQL and Python, with demonstrated experience in schema design, data modeling, and orchestration frameworks\n\n - Expertise in distributed data processing technologies such as Apache Spark, Kafka, and cloud-native storage (e.g., S3, ADLS)\n\n - Deep knowledge of enterprise data architecture, especially within Finance and Supply Chain\n\n - Familiarity with financial processes (close, allocations, revenue recognition) and supply chain data models (Supply and demand planning, procurement, vendor master), along with experience in ingesting data from internal engineering systems with large volumes of B2C\n\n - Experience integrating with contract manufacturers and external logistics providers is a strong plus\n\n - Strong track record of partnering with senior business stakeholders and translating complex requirements into scalable technical solutions\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$405K \u2013 $490K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$405K - $490K",
+      "compensationTiers": [
+        {
+          "id": "57f0bcf0-0379-41b9-9e19-09394f5779c4",
+          "tierSummary": "$405K \u2013 $490K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "b70741b6-9f82-4890-a2b7-7623b5b882c2",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "d3a9ab5a-b614-40d0-8a08-83e0dc7b4f7c",
+              "summary": "$405K \u2013 $490K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 405000,
+              "maxValue": 490000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 405000,
+          "maxValue": 490000
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-10-14T20:15:11.205867",
+    "last_seen": "2025-10-14T20:15:11.205867",
+    "days_since_listed": 0
+  },
+  {
+    "id": "802ff832-3248-46ef-b75f-a1fb8696997c",
+    "title": "Software Engineer, Enterprise AI Platform",
+    "department": "Applied AI",
+    "team": "Applied AI Engineering",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-10-07T23:52:45.216+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/802ff832-3248-46ef-b75f-a1fb8696997c",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/802ff832-3248-46ef-b75f-a1fb8696997c/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Platform Team at OpenAI owns the foundational data and processing stack powering the OpenAI API and products built on top of it. We innovate on the infrastructure needed to serve the latest models and agentic workflows at an unprecedented pace of growth and scale with high performance and reliability. Join us to build and operate the core platform that underpins OpenAI\u2019s products and allows our customers to deploy AI themselves.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">This role is centered on designing and deploying services and infrastructure that empower our models and agents to generate insights and execute tasks, all grounded in authorized data sources and internal systems. You\u2019ll help define the most effective data access patterns to unlock higher model accuracy and task performance. You will own the full lifecycle of your work\u2014from architecture and implementation to production operations and on-call responsibilities.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Success in this role requires a solid understanding of enterprise data management fundamentals, including security, identity and access, performance, and reliability.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build, and maintain infrastructure and networking systems that connect structured and unstructured data to LLMs in a performant and reliable manner.</p></li><li><p style=\"min-height:1.5em\">Design, build, and maintain secure and compliant systems to process sensitive and valuable data.</p></li><li><p style=\"min-height:1.5em\">Ensure our platform can support use cases at the scale of large enterprise customers, while remaining reliable and efficient.</p></li><li><p style=\"min-height:1.5em\">Integrate data access and authentication with our production model and agent systems.</p></li><li><p style=\"min-height:1.5em\">Collaborate with product, research and forward-deployed engineering teams to fill in the full picture on how to deploy production systems and achieve world-class results on overall task capabilities.</p></li><li><p style=\"min-height:1.5em\">Own the reliability of the systems you build, including participation in an on-call rotation for critical incidents</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have expertise in deploying, configuring, and operating software systems within customer-managed infrastructure and networks.</p></li><li><p style=\"min-height:1.5em\">Are excited to bring the power of AGI to the infrastructure the world runs on today</p></li><li><p style=\"min-height:1.5em\">Are comfortable with ambiguity and rapid change</p></li><li><p style=\"min-height:1.5em\">Have an intrinsic desire to learn and fill in missing skills, and an equally strong talent for sharing learnings clearly and concisely with others</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nThe Platform Team at OpenAI owns the foundational data and processing stack powering the OpenAI API and products built on top of it. We innovate on the infrastructure needed to serve the latest models and agentic workflows at an unprecedented pace of growth and scale with high performance and reliability. Join us to build and operate the core platform that underpins OpenAI\u2019s products and allows our customers to deploy AI themselves.\n\nAbout the Role\n\nThis role is centered on designing and deploying services and infrastructure that empower our models and agents to generate insights and execute tasks, all grounded in authorized data sources and internal systems. You\u2019ll help define the most effective data access patterns to unlock higher model accuracy and task performance. You will own the full lifecycle of your work\u2014from architecture and implementation to production operations and on-call responsibilities.\n\nSuccess in this role requires a solid understanding of enterprise data management fundamentals, including security, identity and access, performance, and reliability.\n\nIn this role, you will:\n\n - Design, build, and maintain infrastructure and networking systems that connect structured and unstructured data to LLMs in a performant and reliable manner.\n\n - Design, build, and maintain secure and compliant systems to process sensitive and valuable data.\n\n - Ensure our platform can support use cases at the scale of large enterprise customers, while remaining reliable and efficient.\n\n - Integrate data access and authentication with our production model and agent systems.\n\n - Collaborate with product, research and forward-deployed engineering teams to fill in the full picture on how to deploy production systems and achieve world-class results on overall task capabilities.\n\n - Own the reliability of the systems you build, including participation in an on-call rotation for critical incidents\n\nYou might thrive in this role if you:\n\n - Have expertise in deploying, configuring, and operating software systems within customer-managed infrastructure and networks.\n\n - Are excited to bring the power of AGI to the infrastructure the world runs on today\n\n - Are comfortable with ambiguity and rapid change\n\n - Have an intrinsic desire to learn and fill in missing skills, and an equally strong talent for sharing learnings clearly and concisely with others\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$255K - $405K",
+      "compensationTiers": [
+        {
+          "id": "7bc22ff3-5e33-4a78-b091-1f0e3c55cfa1",
+          "tierSummary": "$255K \u2013 $405K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "da99b2c1-d897-4151-b002-e0899a18d1e9",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "2cc584db-4c31-4cbf-94cf-f512294fd1de",
+              "summary": "$255K \u2013 $405K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 255000,
+              "maxValue": 405000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 255000,
+          "maxValue": 405000
+        }
+      ]
+    }
+  },
+  {
+    "id": "97d3670c-e75a-4bb2-a235-171765f5f10e",
+    "title": "Researcher Engineer/Scientist, Training",
+    "department": "Research",
+    "team": "Training",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-05-14T21:43:27.150+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI's Training team is responsible for producing the large language models that power our research, our products, and ultimately bring us closer to AGI. Achieving this goal requires combining deep research into improving our current architecture, datasets and optimization techniques, alongside long-term bets aimed at improving the efficiency and capability of future generations of models. We are responsible for integrating these techniques and producing model artifacts used by the rest of the company, and ensuring that these models are world-class in every respect. Recent examples of artifacts with major contributions from our team include GPT4-Turbo, GPT-4o and o1-mini.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As a member of the architecture team, you will push the frontier of architecture development for OpenAI's flagship models, enhancing intelligence, efficiency, and adding new capabilities.</p><p style=\"min-height:1.5em\">Ideal candidates have a deep understanding of LLM architectures, a sophisticated understanding of model inference, and a hands-on empirical approach. A good fit for this role will be equally happy coming up with a creative breakthrough, investing in strengthening a baseline, designing an eval, debugging a thorny regression, or tracking down a bottleneck.</p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, prototype and scale up new architectures to improve model intelligence</p></li><li><p style=\"min-height:1.5em\">Execute and analyze experiments autonomously and collaboratively</p></li><li><p style=\"min-height:1.5em\">Study, debug, and optimize both model performance and computational performance</p></li><li><p style=\"min-height:1.5em\">Contribute to training and inference infrastructure</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have experience landing contributions to major LLM training runs</p></li><li><p style=\"min-height:1.5em\">Can thoroughly evaluate and improve deep learning architectures in a self-directed fashion</p></li><li><p style=\"min-height:1.5em\">Are motivated by safely deploying LLMs in the real world</p></li><li><p style=\"min-height:1.5em\">Are well-versed in the state of the art transformer modifications for efficiency</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nOpenAI's Training team is responsible for producing the large language models that power our research, our products, and ultimately bring us closer to AGI. Achieving this goal requires combining deep research into improving our current architecture, datasets and optimization techniques, alongside long-term bets aimed at improving the efficiency and capability of future generations of models. We are responsible for integrating these techniques and producing model artifacts used by the rest of the company, and ensuring that these models are world-class in every respect. Recent examples of artifacts with major contributions from our team include GPT4-Turbo, GPT-4o and o1-mini.\n\nAbout the Role\n\nAs a member of the architecture team, you will push the frontier of architecture development for OpenAI's flagship models, enhancing intelligence, efficiency, and adding new capabilities.\n\nIdeal candidates have a deep understanding of LLM architectures, a sophisticated understanding of model inference, and a hands-on empirical approach. A good fit for this role will be equally happy coming up with a creative breakthrough, investing in strengthening a baseline, designing an eval, debugging a thorny regression, or tracking down a bottleneck.\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Design, prototype and scale up new architectures to improve model intelligence\n\n - Execute and analyze experiments autonomously and collaboratively\n\n - Study, debug, and optimize both model performance and computational performance\n\n - Contribute to training and inference infrastructure\n\nYou might thrive in this role if you:\n\n - Have experience landing contributions to major LLM training runs\n\n - Can thoroughly evaluate and improve deep learning architectures in a self-directed fashion\n\n - Are motivated by safely deploying LLMs in the real world\n\n - Are well-versed in the state of the art transformer modifications for efficiency\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$360K \u2013 $440K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$360K - $440K",
+      "compensationTiers": [
+        {
+          "id": "a1e339a2-48a3-4fec-b42f-019cd89fb53a",
+          "tierSummary": "$360K \u2013 $440K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "5862fe88-94bc-4954-ab8c-9cb20b568639",
+              "summary": "$360K \u2013 $440K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 360000,
+              "maxValue": 440000
+            },
+            {
+              "id": "4253e9e5-62a5-416a-b637-35276319b576",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 360000,
+          "maxValue": 440000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
