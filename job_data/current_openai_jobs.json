@@ -22499,11 +22499,7 @@
           "maxValue": 260000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-11-01T20:12:56.152956",
-    "last_seen": "2025-11-01T20:12:56.152956",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c414f15f-60c4-40b5-a896-d2ad6c7f4415",
@@ -22732,10 +22728,6 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-11-01T20:12:56.152956",
-    "last_seen": "2025-11-01T20:12:56.152956",
-    "days_since_listed": 0
+    }
   }
 ]
