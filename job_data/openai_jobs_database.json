@@ -72,8 +72,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "c44268f1-717b-4da3-9943-2557f7d739f0",
@@ -148,8 +148,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "05b97884-bd1b-4868-938e-c8ed37af40ee",
@@ -224,8 +224,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3c68a3f1-7501-4f72-a6a5-84458e7b6704",
@@ -300,8 +300,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-17T20:15:00.295005",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 42
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "71e7252f-abb1-4b74-8e69-318413042357",
@@ -376,8 +376,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "68f7ef0f-97a4-47ce-ac0a-a442572ab7a7",
@@ -452,8 +452,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-19T20:14:09.538464",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 71
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 72
   },
   {
     "id": "88b55546-9b3f-4224-b91a-182d17510559",
@@ -528,8 +528,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "bd1c8680-acf0-45d7-ad66-f301ea72c10c",
@@ -604,8 +604,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3d064454-c0c3-4225-bc2c-6d8c0f8735b2",
@@ -680,8 +680,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-19T20:14:09.538464",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 71
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 72
   },
   {
     "id": "12342ebb-dcd4-45e2-b875-fc5447fdb7d8",
@@ -756,8 +756,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "228f501a-0199-473a-96f7-8de53cc04d2b",
@@ -832,8 +832,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "b7a2e30f-c5f6-4710-b53e-64d64bcce189",
@@ -908,8 +908,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-19T20:14:09.538464",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 71
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 72
   },
   {
     "id": "3c2d1178-777f-4613-a084-75a3d37cd1af",
@@ -984,84 +984,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
-  },
-  {
-    "id": "8709c513-f9e9-4838-b62d-31dea363bb6a",
-    "title": "US Benefits Manager",
-    "department": "People",
-    "team": "Total Rewards",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-11-14T17:11:23.503+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/8709c513-f9e9-4838-b62d-31dea363bb6a",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/8709c513-f9e9-4838-b62d-31dea363bb6a/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong><br />OpenAI\u2019s People team aims to hire, engage, and retain world-class talent who will safely build and deploy universally beneficial Artificial General Intelligence (AGI). The Benefits team is an important subset of the HR team and is responsible for creating and delivering best in class, innovative benefits, and experiences for a rapidly growing employee population, both in and out of the US.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong><br />We're looking to hire a US Benefits Manager to support the design and management of our US Benefits programs. This role will partner with our Global Head of Benefits to help OpenAI achieve its mission by improving the employee experience and maintaining operational rigor and excellence throughout our Benefits programs and processes. We\u2019re looking for an astute problem solver who excels in employee experience, data management, and communications. This role reports to our Global Head of Benefits.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Your Responsibilities:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Subject Matter Expertise:</strong> Serve as the primary escalation point for complex or sensitive benefits questions, ensuring timely, accurate, and empathetic resolutions. Maintain deep knowledge of plan design, regulations, vendor processes, and internal workflows.</p></li><li><p style=\"min-height:1.5em\"><strong>Cross-Functional Partnership:</strong> Collaborate closely with People Operations, Payroll, Finance, HR Systems, Legal, ER, Comms, and external vendors to ensure benefits programs are well-coordinated, compliant, and scalable. Clearly communicate requirements, surface risks early, and drive alignment across teams.</p></li><li><p style=\"min-height:1.5em\"><strong>Program Design &amp; Implementation:</strong> Partner with the Global Head of Benefits to design, implement, and optimize best-in-class benefits programs. Translate strategy into clear processes, documentation, and employee experiences across medical, retirement, time off, leave, wellness, and other offerings.</p></li><li><p style=\"min-height:1.5em\"><strong>Operational Excellence &amp; Data Integrity:</strong> Maintain high standards of accuracy in benefits data by conducting proactive audits, validating system inputs/outputs, and partnering with HR Systems to resolve issues. Ensure all programs meet regulatory requirements and internal controls.</p></li><li><p style=\"min-height:1.5em\"><strong>Process Improvement &amp; Ownership:</strong> Identify gaps, inefficiencies, or recurring issues in benefits operations and lead end-to-end solutions. Build sustainable workflows, templates, checklists, and documentation to reduce manual errors and improve overall program quality.</p></li><li><p style=\"min-height:1.5em\"><strong>Employee Communication:</strong> Develop and deliver clear, concise, and employee-friendly communications that explain plan changes, enrollment processes, compliance considerations, and how to navigate benefits. Partner with Comms to ensure consistent and well-timed messaging.</p></li><li><p style=\"min-height:1.5em\"><strong>Vendor Management:</strong> Manage day-to-day relationships with carriers, brokers, and service providers. Hold vendors accountable to service-level expectations, escalate issues appropriately, and ensure smooth annual cycles (open enrollment, renewals, filings, audits).</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>We're Seeking:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Technical Knowledge</strong>: In-depth understanding of benefits programs, laws, and industry best practices. Knowledge of US leaves and 401(k) required, along with Workday benefits administration and integrations.</p></li><li><p style=\"min-height:1.5em\"><strong>Communication and Presentation</strong>: Effective communication and presentation skills to explain and promote benefits to employees.</p></li><li><p style=\"min-height:1.5em\"><strong>Data Analysis and Reporting</strong>: Skills in data analysis and reporting to measure outcomes and costs.</p></li><li><p style=\"min-height:1.5em\"><strong>Project Management and Organization</strong>: Strong project management and organizational skills to plan and implement benefits initiatives.</p></li><li><p style=\"min-height:1.5em\"><strong>Leadership and Teamwork</strong>: Ability to collaborate effectively.</p></li><li><p style=\"min-height:1.5em\"><strong>Automation and streamlining</strong>: Finding ways to scale processes and ensure high data integrity as the company grows.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Workplace &amp; Location</strong></p><p style=\"min-height:1.5em\">This role is based in our San Francisco office and we offer relocation support to new employees, and we use a hybrid work model: three days in the office per week with optional work from home on Thursdays and Fridays.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Our open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\nOpenAI\u2019s People team aims to hire, engage, and retain world-class talent who will safely build and deploy universally beneficial Artificial General Intelligence (AGI). The Benefits team is an important subset of the HR team and is responsible for creating and delivering best in class, innovative benefits, and experiences for a rapidly growing employee population, both in and out of the US.\n\nAbout the Role\nWe're looking to hire a US Benefits Manager to support the design and management of our US Benefits programs. This role will partner with our Global Head of Benefits to help OpenAI achieve its mission by improving the employee experience and maintaining operational rigor and excellence throughout our Benefits programs and processes. We\u2019re looking for an astute problem solver who excels in employee experience, data management, and communications. This role reports to our Global Head of Benefits.\n\nYour Responsibilities:\n\n - Subject Matter Expertise: Serve as the primary escalation point for complex or sensitive benefits questions, ensuring timely, accurate, and empathetic resolutions. Maintain deep knowledge of plan design, regulations, vendor processes, and internal workflows.\n\n - Cross-Functional Partnership: Collaborate closely with People Operations, Payroll, Finance, HR Systems, Legal, ER, Comms, and external vendors to ensure benefits programs are well-coordinated, compliant, and scalable. Clearly communicate requirements, surface risks early, and drive alignment across teams.\n\n - Program Design & Implementation: Partner with the Global Head of Benefits to design, implement, and optimize best-in-class benefits programs. Translate strategy into clear processes, documentation, and employee experiences across medical, retirement, time off, leave, wellness, and other offerings.\n\n - Operational Excellence & Data Integrity: Maintain high standards of accuracy in benefits data by conducting proactive audits, validating system inputs/outputs, and partnering with HR Systems to resolve issues. Ensure all programs meet regulatory requirements and internal controls.\n\n - Process Improvement & Ownership: Identify gaps, inefficiencies, or recurring issues in benefits operations and lead end-to-end solutions. Build sustainable workflows, templates, checklists, and documentation to reduce manual errors and improve overall program quality.\n\n - Employee Communication: Develop and deliver clear, concise, and employee-friendly communications that explain plan changes, enrollment processes, compliance considerations, and how to navigate benefits. Partner with Comms to ensure consistent and well-timed messaging.\n\n - Vendor Management: Manage day-to-day relationships with carriers, brokers, and service providers. Hold vendors accountable to service-level expectations, escalate issues appropriately, and ensure smooth annual cycles (open enrollment, renewals, filings, audits).\n\nWe're Seeking:\n\n - Technical Knowledge: In-depth understanding of benefits programs, laws, and industry best practices. Knowledge of US leaves and 401(k) required, along with Workday benefits administration and integrations.\n\n - Communication and Presentation: Effective communication and presentation skills to explain and promote benefits to employees.\n\n - Data Analysis and Reporting: Skills in data analysis and reporting to measure outcomes and costs.\n\n - Project Management and Organization: Strong project management and organizational skills to plan and implement benefits initiatives.\n\n - Leadership and Teamwork: Ability to collaborate effectively.\n\n - Automation and streamlining: Finding ways to scale processes and ensure high data integrity as the company grows.\n\nWorkplace & Location\n\nThis role is based in our San Francisco office and we offer relocation support to new employees, and we use a hybrid work model: three days in the office per week with optional work from home on Thursdays and Fridays.\n\nOur open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$200K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$200K",
-      "compensationTiers": [
-        {
-          "id": "5faaf0a6-3a92-4950-b41b-c6f085e29c42",
-          "tierSummary": "$200K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "2f6927d9-b7dd-4e23-a721-1ca03ba1a8da",
-              "summary": "$200K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 200000,
-              "maxValue": 200000
-            },
-            {
-              "id": "c23acee6-dd12-4056-bd89-401325144598",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 200000,
-          "maxValue": 200000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-11-14T20:15:51.554039",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 14
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0f7665c6-6fbd-400b-84c1-f85372d4ee8c",
@@ -1136,8 +1060,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "da4a6959-0a9a-4090-ae12-e06e45fe2f28",
@@ -1212,8 +1136,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "a58add97-1968-4d5c-b504-ab62bea12df3",
@@ -1288,8 +1212,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "576c413a-ed95-49ff-a857-da6a03676277",
@@ -1364,8 +1288,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-10T20:16:18.135148",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 18
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "e602cd50-002d-4ace-bb30-19db0afcf635",
@@ -1440,8 +1364,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "dde3967e-9b80-4b5f-84f2-70bc491712d0",
@@ -1516,8 +1440,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "fc5bbc77-a30c-4e7a-9acc-8a2e748545b4",
@@ -1592,8 +1516,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "240d459b-696d-43eb-8497-fab3e56ecd9b",
@@ -1668,8 +1592,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "df2ae3d2-84f4-430e-bdcc-1db2b00c1b3a",
@@ -1728,8 +1652,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0c5d1302-0e77-4ff6-a2b3-c7d7bac31833",
@@ -1804,8 +1728,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "8a1b804f-b070-4c61-bd3d-cdf39ef9d935",
@@ -1864,8 +1788,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3beb61ab-5d94-47f8-8c7d-fff796708e11",
@@ -1940,8 +1864,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "d44c9f70-4aef-45a4-a36a-54fb65663ccb",
@@ -2016,8 +1940,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca",
@@ -2092,8 +2016,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "8ffe00f8-f3f5-4e63-b520-1dbb25a6c8c5",
@@ -2168,8 +2092,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "c2633ffe-d810-4651-9ad8-7a599e7db84c",
@@ -2244,8 +2168,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "2b5e8e15-7952-4170-a927-2ad68e318ed6",
@@ -2320,8 +2244,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "793964ae-d40b-45e3-9798-84f4b6da48c5",
@@ -2396,8 +2320,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "e1a1a6b0-10f9-4749-a48d-4c8c0407a5d9",
@@ -2472,8 +2396,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 56
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 57
   },
   {
     "id": "e253cfa4-bf03-44d5-b2cb-12a7ecc6f44a",
@@ -2548,8 +2472,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "e71cf565-4b21-4b0d-bf45-b22e58ca95eb",
@@ -2624,8 +2548,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "2b289684-9fab-4559-aac1-d7f00cb38c85",
@@ -2711,8 +2635,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "154756ce-294f-49d6-a362-80ff96c01a3f",
@@ -2787,8 +2711,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "83b6755d-7785-4186-9050-5ef3ad127941",
@@ -2863,8 +2787,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "90ff176a-1e3d-4075-a99a-85f32e3c6b50",
@@ -2939,8 +2863,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9a3883c3-5b2d-402f-aac0-f32810032072",
@@ -3015,8 +2939,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-15T20:15:47.002225",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 44
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 45
   },
   {
     "id": "a886ff48-b8a1-4e28-b468-296713a5ad78",
@@ -3091,8 +3015,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f4e8a433-ae96-44ac-a7f9-97070335395f",
@@ -3167,8 +3091,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "d8794980-1d3f-4d82-8b48-811449b6c492",
@@ -3243,8 +3167,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-29T20:17:04.305422",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 30
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "a90cdb7c-1c33-4fca-9a96-26c236006f14",
@@ -3336,8 +3260,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "7649205e-20dc-4bb4-9358-69474a851132",
@@ -3423,8 +3347,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "d7efc55b-2fde-4d3f-ae34-2e467f02a57c",
@@ -3499,8 +3423,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "c1316397-25bb-4add-9e9d-0e3ea8ba929a",
@@ -3586,8 +3510,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f763c6b3-5167-4a67-b691-4c3fa2c44156",
@@ -3662,8 +3586,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "57551641-208c-48d9-bfb8-9a298d7e7510",
@@ -3738,8 +3662,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3437015e-4008-4e18-ac44-32f3d45f6a14",
@@ -3814,8 +3738,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "8c5c9ac9-6e56-4f91-a49b-f980fb028331",
@@ -3890,8 +3814,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "273b4c99-273e-4a70-aff9-19c0d959dcef",
@@ -3950,8 +3874,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "39cd0dd8-520d-4932-80bf-7495a1d1d11b",
@@ -4026,8 +3950,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "b345393f-fbf9-4dbe-8cde-c36529511639",
@@ -4102,8 +4026,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-08T20:14:50.717307",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 52
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 53
   },
   {
     "id": "b4196174-9cc3-487d-9d21-848bc283b80f",
@@ -4178,8 +4102,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "fb15e668-3c43-4f85-b4c6-8a59b5e40c45",
@@ -4254,8 +4178,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "52c72cb9-7c44-4cba-b440-e05262a38491",
@@ -4330,8 +4254,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-13T20:16:06.636808",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 15
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 16
   },
   {
     "id": "7d562b4b-bfcf-4e82-a953-a0059e18f45b",
@@ -4406,8 +4330,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-17T20:14:10.587315",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 73
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 74
   },
   {
     "id": "fdfe9952-866c-4d48-805f-4cb79c457012",
@@ -4482,8 +4406,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-17T20:14:10.587315",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 73
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 74
   },
   {
     "id": "1d7f4747-54a3-4141-a39a-c6e7700e969b",
@@ -4558,8 +4482,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "1faee5e7-3b2f-4d8c-9a6f-ff0f2a4a42a7",
@@ -4634,8 +4558,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-08T20:14:50.717307",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 52
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 53
   },
   {
     "id": "0da75470-7e1e-44c3-90df-6f93cf90b968",
@@ -4710,8 +4634,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f386b209-1259-4b79-bf5a-aa97fc7ce77b",
@@ -4786,8 +4710,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "453c3e4e-f3a2-4893-b5ae-3bc6a6361691",
@@ -4873,8 +4797,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "0c22b805-3976-492e-81f2-7cf91f63a630",
@@ -4949,8 +4873,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "4e60d650-47a7-44fb-8031-02976c7ddc55",
@@ -5025,8 +4949,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9b79406c-89a8-49bd-8a38-e72db80996e9",
@@ -5101,8 +5025,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "26fa0f98-b834-4c1a-9a53-8a6e6bba6934",
@@ -5177,8 +5101,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "7809102e-e82a-4678-bf7c-221de8acc0d6",
@@ -5253,8 +5177,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "38ddaa2c-a490-427a-8457-0e92bf00138c",
@@ -5329,8 +5253,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3e254907-5101-438d-8708-f6f34e5c75ea",
@@ -5405,8 +5329,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3a415c1d-4f66-4578-8eb3-8b15ef0ab52b",
@@ -5481,8 +5405,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "bba18df5-f30f-4d2c-909c-30e651f95579",
@@ -5557,8 +5481,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "a43452f1-85a2-4121-91a2-3212a6833c18",
@@ -5633,8 +5557,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-25T20:14:52.947014",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "2c0ebd83-0b1d-4ec1-a28c-7dbbc05a7c1d",
@@ -5709,8 +5633,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-23T20:14:47.373907",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 67
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 68
   },
   {
     "id": "4d14449e-5e7f-45d4-b103-8776a6c87086",
@@ -5785,8 +5709,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "d169ecba-8366-485b-bc53-11a01d408b2d",
@@ -5861,8 +5785,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "e5a9cff2-e945-4733-86c1-63ae9c9ffa45",
@@ -5937,8 +5861,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "4ef8e8f4-a1ef-4d83-92cb-76463ec0a151",
@@ -6013,8 +5937,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-01T20:15:27.132299",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "2115c524-07dd-401c-8549-5598ce5cbc9c",
@@ -6089,8 +6013,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0ed88787-a794-4089-b022-e2d316a436bc",
@@ -6165,8 +6089,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "cc434f5b-dc0b-42fd-97ec-e0171545c6e9",
@@ -6241,8 +6165,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79,
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80,
     "closed_date": "2025-10-28T20:16:11.682256",
     "days_until_deletion": 3
   },
@@ -6319,8 +6243,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "621bb104-9daa-4c9e-949a-03d5730334e8",
@@ -6395,8 +6319,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-14T20:15:11.205867",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 45
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 46
   },
   {
     "id": "e9bea775-7eb6-438a-ab96-27d5f941e69d",
@@ -6471,8 +6395,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "fb159caf-5df4-4691-84a3-6eb97b471907",
@@ -6558,8 +6482,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-17T20:15:00.295005",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 42
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "bc40de6b-6dbc-49ce-9fc4-d9728baa1ec6",
@@ -6634,8 +6558,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "c18af18e-f71c-42ed-aa06-ed6c98ec16e3",
@@ -6710,8 +6634,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "49ae54dc-3d33-4107-8112-63fac1ee86ca",
@@ -6786,8 +6710,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f3b8b3bc-8b29-49d9-9a20-5e252c97afe3",
@@ -6862,8 +6786,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "1906c058-7610-4cf2-b5ed-ae7f4b6a16ca",
@@ -6938,8 +6862,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-20T20:15:35.638539",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 39
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 40
   },
   {
     "id": "f44a68f7-a8d1-4d4b-9d55-fd7cf31f7abf",
@@ -7014,8 +6938,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-20T20:12:48.861253",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 70
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 71
   },
   {
     "id": "f58cb1eb-9642-4a4d-a14d-d7a57d583a11",
@@ -7090,8 +7014,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "eb19d8b3-a2f2-400c-bd95-89842698233a",
@@ -7166,8 +7090,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-23T20:14:55.254312",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 36
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "5d856b70-b7b9-4f03-8a29-748b3d9dc61f",
@@ -7242,8 +7166,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-18T20:13:20.416670",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 42
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 43
   },
   {
     "id": "4ea3cf01-047a-430d-b9d8-5c8242a9752f",
@@ -7325,8 +7249,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "bb90601e-c355-4753-8fd1-1e1763c1bd66",
@@ -7401,8 +7325,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "64e5c02c-4a16-4019-9953-e23cf83c34c3",
@@ -7477,8 +7401,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "941bad28-7abe-43c7-b20a-2bc7e5b3c6e8",
@@ -7553,8 +7477,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "10980026-e468-4516-958c-7c697793d1d4",
@@ -7629,8 +7553,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3c67f712-697d-48d8-b05c-01be896e61da",
@@ -7705,8 +7629,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "cb5962c6-c077-4169-8191-27a9de75ed05",
@@ -7781,8 +7705,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-19T20:14:09.538464",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 71
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 72
   },
   {
     "id": "a2c9f105-b41a-41db-afd8-e70a54b3f21c",
@@ -7857,8 +7781,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-26T20:14:07.734208",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 64
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 65
   },
   {
     "id": "3bb3c9f8-78d1-4df5-b47e-235f8ed5cbf9",
@@ -7933,8 +7857,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-26T20:14:07.734208",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 64
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 65
   },
   {
     "id": "4ef5bf23-cf0e-4b97-a639-11f963c99b88",
@@ -8009,8 +7933,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "282d6a81-412a-4e3a-b588-851ff30ebb50",
@@ -8085,8 +8009,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "07153f7c-7e8b-4283-a879-cb07a224e083",
@@ -8161,8 +8085,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9e77e103-6b70-4b45-a344-d87c4a2d7e12",
@@ -8237,8 +8161,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "991948b7-0305-4125-bb9a-625f5bc24189",
@@ -8313,8 +8237,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3f7e0545-a6b4-4108-82ca-653d16262934",
@@ -8373,8 +8297,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-26T20:14:07.734208",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 64
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 65
   },
   {
     "id": "301fca01-2b84-403a-ae98-50e72024521e",
@@ -8449,8 +8373,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "4fb47557-86d2-47c3-9c6a-909aeb561329",
@@ -8550,8 +8474,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0867dab4-ed8e-46d5-92ce-a769ebda7c03",
@@ -8626,8 +8550,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "305a4b22-7ff9-4fa5-9229-c6a22c9aa64f",
@@ -8702,8 +8626,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "21bfde35-ffec-42d2-a2c6-8a03dad789d5",
@@ -8778,8 +8702,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "a20b7fc6-6f01-4618-ba35-37b40083f93e",
@@ -8854,8 +8778,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "70c63d7a-df6f-48f0-b529-f02221e3dc23",
@@ -8930,8 +8854,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "be0190ca-db81-4dc4-9f66-78b7553e8efc",
@@ -9013,8 +8937,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "6c6c1ace-12d6-48f0-88f0-488ff8521571",
@@ -9089,8 +9013,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-11T20:15:05.798261",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 17
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "ec80f21c-f83c-48eb-ac7f-0c4b3fc77c03",
@@ -9165,8 +9089,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "d4780eac-03ad-4dae-861f-99af22b4287e",
@@ -9250,8 +9174,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "bea9f284-8b4d-45c8-aec0-57c47c07ed5f",
@@ -9326,8 +9250,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "bddcfd68-68a1-4546-9090-ccf02fbe1395",
@@ -9402,8 +9326,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-07T20:14:20.841386",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 54
   },
   {
     "id": "44055a6b-4545-49aa-8a21-c0bc4cbfef18",
@@ -9478,8 +9402,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "6c746be3-32ec-4a5a-a462-5ca13dcab90e",
@@ -9554,8 +9478,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-07T20:14:20.841386",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 54
   },
   {
     "id": "ecf1abec-898c-4acb-a984-42858836a1ff",
@@ -9630,8 +9554,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "32e9c788-1a97-44ce-aeea-0dbdf1bda3a9",
@@ -9706,8 +9630,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "2560ed50-5535-42b8-b069-9ebc28ce7493",
@@ -9782,8 +9706,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9b11373c-1643-4ea6-bbcd-033d5b8a0d3e",
@@ -9858,8 +9782,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "bcbe08e3-9593-431d-bc99-37e35e035742",
@@ -9934,8 +9858,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "fbefd5d2-affe-47e1-9e87-d2b5de317b40",
@@ -10010,8 +9934,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0322d6d8-6588-4209-a304-83e768063a25",
@@ -10086,8 +10010,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "02aaa36c-971f-464e-b41c-0435bf762d43",
@@ -10162,8 +10086,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-30T20:14:28.895587",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 60
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 61
   },
   {
     "id": "efc51caf-24fb-4399-a6c8-b7e6966d846a",
@@ -10238,8 +10162,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "00207abc-49b7-465c-a219-f7c1140f8047",
@@ -10314,8 +10238,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-15T20:13:58.999522",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 14
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 15
   },
   {
     "id": "ae862edc-5a07-4d24-960d-1001ccedec3d",
@@ -10390,8 +10314,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "c8e10dd0-b5b0-47a0-83b2-8b77241dd233",
@@ -10466,8 +10390,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-29T20:17:04.305422",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 30
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "398a407e-a558-4488-a6b9-2e952b6e5124",
@@ -10542,8 +10466,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "c846de9c-ef4a-457d-a567-3aed8ff8389a",
@@ -10618,8 +10542,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "552396f4-dc83-43de-9230-6301e5f461bd",
@@ -10694,8 +10618,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "b2c5f3d7-5dfd-45f6-a4fa-fa372f5875a5",
@@ -10770,8 +10694,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-17T20:14:10.587315",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 73
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 74
   },
   {
     "id": "daa56a8d-dec3-4b4f-a3ed-62010bd4e537",
@@ -10853,8 +10777,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "633d5574-92e4-4327-9783-7ea831223dea",
@@ -10929,8 +10853,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca",
@@ -11005,8 +10929,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "472db8e3-37ee-4c62-be3e-a1266869694a",
@@ -11092,8 +11016,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-10T20:16:18.135148",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 18
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "9dbeccc7-da0d-4395-b032-3a1403420ac4",
@@ -11168,8 +11092,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-17T20:14:10.587315",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 73
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 74
   },
   {
     "id": "0daee135-d14b-46b7-8b1b-13337d91828d",
@@ -11244,8 +11168,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "8feaa669-a6a7-452a-b784-58379782ddd7",
@@ -11320,8 +11244,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "e5691162-4e45-4dc6-a6bf-64f60ebf1ac4",
@@ -11396,8 +11320,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "492897e2-a970-42e5-ae50-96746cd35a54",
@@ -11472,8 +11396,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "43174eb6-0ffe-4744-9323-c7969e7ea2e1",
@@ -11548,8 +11472,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "41d9d129-2e58-4ad3-be81-2e5096f4da4d",
@@ -11624,8 +11548,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "437bea2a-2aa8-4bcd-bf00-46a238809a9d",
@@ -11700,8 +11624,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-16T20:14:30.532953",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 74
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 75
   },
   {
     "id": "7e198d81-34e0-48b6-b64e-a501a75f9d53",
@@ -11776,8 +11700,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "0552edc8-2695-40c5-935b-7bf6863a910a",
@@ -11852,8 +11776,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "2f1c59a8-570b-4192-9b5b-422f1a632cb6",
@@ -11928,8 +11852,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "4b1d1c04-6436-49fe-9636-c632e96eb9a5",
@@ -12004,8 +11928,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "340c0c22-8d8f-4232-b17e-f642b64c25c3",
@@ -12080,8 +12004,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "7285ddb0-2912-4c79-a48f-1778070544ed",
@@ -12156,8 +12080,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "2d413a10-046b-456f-acff-921bfcea6ee2",
@@ -12232,8 +12156,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-29T20:17:04.305422",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 30
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "579e2994-ec43-4869-8ad1-8cda8088f74b",
@@ -12315,8 +12239,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f8baabb1-d66f-489e-9aa5-2d7da34ae1a7",
@@ -12398,8 +12322,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "f6c971e8-453f-4fd1-acc8-aa57e8bd4007",
@@ -12474,8 +12398,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-05T20:15:51.325259",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 23
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 24
   },
   {
     "id": "3bf46c1c-bf64-4355-a831-6a406f00a090",
@@ -12550,8 +12474,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "928f546c-4a7a-46e8-8e5b-b5a866180ee7",
@@ -12626,8 +12550,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "1f37ae5b-791a-4505-9575-183cc4bb9d5e",
@@ -12702,8 +12626,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79,
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80,
     "closed_date": "2025-10-20T20:15:35.638539",
     "days_until_deletion": 2
   },
@@ -12780,8 +12704,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "5431666c-530b-49c0-b67e-32477f9eaf5e",
@@ -12856,8 +12780,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "98a36c10-3497-4955-9cc0-a6f211e4dc1b",
@@ -12932,8 +12856,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "53af7bd6-8eb0-4328-88ba-ed9dd74bb22e",
@@ -13019,8 +12943,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-11T20:12:49.054759",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 49
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 50
   },
   {
     "id": "5f0c6579-0bfb-4a06-8a43-1dd371499e10",
@@ -13095,8 +13019,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9d11e1d8-af1d-413b-873f-d8fac2bdee99",
@@ -13171,8 +13095,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "7322d344-9325-4a92-8445-0a2c4e9272f8",
@@ -13247,8 +13171,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "6d35eca5-739a-49b3-beae-d3b62645d5f7",
@@ -13323,8 +13247,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "b9dee2a0-9bb3-447e-9bce-2b1bed784e5b",
@@ -13399,8 +13323,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "799c9532-6b73-4f34-b73e-34f40dd52583",
@@ -13475,8 +13399,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-15T20:14:11.354836",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 75
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 76
   },
   {
     "id": "f8255294-c4a1-4e42-924d-4f83c519e982",
@@ -13551,8 +13475,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-25T20:15:59.461097",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 3
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 4
   },
   {
     "id": "8e856e36-075e-40b4-b617-0229b5c1a308",
@@ -13627,8 +13551,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "f705c8d4-aa17-469f-80bf-23923a167ed2",
@@ -13703,8 +13627,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "c8eee8b3-19ba-44a7-a1d9-ced7f058d083",
@@ -13779,8 +13703,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "c4f93354-5f7c-4aff-bfdb-3b2bd9eef51b",
@@ -13855,8 +13779,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "6b47b641-39f4-41ed-944f-d1d6316398ac",
@@ -13931,8 +13855,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "9708b52d-909d-4a3c-a21e-f8043c3679ce",
@@ -14007,8 +13931,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "994bf78e-55ec-4c02-9326-6f90c08bcebe",
@@ -14083,8 +14007,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-30T20:14:28.895587",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 60
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 61
   },
   {
     "id": "898a87fb-4cb8-450e-9840-ee5dc710a57d",
@@ -14159,8 +14083,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-30T20:14:28.895587",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 60
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 61
   },
   {
     "id": "d0e21c22-c089-44f7-9acb-1e67c8925635",
@@ -14235,8 +14159,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "5b066a66-5a8b-4944-8fd0-c68c5c698d90",
@@ -14311,8 +14235,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "99121e6d-a542-4881-968f-4cd89d9f583c",
@@ -14387,8 +14311,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "638f2b84-7b8e-41e5-8a03-7bb83061d0f5",
@@ -14463,8 +14387,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-22T20:16:33.127984",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 37
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "7d692cd3-c6d5-4ab5-9d17-82d1c4549bd9",
@@ -14539,8 +14463,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "3b4ffc44-c818-4ff1-9d1e-d0acf46f1976",
@@ -14615,8 +14539,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-13T20:12:45.895588",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 77
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 78
   },
   {
     "id": "87e84ba5-4864-499d-b84d-184d8cd18119",
@@ -14691,8 +14615,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "88c648e1-4798-4ebd-99c4-29c57460a291",
@@ -14767,8 +14691,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-10T20:16:18.135148",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 18
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "8e146ecb-2bc4-406e-843d-b4b5a8dc09ef",
@@ -14843,8 +14767,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-18T20:14:33.065401",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 72
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 73
   },
   {
     "id": "504f12ff-95ce-4c5b-930d-cfd96ac88c80",
@@ -14919,8 +14843,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-23T20:14:47.373907",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 67
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 68
   },
   {
     "id": "26db60d9-c1c3-4012-a45f-fbefd414423f",
@@ -15004,8 +14928,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "2e66264d-992c-4ab9-bfbf-15b75f4285c0",
@@ -15080,8 +15004,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-18T20:14:33.065401",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 72
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 73
   },
   {
     "id": "debaf5f8-c166-4b35-81c1-5bda75124373",
@@ -15156,8 +15080,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "ba2ead69-d118-4a91-a4d7-c880d17fa7f9",
@@ -15232,8 +15156,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-16T20:14:30.532953",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 74
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 75
   },
   {
     "id": "72f67cce-7dc8-4e12-a475-9423f2666f0b",
@@ -15308,8 +15232,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-18T20:14:33.065401",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 72
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 73
   },
   {
     "id": "020b2aae-8be0-408c-ab49-20eefa8541af",
@@ -15384,8 +15308,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "58bb7512-2ac0-4608-ac5b-b28e39b11013",
@@ -15460,8 +15384,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-08T20:13:37.125913",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 21
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 22
   },
   {
     "id": "c28a901e-0712-4c5f-b97c-1cc0b483f829",
@@ -15536,8 +15460,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "1baab23c-30d3-438a-b5f9-e2d647afc187",
@@ -15612,8 +15536,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "ea5ae64d-6d5a-4a11-b064-fe44633212a0",
@@ -15688,8 +15612,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-23T20:14:47.373907",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 67
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 68
   },
   {
     "id": "ad2cf782-15a4-48c7-9133-1788e3f33bbb",
@@ -15764,8 +15688,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "932c9cc1-c542-4f67-8d0d-443de87b8213",
@@ -15840,8 +15764,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-05T20:15:51.325259",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 23
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 24
   },
   {
     "id": "361691c1-0a9c-4dc7-a7a0-4104556b7d12",
@@ -15916,8 +15840,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "71004494-9a55-4ed5-b458-2ff475f0d881",
@@ -15992,8 +15916,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "9747412d-a23d-48ba-bddd-ad1247c360f5",
@@ -16068,8 +15992,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "85fd3fda-63a2-40ea-b53a-4dd1b1722bc4",
@@ -16144,8 +16068,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-19T20:14:09.538464",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 71
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 72
   },
   {
     "id": "e6d5ca02-f30b-4ac5-a69d-c947efb430f9",
@@ -16220,8 +16144,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-23T20:14:47.373907",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 67
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 68
   },
   {
     "id": "d829b701-5ee2-414f-8596-ef94911a168a",
@@ -16296,8 +16220,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "770d5c3f-4e72-4b49-aec4-d444e8ad7a64",
@@ -16372,8 +16296,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "d7d1bd40-d9d5-466b-9d21-39b9b423db40",
@@ -16448,8 +16372,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-27T20:13:41.800565",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 63
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 64
   },
   {
     "id": "dd2025b9-4d18-4ad7-a78c-7a643419ecc5",
@@ -16524,8 +16448,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-02T20:14:20.950619",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 58
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 59
   },
   {
     "id": "782db0f6-a03d-4f9f-9eb2-191831b37939",
@@ -16600,8 +16524,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "ad487c63-e940-4f97-99d7-a9d590f29644",
@@ -16676,8 +16600,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "51d782f6-dd73-429b-9b09-c96b499645e0",
@@ -16752,8 +16676,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79,
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80,
     "closed_date": "2025-09-27T20:13:41.800565",
     "days_until_deletion": 5
   },
@@ -16847,8 +16771,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "d5b913b4-7058-4e53-9d5d-1bcab996c92e",
@@ -16940,8 +16864,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-24T20:15:23.123993",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 65
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 66
   },
   {
     "id": "f1567543-4de1-468e-9054-bc5fd21a55e2",
@@ -17016,8 +16940,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-30T20:14:28.895587",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 60
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 61
   },
   {
     "id": "da07ba71-81fd-47c7-adb1-2b2d1eaed325",
@@ -17092,8 +17016,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-14T20:15:51.554039",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 14
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 15
   },
   {
     "id": "6eb386ac-9056-4795-aa79-a27e105faf5c",
@@ -17168,8 +17092,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-17T20:15:00.295005",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 42
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "bbf3d1a9-9817-45fa-b5a1-ee3bdcb14ee1",
@@ -17244,8 +17168,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-03T20:13:59.937739",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 57
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 58
   },
   {
     "id": "f51f750f-a737-4441-8f96-30133a2a8049",
@@ -17370,8 +17294,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-07T20:14:20.841386",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 54
   },
   {
     "id": "7bb3bbd3-50fc-49a9-9b9c-43c1fa2ca05d",
@@ -17446,8 +17370,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-03T20:13:59.937739",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 57
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 58
   },
   {
     "id": "98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2",
@@ -17572,8 +17496,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-06T20:14:55.980565",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 55
   },
   {
     "id": "6131fc4f-bfc8-49f3-8223-773a55d15583",
@@ -17648,8 +17572,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 56
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 57
   },
   {
     "id": "14adce00-7414-40cf-bec2-3871c289a54d",
@@ -17724,8 +17648,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-06T20:14:55.980565",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 55
   },
   {
     "id": "9c387387-da22-4b39-a018-db45498d95e3",
@@ -17800,8 +17724,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-17T20:15:00.295005",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 42
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "41613650-5896-4e6c-8a3b-2313cc5e6218",
@@ -17876,8 +17800,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "71acba5c-dbae-406f-b983-f40943c43068",
@@ -17952,8 +17876,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "9696cdce-d6ce-4793-b644-6ed967510940",
@@ -18028,8 +17952,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-07T20:14:20.841386",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 54
   },
   {
     "id": "4e0b8bf7-a1c1-47ef-b095-909ac012f86e",
@@ -18115,8 +18039,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-23T20:14:47.373907",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 67
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 68
   },
   {
     "id": "93d9be71-6502-4e48-94c2-1c17724e2bc7",
@@ -18191,8 +18115,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "227dd1fb-d01d-462b-9e1a-4185e902860d",
@@ -18267,8 +18191,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-20T20:16:26.879459",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 8
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 9
   },
   {
     "id": "b3394315-e8da-4f54-9926-dfe32a1e4913",
@@ -18343,8 +18267,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "8fc7124f-6338-4ff5-93ec-c6050a31cb93",
@@ -18419,8 +18343,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-09T20:14:58.233989",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 50
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 52
   },
   {
     "id": "18021d39-fb98-44a8-bd75-12c1a9bf0774",
@@ -18495,8 +18419,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-08T20:14:50.717307",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 52
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 53
   },
   {
     "id": "c3391b6b-2305-4b03-880f-57bc52217420",
@@ -18571,8 +18495,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-07T20:14:20.841386",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 53
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 54
   },
   {
     "id": "2d7b5a65-fd38-42bc-9fd8-f593bc576034",
@@ -18672,8 +18596,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-24T20:16:31.241577",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 4
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 5
   },
   {
     "id": "71655236-0303-42aa-9135-b2f27f2457ab",
@@ -18748,8 +18672,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "59761b88-8b28-41bf-949d-0e1dd35884b8",
@@ -18824,8 +18748,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-23T20:14:55.254312",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 36
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "529feb11-4b9b-4baf-9b3f-f2b100156c5a",
@@ -18929,8 +18853,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-08T20:14:50.717307",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 52
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 53
   },
   {
     "id": "4adb7fb8-2272-45c5-97a3-4de6be7f665e",
@@ -19005,8 +18929,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-15T20:15:47.002225",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 44
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 45
   },
   {
     "id": "d5be9447-444c-47ee-8e98-3c0caf2051f5",
@@ -19090,8 +19014,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "cf844a38-e3a4-4956-9f93-109c552b4545",
@@ -19166,8 +19090,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-11T20:12:49.054759",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 49
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 50
   },
   {
     "id": "eda4a2d1-682f-418e-8055-222eaf7c9abd",
@@ -19242,8 +19166,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-20T20:16:26.879459",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 8
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 9
   },
   {
     "id": "9f69106f-c2c9-4f14-9938-f38eb42cab50",
@@ -19318,8 +19242,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "334c688a-61b9-42c6-88a2-41de67b26938",
@@ -19419,8 +19343,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-24T20:16:31.241577",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 4
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 5
   },
   {
     "id": "e84e7b7e-a82e-411e-929a-615dc3080280",
@@ -19495,8 +19419,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-14T20:15:11.205867",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 45
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 46
   },
   {
     "id": "802ff832-3248-46ef-b75f-a1fb8696997c",
@@ -19571,8 +19495,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-08T20:14:50.717307",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 52
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 53
   },
   {
     "id": "bb55b1d1-c47a-4367-934c-097a2109a880",
@@ -19647,8 +19571,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-29T20:17:04.305422",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 30
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "ef88aaa6-f7e1-4afe-ab69-a13f2aa94eae",
@@ -19723,8 +19647,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "336f3864-ccbf-44eb-bfc9-8090432a8e6f",
@@ -19799,8 +19723,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-15T20:15:47.002225",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 44
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 45
   },
   {
     "id": "97d3670c-e75a-4bb2-a235-171765f5f10e",
@@ -19875,8 +19799,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "548fb239-b14d-4ab6-af38-05a84ac0914e",
@@ -19951,8 +19875,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-15T20:15:47.002225",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 44
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 45
   },
   {
     "id": "86de53a1-6699-42c3-8abc-4d6381496adc",
@@ -20048,8 +19972,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-20T20:15:35.638539",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 39
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 40
   },
   {
     "id": "c9acc73a-b118-4802-bb51-87f3d57df883",
@@ -20124,8 +20048,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-15T20:15:47.002225",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 44
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 45
   },
   {
     "id": "1c00f5bb-151e-4a49-af4b-56b68f0d580d",
@@ -20200,8 +20124,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "f79d25cb-585c-4b58-b81d-bbc66ca97de2",
@@ -20276,8 +20200,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "9e3b5fda-e2c0-4da5-b0ef-b356a75f2d3c",
@@ -20363,8 +20287,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-20T20:15:35.638539",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 39
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 40
   },
   {
     "id": "885bb7a6-5228-469d-bd22-a5d581e71074",
@@ -20439,8 +20363,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-16T20:15:21.560790",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 43
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 44
   },
   {
     "id": "bb97fffc-cdda-43a3-a6bc-234f9c031720",
@@ -20601,8 +20525,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-28T20:16:11.682256",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 31
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 32
   },
   {
     "id": "ad59cd02-0965-420f-8a42-37b6f8952c79",
@@ -20677,8 +20601,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-21T20:15:43.782572",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 38
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 39
   },
   {
     "id": "0981e580-8e64-4b41-b130-d148412f6433",
@@ -20753,8 +20677,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-22T20:16:33.127984",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 37
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "32b29357-3027-4892-9e7c-ec4e88301836",
@@ -20829,8 +20753,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-24T20:15:07.761255",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 35
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 37
   },
   {
     "id": "c2477792-a6e1-4aef-aaea-998c9d4e5041",
@@ -20905,8 +20829,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-21T20:15:43.782572",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 38
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 39
   },
   {
     "id": "f123bbe4-7f19-46c8-a6ab-4a5d7b714988",
@@ -20981,8 +20905,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-28T20:16:11.682256",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 31
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 32
   },
   {
     "id": "3a368969-a1c9-49a1-aec5-98c9b12b0637",
@@ -21057,8 +20981,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-24T20:15:07.761255",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 35
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 37
   },
   {
     "id": "570e1f6e-dd19-453e-af36-7ba2b8c470cf",
@@ -21133,8 +21057,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-28T20:16:11.682256",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 31
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 32
   },
   {
     "id": "dd418f6d-7212-491c-944c-aeac9dc066ec",
@@ -21220,8 +21144,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-04T20:15:47.856772",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 24
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 25
   },
   {
     "id": "a125e02a-7afe-422a-bf8c-bcc96e29e723",
@@ -21296,8 +21220,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-22T20:16:33.127984",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 37
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "5a9e36ba-64bc-4a60-aca5-263c0f3a6e4d",
@@ -21372,8 +21296,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-22T20:16:33.127984",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 37
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 38
   },
   {
     "id": "e265f225-0cdb-496c-b0fb-0424ca17be97",
@@ -21455,8 +21379,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-24T20:15:07.761255",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 35
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 37
   },
   {
     "id": "3e9db776-7291-42a6-92cf-9b0120331955",
@@ -21531,8 +21455,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-11T20:15:05.798261",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 17
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "23b158fe-709e-4bf5-856c-d10953d32f60",
@@ -21614,8 +21538,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-13T20:16:06.636808",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 15
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 16
   },
   {
     "id": "76bc65e6-4832-46fe-8bf4-e66b9eff26c3",
@@ -21690,8 +21614,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-28T20:16:11.682256",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 31
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 32
   },
   {
     "id": "67179e53-3ec3-49d9-9a51-5e776fcde4ff",
@@ -21766,8 +21690,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-31T20:15:27.681696",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "eb54b316-26fb-498f-a68c-9990ff9c402c",
@@ -21842,8 +21766,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "550022bd-5401-4468-be52-000761af2a45",
@@ -21918,8 +21842,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-03T20:15:44.181270",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 25
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 26
   },
   {
     "id": "6ae782c6-11d6-4b42-a082-3c5785b21adc",
@@ -21994,8 +21918,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-13T20:16:06.636808",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 15
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 16
   },
   {
     "id": "c4f29f69-6f99-4094-aa1b-84429e34bd71",
@@ -22070,8 +21994,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "1154ce81-471b-4a42-a45a-58f333fca3ec",
@@ -22146,8 +22070,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-01T20:12:56.152956",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "c414f15f-60c4-40b5-a896-d2ad6c7f4415",
@@ -22298,8 +22222,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-30T20:15:05.705826",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 29
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "778e3a4f-c318-4a79-a745-00e722e5ee47",
@@ -22383,8 +22307,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-01T20:12:56.152956",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 28
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 29
   },
   {
     "id": "05765794-82b7-4113-8b80-de6b8ed6f671",
@@ -22459,8 +22383,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-05T20:15:51.325259",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 23
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 24
   },
   {
     "id": "09aaae12-fd45-45fa-a8ef-70cb6e733faf",
@@ -22535,8 +22459,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-06T20:15:25.295284",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 22
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 23
   },
   {
     "id": "d870e9dd-e83d-491c-b047-9f9dd2a1dee2",
@@ -22611,8 +22535,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-06T20:15:25.295284",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 22
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 23
   },
   {
     "id": "1a979fd4-1bce-484e-a416-aed2810677a6",
@@ -22687,8 +22611,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-09-11T03:30:11.247127",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 79
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 80
   },
   {
     "id": "3d5ba8b8-7c00-40e0-87a7-2faa7b39043e",
@@ -22774,8 +22698,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-11T20:15:05.798261",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 17
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "ca7e4019-bf93-42fd-8f15-fac59c6e237c",
@@ -22850,8 +22774,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-21T20:16:06.932321",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "8f8e3b0d-7f16-4ace-91e7-c89319f17fc8",
@@ -22977,8 +22901,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-10-29T20:17:04.305422",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 30
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 31
   },
   {
     "id": "539d9268-f388-44d5-a297-48482a020b73",
@@ -23053,8 +22977,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-10T20:16:18.135148",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 18
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "24eec9b9-a91d-4e3b-9691-77f2edda4674",
@@ -23129,8 +23053,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-11T20:15:05.798261",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 17
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "4f99b101-ad23-440d-92a6-ad6c83c4a7d1",
@@ -23205,8 +23129,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-08T20:13:37.125913",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 21
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 22
   },
   {
     "id": "65351f08-b25f-49b9-a9c1-d10a6e38f9f4",
@@ -23281,8 +23205,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-24T20:16:31.241577",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 4
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 5
   },
   {
     "id": "2101b029-87db-4041-8041-01369a18b744",
@@ -23357,8 +23281,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-07T20:14:21.615914",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 22
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 23
   },
   {
     "id": "8427b270-8440-400c-bc18-ff24c4f0f987",
@@ -23433,8 +23357,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-18T20:17:04.363004",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "b1f8c55e-928b-4a3a-a54a-a23e87ccf387",
@@ -23509,8 +23433,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-07T20:14:21.615914",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 22
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 23
   },
   {
     "id": "146861d1-8905-4e7f-abf8-6d5c4aafbc1f",
@@ -23585,8 +23509,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-11T20:15:05.798261",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 17
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 19
   },
   {
     "id": "c59e48ef-37c0-414b-aef7-f52c5f05cde8",
@@ -23661,8 +23585,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-21T20:16:06.932321",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "cf57dfef-73e8-4300-996a-f233e22691bd",
@@ -23737,8 +23661,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-22T20:14:31.864568",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "62762da5-4d32-4851-8568-489d3bf14e31",
@@ -23813,8 +23737,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "225bc20d-8c6b-4ad1-9ec3-b50929531b67",
@@ -23889,8 +23813,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-20T20:16:26.879459",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 8
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 9
   },
   {
     "id": "466f58eb-c43b-4642-85f1-febcc7fcfcc6",
@@ -23965,8 +23889,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-14T20:15:51.554039",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 14
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 15
   },
   {
     "id": "2fd1e38c-b7e2-41ec-bbf0-2ec1d6393586",
@@ -24041,8 +23965,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-12T20:16:00.215592",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 16
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 17
   },
   {
     "id": "2d8d9b1d-8135-4166-8bff-3cb9258c636c",
@@ -24117,8 +24041,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "7cfd87f2-5437-407c-9d36-f39f7ba71ca7",
@@ -24193,8 +24117,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-17T20:15:55.702597",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 11
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 12
   },
   {
     "id": "172a1bea-9cfc-41de-80d0-c6fe31e17cd1",
@@ -24269,8 +24193,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-15T20:13:58.999522",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 14
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 15
   },
   {
     "id": "f735a48e-c3c2-4387-abf7-7b39452e1ec5",
@@ -24345,8 +24269,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-26T20:15:40.701862",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 2
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 3
   },
   {
     "id": "b5b3f2ea-1ae9-4620-aadd-eb7a66174739",
@@ -24421,8 +24345,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-21T20:16:06.932321",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "31b998a9-f62a-439e-89e4-b51aea6311f7",
@@ -24497,8 +24421,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-20T20:16:26.879459",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 8
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 9
   },
   {
     "id": "77237e43-b3b6-4687-84c8-6804981affae",
@@ -24573,8 +24497,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-26T20:15:40.701862",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 2
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 3
   },
   {
     "id": "582b878e-61bf-4be2-8b30-623434baf726",
@@ -24649,8 +24573,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-07T20:14:21.615914",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 22
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 23
   },
   {
     "id": "a10e13f7-1863-49e7-b7ab-0a9b430aa639",
@@ -24725,8 +24649,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-26T20:15:40.701862",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 2
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 3
   },
   {
     "id": "112c7777-5a35-4701-a681-2e3c1d149bde",
@@ -24801,8 +24725,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-22T20:14:31.864568",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "f84dbb5c-6008-40f1-b388-1434d159d4a4",
@@ -24953,8 +24877,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "519e9c40-9ab3-46d1-a1f5-fe703645682a",
@@ -25029,8 +24953,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "ab5cee1d-8807-4a8f-9f58-1855a04003b7",
@@ -25105,8 +25029,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-19T20:13:56.235419",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 10
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 11
   },
   {
     "id": "8ec4cda9-b98e-489b-add5-ebbba53be0aa",
@@ -25181,8 +25105,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-21T20:16:06.932321",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 7
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 8
   },
   {
     "id": "b6be84e0-02ed-4957-9a5b-6feb460d5751",
@@ -25257,8 +25181,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-25T20:15:59.461097",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 3
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 4
   },
   {
     "id": "f98ebb87-c1a9-45fc-bc29-0fdc741bd38f",
@@ -25333,8 +25257,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-25T20:15:59.461097",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 3
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 4
   },
   {
     "id": "ae2b93cc-8f6b-4995-9f0e-70e0d1c4d7d1",
@@ -25409,8 +25333,8 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-26T20:15:40.701862",
-    "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 2
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 3
   },
   {
     "id": "e44f4996-302f-48ba-a265-c371064da18c",
@@ -25485,8 +25409,86 @@
     },
     "status": "ACTIVE",
     "first_seen": "2025-11-25T20:15:59.461097",
+    "last_seen": "2025-11-30T20:15:08.381608",
+    "days_since_listed": 4
+  },
+  {
+    "id": "8709c513-f9e9-4838-b62d-31dea363bb6a",
+    "title": "US Benefits Manager",
+    "department": "People",
+    "team": "Total Rewards",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-11-14T17:11:23.503+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/8709c513-f9e9-4838-b62d-31dea363bb6a",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/8709c513-f9e9-4838-b62d-31dea363bb6a/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong><br />OpenAI\u2019s People team aims to hire, engage, and retain world-class talent who will safely build and deploy universally beneficial Artificial General Intelligence (AGI). The Benefits team is an important subset of the HR team and is responsible for creating and delivering best in class, innovative benefits, and experiences for a rapidly growing employee population, both in and out of the US.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong><br />We're looking to hire a US Benefits Manager to support the design and management of our US Benefits programs. This role will partner with our Global Head of Benefits to help OpenAI achieve its mission by improving the employee experience and maintaining operational rigor and excellence throughout our Benefits programs and processes. We\u2019re looking for an astute problem solver who excels in employee experience, data management, and communications. This role reports to our Global Head of Benefits.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Your Responsibilities:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Subject Matter Expertise:</strong> Serve as the primary escalation point for complex or sensitive benefits questions, ensuring timely, accurate, and empathetic resolutions. Maintain deep knowledge of plan design, regulations, vendor processes, and internal workflows.</p></li><li><p style=\"min-height:1.5em\"><strong>Cross-Functional Partnership:</strong> Collaborate closely with People Operations, Payroll, Finance, HR Systems, Legal, ER, Comms, and external vendors to ensure benefits programs are well-coordinated, compliant, and scalable. Clearly communicate requirements, surface risks early, and drive alignment across teams.</p></li><li><p style=\"min-height:1.5em\"><strong>Program Design &amp; Implementation:</strong> Partner with the Global Head of Benefits to design, implement, and optimize best-in-class benefits programs. Translate strategy into clear processes, documentation, and employee experiences across medical, retirement, time off, leave, wellness, and other offerings.</p></li><li><p style=\"min-height:1.5em\"><strong>Operational Excellence &amp; Data Integrity:</strong> Maintain high standards of accuracy in benefits data by conducting proactive audits, validating system inputs/outputs, and partnering with HR Systems to resolve issues. Ensure all programs meet regulatory requirements and internal controls.</p></li><li><p style=\"min-height:1.5em\"><strong>Process Improvement &amp; Ownership:</strong> Identify gaps, inefficiencies, or recurring issues in benefits operations and lead end-to-end solutions. Build sustainable workflows, templates, checklists, and documentation to reduce manual errors and improve overall program quality.</p></li><li><p style=\"min-height:1.5em\"><strong>Employee Communication:</strong> Develop and deliver clear, concise, and employee-friendly communications that explain plan changes, enrollment processes, compliance considerations, and how to navigate benefits. Partner with Comms to ensure consistent and well-timed messaging.</p></li><li><p style=\"min-height:1.5em\"><strong>Vendor Management:</strong> Manage day-to-day relationships with carriers, brokers, and service providers. Hold vendors accountable to service-level expectations, escalate issues appropriately, and ensure smooth annual cycles (open enrollment, renewals, filings, audits).</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>We're Seeking:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Technical Knowledge</strong>: In-depth understanding of benefits programs, laws, and industry best practices. Knowledge of US leaves and 401(k) required, along with Workday benefits administration and integrations.</p></li><li><p style=\"min-height:1.5em\"><strong>Communication and Presentation</strong>: Effective communication and presentation skills to explain and promote benefits to employees.</p></li><li><p style=\"min-height:1.5em\"><strong>Data Analysis and Reporting</strong>: Skills in data analysis and reporting to measure outcomes and costs.</p></li><li><p style=\"min-height:1.5em\"><strong>Project Management and Organization</strong>: Strong project management and organizational skills to plan and implement benefits initiatives.</p></li><li><p style=\"min-height:1.5em\"><strong>Leadership and Teamwork</strong>: Ability to collaborate effectively.</p></li><li><p style=\"min-height:1.5em\"><strong>Automation and streamlining</strong>: Finding ways to scale processes and ensure high data integrity as the company grows.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Workplace &amp; Location</strong></p><p style=\"min-height:1.5em\">This role is based in our San Francisco office and we offer relocation support to new employees, and we use a hybrid work model: three days in the office per week with optional work from home on Thursdays and Fridays.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Our open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\nOpenAI\u2019s People team aims to hire, engage, and retain world-class talent who will safely build and deploy universally beneficial Artificial General Intelligence (AGI). The Benefits team is an important subset of the HR team and is responsible for creating and delivering best in class, innovative benefits, and experiences for a rapidly growing employee population, both in and out of the US.\n\nAbout the Role\nWe're looking to hire a US Benefits Manager to support the design and management of our US Benefits programs. This role will partner with our Global Head of Benefits to help OpenAI achieve its mission by improving the employee experience and maintaining operational rigor and excellence throughout our Benefits programs and processes. We\u2019re looking for an astute problem solver who excels in employee experience, data management, and communications. This role reports to our Global Head of Benefits.\n\nYour Responsibilities:\n\n - Subject Matter Expertise: Serve as the primary escalation point for complex or sensitive benefits questions, ensuring timely, accurate, and empathetic resolutions. Maintain deep knowledge of plan design, regulations, vendor processes, and internal workflows.\n\n - Cross-Functional Partnership: Collaborate closely with People Operations, Payroll, Finance, HR Systems, Legal, ER, Comms, and external vendors to ensure benefits programs are well-coordinated, compliant, and scalable. Clearly communicate requirements, surface risks early, and drive alignment across teams.\n\n - Program Design & Implementation: Partner with the Global Head of Benefits to design, implement, and optimize best-in-class benefits programs. Translate strategy into clear processes, documentation, and employee experiences across medical, retirement, time off, leave, wellness, and other offerings.\n\n - Operational Excellence & Data Integrity: Maintain high standards of accuracy in benefits data by conducting proactive audits, validating system inputs/outputs, and partnering with HR Systems to resolve issues. Ensure all programs meet regulatory requirements and internal controls.\n\n - Process Improvement & Ownership: Identify gaps, inefficiencies, or recurring issues in benefits operations and lead end-to-end solutions. Build sustainable workflows, templates, checklists, and documentation to reduce manual errors and improve overall program quality.\n\n - Employee Communication: Develop and deliver clear, concise, and employee-friendly communications that explain plan changes, enrollment processes, compliance considerations, and how to navigate benefits. Partner with Comms to ensure consistent and well-timed messaging.\n\n - Vendor Management: Manage day-to-day relationships with carriers, brokers, and service providers. Hold vendors accountable to service-level expectations, escalate issues appropriately, and ensure smooth annual cycles (open enrollment, renewals, filings, audits).\n\nWe're Seeking:\n\n - Technical Knowledge: In-depth understanding of benefits programs, laws, and industry best practices. Knowledge of US leaves and 401(k) required, along with Workday benefits administration and integrations.\n\n - Communication and Presentation: Effective communication and presentation skills to explain and promote benefits to employees.\n\n - Data Analysis and Reporting: Skills in data analysis and reporting to measure outcomes and costs.\n\n - Project Management and Organization: Strong project management and organizational skills to plan and implement benefits initiatives.\n\n - Leadership and Teamwork: Ability to collaborate effectively.\n\n - Automation and streamlining: Finding ways to scale processes and ensure high data integrity as the company grows.\n\nWorkplace & Location\n\nThis role is based in our San Francisco office and we offer relocation support to new employees, and we use a hybrid work model: three days in the office per week with optional work from home on Thursdays and Fridays.\n\nOur open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$200K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$200K",
+      "compensationTiers": [
+        {
+          "id": "5faaf0a6-3a92-4950-b41b-c6f085e29c42",
+          "tierSummary": "$200K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "2f6927d9-b7dd-4e23-a721-1ca03ba1a8da",
+              "summary": "$200K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 200000,
+              "maxValue": 200000
+            },
+            {
+              "id": "c23acee6-dd12-4056-bd89-401325144598",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 200000,
+          "maxValue": 200000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "CLOSED",
+    "first_seen": "2025-11-14T20:15:51.554039",
     "last_seen": "2025-11-29T20:14:54.857475",
-    "days_since_listed": 3
+    "days_since_listed": 15,
+    "closed_date": "2025-11-30T20:15:08.381608",
+    "days_until_deletion": 5
   },
   {
     "id": "40ae1e2e-370f-4c2d-a0ec-07924f39a4a7",
@@ -25564,7 +25566,7 @@
     "last_seen": "2025-11-27T20:13:27.027564",
     "days_since_listed": 78,
     "closed_date": "2025-11-28T20:15:09.752230",
-    "days_until_deletion": 5
+    "days_until_deletion": 4
   },
   {
     "id": "5686ed34-806e-4d9f-a24b-273c5be2f3c3",
@@ -25642,7 +25644,7 @@
     "last_seen": "2025-11-25T20:15:59.461097",
     "days_since_listed": 18,
     "closed_date": "2025-11-26T20:15:40.701862",
-    "days_until_deletion": 3
+    "days_until_deletion": 2
   },
   {
     "id": "da295e37-2793-4499-baf7-fe25aa2c8eaf",
@@ -25720,7 +25722,7 @@
     "last_seen": "2025-11-25T20:15:59.461097",
     "days_since_listed": 48,
     "closed_date": "2025-11-26T20:15:40.701862",
-    "days_until_deletion": 3
+    "days_until_deletion": 2
   },
   {
     "id": "a4f08145-4faa-4c7a-8147-1926da59c2a7",
@@ -25798,7 +25800,7 @@
     "last_seen": "2025-11-25T20:15:59.461097",
     "days_since_listed": 18,
     "closed_date": "2025-11-26T20:15:40.701862",
-    "days_until_deletion": 3
+    "days_until_deletion": 2
   },
   {
     "id": "f956b77c-3cc5-4fdd-9463-2a6e5047e57c",
@@ -25893,7 +25895,7 @@
     "last_seen": "2025-11-24T20:16:31.241577",
     "days_since_listed": 75,
     "closed_date": "2025-11-25T20:15:59.461097",
-    "days_until_deletion": 2
+    "days_until_deletion": 1
   },
   {
     "id": "7b3b91a6-05ab-4e2b-8475-b2378efeab27",
@@ -25971,7 +25973,7 @@
     "last_seen": "2025-11-24T20:16:31.241577",
     "days_since_listed": 75,
     "closed_date": "2025-11-25T20:15:59.461097",
-    "days_until_deletion": 2
+    "days_until_deletion": 1
   },
   {
     "id": "7ad1a978-e848-4284-aa21-d8a2a6d5ba0c",
@@ -26049,7 +26051,7 @@
     "last_seen": "2025-11-24T20:16:31.241577",
     "days_since_listed": 75,
     "closed_date": "2025-11-25T20:15:59.461097",
-    "days_until_deletion": 2
+    "days_until_deletion": 1
   },
   {
     "id": "ad5ad0ab-c35b-410a-ae86-684a49c856c0",
@@ -26127,84 +26129,6 @@
     "last_seen": "2025-11-24T20:16:31.241577",
     "days_since_listed": 48,
     "closed_date": "2025-11-25T20:15:59.461097",
-    "days_until_deletion": 2
-  },
-  {
-    "id": "bb7f3bb7-06d7-4902-bda4-dc81592095da",
-    "title": "Financial Systems Integrations Engineer",
-    "department": "Finance",
-    "team": "Finance",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2025-10-08T21:44:10.734+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/bb7f3bb7-06d7-4902-bda4-dc81592095da",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/bb7f3bb7-06d7-4902-bda4-dc81592095da/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Finance Platform &amp; Technology team at OpenAI builds and scales the future-proof systems and data architecture that power our core financial operations. We enable business agility, compliance, and operational excellence across order-to-cash, procure-to-pay, supply chain, and asset management for both B2B and B2C. Our focus is on modernizing workflows through strategic integrations, scalable automation, and seamless data flows\u2014empowering smarter decisions, reliable reporting, and sustainable growth as OpenAI evolves.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As a Financial Systems Integrations Engineer, you\u2019ll design, build, and optimize the integrations that connect OpenAI\u2019s finance technology ecosystem. You\u2019ll translate business needs into resilient, well-architected data flows and automations across a diverse set of internal and external systems. You\u2019ll partner closely with Finance, IT, and other cross-functional teams to understand end user requirements and translate needs into solutions that are scalable, secure, and maintainable by applying sound engineering practices. You\u2019ll use your knowledge of API design, data modeling, event-driven architecture, and integration best practices to deliver cutting-edge solutions to our partner teams.</p><p style=\"min-height:1.5em\">This role combines hands-on technical execution with strategic impact, driving reliable, scalable, and compliant integrations that support OpenAI\u2019s growth and financial operations.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement robust automations and integrations that connect financial systems and data sources, using modern integration frameworks, APIs, and event-driven patterns.</p></li><li><p style=\"min-height:1.5em\">Translate business workflows into technical solutions that ensure accuracy, scalability, and maintainability across OpenAI\u2019s finance technology stack.</p></li><li><p style=\"min-height:1.5em\">Partner with Finance, IT, and Engineering stakeholders to design data pipelines, system interfaces, and integration strategies that support ongoing team initiatives.</p></li><li><p style=\"min-height:1.5em\">Diagnose and resolve integration and platform issues, including data synchronization errors, API failures, and performance bottlenecks, while continually improving observability and error handling.</p></li><li><p style=\"min-height:1.5em\">Establish proactive monitoring and alerting practices to ensure integration health and compliance,while improving reliability and performance.</p></li><li><p style=\"min-height:1.5em\">Document integration architectures, migration runbooks, and technical processes to promote transparency, maintainability, and long-term team growth strategy.</p></li><li><p style=\"min-height:1.5em\">Support SOX compliance initiatives by embedding security, segregation of duties, and audit-readiness into integration design.</p></li><li><p style=\"min-height:1.5em\">Support functional testing, UAT, and data validation during system migrations and releases.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">8+ years of experience in enterprise integrations or automation solutions within complex business system environments.</p></li><li><p style=\"min-height:1.5em\">Experience working with integration platforms such as Oracle Integration Cloud (OIC) and architecting integration orchestrations</p></li><li><p style=\"min-height:1.5em\">A strong background in integration architecture, including building scalable, reusable frameworks with thoughtful monitoring, error handling, and recovery patterns.</p></li><li><p style=\"min-height:1.5em\">Proficiency in data modeling and API integration concepts, including REST, JSON, and event-based or message-based architectures.</p></li><li><p style=\"min-height:1.5em\">A solid understanding of accounting and financial domains, including billing, revenue recognition, financial close, and multi-entity consolidation.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with parallel run operations, reconciliation processes, and migration validation techniques.</p></li><li><p style=\"min-height:1.5em\">Excellent documentation skills and ability to produce migration runbooks, technical specs, and system diagrams.</p></li><li><p style=\"min-height:1.5em\">Familiarity with SOX compliance frameworks, secure system design, and audit readiness practices.</p></li><li><p style=\"min-height:1.5em\">Experience in fast-paced, hypergrowth, or multi-entity international organizations where scalability and reliability are critical.</p></li><li><p style=\"min-height:1.5em\">A curiosity-driven approach to technology, and a willingness to evaluate tools and frameworks based on fitness to purpose.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nThe Finance Platform & Technology team at OpenAI builds and scales the future-proof systems and data architecture that power our core financial operations. We enable business agility, compliance, and operational excellence across order-to-cash, procure-to-pay, supply chain, and asset management for both B2B and B2C. Our focus is on modernizing workflows through strategic integrations, scalable automation, and seamless data flows\u2014empowering smarter decisions, reliable reporting, and sustainable growth as OpenAI evolves.\n\nAbout the Role\n\nAs a Financial Systems Integrations Engineer, you\u2019ll design, build, and optimize the integrations that connect OpenAI\u2019s finance technology ecosystem. You\u2019ll translate business needs into resilient, well-architected data flows and automations across a diverse set of internal and external systems. You\u2019ll partner closely with Finance, IT, and other cross-functional teams to understand end user requirements and translate needs into solutions that are scalable, secure, and maintainable by applying sound engineering practices. You\u2019ll use your knowledge of API design, data modeling, event-driven architecture, and integration best practices to deliver cutting-edge solutions to our partner teams.\n\nThis role combines hands-on technical execution with strategic impact, driving reliable, scalable, and compliant integrations that support OpenAI\u2019s growth and financial operations.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Design and implement robust automations and integrations that connect financial systems and data sources, using modern integration frameworks, APIs, and event-driven patterns.\n\n - Translate business workflows into technical solutions that ensure accuracy, scalability, and maintainability across OpenAI\u2019s finance technology stack.\n\n - Partner with Finance, IT, and Engineering stakeholders to design data pipelines, system interfaces, and integration strategies that support ongoing team initiatives.\n\n - Diagnose and resolve integration and platform issues, including data synchronization errors, API failures, and performance bottlenecks, while continually improving observability and error handling.\n\n - Establish proactive monitoring and alerting practices to ensure integration health and compliance,while improving reliability and performance.\n\n - Document integration architectures, migration runbooks, and technical processes to promote transparency, maintainability, and long-term team growth strategy.\n\n - Support SOX compliance initiatives by embedding security, segregation of duties, and audit-readiness into integration design.\n\n - Support functional testing, UAT, and data validation during system migrations and releases.\n\nYou might thrive in this role if you have:\n\n - 8+ years of experience in enterprise integrations or automation solutions within complex business system environments.\n\n - Experience working with integration platforms such as Oracle Integration Cloud (OIC) and architecting integration orchestrations\n\n - A strong background in integration architecture, including building scalable, reusable frameworks with thoughtful monitoring, error handling, and recovery patterns.\n\n - Proficiency in data modeling and API integration concepts, including REST, JSON, and event-based or message-based architectures.\n\n - A solid understanding of accounting and financial domains, including billing, revenue recognition, financial close, and multi-entity consolidation.\n\n - Hands-on experience with parallel run operations, reconciliation processes, and migration validation techniques.\n\n - Excellent documentation skills and ability to produce migration runbooks, technical specs, and system diagrams.\n\n - Familiarity with SOX compliance frameworks, secure system design, and audit readiness practices.\n\n - Experience in fast-paced, hypergrowth, or multi-entity international organizations where scalability and reliability are critical.\n\n - A curiosity-driven approach to technology, and a willingness to evaluate tools and frameworks based on fitness to purpose.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$228K \u2013 $288K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$228K - $288K",
-      "compensationTiers": [
-        {
-          "id": "260921a7-a53e-45e7-8770-fa3fa5d0c382",
-          "tierSummary": "$228K \u2013 $288K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "9efe75bd-1ca3-4eb4-997c-48b6cdc2f708",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "3688465e-25cd-43e3-9b6c-11bcd3514fe4",
-              "summary": "$228K \u2013 $288K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 228000,
-              "maxValue": 288000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 228000,
-          "maxValue": 288000
-        }
-      ]
-    },
-    "status": "CLOSED",
-    "first_seen": "2025-10-04T20:13:07.914488",
-    "last_seen": "2025-11-23T20:15:13.697655",
-    "days_since_listed": 51,
-    "closed_date": "2025-11-24T20:16:31.241577",
     "days_until_deletion": 1
   }
 ]
