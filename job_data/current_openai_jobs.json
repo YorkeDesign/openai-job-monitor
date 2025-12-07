@@ -18061,15 +18061,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "62cb20f2-7f0e-45db-abbe-b87ea702d3ab",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "c94dc2de-9ecf-4096-994f-a55cb19f30e7",
               "summary": "$364.5K \u2013 $490K",
               "compensationType": "Salary",
@@ -18077,6 +18068,15 @@
               "currencyCode": "USD",
               "minValue": 364500,
               "maxValue": 490000
+            },
+            {
+              "id": "62cb20f2-7f0e-45db-abbe-b87ea702d3ab",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -18771,15 +18771,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "6bf35107-2f3d-423a-bdc7-25ff106e2c12",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "92d884ed-7b43-438d-9ad0-84e239e7b37e",
               "summary": "$292K \u2013 $364.5K",
               "compensationType": "Salary",
@@ -18787,6 +18778,15 @@
               "currencyCode": "USD",
               "minValue": 292000,
               "maxValue": 364500
+            },
+            {
+              "id": "6bf35107-2f3d-423a-bdc7-25ff106e2c12",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
@@ -19725,15 +19725,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "bf8e2028-26db-4c3e-b6cd-1831f91effb5",
-              "summary": "$230K \u2013 $355K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 230000,
-              "maxValue": 355000
-            },
-            {
               "id": "8b7496ef-c885-44be-894b-ae98047dff98",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -19741,6 +19732,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "bf8e2028-26db-4c3e-b6cd-1831f91effb5",
+              "summary": "$230K \u2013 $355K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 230000,
+              "maxValue": 355000
             }
           ]
         }
@@ -22701,11 +22701,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-12-06T20:14:34.863905",
-    "last_seen": "2025-12-06T20:14:34.863905",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "d9c04cb1-24c9-4e65-8e1c-71e66121d4a8",
@@ -22922,6 +22918,82 @@
         }
       ]
     }
+  },
+  {
+    "id": "f3abd98d-2217-4006-821d-2f60e1111713",
+    "title": "Workplace Experience Project Manager",
+    "department": "Workplace",
+    "team": "Workplace",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-12-07T02:10:29.292+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/f3abd98d-2217-4006-821d-2f60e1111713",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/f3abd98d-2217-4006-821d-2f60e1111713/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Our Real Estate &amp; Workplace (REW) organization designs, builds, and operates spaces that help teams do their best work. We plan and deliver a global portfolio of offices and hospitality environments with a focus on safety, sustainability, accessibility, and exceptional user experience.</p><p style=\"min-height:1.5em\">The Global Food team creates welcoming, high\u2011quality, and efficient food and hospitality programs\u2014from caf\u00e9s and micro\u2011kitchens to catering and events\u2014that reflect our culture and support productivity and well\u2011being. We partner closely with Design &amp; Construction, Facilities, Security, Legal, and IT/AV to bring thoughtful culinary programming to life, balancing quality, cost, and scalability across regions.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We\u2019re hiring a Workplace Experience Project Manager to support our global Workplace Experience team. This role reports to the Global Food Program Lead and will focus primarily on food and hospitality environments (~90% food; ~10% events). You\u2019ll help program and deliver meeting room and event spaces, caf\u00e9s, micro\u2011kitchens, catering areas, tray return systems, bussing, AV integration, seating capacity planning, and more.</p><p style=\"min-height:1.5em\">You\u2019ll serve as a key liaison between Workplace Experience (Food, Events, Reception, Mail) and Design &amp; Construction, partnering with internal stakeholders and external vendors across multiple time zones. You\u2019ll attend project calls, lead readiness reviews for new site openings, and drive flawless execution.</p><p style=\"min-height:1.5em\"><strong>You\u2019ll be responsible for:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Food &amp; Hospitality Space BuildoutsOwn and track project plans to meet schedule and budget targets.</p></li><li><p style=\"min-height:1.5em\">Build opening plans for new/renovated spaces and track all action items through completion.</p></li><li><p style=\"min-height:1.5em\">Create scalable playbooks to support long\u2011term growth across sites.</p></li><li><p style=\"min-height:1.5em\">Provide clear status updates to leadership, including accomplishments, next steps, and risks.</p></li><li><p style=\"min-height:1.5em\">Manage end\u2011to\u2011end lifecycles for food space expansions and renovations (caf\u00e9s, micro\u2011kitchens, catering areas, hospitality stations).</p></li><li><p style=\"min-height:1.5em\">Partner with Workplace, Food, Design &amp; Construction, Security, Legal, IT/AV, and external designers/contractors/architects to deliver projects on time and on budget.</p></li><li><p style=\"min-height:1.5em\">Translate culinary program requirements into space plans, functional layouts, and equipment specifications.</p></li><li><p style=\"min-height:1.5em\">Track construction timelines, furniture and equipment installations, permits, and vendor coordination.</p></li><li><p style=\"min-height:1.5em\">Conduct site assessments and feasibility studies to inform space planning decisions.</p></li><li><p style=\"min-height:1.5em\">Workplace Experience OwnershipServe as the primary point of contact for assigned workplace experience zones.</p></li><li><p style=\"min-height:1.5em\">Reception/Lobby: Ensure design, hospitality standards, and guest experience are best\u2011in\u2011class.</p></li><li><p style=\"min-height:1.5em\">Mailrooms: Streamline package workflows and enhance employee convenience.</p></li><li><p style=\"min-height:1.5em\">Large Meeting Rooms &amp; Event Spaces: Collaborate with AV and Events on layouts, lighting, acoustics, and controls to support hybrid and in\u2011person experiences. Own FF&amp;E upgrades and ongoing refreshes.</p></li><li><p style=\"min-height:1.5em\">Partner with Facilities and IT to improve operational efficiency, signage, wayfinding, and accessibility.</p></li><li><p style=\"min-height:1.5em\">Develop and document SOPs for global workplace experience standards.</p></li><li><p style=\"min-height:1.5em\">Conduct walkthroughs and collect data/feedback on space usage, satisfaction, and operational pain points; translate insights into improvements.</p></li><li><p style=\"min-height:1.5em\">Project Management &amp; CommunicationOwn project documentation, timelines, risks, and budgets across a portfolio of sites.</p></li><li><p style=\"min-height:1.5em\">Communicate updates clearly to stakeholders across teams and seniority levels.</p></li><li><p style=\"min-height:1.5em\">Identify opportunities for continuous improvement and implement scalable solutions.</p></li><li><p style=\"min-height:1.5em\">Occasionally travel to global sites for project support and quality assurance.</p></li></ul><p style=\"min-height:1.5em\"><strong>You'll thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of project management experience in workplace, food &amp; beverage, or facilities design/construction.</p></li><li><p style=\"min-height:1.5em\">Experience managing multi\u2011site/global projects and working across time zones.</p></li><li><p style=\"min-height:1.5em\">Strong knowledge of food service operations and equipment.</p></li><li><p style=\"min-height:1.5em\">Excellent organizational, communication, and stakeholder management skills.</p></li><li><p style=\"min-height:1.5em\">Comfortable operating in a fast\u2011paced, evolving environment with high standards.</p></li><li><p style=\"min-height:1.5em\">Proficiency with project management and collaboration tools (e.g., Asana, Smartsheet, Google Workspace, Slack).</p></li><li><p style=\"min-height:1.5em\">Background in hospitality design, culinary operations, or AV-enabled event spaces.</p></li><li><p style=\"min-height:1.5em\">Experience developing playbooks/SOPs for scalable programs.</p></li><li><p style=\"min-height:1.5em\">Familiarity with change management, vendor management, and budget tracking.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nOur Real Estate & Workplace (REW) organization designs, builds, and operates spaces that help teams do their best work. We plan and deliver a global portfolio of offices and hospitality environments with a focus on safety, sustainability, accessibility, and exceptional user experience.\n\nThe Global Food team creates welcoming, high\u2011quality, and efficient food and hospitality programs\u2014from caf\u00e9s and micro\u2011kitchens to catering and events\u2014that reflect our culture and support productivity and well\u2011being. We partner closely with Design & Construction, Facilities, Security, Legal, and IT/AV to bring thoughtful culinary programming to life, balancing quality, cost, and scalability across regions.\n\nAbout the Role\n\nWe\u2019re hiring a Workplace Experience Project Manager to support our global Workplace Experience team. This role reports to the Global Food Program Lead and will focus primarily on food and hospitality environments (~90% food; ~10% events). You\u2019ll help program and deliver meeting room and event spaces, caf\u00e9s, micro\u2011kitchens, catering areas, tray return systems, bussing, AV integration, seating capacity planning, and more.\n\nYou\u2019ll serve as a key liaison between Workplace Experience (Food, Events, Reception, Mail) and Design & Construction, partnering with internal stakeholders and external vendors across multiple time zones. You\u2019ll attend project calls, lead readiness reviews for new site openings, and drive flawless execution.\n\nYou\u2019ll be responsible for:\n\n - Food & Hospitality Space BuildoutsOwn and track project plans to meet schedule and budget targets.\n\n - Build opening plans for new/renovated spaces and track all action items through completion.\n\n - Create scalable playbooks to support long\u2011term growth across sites.\n\n - Provide clear status updates to leadership, including accomplishments, next steps, and risks.\n\n - Manage end\u2011to\u2011end lifecycles for food space expansions and renovations (caf\u00e9s, micro\u2011kitchens, catering areas, hospitality stations).\n\n - Partner with Workplace, Food, Design & Construction, Security, Legal, IT/AV, and external designers/contractors/architects to deliver projects on time and on budget.\n\n - Translate culinary program requirements into space plans, functional layouts, and equipment specifications.\n\n - Track construction timelines, furniture and equipment installations, permits, and vendor coordination.\n\n - Conduct site assessments and feasibility studies to inform space planning decisions.\n\n - Workplace Experience OwnershipServe as the primary point of contact for assigned workplace experience zones.\n\n - Reception/Lobby: Ensure design, hospitality standards, and guest experience are best\u2011in\u2011class.\n\n - Mailrooms: Streamline package workflows and enhance employee convenience.\n\n - Large Meeting Rooms & Event Spaces: Collaborate with AV and Events on layouts, lighting, acoustics, and controls to support hybrid and in\u2011person experiences. Own FF&E upgrades and ongoing refreshes.\n\n - Partner with Facilities and IT to improve operational efficiency, signage, wayfinding, and accessibility.\n\n - Develop and document SOPs for global workplace experience standards.\n\n - Conduct walkthroughs and collect data/feedback on space usage, satisfaction, and operational pain points; translate insights into improvements.\n\n - Project Management & CommunicationOwn project documentation, timelines, risks, and budgets across a portfolio of sites.\n\n - Communicate updates clearly to stakeholders across teams and seniority levels.\n\n - Identify opportunities for continuous improvement and implement scalable solutions.\n\n - Occasionally travel to global sites for project support and quality assurance.\n\nYou'll thrive in this role if you have:\n\n - 5+ years of project management experience in workplace, food & beverage, or facilities design/construction.\n\n - Experience managing multi\u2011site/global projects and working across time zones.\n\n - Strong knowledge of food service operations and equipment.\n\n - Excellent organizational, communication, and stakeholder management skills.\n\n - Comfortable operating in a fast\u2011paced, evolving environment with high standards.\n\n - Proficiency with project management and collaboration tools (e.g., Asana, Smartsheet, Google Workspace, Slack).\n\n - Background in hospitality design, culinary operations, or AV-enabled event spaces.\n\n - Experience developing playbooks/SOPs for scalable programs.\n\n - Familiarity with change management, vendor management, and budget tracking.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$225K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$225K",
+      "compensationTiers": [
+        {
+          "id": "4df40453-7ce4-42ca-8890-8eb55f00dd11",
+          "tierSummary": "$225K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "a0c42437-6f85-4d4e-ac5d-f64062269d82",
+              "summary": "$225K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 225000,
+              "maxValue": 225000
+            },
+            {
+              "id": "af1e515a-a8bd-4a3a-9836-9cb7b6233d5e",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 225000,
+          "maxValue": 225000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-12-07T20:14:40.874897",
+    "last_seen": "2025-12-07T20:14:40.874897",
+    "days_since_listed": 0
   },
   {
     "id": "ab5cee1d-8807-4a8f-9f58-1855a04003b7",
@@ -23804,11 +23876,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2025-12-06T20:14:34.863905",
-    "last_seen": "2025-12-06T20:14:34.863905",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "5a265d2b-683f-4cea-9b69-8e137e704ab3",
