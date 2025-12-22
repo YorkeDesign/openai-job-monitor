@@ -1552,6 +1552,82 @@
     }
   },
   {
+    "id": "0ed88787-a794-4089-b022-e2d316a436bc",
+    "title": "Quantitative Intelligence Analyst",
+    "department": "Intelligence & Investigations",
+    "team": "Intelligence & Investigations",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2025-12-22T19:09:30.193+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/0ed88787-a794-4089-b022-e2d316a436bc",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/0ed88787-a794-4089-b022-e2d316a436bc/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Intelligence and Investigations team seeks to rapidly identify and mitigate abuse and strategic risks to ensure a safe online ecosystem. We are dedicated to identifying emerging abuse trends, analyzing risks, and working with our internal and external partners to implement effective mitigation strategies to protect against misuse. Our efforts contribute to OpenAI's overarching goal of developing AI that benefits humanity.</p><p style=\"min-height:1.5em\">The Strategic Intelligence &amp; Analysis (SIA) team provides safety intelligence for OpenAI\u2019s products by monitoring, analyzing, and forecasting real-world abuse, geopolitical risks, and strategic threats. Our work informs safety mitigations, product decisions, and partnerships, ensuring OpenAI\u2019s tools are deployed securely and responsibly across critical sectors.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">As a <strong>Quantitative Intelligence Analyst</strong>, you will focus on discovering novel and emerging risks in complex human\u2013AI systems before they are well-defined, measurable, or widely understood.</p><p style=\"min-height:1.5em\">You will use deep subject matter expertise and quantitative tooling to surface weak, early, and unconventional risk signals. You will build analytic models that explain how harms could emerge and translate ambiguous patterns into structured, data-driven insight. Your work will help identify potential gaps in policy or coverage and operationalize previously unmeasured problems into signals that can support detection, mitigation, and planning downstream. You will develop analytical frameworks that map how new risks form, evolve, and propagate as products change, policies shift, and external events unfold. Your analyses will directly inform strategic risk prioritization and planning across the company, with regular visibility through strategic risk products.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA (hybrid, 3 days/week). Relocation support is available</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Discover and define new quantitative risk signals where no established metrics exist, using subject matter expertise to surface early, weak, or unconventional indicators</p></li><li><p style=\"min-height:1.5em\">Translate complex trust and safety challenges into measurable signals that can be tracked and stress-tested over time</p></li><li><p style=\"min-height:1.5em\">Develop upstream early-warning and signal frameworks that inform downstream detection and mitigation efforts</p></li><li><p style=\"min-height:1.5em\">Analyze risk trends to assess the underlying drivers and causal factors behind those changes</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Conduct data mining and statistical modeling to understand how risks originate, evolve, and propagate across systems</p></li><li><p style=\"min-height:1.5em\">Design adversarial scenarios, and quantitative stress tests to assess exposure, coverage gaps, and vulnerabilities</p></li><li><p style=\"min-height:1.5em\">Produce clear data-driven briefs to support risk prioritization, contingency planning, and strategic risk products across teams</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have 3\u20136+ years of experience in quantitative intelligence analysis, trust &amp; safety, security analysis, or risk-focused research</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Are comfortable working on complex trust and safety domains such as child safety, violent activities, self-harm, or similar high-stakes risk areas</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Familiarity with data mining, statistical modeling, and supervised learning methods</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Understand how to monitor signals or models for data drift, behavioral adaptation, or performance degradation over time, and can diagnose likely causes</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience in operationalizing adversarial or strategic risk behaviors, including through red-team exercises, agent-based modeling, or structured scenario analyses</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Comfortable working with Python and SQL</p></li></ul><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Nice to have: Experience with quantitative stress testing or Monte Carlo simulations to assess uncertainty and tail risk</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nThe Intelligence and Investigations team seeks to rapidly identify and mitigate abuse and strategic risks to ensure a safe online ecosystem. We are dedicated to identifying emerging abuse trends, analyzing risks, and working with our internal and external partners to implement effective mitigation strategies to protect against misuse. Our efforts contribute to OpenAI's overarching goal of developing AI that benefits humanity.\n\nThe Strategic Intelligence & Analysis (SIA) team provides safety intelligence for OpenAI\u2019s products by monitoring, analyzing, and forecasting real-world abuse, geopolitical risks, and strategic threats. Our work informs safety mitigations, product decisions, and partnerships, ensuring OpenAI\u2019s tools are deployed securely and responsibly across critical sectors.\n\nAbout the Role\n\nAs a Quantitative Intelligence Analyst, you will focus on discovering novel and emerging risks in complex human\u2013AI systems before they are well-defined, measurable, or widely understood.\n\nYou will use deep subject matter expertise and quantitative tooling to surface weak, early, and unconventional risk signals. You will build analytic models that explain how harms could emerge and translate ambiguous patterns into structured, data-driven insight. Your work will help identify potential gaps in policy or coverage and operationalize previously unmeasured problems into signals that can support detection, mitigation, and planning downstream. You will develop analytical frameworks that map how new risks form, evolve, and propagate as products change, policies shift, and external events unfold. Your analyses will directly inform strategic risk prioritization and planning across the company, with regular visibility through strategic risk products.\n\nThis role is based in San Francisco, CA (hybrid, 3 days/week). Relocation support is available\n\nIn this role, you will:\n\n - Discover and define new quantitative risk signals where no established metrics exist, using subject matter expertise to surface early, weak, or unconventional indicators\n\n - Translate complex trust and safety challenges into measurable signals that can be tracked and stress-tested over time\n\n - Develop upstream early-warning and signal frameworks that inform downstream detection and mitigation efforts\n\n - Analyze risk trends to assess the underlying drivers and causal factors behind those changes\n\n - Conduct data mining and statistical modeling to understand how risks originate, evolve, and propagate across systems\n\n - Design adversarial scenarios, and quantitative stress tests to assess exposure, coverage gaps, and vulnerabilities\n\n - Produce clear data-driven briefs to support risk prioritization, contingency planning, and strategic risk products across teams\n\nYou might thrive in this role if you:\n\n - Have 3\u20136+ years of experience in quantitative intelligence analysis, trust & safety, security analysis, or risk-focused research\n\n - Are comfortable working on complex trust and safety domains such as child safety, violent activities, self-harm, or similar high-stakes risk areas\n\n - Familiarity with data mining, statistical modeling, and supervised learning methods\n\n - Understand how to monitor signals or models for data drift, behavioral adaptation, or performance degradation over time, and can diagnose likely causes\n\n - Experience in operationalizing adversarial or strategic risk behaviors, including through red-team exercises, agent-based modeling, or structured scenario analyses\n\n - Comfortable working with Python and SQL\n\n - Nice to have: Experience with quantitative stress testing or Monte Carlo simulations to assess uncertainty and tail risk\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$220K \u2013 $320K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$220K - $320K",
+      "compensationTiers": [
+        {
+          "id": "c06b49e3-0a93-4870-bfbf-d2f86bbe9dea",
+          "tierSummary": "$220K \u2013 $320K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "4664f680-261d-4948-89bd-238fa6b51a76",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "56bd5134-153c-4e83-8dd5-5df6687733d6",
+              "summary": "$220K \u2013 $320K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 220000,
+              "maxValue": 320000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 220000,
+          "maxValue": 320000
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2025-12-22T20:16:05.783015",
+    "last_seen": "2025-12-22T20:16:05.783015",
+    "days_since_listed": 0
+  },
+  {
     "id": "793964ae-d40b-45e3-9798-84f4b6da48c5",
     "title": "Research Engineer, Codex",
     "department": "Research",
@@ -5058,15 +5134,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a1e57ee1-b3db-4f42-9670-9ac527dbc89e",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "GBP",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "67521c13-1837-487b-b461-8429505a9099",
               "summary": "\u00a3150K \u2013 \u00a3245K",
               "compensationType": "Salary",
@@ -5074,6 +5141,15 @@
               "currencyCode": "GBP",
               "minValue": 150000,
               "maxValue": 245000
+            },
+            {
+              "id": "a1e57ee1-b3db-4f42-9670-9ac527dbc89e",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "GBP",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
@@ -16121,15 +16197,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "62cb20f2-7f0e-45db-abbe-b87ea702d3ab",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "c94dc2de-9ecf-4096-994f-a55cb19f30e7",
               "summary": "$364.5K \u2013 $490K",
               "compensationType": "Salary",
@@ -16137,6 +16204,15 @@
               "currencyCode": "USD",
               "minValue": 364500,
               "maxValue": 490000
+            },
+            {
+              "id": "62cb20f2-7f0e-45db-abbe-b87ea702d3ab",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -16147,21 +16223,21 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "807ee0cd-2afa-4a77-abe0-62b753c02508",
-              "summary": "$364.5K \u2013 $490K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 364500,
-              "maxValue": 490000
-            },
-            {
               "id": "588dfea5-68ed-4d4b-8b05-cedea68b32c1",
               "summary": "$324K \u2013 $490K Equity",
               "compensationType": "EquityCashValue",
               "interval": "1 YEAR",
               "currencyCode": "USD",
               "minValue": 324000,
+              "maxValue": 490000
+            },
+            {
+              "id": "807ee0cd-2afa-4a77-abe0-62b753c02508",
+              "summary": "$364.5K \u2013 $490K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 364500,
               "maxValue": 490000
             }
           ]
@@ -17662,15 +17738,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "22e704e2-45ad-4148-a7dd-c9cbe37292db",
-              "summary": "$207K \u2013 $319.5K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 207000,
-              "maxValue": 319500
-            },
-            {
               "id": "123a301d-8c65-45e3-9193-9bcda07f7fc8",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -17678,6 +17745,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "22e704e2-45ad-4148-a7dd-c9cbe37292db",
+              "summary": "$207K \u2013 $319.5K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 207000,
+              "maxValue": 319500
             }
           ]
         },
@@ -18372,15 +18448,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "02544371-5e0d-48d0-961e-d7ab83c1fd41",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "6168c9c5-a23f-448a-b356-00891756faba",
               "summary": "$207K \u2013 $319.5K",
               "compensationType": "Salary",
@@ -18388,6 +18455,15 @@
               "currencyCode": "USD",
               "minValue": 207000,
               "maxValue": 319500
+            },
+            {
+              "id": "02544371-5e0d-48d0-961e-d7ab83c1fd41",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -18398,15 +18474,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "de5775f6-a249-44e4-b8a1-7c66f629f8c4",
-              "summary": "$207K \u2013 $319.5K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 207000,
-              "maxValue": 319500
-            },
-            {
               "id": "e70883cf-cac3-4d5b-b0ea-8e107338b563",
               "summary": "$184K \u2013 $284K Equity",
               "compensationType": "EquityCashValue",
@@ -18414,6 +18481,15 @@
               "currencyCode": "USD",
               "minValue": 184000,
               "maxValue": 284000
+            },
+            {
+              "id": "de5775f6-a249-44e4-b8a1-7c66f629f8c4",
+              "summary": "$207K \u2013 $319.5K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 207000,
+              "maxValue": 319500
             }
           ]
         }
@@ -19121,8 +19197,8 @@
     },
     "jobUrl": "https://jobs.ashbyhq.com/openai/466f58eb-c43b-4642-85f1-febcc7fcfcc6",
     "applyUrl": "https://jobs.ashbyhq.com/openai/466f58eb-c43b-4642-85f1-febcc7fcfcc6/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">Forward Deployed Engineers lead complex deployments of frontier models in production. You will embed with customers where model performance matters, delivery is urgent, and ambiguity is the default. You will use this to map their problems,You will use this to map their problems, structure delivery, and ship fast. You will scope, sequence, and build full-stack solutions that create measurable value. You will also drive clarity across internal and external teams.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You will focus on the Life Sciences vertical, partnering with pharmaceutical companies, clinical research organizations, and other data and services providers to deploy next-generation AI capabilities across their drug discovery, development, and operations. You will lead the 0\u21921 development of OpenAI\u2019s industry offering in this space - identifying high-value use cases, shaping solution patterns, and building the first repeatable deployments that inform our broader product and GTM strategy.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Success in this role means owning the delivery state across workstreams. You will hold the bar on quality and pace and help OpenAI learn through execution.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role you will</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own technical delivery across multiple deployments from first prototype to stable production</p></li><li><p style=\"min-height:1.5em\">Build full-stack systems that deliver customer value and sharpen how we learn</p></li><li><p style=\"min-height:1.5em\">Embed closely with customer teams, understand their needs, and guide adoption of what you build</p></li><li><p style=\"min-height:1.5em\">Scope work, sequence delivery, and remove blockers early</p></li><li><p style=\"min-height:1.5em\">Make trade-offs between scope, speed, and quality; adjust plans to protect delivery</p></li><li><p style=\"min-height:1.5em\">Contribute directly in the code when progress or clarity depends on it</p></li><li><p style=\"min-height:1.5em\">Codify working patterns into tools, playbooks, or building blocks that others can use</p></li><li><p style=\"min-height:1.5em\">Share field feedback that helps Research and Product understand where the models succeed and where they can improve</p></li><li><p style=\"min-height:1.5em\">Keep teams moving through clarity and follow-through</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bring 5+ years of engineering or technical deployment experience that includes customer-facing work</p></li><li><p style=\"min-height:1.5em\">Have scoped and delivered complex systems in fast-moving or ambiguous environments</p></li><li><p style=\"min-height:1.5em\">Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks</p></li><li><p style=\"min-height:1.5em\">Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience</p></li><li><p style=\"min-height:1.5em\">Simplify complexity and make fast, sound decisions under pressure</p></li><li><p style=\"min-height:1.5em\">Communicate clearly with engineers, product teams, and customer stakeholders</p></li><li><p style=\"min-height:1.5em\">Spot risks early and adjust without slowing down</p></li><li><p style=\"min-height:1.5em\">Model calm and judgment when the stakes are high</p></li><li><p style=\"min-height:1.5em\">Have experience with the life sciences industry</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the team\n\nOpenAI\u2019s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).\n\nAbout the role\n\nForward Deployed Engineers lead complex deployments of frontier models in production. You will embed with customers where model performance matters, delivery is urgent, and ambiguity is the default. You will use this to map their problems,You will use this to map their problems, structure delivery, and ship fast. You will scope, sequence, and build full-stack solutions that create measurable value. You will also drive clarity across internal and external teams.\n\nYou will focus on the Life Sciences vertical, partnering with pharmaceutical companies, clinical research organizations, and other data and services providers to deploy next-generation AI capabilities across their drug discovery, development, and operations. You will lead the 0\u21921 development of OpenAI\u2019s industry offering in this space - identifying high-value use cases, shaping solution patterns, and building the first repeatable deployments that inform our broader product and GTM strategy.\n\nSuccess in this role means owning the delivery state across workstreams. You will hold the bar on quality and pace and help OpenAI learn through execution.\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.\n\nIn this role you will\n\n - Own technical delivery across multiple deployments from first prototype to stable production\n\n - Build full-stack systems that deliver customer value and sharpen how we learn\n\n - Embed closely with customer teams, understand their needs, and guide adoption of what you build\n\n - Scope work, sequence delivery, and remove blockers early\n\n - Make trade-offs between scope, speed, and quality; adjust plans to protect delivery\n\n - Contribute directly in the code when progress or clarity depends on it\n\n - Codify working patterns into tools, playbooks, or building blocks that others can use\n\n - Share field feedback that helps Research and Product understand where the models succeed and where they can improve\n\n - Keep teams moving through clarity and follow-through\n\nYou might thrive in this role if you\n\n - Bring 5+ years of engineering or technical deployment experience that includes customer-facing work\n\n - Have scoped and delivered complex systems in fast-moving or ambiguous environments\n\n - Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks\n\n - Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience\n\n - Simplify complexity and make fast, sound decisions under pressure\n\n - Communicate clearly with engineers, product teams, and customer stakeholders\n\n - Spot risks early and adjust without slowing down\n\n - Model calm and judgment when the stakes are high\n\n - Have experience with the life sciences industry\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">Forward Deployed Engineers lead complex deployments of frontier models in production. You will embed with customers where model performance matters, delivery is urgent, and ambiguity is the default. You will use this to map their problems, structure delivery, and ship fast. You will scope, sequence, and build full-stack solutions that create measurable value. You will also drive clarity across internal and external teams.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You will focus on the Life Sciences vertical, partnering with pharmaceutical companies, clinical research organizations, and other data and services providers to deploy next-generation AI capabilities across their drug discovery, development, and operations. You will lead the 0\u21921 development of OpenAI\u2019s industry offering in this space - identifying high-value use cases, shaping solution patterns, and building the first repeatable deployments that inform our broader product and GTM strategy.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Success in this role means owning the delivery state across workstreams. You will hold the bar on quality and pace and help OpenAI learn through execution.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role you will</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own technical delivery across multiple deployments from first prototype to stable production</p></li><li><p style=\"min-height:1.5em\">Build full-stack systems that deliver customer value and sharpen how we learn</p></li><li><p style=\"min-height:1.5em\">Embed closely with customer teams, understand their needs, and guide adoption of what you build</p></li><li><p style=\"min-height:1.5em\">Scope work, sequence delivery, and remove blockers early</p></li><li><p style=\"min-height:1.5em\">Make trade-offs between scope, speed, and quality; adjust plans to protect delivery</p></li><li><p style=\"min-height:1.5em\">Contribute directly in the code when progress or clarity depends on it</p></li><li><p style=\"min-height:1.5em\">Codify working patterns into tools, playbooks, or building blocks that others can use</p></li><li><p style=\"min-height:1.5em\">Share field feedback that helps Research and Product understand where the models succeed and where they can improve</p></li><li><p style=\"min-height:1.5em\">Keep teams moving through clarity and follow-through</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bring 5+ years of engineering or technical deployment experience that includes customer-facing work</p></li><li><p style=\"min-height:1.5em\">Have scoped and delivered complex systems in fast-moving or ambiguous environments</p></li><li><p style=\"min-height:1.5em\">Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks</p></li><li><p style=\"min-height:1.5em\">Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience</p></li><li><p style=\"min-height:1.5em\">Simplify complexity and make fast, sound decisions under pressure</p></li><li><p style=\"min-height:1.5em\">Communicate clearly with engineers, product teams, and customer stakeholders</p></li><li><p style=\"min-height:1.5em\">Spot risks early and adjust without slowing down</p></li><li><p style=\"min-height:1.5em\">Model calm and judgment when the stakes are high</p></li><li><p style=\"min-height:1.5em\">Have experience with the life sciences industry</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the team\n\nOpenAI\u2019s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).\n\nAbout the role\n\nForward Deployed Engineers lead complex deployments of frontier models in production. You will embed with customers where model performance matters, delivery is urgent, and ambiguity is the default. You will use this to map their problems, structure delivery, and ship fast. You will scope, sequence, and build full-stack solutions that create measurable value. You will also drive clarity across internal and external teams.\n\nYou will focus on the Life Sciences vertical, partnering with pharmaceutical companies, clinical research organizations, and other data and services providers to deploy next-generation AI capabilities across their drug discovery, development, and operations. You will lead the 0\u21921 development of OpenAI\u2019s industry offering in this space - identifying high-value use cases, shaping solution patterns, and building the first repeatable deployments that inform our broader product and GTM strategy.\n\nSuccess in this role means owning the delivery state across workstreams. You will hold the bar on quality and pace and help OpenAI learn through execution.\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.\n\nIn this role you will\n\n - Own technical delivery across multiple deployments from first prototype to stable production\n\n - Build full-stack systems that deliver customer value and sharpen how we learn\n\n - Embed closely with customer teams, understand their needs, and guide adoption of what you build\n\n - Scope work, sequence delivery, and remove blockers early\n\n - Make trade-offs between scope, speed, and quality; adjust plans to protect delivery\n\n - Contribute directly in the code when progress or clarity depends on it\n\n - Codify working patterns into tools, playbooks, or building blocks that others can use\n\n - Share field feedback that helps Research and Product understand where the models succeed and where they can improve\n\n - Keep teams moving through clarity and follow-through\n\nYou might thrive in this role if you\n\n - Bring 5+ years of engineering or technical deployment experience that includes customer-facing work\n\n - Have scoped and delivered complex systems in fast-moving or ambiguous environments\n\n - Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks\n\n - Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience\n\n - Simplify complexity and make fast, sound decisions under pressure\n\n - Communicate clearly with engineers, product teams, and customer stakeholders\n\n - Spot risks early and adjust without slowing down\n\n - Model calm and judgment when the stakes are high\n\n - Have experience with the life sciences industry\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
     "compensation": {
       "compensationTierSummary": "$180K \u2013 $280K \u2022 Offers Equity",
       "scrapeableCompensationSalarySummary": "$180K - $280K",
@@ -20779,15 +20855,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "3e762fdd-4f19-4369-b8eb-e5751da89b1e",
-              "summary": "$260K \u2013 $324K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 260000,
-              "maxValue": 324000
-            },
-            {
               "id": "0d3750b2-1173-4c3f-b513-22c06633c97e",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -20795,6 +20862,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "3e762fdd-4f19-4369-b8eb-e5751da89b1e",
+              "summary": "$260K \u2013 $324K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 260000,
+              "maxValue": 324000
             }
           ]
         }
