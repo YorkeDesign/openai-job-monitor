@@ -1143,6 +1143,82 @@
     }
   },
   {
+    "id": "89f58eb2-519f-4a36-8be0-2e594724e1bc",
+    "title": "Software Engineer, Codex for Teams",
+    "department": "Applied AI",
+    "team": "Applied AI Engineering",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-01-09T23:30:34.487+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">With Codex we\u2019re building an AI software engineer. One that you can pair with, delegate to, or even ask to take on future tasks proactively. Our team is a fast-moving group within OpenAI, bringing together research, engineering, design, and product. We iteratively build the Codex agent harness and product to get the most out of the model, and we iteratively train the model to be great at complex software engineering tasks.</p><p style=\"min-height:1.5em\">The Codex team is responsible for building state-of-the-art AI systems that can write code, reason about software, and act as intelligent agents for developers and non-developers alike. We operate across research, engineering, product, and infrastructure; owning the full lifecycle of experimentation, deployment, and iteration on novel coding capabilities.</p><p style=\"min-height:1.5em\"><em>Codex for Teams</em> builds products and platform capabilities to drive the adoption of Codex in diverse team environments. It is a cross-cutting team that works across the stack to build both delightful product experiences and fundamental platform capabilities. Its customers range from small teams to large enterprises, and our mission is critical to achieving the vision of Codex as a proactive teammate.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As we grow, we\u2019re focused on turning Codex from a powerful individual tool into a production-grade teammate for entire organizations. You will work across internal OpenAI teams and external customers, from fast-moving startups to large enterprises, to make it possible to deploy, operate, and trust Codex in increasingly demanding real-world environments.</p><p style=\"min-height:1.5em\">As Codex\u2019s consumer adoption accelerates, enterprise demand is growing just as quickly and there\u2019s opportunity to continue to drive key workflows, controls, and reliability improvements. This team helps turn messy, real-world team requirements into robust, repeatable, and scalable product and platform capabilities.</p><p style=\"min-height:1.5em\">You will work directly with a small set of deeply engaged design-partner customers using their real deployments to surface opportunities, and what\u2019s required for Codex to succeed inside modern engineering organizations. Those insights will drive what you build across product, infrastructure, and deployment patterns for all teams using Codex.</p><p style=\"min-height:1.5em\">This role owns systems end-to-end: from architecture and implementation to production operations with a strong bias for both quality and velocity.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Shape the evolution of Codex by identifying how teams actually use (and break) AI-powered software engineering, and driving changes across product, infrastructure, and model behavior to make Codex a truly reliable teammate for organizations.</p></li><li><p style=\"min-height:1.5em\">Build the core team and enterprise primitives that make Codex usable at scale, including RBAC, admin and audit surfaces, usage, rate limits and pricing controls, managed configuration and constraints, and analytics that give teams and operators deep visibility into how Codex is being used.</p></li><li><p style=\"min-height:1.5em\">Design and own secure, observable, full-stack systems that power Codex across web, IDEs, CLI, and CI/CD, integrating with enterprise identity and governance systems (SSO/SAML/OIDC, SCIM, policy enforcement) and building data-access patterns that are performant, compliant, and trustworthy.</p></li><li><p style=\"min-height:1.5em\">Lead real-world deployments and launches by working directly with customers and the Go To Market team (GTM) to roll Codex out across teams, using live usage and operational signals to rapidly iterate and turn messy, real-world feedback into scalable product and platform improvements.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have strong software engineering fundamentals and experience turning ideas into productionized systems, thinking holistically about speed, performance, and user experience.</p></li><li><p style=\"min-height:1.5em\">Are proficient in one or more backend languages (e.g., Python, Go, Rust) and distributed systems concepts, with a focus on reliability, observability, and security.</p></li><li><p style=\"min-height:1.5em\">Enjoy building cross-cutting platform capabilities that unlock product velocity, and you\u2019re comfortable working across services, APIs, and end-user product surfaces.</p></li><li><p style=\"min-height:1.5em\">Have experience with team/enterprise foundations such as identity and access (SAML/OIDC), SCIM, RBAC, audit/compliance logging, policy enforcement, and data governance controls.</p></li><li><p style=\"min-height:1.5em\">Have built developer tools and workflows (CLI/IDE/SDK), automation systems (triggers/scheduling), or integration platforms that connect products to a broader ecosystem of tools.</p></li><li><p style=\"min-height:1.5em\">Like working directly with users/customers (or alongside GTM/solutions teams), and can translate messy, diverse requirements into opinionated implementations that scale across many teams.</p></li><li><p style=\"min-height:1.5em\">Enjoy 0 -&gt; 1 environments, can navigate ambiguity, and bring crisp product thinking to technical trade-offs.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nWith Codex we\u2019re building an AI software engineer. One that you can pair with, delegate to, or even ask to take on future tasks proactively. Our team is a fast-moving group within OpenAI, bringing together research, engineering, design, and product. We iteratively build the Codex agent harness and product to get the most out of the model, and we iteratively train the model to be great at complex software engineering tasks.\n\nThe Codex team is responsible for building state-of-the-art AI systems that can write code, reason about software, and act as intelligent agents for developers and non-developers alike. We operate across research, engineering, product, and infrastructure; owning the full lifecycle of experimentation, deployment, and iteration on novel coding capabilities.\n\nCodex for Teams builds products and platform capabilities to drive the adoption of Codex in diverse team environments. It is a cross-cutting team that works across the stack to build both delightful product experiences and fundamental platform capabilities. Its customers range from small teams to large enterprises, and our mission is critical to achieving the vision of Codex as a proactive teammate.\n\nAbout the Role\n\nAs we grow, we\u2019re focused on turning Codex from a powerful individual tool into a production-grade teammate for entire organizations. You will work across internal OpenAI teams and external customers, from fast-moving startups to large enterprises, to make it possible to deploy, operate, and trust Codex in increasingly demanding real-world environments.\n\nAs Codex\u2019s consumer adoption accelerates, enterprise demand is growing just as quickly and there\u2019s opportunity to continue to drive key workflows, controls, and reliability improvements. This team helps turn messy, real-world team requirements into robust, repeatable, and scalable product and platform capabilities.\n\nYou will work directly with a small set of deeply engaged design-partner customers using their real deployments to surface opportunities, and what\u2019s required for Codex to succeed inside modern engineering organizations. Those insights will drive what you build across product, infrastructure, and deployment patterns for all teams using Codex.\n\nThis role owns systems end-to-end: from architecture and implementation to production operations with a strong bias for both quality and velocity.\n\nIn this role, you will:\n\n - Shape the evolution of Codex by identifying how teams actually use (and break) AI-powered software engineering, and driving changes across product, infrastructure, and model behavior to make Codex a truly reliable teammate for organizations.\n\n - Build the core team and enterprise primitives that make Codex usable at scale, including RBAC, admin and audit surfaces, usage, rate limits and pricing controls, managed configuration and constraints, and analytics that give teams and operators deep visibility into how Codex is being used.\n\n - Design and own secure, observable, full-stack systems that power Codex across web, IDEs, CLI, and CI/CD, integrating with enterprise identity and governance systems (SSO/SAML/OIDC, SCIM, policy enforcement) and building data-access patterns that are performant, compliant, and trustworthy.\n\n - Lead real-world deployments and launches by working directly with customers and the Go To Market team (GTM) to roll Codex out across teams, using live usage and operational signals to rapidly iterate and turn messy, real-world feedback into scalable product and platform improvements.\n\nYou might thrive in this role if you:\n\n - Have strong software engineering fundamentals and experience turning ideas into productionized systems, thinking holistically about speed, performance, and user experience.\n\n - Are proficient in one or more backend languages (e.g., Python, Go, Rust) and distributed systems concepts, with a focus on reliability, observability, and security.\n\n - Enjoy building cross-cutting platform capabilities that unlock product velocity, and you\u2019re comfortable working across services, APIs, and end-user product surfaces.\n\n - Have experience with team/enterprise foundations such as identity and access (SAML/OIDC), SCIM, RBAC, audit/compliance logging, policy enforcement, and data governance controls.\n\n - Have built developer tools and workflows (CLI/IDE/SDK), automation systems (triggers/scheduling), or integration platforms that connect products to a broader ecosystem of tools.\n\n - Like working directly with users/customers (or alongside GTM/solutions teams), and can translate messy, diverse requirements into opinionated implementations that scale across many teams.\n\n - Enjoy 0 -> 1 environments, can navigate ambiguity, and bring crisp product thinking to technical trade-offs.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$255K - $325K",
+      "compensationTiers": [
+        {
+          "id": "88d7d816-379b-4426-8ae9-b8ae7e87a935",
+          "tierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "6ca4f8b2-f5d9-4fe3-a11e-abeabe628fa1",
+              "summary": "$255K \u2013 $325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 255000,
+              "maxValue": 325000
+            },
+            {
+              "id": "32685599-dcaf-4c5d-acd7-b2783f61e514",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 255000,
+          "maxValue": 325000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-01-10T20:15:49.253743",
+    "last_seen": "2026-01-10T20:15:49.253743",
+    "days_since_listed": 0
+  },
+  {
     "id": "8a1b804f-b070-4c61-bd3d-cdf39ef9d935",
     "title": "Software Engineer, Privacy",
     "department": "Security",
@@ -4615,15 +4691,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "67521c13-1837-487b-b461-8429505a9099",
-              "summary": "\u00a3150K \u2013 \u00a3245K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "GBP",
-              "minValue": 150000,
-              "maxValue": 245000
-            },
-            {
               "id": "a1e57ee1-b3db-4f42-9670-9ac527dbc89e",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -4631,6 +4698,15 @@
               "currencyCode": "GBP",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "67521c13-1837-487b-b461-8429505a9099",
+              "summary": "\u00a3150K \u2013 \u00a3245K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "GBP",
+              "minValue": 150000,
+              "maxValue": 245000
             }
           ]
         }
@@ -5966,15 +6042,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "bed3ce95-3531-4ddd-bb17-839bdb546b82",
-              "summary": "$69.72 \u2013 $91.36 per hour",
-              "compensationType": "Salary",
-              "interval": "1 HOUR",
-              "currencyCode": "USD",
-              "minValue": 69.72,
-              "maxValue": 91.36
-            },
-            {
               "id": "263ce54f-ba42-40ba-bf17-69e552c2d50c",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -5982,24 +6049,33 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "bed3ce95-3531-4ddd-bb17-839bdb546b82",
+              "summary": "$69.72 \u2013 $91.36 per hour",
+              "compensationType": "Salary",
+              "interval": "1 HOUR",
+              "currencyCode": "USD",
+              "minValue": 69.72,
+              "maxValue": 91.36
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 HOUR",
-          "currencyCode": "USD",
-          "minValue": 69.72,
-          "maxValue": 91.36
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 HOUR",
+          "currencyCode": "USD",
+          "minValue": 69.72,
+          "maxValue": 91.36
         }
       ]
     }
@@ -13121,15 +13197,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "dafd8294-8854-4ccb-bd9c-b575db956807",
-              "summary": "$292.5K \u2013 $364.5K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 292500,
-              "maxValue": 364500
-            },
-            {
               "id": "2693ff18-f96f-43c5-9925-c414d4254978",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -13137,6 +13204,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "dafd8294-8854-4ccb-bd9c-b575db956807",
+              "summary": "$292.5K \u2013 $364.5K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 292500,
+              "maxValue": 364500
             }
           ]
         }
@@ -16966,11 +17042,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "cc434f5b-dc0b-42fd-97ec-e0171545c6e9",
@@ -17542,11 +17614,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "ecb47e6d-c6c1-4b91-9638-55c41eb16766",
@@ -17618,11 +17686,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "146861d1-8905-4e7f-abf8-6d5c4aafbc1f",
@@ -22064,6 +22128,82 @@
     }
   },
   {
+    "id": "a6fa0dda-b09f-48cd-98d0-7b82de26ecb3",
+    "title": "Data Engineer, Security Products",
+    "department": "Security Products",
+    "team": "Security Products",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-01-09T21:41:47.350+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/a6fa0dda-b09f-48cd-98d0-7b82de26ecb3",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/a6fa0dda-b09f-48cd-98d0-7b82de26ecb3/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Security Products is on a mission to transform cybersecurity by leveraging AI to give defenders a decisive advantage.</p><p style=\"min-height:1.5em\">Born out of OpenAI\u2019s security research program and incubated with Sam Altman\u2019s encouragement, the Security Products team is taking the breakthroughs we\u2019ve developed internally and bringing them to the world. Our tools are already protecting OpenAI\u2019s own systems, and we\u2019re looking to scale their impact to the world.</p><p style=\"min-height:1.5em\">We are a lean, high-caliber team <strong>operating at the frontier of AI and security</strong>. We blend security research with product engineering to explore what\u2019s possible, build what\u2019s practical, and give defenders an unprecedented advantage \u2013 all while advancing the science of AI-driven security itself.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As a Data Engineer on this team, you\u2019ll help invent and build the next generation of AI-powered cybersecurity products. You\u2019ll take the lead in building our data pipelines, core tables, and analytics to ensure our products are robust, reliable, and impactful.</p><p style=\"min-height:1.5em\">This is a fast-moving, high-ownership role. You\u2019ll collaborate closely with security experts, AI researchers, and product engineers, shaping both the technical foundation and the product direction of a team that is scaling quickly. You don\u2019t need to be a security expert to succeed here \u2013 just someone excited to solve meaningful problems and build tools that materially improve defenders\u2019 capabilities.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What you\u2019ll do:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build and manage our data pipelines, ensuring all user event data is seamlessly integrated into our data warehouse.</p></li><li><p style=\"min-height:1.5em\">Develop canonical datasets to track key product insights including security outcomes, engagement and usage, and performance.</p></li><li><p style=\"min-height:1.5em\">Work directly with internal and external customers to deeply understand their workflows and translate them into intuitive, powerful product experiences.</p></li><li><p style=\"min-height:1.5em\">Work collaboratively with cross-functional partners, including Infrastructure, Data Science, Product, Marketing, Go-To-Market, and Research to solve problems and enable product success.</p></li><li><p style=\"min-height:1.5em\">Implement robust and fault-tolerant systems for data ingestion and processing.</p></li><li><p style=\"min-height:1.5em\">Participate in data architecture and engineering decisions, bringing your strong experience and knowledge to bear.</p></li><li><p style=\"min-height:1.5em\">Ensure the security, integrity, and compliance of data according to industry and company standards.</p></li><li><p style=\"min-height:1.5em\">Help shape the engineering culture, architecture, and processes of a new business unit with a critical mission.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What we\u2019re looking for:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have 3+ years of experience as a data engineer and 8+ years of any software engineering experience (including data engineering).</p></li><li><p style=\"min-height:1.5em\">Proficiency in at least one programming language commonly used within Data Engineering, such as Python, Scala, or Java.</p></li><li><p style=\"min-height:1.5em\">Familiarity with public cloud environments (Azure or AWS) and infrastructure tooling (Kubernetes, Terraform, etc.).</p></li><li><p style=\"min-height:1.5em\">Experience with distributed processing technologies and frameworks, such as Hadoop, Flink and distributed storage systems (e.g., HDFS, S3).</p></li><li><p style=\"min-height:1.5em\">Expertise with any of ETL schedulers such as Airflow, Dagster, Prefect or similar frameworks.</p></li><li><p style=\"min-height:1.5em\">Solid understanding of Spark and ability to write, debug and optimize Spark code.</p></li><li><p style=\"min-height:1.5em\">Ability to thrive in a fast-paced environment where problems may be ambiguous, emerging, or rapidly evolving.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nSecurity Products is on a mission to transform cybersecurity by leveraging AI to give defenders a decisive advantage.\n\nBorn out of OpenAI\u2019s security research program and incubated with Sam Altman\u2019s encouragement, the Security Products team is taking the breakthroughs we\u2019ve developed internally and bringing them to the world. Our tools are already protecting OpenAI\u2019s own systems, and we\u2019re looking to scale their impact to the world.\n\nWe are a lean, high-caliber team operating at the frontier of AI and security. We blend security research with product engineering to explore what\u2019s possible, build what\u2019s practical, and give defenders an unprecedented advantage \u2013 all while advancing the science of AI-driven security itself.\n\nAbout the Role\n\nAs a Data Engineer on this team, you\u2019ll help invent and build the next generation of AI-powered cybersecurity products. You\u2019ll take the lead in building our data pipelines, core tables, and analytics to ensure our products are robust, reliable, and impactful.\n\nThis is a fast-moving, high-ownership role. You\u2019ll collaborate closely with security experts, AI researchers, and product engineers, shaping both the technical foundation and the product direction of a team that is scaling quickly. You don\u2019t need to be a security expert to succeed here \u2013 just someone excited to solve meaningful problems and build tools that materially improve defenders\u2019 capabilities.\n\nWhat you\u2019ll do:\n\n - Design, build and manage our data pipelines, ensuring all user event data is seamlessly integrated into our data warehouse.\n\n - Develop canonical datasets to track key product insights including security outcomes, engagement and usage, and performance.\n\n - Work directly with internal and external customers to deeply understand their workflows and translate them into intuitive, powerful product experiences.\n\n - Work collaboratively with cross-functional partners, including Infrastructure, Data Science, Product, Marketing, Go-To-Market, and Research to solve problems and enable product success.\n\n - Implement robust and fault-tolerant systems for data ingestion and processing.\n\n - Participate in data architecture and engineering decisions, bringing your strong experience and knowledge to bear.\n\n - Ensure the security, integrity, and compliance of data according to industry and company standards.\n\n - Help shape the engineering culture, architecture, and processes of a new business unit with a critical mission.\n\nWhat we\u2019re looking for:\n\n - Have 3+ years of experience as a data engineer and 8+ years of any software engineering experience (including data engineering).\n\n - Proficiency in at least one programming language commonly used within Data Engineering, such as Python, Scala, or Java.\n\n - Familiarity with public cloud environments (Azure or AWS) and infrastructure tooling (Kubernetes, Terraform, etc.).\n\n - Experience with distributed processing technologies and frameworks, such as Hadoop, Flink and distributed storage systems (e.g., HDFS, S3).\n\n - Expertise with any of ETL schedulers such as Airflow, Dagster, Prefect or similar frameworks.\n\n - Solid understanding of Spark and ability to write, debug and optimize Spark code.\n\n - Ability to thrive in a fast-paced environment where problems may be ambiguous, emerging, or rapidly evolving.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$255K - $325K",
+      "compensationTiers": [
+        {
+          "id": "38afc6a9-18e2-40f3-9d11-f8c42b233219",
+          "tierSummary": "$255K \u2013 $325K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "4d2ac94d-9533-40a9-9c8b-241c8c9f4aeb",
+              "summary": "$255K \u2013 $325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 255000,
+              "maxValue": 325000
+            },
+            {
+              "id": "0c091416-3d8c-49c3-a517-95e4ee5a16f2",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 255000,
+          "maxValue": 325000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-01-10T20:15:49.253743",
+    "last_seen": "2026-01-10T20:15:49.253743",
+    "days_since_listed": 0
+  },
+  {
     "id": "0867dab4-ed8e-46d5-92ce-a769ebda7c03",
     "title": "Media Relations, Safety Communications ",
     "department": "Communications",
@@ -22601,15 +22741,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "7ce89221-0def-44df-8664-a6d87cd63ebe",
-              "summary": "$265K \u2013 $325K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 265000,
-              "maxValue": 325000
-            },
-            {
               "id": "b0d3c3b8-f444-4822-92ca-83bcf2cb98cd",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -22617,31 +22748,36 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "7ce89221-0def-44df-8664-a6d87cd63ebe",
+              "summary": "$265K \u2013 $325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 265000,
+              "maxValue": 325000
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 265000,
-          "maxValue": 325000
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 265000,
+          "maxValue": 325000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c6e5f4a6-8ab1-4653-be9d-e2bca259e84a",
@@ -22713,11 +22849,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "dabc95d2-7155-4e84-a48c-6fde4add143b",
@@ -22789,10 +22921,82 @@
           "maxValue": null
         }
       ]
+    }
+  },
+  {
+    "id": "60d3700b-ba82-4fa6-a6bb-7b2b67070510",
+    "title": "Researcher, Synthetic RL",
+    "department": "Research",
+    "team": "Research",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-01-09T21:12:59.003+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/60d3700b-ba82-4fa6-a6bb-7b2b67070510",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/60d3700b-ba82-4fa6-a6bb-7b2b67070510/application",
+    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">The Synthetic RL team develops reinforcement learning methods that leverage synthetic data, environments, and feedback to train and evaluate frontier AI models. The team explores approaches such as self-play, simulators, and other synthetic evaluations to push model capability, generalization, and alignment beyond what is possible with the current prevailing methodology.</p><p style=\"min-height:1.5em\"></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">As a <strong>Research Scientist </strong>on the Synthetic RL team, you will develop novel reinforcement learning techniques that use synthetic environments and feedback to improve large-scale models. You\u2019ll work closely with other researchers to design experiments, analyze learning dynamics, and translate research insights into training approaches used in production systems.</p><p style=\"min-height:1.5em\">We\u2019re looking for researchers who enjoy working on open-ended problems, value fast iteration, and want their work to directly shape how frontier models are trained.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><h2><strong>In this role, you will:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Research and develop reinforcement learning algorithms</p></li><li><p style=\"min-height:1.5em\">Design and run experiments to study training dynamics and model behavior at scale</p></li><li><p style=\"min-height:1.5em\">Collaborate with engineers and researchers to integrate successful approaches into model training pipelines<br /></p></li></ul><h2><strong>You might thrive in this role if you:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have a strong background in reinforcement learning, machine learning research, or related fields</p></li><li><p style=\"min-height:1.5em\">Have strong engineering and statistical analysis skills</p></li><li><p style=\"min-height:1.5em\">Enjoy exploring new problem spaces where data, objectives, and evaluation are imperfect or evolving</p></li><li><p style=\"min-height:1.5em\">Are motivated by seeing research ideas influence real-world AI systems</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "ABOUT THE TEAM\n\nThe Synthetic RL team develops reinforcement learning methods that leverage synthetic data, environments, and feedback to train and evaluate frontier AI models. The team explores approaches such as self-play, simulators, and other synthetic evaluations to push model capability, generalization, and alignment beyond what is possible with the current prevailing methodology.\n\n\nABOUT THE ROLE\n\nAs a Research Scientist on the Synthetic RL team, you will develop novel reinforcement learning techniques that use synthetic environments and feedback to improve large-scale models. You\u2019ll work closely with other researchers to design experiments, analyze learning dynamics, and translate research insights into training approaches used in production systems.\n\nWe\u2019re looking for researchers who enjoy working on open-ended problems, value fast iteration, and want their work to directly shape how frontier models are trained.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\n\nIN THIS ROLE, YOU WILL:\n\n - Research and develop reinforcement learning algorithms\n\n - Design and run experiments to study training dynamics and model behavior at scale\n\n - Collaborate with engineers and researchers to integrate successful approaches into model training pipelines\n   \n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Have a strong background in reinforcement learning, machine learning research, or related fields\n\n - Have strong engineering and statistical analysis skills\n\n - Enjoy exploring new problem spaces where data, objectives, and evaluation are imperfect or evolving\n\n - Are motivated by seeing research ideas influence real-world AI systems\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$310K \u2013 $460K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$310K - $460K",
+      "compensationTiers": [
+        {
+          "id": "653f4a3f-7197-43aa-8606-b5747c11f7b5",
+          "tierSummary": "$310K \u2013 $460K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "8b52bdd8-d2d6-4652-8210-f6aa0025da1a",
+              "summary": "$310K \u2013 $460K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 310000,
+              "maxValue": 460000
+            },
+            {
+              "id": "39e352ab-713f-41dd-88fb-578ea446ed4d",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 310000,
+          "maxValue": 460000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
+    "first_seen": "2026-01-10T20:15:49.253743",
+    "last_seen": "2026-01-10T20:15:49.253743",
     "days_since_listed": 0
   },
   {
@@ -23026,11 +23230,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "81a99734-5452-428b-8a7a-60f44b52710f",
@@ -23109,10 +23309,6 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-09T20:17:56.899089",
-    "last_seen": "2026-01-09T20:17:56.899089",
-    "days_since_listed": 0
+    }
   }
 ]
