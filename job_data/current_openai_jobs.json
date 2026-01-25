@@ -9512,15 +9512,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a15ebac0-5309-4261-9f44-b3ff11b5017d",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "a4fdb43e-3663-4b08-af75-2ae592c3465e",
               "summary": "$220K \u2013 $280K",
               "compensationType": "Salary",
@@ -9528,24 +9519,33 @@
               "currencyCode": "USD",
               "minValue": 220000,
               "maxValue": 280000
+            },
+            {
+              "id": "a15ebac0-5309-4261-9f44-b3ff11b5017d",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 220000,
           "maxValue": 280000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -14073,11 +14073,7 @@
           "maxValue": 490000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-24T20:15:20.770342",
-    "last_seen": "2026-01-24T20:15:20.770342",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c680b539-6a7a-48e2-84c6-f5ea212c5a07",
@@ -21845,11 +21841,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-24T20:15:20.770342",
-    "last_seen": "2026-01-24T20:15:20.770342",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "532ab802-1085-4539-a9cc-a76cf14575c7",
@@ -23972,11 +23964,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-24T20:15:20.770342",
-    "last_seen": "2026-01-24T20:15:20.770342",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "26fa0f98-b834-4c1a-9a53-8a6e6bba6934",
@@ -24195,87 +24183,6 @@
     }
   },
   {
-    "id": "46c9cfa9-4d26-4b0e-b038-84c9e9fb67c6",
-    "title": "Global Mobility & Immigration Specialist",
-    "department": "People",
-    "team": "Global Mobility",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [
-      {
-        "location": "Remote - US",
-        "address": {
-          "postalAddress": {
-            "addressCountry": "United States"
-          }
-        }
-      }
-    ],
-    "publishedAt": "2026-01-22T18:10:05.020+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/46c9cfa9-4d26-4b0e-b038-84c9e9fb67c6",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/46c9cfa9-4d26-4b0e-b038-84c9e9fb67c6/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Our Global Mobility &amp; Immigration team supports the movement of exceptional talent across borders, enabling OpenAI\u2019s mission to ensure that artificial general intelligence benefits all of humanity. We partner closely with Recruiting, Legal, HR, and external vendors to deliver a seamless and principled immigration experience.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We\u2019re looking for a highly organized, detail-oriented Immigration &amp; Global Mobility Specialist to support day-to-day U.S. and global immigration operations. This is a hands-on, execution-focused role that partners closely with Global Mobility, Legal, Recruiting, and external immigration vendors to ensure cases move accurately and on time.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is best suited for someone who thrives in high-volume environments, enjoys operational work, and takes pride in keeping processes running smoothly for employees and stakeholders. This role reports to our Global Immigration Lead.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Your responsibilities:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Support the end-to-end lifecycle of U.S. and global immigration cases, including initiation, tracking, document collection, and filing coordination.</p></li><li><p style=\"min-height:1.5em\">Serve as a primary operational point of contact for employees and recruiters on routine immigration and mobility questions (e.g., case status, timelines, next steps).</p></li><li><p style=\"min-height:1.5em\">Coordinate closely with external immigration vendors to ensure timely responses, complete documentation, and adherence to established SLAs.</p></li><li><p style=\"min-height:1.5em\">Maintain accurate immigration records and trackers, including Public Access Files (PAFs), LCA postings, and audit documentation.</p></li><li><p style=\"min-height:1.5em\">Assist with operational immigration processes such as LCA batch postings, PERM support tasks, and standard non-immigrant visa cases.</p></li><li><p style=\"min-height:1.5em\">Triage and manage items in shared inboxes and ticketing systems; escalate issues or risks to senior team members when needed.</p></li><li><p style=\"min-height:1.5em\">Extract, validate, and maintain immigration-related data from HR systems (e.g., Workday, ATS, offer letters).</p></li><li><p style=\"min-height:1.5em\">Provide administrative and logistical support, including collecting signatures, posting notices, scheduling calls, and maintaining paper and electronic records.</p></li><li><p style=\"min-height:1.5em\">Follow established processes and playbooks to ensure compliance, accuracy, and consistency.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>We\u2019re Seeking:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">8+ years of immigration operations and coordination experience with exposure to both U.S. and global immigration strongly preferred.</p></li><li><p style=\"min-height:1.5em\">Working knowledge of common visa types (e.g., H-1B, O-1, E-3, J-1, UK Skilled Worker, Singapore Employment Pass).</p></li><li><p style=\"min-height:1.5em\">Familiarity with LCA processes, basic PERM workflows, and immigration compliance requirements.</p></li><li><p style=\"min-height:1.5em\">Experience working with immigration case management systems or ticketing tools.</p></li><li><p style=\"min-height:1.5em\">Strong attention to detail and comfort handling confidential information.</p></li><li><p style=\"min-height:1.5em\">Ability to manage multiple tasks simultaneously in a fast-paced, high-volume environment.</p></li><li><p style=\"min-height:1.5em\">Clear communicator who follows through reliably and flags issues early.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Workplace &amp; Location</strong></p><p style=\"min-height:1.5em\">This role is based in our San Francisco office or remotely in the US. Please indicate your working location in your application.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We offer relocation support to new employees, and we use a hybrid model: three days in the office per week with optional work from home on Thursdays and Fridays.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Our open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nOur Global Mobility & Immigration team supports the movement of exceptional talent across borders, enabling OpenAI\u2019s mission to ensure that artificial general intelligence benefits all of humanity. We partner closely with Recruiting, Legal, HR, and external vendors to deliver a seamless and principled immigration experience.\n\nAbout the Role\n\nWe\u2019re looking for a highly organized, detail-oriented Immigration & Global Mobility Specialist to support day-to-day U.S. and global immigration operations. This is a hands-on, execution-focused role that partners closely with Global Mobility, Legal, Recruiting, and external immigration vendors to ensure cases move accurately and on time.\n\nThis role is best suited for someone who thrives in high-volume environments, enjoys operational work, and takes pride in keeping processes running smoothly for employees and stakeholders. This role reports to our Global Immigration Lead.\n\nYour responsibilities:\n\n - Support the end-to-end lifecycle of U.S. and global immigration cases, including initiation, tracking, document collection, and filing coordination.\n\n - Serve as a primary operational point of contact for employees and recruiters on routine immigration and mobility questions (e.g., case status, timelines, next steps).\n\n - Coordinate closely with external immigration vendors to ensure timely responses, complete documentation, and adherence to established SLAs.\n\n - Maintain accurate immigration records and trackers, including Public Access Files (PAFs), LCA postings, and audit documentation.\n\n - Assist with operational immigration processes such as LCA batch postings, PERM support tasks, and standard non-immigrant visa cases.\n\n - Triage and manage items in shared inboxes and ticketing systems; escalate issues or risks to senior team members when needed.\n\n - Extract, validate, and maintain immigration-related data from HR systems (e.g., Workday, ATS, offer letters).\n\n - Provide administrative and logistical support, including collecting signatures, posting notices, scheduling calls, and maintaining paper and electronic records.\n\n - Follow established processes and playbooks to ensure compliance, accuracy, and consistency.\n\nWe\u2019re Seeking:\n\n - 8+ years of immigration operations and coordination experience with exposure to both U.S. and global immigration strongly preferred.\n\n - Working knowledge of common visa types (e.g., H-1B, O-1, E-3, J-1, UK Skilled Worker, Singapore Employment Pass).\n\n - Familiarity with LCA processes, basic PERM workflows, and immigration compliance requirements.\n\n - Experience working with immigration case management systems or ticketing tools.\n\n - Strong attention to detail and comfort handling confidential information.\n\n - Ability to manage multiple tasks simultaneously in a fast-paced, high-volume environment.\n\n - Clear communicator who follows through reliably and flags issues early.\n\nWorkplace & Location\n\nThis role is based in our San Francisco office or remotely in the US. Please indicate your working location in your application.\n\nWe offer relocation support to new employees, and we use a hybrid model: three days in the office per week with optional work from home on Thursdays and Fridays.\n\nOur open-plan offices have height-adjustable desks, conference rooms, phone booths, well-stocked kitchens full of snacks and drinks, three in-house prepared meals daily, a private outdoor space for working in the sun or socializing, nap rooms, private bike storage, and more.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$120K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$120K",
-      "compensationTiers": [
-        {
-          "id": "9a4611cf-f94a-4a36-9acb-c261bcdbe302",
-          "tierSummary": "$120K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "fee21e83-54a9-44eb-8042-78e11051a4fc",
-              "summary": "$120K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 120000,
-              "maxValue": 120000
-            },
-            {
-              "id": "d6315dbf-7069-4bba-b58a-1d58bdd0f18c",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 120000,
-          "maxValue": 120000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "c2e8aff9-96a6-4941-b037-31419e819cc1",
     "title": "Director of Recruiting Operations ",
     "department": "People",
@@ -24418,6 +24325,82 @@
         }
       ]
     }
+  },
+  {
+    "id": "4f1870f0-b0a8-44fb-b6fe-28638b45ae47",
+    "title": "B2B Strategic Finance",
+    "department": "Strategic Finance",
+    "team": "Strategic Finance",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-01-24T22:26:59.754+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/4f1870f0-b0a8-44fb-b6fe-28638b45ae47",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/4f1870f0-b0a8-44fb-b6fe-28638b45ae47/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Strategic Finance team provides financial insights and guidance to support OpenAI\u2019s long-term goals and strategies. We partner across the business to allocate and deploy our resources for the highest-impact outcomes.  \ufffc</p><p style=\"min-height:1.5em\">Within Strategic Finance, our team focuses on the financial performance of our B2B products and GTM functions, ensuring tight alignment between financial objectives and company strategy. We partner with leaders across Product, GTM, Research, Partnerships, and Operations to:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Drive operational planning, financial forecasting, and performance management for our B2B business</p></li><li><p style=\"min-height:1.5em\">Provide decision-quality insights on B2B product and financial performance to inform strategic resource allocation</p></li><li><p style=\"min-height:1.5em\">Build the \u201c0\u21921\u201d financial foundations required to scale and accelerate growth</p></li></ul><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We are looking for strategic finance professionals who are deeply analytical, think strategically, and can independently drive work while partnering directly with senior B2B leaders. We\u2019re hiring for a number of positions across B2B Product, GTM, and Central finance. This is a unique opportunity to influence the financial trajectory of frontier AI products and initiatives, working at the intersection of strategy, finance, and technology.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Serve as a strategic finance partner to our B2B Product and GTM teams.</p></li><li><p style=\"min-height:1.5em\">Guide B2B financial planning across revenue, compute / gross margin, and opex for annual budget, rolling forecasts, and long-range planning.</p></li><li><p style=\"min-height:1.5em\">Establish and manage key metrics to measure topline product performance, unit economics, sales productivity, and compute efficiency.</p></li><li><p style=\"min-height:1.5em\">Analyze trends and distill actionable insights to guide strategy and day-to-day execution.</p></li><li><p style=\"min-height:1.5em\">Build and scale FP&amp;A rigor, including forecasting methodology, management reporting, and performance narratives that hold leaders accountable and improve decision velocity.</p></li><li><p style=\"min-height:1.5em\">Support strategic initiatives such as pricing, deal structuring, and business case development for growth bets and new launches.</p></li><li><p style=\"min-height:1.5em\">Own the end-to-end financial management of budgets, ensuring efficient resource allocation and proactive response to variances.</p></li><li><p style=\"min-height:1.5em\">Deliver high-quality executive and Board-facing presentations to communicate performance and strategic recommendations that influence key business stakeholders.</p></li><li><p style=\"min-height:1.5em\">Stay current on market dynamics to shape OpenAI\u2019s B2B strategy.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">8+ years of experience in investment banking, consulting, strategic finance, or buy-side investing coupled with operational experience at a fast-paced, scaling company.</p></li><li><p style=\"min-height:1.5em\">A strong ability to critically evaluate opportunities and risks in financials.</p></li><li><p style=\"min-height:1.5em\">Expert modeling skills, including building detailed P&amp;Ls and operating models.</p></li><li><p style=\"min-height:1.5em\">The ability to distill complex financial data into actionable insights and effectively influence leadership.</p></li><li><p style=\"min-height:1.5em\">Excellent communication skills and the ability to craft compelling narratives using data.</p></li><li><p style=\"min-height:1.5em\">Attention to detail and a commitment to accuracy in financial reporting, budgeting, and analysis.</p></li><li><p style=\"min-height:1.5em\">Familiarity with business models and metrics relevant to OpenAI.</p></li><li><p style=\"min-height:1.5em\">Experience with SQL or a willingness to learn.</p></li><li><p style=\"min-height:1.5em\">An enthusiastic \"roll up your sleeves\" mentality and ability to deal effectively with ambiguity in a fast-paced environment\u202c.</p></li><li><p style=\"min-height:1.5em\">Deep enthusiasm for the deployment of AI and OpenAI\u2019s mission.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nThe Strategic Finance team provides financial insights and guidance to support OpenAI\u2019s long-term goals and strategies. We partner across the business to allocate and deploy our resources for the highest-impact outcomes. \ufffc\n\nWithin Strategic Finance, our team focuses on the financial performance of our B2B products and GTM functions, ensuring tight alignment between financial objectives and company strategy. We partner with leaders across Product, GTM, Research, Partnerships, and Operations to:\n\n - Drive operational planning, financial forecasting, and performance management for our B2B business\n\n - Provide decision-quality insights on B2B product and financial performance to inform strategic resource allocation\n\n - Build the \u201c0\u21921\u201d financial foundations required to scale and accelerate growth\n\nAbout the Role\n\nWe are looking for strategic finance professionals who are deeply analytical, think strategically, and can independently drive work while partnering directly with senior B2B leaders. We\u2019re hiring for a number of positions across B2B Product, GTM, and Central finance. This is a unique opportunity to influence the financial trajectory of frontier AI products and initiatives, working at the intersection of strategy, finance, and technology.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Serve as a strategic finance partner to our B2B Product and GTM teams.\n\n - Guide B2B financial planning across revenue, compute / gross margin, and opex for annual budget, rolling forecasts, and long-range planning.\n\n - Establish and manage key metrics to measure topline product performance, unit economics, sales productivity, and compute efficiency.\n\n - Analyze trends and distill actionable insights to guide strategy and day-to-day execution.\n\n - Build and scale FP&A rigor, including forecasting methodology, management reporting, and performance narratives that hold leaders accountable and improve decision velocity.\n\n - Support strategic initiatives such as pricing, deal structuring, and business case development for growth bets and new launches.\n\n - Own the end-to-end financial management of budgets, ensuring efficient resource allocation and proactive response to variances.\n\n - Deliver high-quality executive and Board-facing presentations to communicate performance and strategic recommendations that influence key business stakeholders.\n\n - Stay current on market dynamics to shape OpenAI\u2019s B2B strategy.\n\nYou might thrive in this role if you have:\n\n - 8+ years of experience in investment banking, consulting, strategic finance, or buy-side investing coupled with operational experience at a fast-paced, scaling company.\n\n - A strong ability to critically evaluate opportunities and risks in financials.\n\n - Expert modeling skills, including building detailed P&Ls and operating models.\n\n - The ability to distill complex financial data into actionable insights and effectively influence leadership.\n\n - Excellent communication skills and the ability to craft compelling narratives using data.\n\n - Attention to detail and a commitment to accuracy in financial reporting, budgeting, and analysis.\n\n - Familiarity with business models and metrics relevant to OpenAI.\n\n - Experience with SQL or a willingness to learn.\n\n - An enthusiastic \"roll up your sleeves\" mentality and ability to deal effectively with ambiguity in a fast-paced environment\u202c.\n\n - Deep enthusiasm for the deployment of AI and OpenAI\u2019s mission.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$265K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$265K",
+      "compensationTiers": [
+        {
+          "id": "1c0da176-bfeb-4722-8cdb-00f11d410f6f",
+          "tierSummary": "$265K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "a9e9a507-5161-4253-ac65-c0e783134d15",
+              "summary": "$265K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 265000,
+              "maxValue": 265000
+            },
+            {
+              "id": "9350841c-7169-4378-a26e-f812b5f34a3b",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 265000,
+          "maxValue": 265000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-01-25T20:17:17.138886",
+    "last_seen": "2026-01-25T20:17:17.138886",
+    "days_since_listed": 0
   },
   {
     "id": "4d6a5951-9838-434c-830a-22cb938ea228",
