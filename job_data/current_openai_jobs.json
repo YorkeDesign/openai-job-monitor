@@ -12685,11 +12685,7 @@
           "maxValue": 275000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-01-31T20:18:13.914780",
-    "last_seen": "2026-01-31T20:18:13.914780",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c9acc73a-b118-4802-bb51-87f3d57df883",
