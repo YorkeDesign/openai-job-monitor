@@ -17192,11 +17192,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-07T20:19:18.826139",
-    "last_seen": "2026-02-07T20:19:18.826139",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "2710d0c7-8f1c-4e1a-bf7a-4000fc5a8d68",
@@ -20762,11 +20758,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-07T20:19:18.826139",
-    "last_seen": "2026-02-07T20:19:18.826139",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "d4084bb6-f9fa-46df-87ef-da6caed88455",
@@ -23970,11 +23962,7 @@
           "maxValue": 240000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-07T20:19:18.826139",
-    "last_seen": "2026-02-07T20:19:18.826139",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "1cf5644e-2a43-47a0-ad75-2de7b99dd3ad",
@@ -27227,15 +27215,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "0784ac41-e629-428a-b724-0c5d019b4e47",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "34c5c205-b373-42ad-b625-e158977c879d",
               "summary": "$158K \u2013 $175K",
               "compensationType": "Salary",
@@ -27243,24 +27222,33 @@
               "currencyCode": "USD",
               "minValue": 158000,
               "maxValue": 175000
+            },
+            {
+              "id": "0784ac41-e629-428a-b724-0c5d019b4e47",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 158000,
           "maxValue": 175000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -27944,15 +27932,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "0f62aeb5-819b-4a1b-b49e-b05f93c5e1a5",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "fb40cd14-9cdc-457e-903f-61fa89a88313",
               "summary": "$295K \u2013 $445K",
               "compensationType": "Salary",
@@ -27960,24 +27939,33 @@
               "currencyCode": "USD",
               "minValue": 295000,
               "maxValue": 445000
+            },
+            {
+              "id": "0f62aeb5-819b-4a1b-b49e-b05f93c5e1a5",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 295000,
           "maxValue": 445000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
