@@ -4755,11 +4755,7 @@
           "interval": "1 YEAR"
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-21T20:17:19.252242",
-    "last_seen": "2026-02-21T20:17:19.252242",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "fbefd5d2-affe-47e1-9e87-d2b5de317b40",
@@ -30876,11 +30872,7 @@
           "maxValue": 260000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-21T20:17:19.252242",
-    "last_seen": "2026-02-21T20:17:19.252242",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "979b4845-e6d6-4887-a8fb-8a8c72707ead",
@@ -31026,10 +31018,6 @@
           "maxValue": 255000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-21T20:17:19.252242",
-    "last_seen": "2026-02-21T20:17:19.252242",
-    "days_since_listed": 0
+    }
   }
 ]
