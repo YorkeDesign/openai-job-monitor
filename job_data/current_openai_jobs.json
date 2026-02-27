@@ -6957,15 +6957,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a1b5e4db-fbdf-4c2e-8611-67b818349d5c",
-              "summary": "$184K \u2013 $308K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 184000,
-              "maxValue": 308000
-            },
-            {
               "id": "a90b189d-42ca-4e3f-8893-1bf1d41579ed",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -6973,6 +6964,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "a1b5e4db-fbdf-4c2e-8611-67b818349d5c",
+              "summary": "$184K \u2013 $308K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 184000,
+              "maxValue": 308000
             }
           ]
         }
@@ -8774,15 +8774,6 @@
           "additionalInformation": "Multiple Ranges",
           "components": [
             {
-              "id": "40608e24-e30a-40b4-96a8-d8af7094d1f8",
-              "summary": "$261K \u2013 $352K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 261000,
-              "maxValue": 352000
-            },
-            {
               "id": "5031d410-b676-4836-b755-685d88898afc",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -8790,24 +8781,33 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "40608e24-e30a-40b4-96a8-d8af7094d1f8",
+              "summary": "$261K \u2013 $352K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 261000,
+              "maxValue": 352000
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 261000,
-          "maxValue": 352000
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 261000,
+          "maxValue": 352000
         }
       ]
     }
@@ -16440,11 +16440,7 @@
           "maxValue": 320000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "a10e13f7-1863-49e7-b7ab-0a9b430aa639",
@@ -19262,79 +19258,6 @@
           "currencyCode": "USD",
           "minValue": 198000,
           "maxValue": 335000
-        }
-      ]
-    }
-  },
-  {
-    "id": "1a5fd449-539f-429f-b61a-68a62414bd80",
-    "title": "Motion Designer",
-    "department": "Marketing",
-    "team": "Creative",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-01-12T15:01:58.555+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "workplaceType": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/1a5fd449-539f-429f-b61a-68a62414bd80",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/1a5fd449-539f-429f-b61a-68a62414bd80/application",
-    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">OpenAI didn\u2019t begin as a traditional company. It began as an idea: that artificial intelligence could be developed in a way that benefits everyone. As a creative team, our role is to help make sure<strong> </strong>the work behind that idea is understood, as it leaves the lab and meets the world.</p><p style=\"min-height:1.5em\">This company works at the frontier of intelligence. Like any frontier, it\u2019s unfinished, constantly shifting, and still being explored. Our job is to stay close to that uncertainty and help shape how this story gets told,<strong> </strong>in a way that feels grounded and human. We do this through campaigns, launches, films, brand systems, and work that doesn\u2019t fit neatly into any of those categories yet. This team is for people who want to help shape something from the beginning.</p><p style=\"min-height:1.5em\"></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">Motion design helps define how OpenAI communicates\u2014across campaigns, launches, and ongoing storytelling. As a Motion Designer, you will create motion work that supports our marketing and communications efforts, helping people understand and connect with our products, research, and mission.</p><p style=\"min-height:1.5em\">This is a hands-on role focused on craft and execution. You\u2019ll work closely with designers, writers, producers, and marketing partners to deliver motion that is clear, thoughtful, and consistent with OpenAI\u2019s brand.</p><p style=\"min-height:1.5em\">To us, creativity is a team sport. Ideas get better when you talk them through and build on each other\u2019s thinking. We value curiosity over certainty, kindness over ego, and the ability to balance craft with decisiveness.</p><p style=\"min-height:1.5em\"></p><h2><strong>In this role, you will</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and produce motion assets for marketing and communications, including campaigns, product launches, films, social content, web, and presentations.</p></li><li><p style=\"min-height:1.5em\">Translate complex ideas into clear, engaging motion that supports marketing goals and audience understanding.</p></li><li><p style=\"min-height:1.5em\">Collaborate with brand, marketing, and communications partners throughout the creative process - from concept to final delivery.</p></li><li><p style=\"min-height:1.5em\">Contribute to and apply OpenAI\u2019s motion design principles and systems across channels.</p></li><li><p style=\"min-height:1.5em\">Develop storyboards, motion studies, and prototypes to explore and communicate ideas.</p></li><li><p style=\"min-height:1.5em\">Execute high-quality animations with strong attention to detail, pacing, and consistency.</p></li><li><p style=\"min-height:1.5em\">Adapt work for multiple platforms and formats while maintaining brand standards.</p></li><li><p style=\"min-height:1.5em\">Partner with producers and project managers to scope work, manage timelines, and deliver on deadlines.</p></li><li><p style=\"min-height:1.5em\">Participate in reviews and critiques, providing and incorporating clear, constructive feedback.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>You might thrive in this role if you</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor\u2019s degree in Design, Animation, or a related field, or equivalent professional experience.</p></li><li><p style=\"min-height:1.5em\">8+ years of experience in motion design, with a portfolio demonstrating strong brand and marketing work.</p></li><li><p style=\"min-height:1.5em\">Proficiency in industry-standard motion design and animation tools.</p></li><li><p style=\"min-height:1.5em\">Strong fundamentals in storytelling, timing, composition, typography, and visual systems.</p></li><li><p style=\"min-height:1.5em\">Experience creating motion for marketing and communication touchpoints.</p></li><li><p style=\"min-height:1.5em\">Ability to work collaboratively across disciplines and communicate design decisions clearly.</p></li><li><p style=\"min-height:1.5em\">Comfort working in a fast-paced, evolving environment with a high bar for quality.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE TEAM\n\nOpenAI didn\u2019t begin as a traditional company. It began as an idea: that artificial intelligence could be developed in a way that benefits everyone. As a creative team, our role is to help make sure the work behind that idea is understood, as it leaves the lab and meets the world.\n\nThis company works at the frontier of intelligence. Like any frontier, it\u2019s unfinished, constantly shifting, and still being explored. Our job is to stay close to that uncertainty and help shape how this story gets told, in a way that feels grounded and human. We do this through campaigns, launches, films, brand systems, and work that doesn\u2019t fit neatly into any of those categories yet. This team is for people who want to help shape something from the beginning.\n\n\nABOUT THE ROLE\n\nMotion design helps define how OpenAI communicates\u2014across campaigns, launches, and ongoing storytelling. As a Motion Designer, you will create motion work that supports our marketing and communications efforts, helping people understand and connect with our products, research, and mission.\n\nThis is a hands-on role focused on craft and execution. You\u2019ll work closely with designers, writers, producers, and marketing partners to deliver motion that is clear, thoughtful, and consistent with OpenAI\u2019s brand.\n\nTo us, creativity is a team sport. Ideas get better when you talk them through and build on each other\u2019s thinking. We value curiosity over certainty, kindness over ego, and the ability to balance craft with decisiveness.\n\n\nIN THIS ROLE, YOU WILL\n\n - Design and produce motion assets for marketing and communications, including campaigns, product launches, films, social content, web, and presentations.\n\n - Translate complex ideas into clear, engaging motion that supports marketing goals and audience understanding.\n\n - Collaborate with brand, marketing, and communications partners throughout the creative process - from concept to final delivery.\n\n - Contribute to and apply OpenAI\u2019s motion design principles and systems across channels.\n\n - Develop storyboards, motion studies, and prototypes to explore and communicate ideas.\n\n - Execute high-quality animations with strong attention to detail, pacing, and consistency.\n\n - Adapt work for multiple platforms and formats while maintaining brand standards.\n\n - Partner with producers and project managers to scope work, manage timelines, and deliver on deadlines.\n\n - Participate in reviews and critiques, providing and incorporating clear, constructive feedback.\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU\n\n - Bachelor\u2019s degree in Design, Animation, or a related field, or equivalent professional experience.\n\n - 8+ years of experience in motion design, with a portfolio demonstrating strong brand and marketing work.\n\n - Proficiency in industry-standard motion design and animation tools.\n\n - Strong fundamentals in storytelling, timing, composition, typography, and visual systems.\n\n - Experience creating motion for marketing and communication touchpoints.\n\n - Ability to work collaboratively across disciplines and communicate design decisions clearly.\n\n - Comfort working in a fast-paced, evolving environment with a high bar for quality.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$216K - $240K",
-      "compensationTiers": [
-        {
-          "id": "a1a04f14-4391-4b24-87b0-fea4b9d25ced",
-          "tierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "4edd47a1-9599-4f75-863a-ce773b4738af",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "905f0f0a-0856-4f5c-ab56-bcbccf14e802",
-              "summary": "$216K \u2013 $240K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 216000,
-              "maxValue": 240000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 216000,
-          "maxValue": 240000
         }
       ]
     }
@@ -22412,15 +22335,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "eed5f63f-8735-4581-b480-ed617e9dff29",
-              "summary": "Offers Commission",
-              "compensationType": "Commission",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "0c847230-08e1-4a83-b7e8-7f7cd5fcc102",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -22437,18 +22351,20 @@
               "currencyCode": "USD",
               "minValue": 293000,
               "maxValue": 325000
+            },
+            {
+              "id": "eed5f63f-8735-4581-b480-ed617e9dff29",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
-        {
-          "compensationType": "Commission",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
         {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
@@ -22462,6 +22378,13 @@
           "currencyCode": "USD",
           "minValue": 293000,
           "maxValue": 325000
+        },
+        {
+          "compensationType": "Commission",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -24074,11 +23997,7 @@
           "maxValue": 264000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "fb1e823e-cfcc-4293-8893-cc77e467c561",
@@ -24168,15 +24087,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "8dc37109-97e5-4949-809f-7e8e7e8f6683",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "18ed9142-ad93-444b-bf8f-665d8b160819",
               "summary": "$186K \u2013 $301.5K",
               "compensationType": "Salary",
@@ -24184,6 +24094,15 @@
               "currencyCode": "USD",
               "minValue": 186000,
               "maxValue": 301500
+            },
+            {
+              "id": "8dc37109-97e5-4949-809f-7e8e7e8f6683",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -24227,6 +24146,79 @@
           "currencyCode": "USD",
           "interval": "1 YEAR",
           "compensationType": "Salary"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3ebe23d6-be1d-43d1-b4cc-afe6e06efd70",
+    "title": "Ops Lead, Life Sciences",
+    "department": "Partnerships",
+    "team": "Partnerships",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-26T22:53:59.635+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/3ebe23d6-be1d-43d1-b4cc-afe6e06efd70",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/3ebe23d6-be1d-43d1-b4cc-afe6e06efd70/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong><br />The Business, Life Sciences team at OpenAI tackles domains where frontier AI can transform science and industry, requiring new approaches that cut across GTM, Research, and Product. Our charter is to prove out high-leverage applications, build the right partnerships, and turn early experiments into durable operating models. In life sciences, we work with Research to extend scaling laws into biology and chemistry, aligning scientific progress with real-world deployment.<br /></p><p style=\"min-height:1.5em\"><strong>About the role</strong><br />We are hiring an Ops Lead to lead initiatives at the intersection of Life Sciences and frontier AI deployment. You will own outcomes across complex cross-functional work, including periods of ambiguity and rapid change. You will lead 1 priority initiative end-to-end at a time and measure outcomes, while keeping the broader portfolio on track through clear priorities, decision discipline, and tight execution.</p><p style=\"min-height:1.5em\">You will also partner closely with Product, Research, and Applied Evals to translate field learnings into product and model feedback. Success means faster decisions, fewer late surprises, and measurable progress on the work that matters most.</p><p style=\"min-height:1.5em\">This role is based in San Francisco or New York. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Travel up to 20% is required.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own the operating rhythm across a portfolio of concurrent Life Sciences initiatives and keep Research, Product, FDE, GRC, and GTM aligned on priorities and pace.</p></li><li><p style=\"min-height:1.5em\">Lead 1 priority initiative at a time end-to-end, setting the plan, driving cross-functional execution, and measuring outcomes, then shifting focus as the team\u2019s highest leverage priorities change.</p></li><li><p style=\"min-height:1.5em\">Maintain a single source of truth for owners, milestones, decisions, risks, dependencies, and escalations across workstreams.</p></li><li><p style=\"min-height:1.5em\">Run portfolio planning and exec-facing reporting, including lightweight success metrics per initiative and clear visibility into priorities, capacity, risks, and decisions needed.</p></li><li><p style=\"min-height:1.5em\">Drive decision velocity by structuring options, clarifying tradeoffs, assigning owners, and closing decisions fast enough to keep execution moving.</p></li><li><p style=\"min-height:1.5em\">Partner tightly with FDE, Research, and Applied Evals to translate field learnings into evals and roadmap inputs that produce concrete product and model feedback.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bring 6+ years in BizOps, Program Management, Product, Strategy and Ops, or equivalent roles running complex cross-functional programs.</p></li><li><p style=\"min-height:1.5em\">Build structure in ambiguity, turning fuzzy problems into clear owners, milestones, decision points, and measurable outcomes.</p></li><li><p style=\"min-height:1.5em\">Think in systems, identifying root causes and installing guardrails that prevent the same errors from recurring.</p></li><li><p style=\"min-height:1.5em\">Influence senior stakeholders through clear writing, sound logic, and reliable follow-through, especially when incentives conflict.</p></li><li><p style=\"min-height:1.5em\">Operate with high execution hygiene, driving clear meetings, well-scoped projects, and focusing on outcomes.</p></li><li><p style=\"min-height:1.5em\">Translate technical complexity into operator clarity, simplifying without losing what matters and keeping technical owners accountable.</p></li><li><p style=\"min-height:1.5em\">Bring working fluency in life sciences and regulated enterprise deployment, including governance, risk, and validation norms.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the team\nThe Business, Life Sciences team at OpenAI tackles domains where frontier AI can transform science and industry, requiring new approaches that cut across GTM, Research, and Product. Our charter is to prove out high-leverage applications, build the right partnerships, and turn early experiments into durable operating models. In life sciences, we work with Research to extend scaling laws into biology and chemistry, aligning scientific progress with real-world deployment.\n\n\nAbout the role\nWe are hiring an Ops Lead to lead initiatives at the intersection of Life Sciences and frontier AI deployment. You will own outcomes across complex cross-functional work, including periods of ambiguity and rapid change. You will lead 1 priority initiative end-to-end at a time and measure outcomes, while keeping the broader portfolio on track through clear priorities, decision discipline, and tight execution.\n\nYou will also partner closely with Product, Research, and Applied Evals to translate field learnings into product and model feedback. Success means faster decisions, fewer late surprises, and measurable progress on the work that matters most.\n\nThis role is based in San Francisco or New York. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Travel up to 20% is required.\n\nIn this role, you will:\n\n - Own the operating rhythm across a portfolio of concurrent Life Sciences initiatives and keep Research, Product, FDE, GRC, and GTM aligned on priorities and pace.\n\n - Lead 1 priority initiative at a time end-to-end, setting the plan, driving cross-functional execution, and measuring outcomes, then shifting focus as the team\u2019s highest leverage priorities change.\n\n - Maintain a single source of truth for owners, milestones, decisions, risks, dependencies, and escalations across workstreams.\n\n - Run portfolio planning and exec-facing reporting, including lightweight success metrics per initiative and clear visibility into priorities, capacity, risks, and decisions needed.\n\n - Drive decision velocity by structuring options, clarifying tradeoffs, assigning owners, and closing decisions fast enough to keep execution moving.\n\n - Partner tightly with FDE, Research, and Applied Evals to translate field learnings into evals and roadmap inputs that produce concrete product and model feedback.\n\nYou might thrive in this role if you:\n\n - Bring 6+ years in BizOps, Program Management, Product, Strategy and Ops, or equivalent roles running complex cross-functional programs.\n\n - Build structure in ambiguity, turning fuzzy problems into clear owners, milestones, decision points, and measurable outcomes.\n\n - Think in systems, identifying root causes and installing guardrails that prevent the same errors from recurring.\n\n - Influence senior stakeholders through clear writing, sound logic, and reliable follow-through, especially when incentives conflict.\n\n - Operate with high execution hygiene, driving clear meetings, well-scoped projects, and focusing on outcomes.\n\n - Translate technical complexity into operator clarity, simplifying without losing what matters and keeping technical owners accountable.\n\n - Bring working fluency in life sciences and regulated enterprise deployment, including governance, risk, and validation norms.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$284K \u2013 $315K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$284K - $315K",
+      "compensationTiers": [
+        {
+          "id": "f530ada0-132e-4ae1-96d7-7fac22cba85b",
+          "tierSummary": "$284K \u2013 $315K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "fad3e424-594c-4e9b-9da3-bcf9d9d54569",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "fa8d9494-bfac-4d19-9f1d-b51d49981de8",
+              "summary": "$284K \u2013 $315K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 284000,
+              "maxValue": 315000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 284000,
+          "maxValue": 315000
         }
       ]
     }
@@ -28543,15 +28535,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "083e3690-1634-421e-b6cf-1be4cd40a7c2",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "4c59f403-978e-4a90-90b2-4c5296f6b7fe",
               "summary": "$266K \u2013 $295K",
               "compensationType": "Salary",
@@ -28559,24 +28542,33 @@
               "currencyCode": "USD",
               "minValue": 266000,
               "maxValue": 295000
+            },
+            {
+              "id": "083e3690-1634-421e-b6cf-1be4cd40a7c2",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 266000,
           "maxValue": 295000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -29460,24 +29452,15 @@
     "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Real Estate &amp; Workplace (REW) team is responsible for shaping how OpenAI\u2019s physical environments enable innovation, collaboration, and growth. We oversee global real estate strategy, workplace operations, design &amp; construction, and employee experience across a rapidly expanding footprint.</p><p style=\"min-height:1.5em\">As OpenAI scales globally, REW plays a critical role in creating spaces that enable our team members to do the best work of their lives.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">The Strategy &amp; Operations Manager is responsible for ensuring the REW organization operates cohesively as we scale. This role translates strategy into sequencing, governance, alignment, and change management across multiple functions including People, Finance, IT, Security, and Legal.</p><p style=\"min-height:1.5em\">This is not a traditional project management role. It is a system-level integrator role that shapes how the organization moves.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This is an in office role (5 days a week) based in San Francisco, CA. Relocation is available. </p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Translate REW strategy into clear priorities, sequencing, and execution plans across a fast-scaling org.</p></li><li><p style=\"min-height:1.5em\">Design and run operating cadences and governance forums that drive clarity, speed, and accountability (without adding bureaucracy).</p></li><li><p style=\"min-height:1.5em\">Lead cross-functional alignment across REW and key partners (People, Finance, IT, Security, Legal), surfacing tradeoffs and driving timely decisions.</p></li><li><p style=\"min-height:1.5em\">Drive change management for major workplace and real estate initiatives, including comms, rollout planning, and adoption follow-through.</p></li><li><p style=\"min-height:1.5em\">Identify recurring friction points (process, ownership, dependencies) and implement lightweight systems to remove blockers and improve coordination.</p></li><li><p style=\"min-height:1.5em\">Support enterprise-scale initiatives, including new business needs and M&amp;A integration, ensuring REW operating rhythms scale with growth.</p></li><li><p style=\"min-height:1.5em\">Build simple, repeatable frameworks (planning, decision-making, operating metrics) that help the organization move predictably at speed.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You\u2019ll thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">8+ years of experience in strategy, operations, program leadership, or business operations</p></li><li><p style=\"min-height:1.5em\">Experience designing operating models, governance forums, or cross-functional coordination systems<br />Demonstrated success scaling complex organizations in high-growth or high-ambiguity environments</p></li><li><p style=\"min-height:1.5em\">Proven ability to influence senior stakeholders and align competing priorities</p></li><li><p style=\"min-height:1.5em\">Strong executive communication skills, including structured memo writing and decision frameworks</p></li><li><p style=\"min-height:1.5em\">High judgment with the ability to balance speed, risk, and organizational health</p></li><li><p style=\"min-height:1.5em\">Low ego, high ownership, and a systems-oriented mindset</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
     "descriptionPlain": "About the Team\n\nThe Real Estate & Workplace (REW) team is responsible for shaping how OpenAI\u2019s physical environments enable innovation, collaboration, and growth. We oversee global real estate strategy, workplace operations, design & construction, and employee experience across a rapidly expanding footprint.\n\nAs OpenAI scales globally, REW plays a critical role in creating spaces that enable our team members to do the best work of their lives.\n\nAbout the Role\n\nThe Strategy & Operations Manager is responsible for ensuring the REW organization operates cohesively as we scale. This role translates strategy into sequencing, governance, alignment, and change management across multiple functions including People, Finance, IT, Security, and Legal.\n\nThis is not a traditional project management role. It is a system-level integrator role that shapes how the organization moves.\n\nThis is an in office role (5 days a week) based in San Francisco, CA. Relocation is available.\n\nIn this role you will:\n\n - Translate REW strategy into clear priorities, sequencing, and execution plans across a fast-scaling org.\n\n - Design and run operating cadences and governance forums that drive clarity, speed, and accountability (without adding bureaucracy).\n\n - Lead cross-functional alignment across REW and key partners (People, Finance, IT, Security, Legal), surfacing tradeoffs and driving timely decisions.\n\n - Drive change management for major workplace and real estate initiatives, including comms, rollout planning, and adoption follow-through.\n\n - Identify recurring friction points (process, ownership, dependencies) and implement lightweight systems to remove blockers and improve coordination.\n\n - Support enterprise-scale initiatives, including new business needs and M&A integration, ensuring REW operating rhythms scale with growth.\n\n - Build simple, repeatable frameworks (planning, decision-making, operating metrics) that help the organization move predictably at speed.\n\nYou\u2019ll thrive in this role if you have:\n\n - 8+ years of experience in strategy, operations, program leadership, or business operations\n\n - Experience designing operating models, governance forums, or cross-functional coordination systems\n   Demonstrated success scaling complex organizations in high-growth or high-ambiguity environments\n\n - Proven ability to influence senior stakeholders and align competing priorities\n\n - Strong executive communication skills, including structured memo writing and decision frameworks\n\n - High judgment with the ability to balance speed, risk, and organizational health\n\n - Low ego, high ownership, and a systems-oriented mindset\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
     "compensation": {
-      "compensationTierSummary": "$302K \u2013 $335K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$302K - $335K",
+      "compensationTierSummary": "$248K \u2013 $275K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$248K - $275K",
       "compensationTiers": [
         {
           "id": "775bd993-bb91-4de4-ac87-7a91b687ab4c",
-          "tierSummary": "$302K \u2013 $335K \u2022 Offers Equity",
+          "tierSummary": "$248K \u2013 $275K \u2022 Offers Equity",
           "title": null,
           "additionalInformation": null,
           "components": [
-            {
-              "id": "4d51d7bc-94f9-4126-a624-ba71ab923b27",
-              "summary": "$302K \u2013 $335K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 302000,
-              "maxValue": 335000
-            },
             {
               "id": "8a5f91b1-9b8d-4827-9f15-9b5615ea2e07",
               "summary": "Offers Equity",
@@ -29486,24 +29469,33 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "4d51d7bc-94f9-4126-a624-ba71ab923b27",
+              "summary": "$248K \u2013 $275K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 248000,
+              "maxValue": 275000
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 302000,
-          "maxValue": 335000
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 248000,
+          "maxValue": 275000
         }
       ]
     }
@@ -29970,7 +29962,7 @@
   },
   {
     "id": "5a4d7213-561b-4bae-bdf7-031af0cb11ce",
-    "title": "Senior Revenue Manager, FRM",
+    "title": "Senior Manager, Revenue Risk & Compliance (FRM)",
     "department": "Finance",
     "team": "Finance",
     "employmentType": "FullTime",
@@ -30043,7 +30035,7 @@
   },
   {
     "id": "4d95f7b7-4ac0-455e-bb92-b892f94a48be",
-    "title": "Revenue Manager, FRM",
+    "title": "Manager, Revenue Risk & Compliance (FRM)",
     "department": "Finance",
     "team": "Finance",
     "employmentType": "FullTime",
@@ -30521,79 +30513,6 @@
     }
   },
   {
-    "id": "65beff67-9163-42e8-85ca-884ac8fb9a04",
-    "title": "Enterprise Product Manager, Indirect Procurement",
-    "department": "Finance",
-    "team": "Finance",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-02-20T17:00:31.699+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "workplaceType": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/65beff67-9163-42e8-85ca-884ac8fb9a04",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/65beff67-9163-42e8-85ca-884ac8fb9a04/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Role<br /></strong>As the Enterprise Product Manager for Procure-to-Pay (P2P), you will own the end-to-end product strategy, roadmap, and day-to-day operations for indirect procurement across Zip and Oracle Fusion Cloud. You\u2019ll partner with Procurement, Finance, Legal, Security, and other cross-functional teams to deliver a reliable, compliant, and scalable intake-to-pay experience. This spans sourcing, supplier onboarding, purchasing, invoicing, and payments.</p><p style=\"min-height:1.5em\">This role requires deep systems expertise and strong business process acumen. You will bring hands-on experience with Zip and Oracle Fusion Procurement (Purchasing, Supplier Portal, Sourcing, Self-Service Procurement, AP), along with a proven track record of optimizing indirect procurement in high-growth environments. You\u2019ll help define how our procurement technology ecosystem evolves over time\u2014ensuring the right balance between user experience, controls, data integrity, and long-term scalability\u2014while driving measurable outcomes such as cycle time, touchless rate, first-pass match, spend visibility, and compliance.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Define the vision, KPIs, and multi-phase roadmap for P2P across Zip, Oracle Fusion, and adjacent tools\u2014balancing immediate business needs with a long-term systems strategy.</p></li><li><p style=\"min-height:1.5em\">Act as both operator and architect: design, configure, test, and launch process improvements while continuously evolving the future-state procurement technology ecosystem.</p></li><li><p style=\"min-height:1.5em\">Own the end-to-end P2P operating model (intake \u2192 approvals \u2192 PO/receiving \u2192 invoicing \u2192 payment), ensuring it is scalable, auditable, and aligned to company growth.</p></li><li><p style=\"min-height:1.5em\">Translate business requirements into well-scoped builds (use cases, functional specs, test scripts) and drive delivery through UAT, change management, and release communications.</p></li><li><p style=\"min-height:1.5em\">Establish strong data foundations by driving supplier master governance, category and contract alignment, tax and compliance rules, and segregation-of-duties controls.</p></li><li><p style=\"min-height:1.5em\">Design integrations via OIC/Workato and REST APIs to ensure clean system handoffs across intake (e.g., Zip), CLM (e.g., Ironclad), AP automation/e-invoicing, tax engines, and analytics.</p></li><li><p style=\"min-height:1.5em\">Build and instrument dashboards (cycle time, touchless rate, exception rates, supplier performance) and use data to prioritize backlog decisions and strategic investments.</p></li><li><p style=\"min-height:1.5em\">Lead cross-functional alignment across Procurement, Accounting/AP, Legal, IT, Security, and vendors\u2014driving clear decisions, accountability, and forward momentum.</p></li><li><p style=\"min-height:1.5em\">Triage defects, unblock month-end/quarter-end issues, and own root-cause analysis to continuously improve both process and system design.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">6+ years in ERP/P2P product, functional, or solution roles, with demonstrated ownership of both execution and long-range platform strategy.</p></li><li><p style=\"min-height:1.5em\">4+ years of experience with Oracle Fusion Procurement (Purchasing, Supplier Portal, Sourcing, SSP, Receiving) and 2+ full-cycle Fusion implementations.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience supporting a rapidly scaling company\u2019s indirect procurement function, particularly one leveraging Zip as its intake layer.</p></li><li><p style=\"min-height:1.5em\">A track record of bringing best practices to indirect procurement\u2014vendor onboarding, supplier master governance, category/contract alignment, reporting enhancements\u2014and designing processes that scale with growth.</p></li><li><p style=\"min-height:1.5em\">Strong configuration expertise in Fusion and Zip (approvals, rules, catalogs, BPAs/CPAs), plus comfort reading data models and writing SQL to inform decisions.</p></li><li><p style=\"min-height:1.5em\">Experience designing and evolving multi-system architectures, including integrations via OIC/Workato and Fusion REST APIs, and familiarity with intake (Zip/Coupa/Ariba), CLM (Ironclad), AP automation/e-invoicing, and tax engines (Vertex/Avalara).</p></li><li><p style=\"min-height:1.5em\">Mastery of process mapping, gap analysis, and requirements artifacts (scope docs, use cases, functional specs, test scripts), with the discipline to run Agile ceremonies and define clear acceptance criteria.</p></li><li><p style=\"min-height:1.5em\">A strong controls and compliance mindset, with the judgment to design governance without slowing business velocity.</p></li><li><p style=\"min-height:1.5em\">Exceptional communication skills and the ability to drive consensus across Procurement, Finance, Legal, IT, and Security.</p></li><li><p style=\"min-height:1.5em\">A bias for action paired with systems thinking\u2014you can ship improvements today while designing for where the organization needs to be in 2\u20133 years.</p></li><li><p style=\"min-height:1.5em\">Bachelor\u2019s or Master\u2019s degree in Information Systems, Supply Chain, Engineering, or a related field (or equivalent experience).</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Role\nAs the Enterprise Product Manager for Procure-to-Pay (P2P), you will own the end-to-end product strategy, roadmap, and day-to-day operations for indirect procurement across Zip and Oracle Fusion Cloud. You\u2019ll partner with Procurement, Finance, Legal, Security, and other cross-functional teams to deliver a reliable, compliant, and scalable intake-to-pay experience. This spans sourcing, supplier onboarding, purchasing, invoicing, and payments.\n\nThis role requires deep systems expertise and strong business process acumen. You will bring hands-on experience with Zip and Oracle Fusion Procurement (Purchasing, Supplier Portal, Sourcing, Self-Service Procurement, AP), along with a proven track record of optimizing indirect procurement in high-growth environments. You\u2019ll help define how our procurement technology ecosystem evolves over time\u2014ensuring the right balance between user experience, controls, data integrity, and long-term scalability\u2014while driving measurable outcomes such as cycle time, touchless rate, first-pass match, spend visibility, and compliance.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Define the vision, KPIs, and multi-phase roadmap for P2P across Zip, Oracle Fusion, and adjacent tools\u2014balancing immediate business needs with a long-term systems strategy.\n\n - Act as both operator and architect: design, configure, test, and launch process improvements while continuously evolving the future-state procurement technology ecosystem.\n\n - Own the end-to-end P2P operating model (intake \u2192 approvals \u2192 PO/receiving \u2192 invoicing \u2192 payment), ensuring it is scalable, auditable, and aligned to company growth.\n\n - Translate business requirements into well-scoped builds (use cases, functional specs, test scripts) and drive delivery through UAT, change management, and release communications.\n\n - Establish strong data foundations by driving supplier master governance, category and contract alignment, tax and compliance rules, and segregation-of-duties controls.\n\n - Design integrations via OIC/Workato and REST APIs to ensure clean system handoffs across intake (e.g., Zip), CLM (e.g., Ironclad), AP automation/e-invoicing, tax engines, and analytics.\n\n - Build and instrument dashboards (cycle time, touchless rate, exception rates, supplier performance) and use data to prioritize backlog decisions and strategic investments.\n\n - Lead cross-functional alignment across Procurement, Accounting/AP, Legal, IT, Security, and vendors\u2014driving clear decisions, accountability, and forward momentum.\n\n - Triage defects, unblock month-end/quarter-end issues, and own root-cause analysis to continuously improve both process and system design.\n\nYou might thrive in this role if you have:\n\n - 6+ years in ERP/P2P product, functional, or solution roles, with demonstrated ownership of both execution and long-range platform strategy.\n\n - 4+ years of experience with Oracle Fusion Procurement (Purchasing, Supplier Portal, Sourcing, SSP, Receiving) and 2+ full-cycle Fusion implementations.\n\n - Hands-on experience supporting a rapidly scaling company\u2019s indirect procurement function, particularly one leveraging Zip as its intake layer.\n\n - A track record of bringing best practices to indirect procurement\u2014vendor onboarding, supplier master governance, category/contract alignment, reporting enhancements\u2014and designing processes that scale with growth.\n\n - Strong configuration expertise in Fusion and Zip (approvals, rules, catalogs, BPAs/CPAs), plus comfort reading data models and writing SQL to inform decisions.\n\n - Experience designing and evolving multi-system architectures, including integrations via OIC/Workato and Fusion REST APIs, and familiarity with intake (Zip/Coupa/Ariba), CLM (Ironclad), AP automation/e-invoicing, and tax engines (Vertex/Avalara).\n\n - Mastery of process mapping, gap analysis, and requirements artifacts (scope docs, use cases, functional specs, test scripts), with the discipline to run Agile ceremonies and define clear acceptance criteria.\n\n - A strong controls and compliance mindset, with the judgment to design governance without slowing business velocity.\n\n - Exceptional communication skills and the ability to drive consensus across Procurement, Finance, Legal, IT, and Security.\n\n - A bias for action paired with systems thinking\u2014you can ship improvements today while designing for where the organization needs to be in 2\u20133 years.\n\n - Bachelor\u2019s or Master\u2019s degree in Information Systems, Supply Chain, Engineering, or a related field (or equivalent experience).\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$206K \u2013 $288K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$206K - $288K",
-      "compensationTiers": [
-        {
-          "id": "aab92e70-bf97-415b-b217-d856e50a39fe",
-          "tierSummary": "$206K \u2013 $288K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "22b765ea-c95e-4e2b-8864-b6e409104adb",
-              "summary": "$206K \u2013 $288K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 206000,
-              "maxValue": 288000
-            },
-            {
-              "id": "cff91854-c150-4ab1-b317-5a72069920f9",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 206000,
-          "maxValue": 288000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "69f6c63c-ab4a-4a4b-8b99-e0e1fe488fa1",
     "title": "Partner Director,  Head of Technology Partnerships",
     "department": "Go To Market",
@@ -30895,6 +30814,83 @@
         }
       ]
     }
+  },
+  {
+    "id": "212d4e9f-ac64-44c2-acff-604ad57f1332",
+    "title": "Sourcing Delivery Lead",
+    "department": "Finance",
+    "team": "Finance",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-27T17:24:41.932+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/212d4e9f-ac64-44c2-acff-604ad57f1332",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/212d4e9f-ac64-44c2-acff-604ad57f1332/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Our Procurement team enables OpenAI to scale responsibly, efficiently, and at speed. We partner closely with stakeholders to accelerate business priorities while maintaining strong commercial rigor, compliance, and operational excellence. We run the high volume sourcing engine across the company, including quick turn negotiations, rapid cycle times, complete diligence packages, consistent contract quality, and strong vendor controls. The Sourcing Delivery team ensures Strategic Sourcing can scale without slowing down the business.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As the Sourcing Delivery Lead, you will run the high volume negotiation and contracting engine that keeps the business moving. You will support routine, lower spend, lower complexity commercial work that is often time-sensitive and operationally critical. Your team\u2019s speed, judgment, and customer service will directly unblock teams and keep OpenAI operating at pace.</p><p style=\"min-height:1.5em\">You will lead the front-end of sourcing engagement as a trusted sourcing partner, guiding requests from intake through negotiation and signature. This is not a transactional, system-processing role. It is a commercial leadership function that pairs operational discipline with strong judgment to deliver fast cycle times, predictable SLAs, and consistently high contract quality at scale.</p><p style=\"min-height:1.5em\">You will lead a team of Category Coordinators, with a Contract Delivery Lead reporting to you, and you will run the sourcing execution layer from first stakeholder engagement through signature, moving quickly within clear guardrails and escalating cleanly when required. You will serve Strategic Sourcing Leads as a core execution partner, turning strategy into practical playbooks and executing high volume, low risk negotiations so they can stay focused on complex deals and long-term priorities.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">You will partner closely with Procurement Operations, who owns the enabling systems, policy, and process infrastructure, while your team owns stakeholder engagement, negotiation execution, and contracting throughput. You will also partner closely with Legal to build and maintain contracting playbooks, a clause library, and approved fallback positions that keep standard agreements moving quickly within guardrails.</p><p style=\"min-height:1.5em\">We\u2019re looking for a leader who has built and run high volume procurement execution and contracting teams in fast-scaling environments, and who brings a high bar for speed, quality, and stakeholder experience.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Travel is expected up to twice per year to support distributed delivery operations.<br /></p><p style=\"min-height:1.5em\"><strong>You\u2019ll be responsible for:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Lead and scale a high-performing sourcing execution organization</strong> (Category Coordinators, onsite and nearshore commercial negotiators, plus a Contract Delivery Lead), setting clear standards for speed, quality, and stakeholder experience across high-volume, lower-complexity work.</p></li><li><p style=\"min-height:1.5em\"><strong>Design and run the sourcing execution operating model</strong> from first stakeholder engagement through negotiation and signature, with crisp decision rights, clear escalation paths, and predictable SLAs.</p></li><li><p style=\"min-height:1.5em\"><strong>Own low-risk contracting throughput end to end</strong>, including disciplined redlining within guardrails, approvals coordination, signature readiness, and post-signature contract hygiene (accurate filing, key term capture, auditability).</p></li><li><p style=\"min-height:1.5em\"><strong>Apply AI intentionally to increase speed and consistency</strong>, embedding AI-assisted approaches into workflows (intake triage support, drafting and clause analysis, redline acceleration, diligence checklists) while maintaining confidentiality, controls, and contract quality.</p></li><li><p style=\"min-height:1.5em\"><strong>Co-build with Legal the enablement layer that keeps low risk deals moving</strong>, including playbooks, clause library, approved fallback positions, and escalation thresholds that keep standardized agreements moving without compromising risk posture.</p></li><li><p style=\"min-height:1.5em\"><strong>Build the talent and quality system that produces consistent execution at scale</strong>, including onboarding, training, coaching, calibration, QA sampling, and rework reduction across a distributed set of resources (including vendor-managed capacity as applicable).</p></li><li><p style=\"min-height:1.5em\"><strong>Ensure complete diligence and clean documentation on every deal</strong>, triggering the right reviews (Legal, Security, Finance, Privacy, Risk) with full evidence capture and audit-ready packages.</p></li><li><p style=\"min-height:1.5em\"><strong>Run the business with metrics and operational rigor</strong>, owning dashboards and reviews across volume, cycle time, SLA attainment, utilization, quality, exceptions, and rework, then using data to remove bottlenecks and improve throughput.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive process improvement, automation, and tooling adoption</strong>, continuously reducing friction and increasing consistency across intake, negotiation, and contracting workflows.</p></li><li><p style=\"min-height:1.5em\"><strong>Maintain an executive-grade operating cadence and stakeholder communications</strong>, with proactive expectation-setting, clear timelines, crisp updates, and calm escalation management during high-pressure cycles.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>We\u2019re looking for someone with:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Have built or led a high-volume procurement execution or contract operations function</strong> with clear SLA ownership, measurable throughput, and consistently strong stakeholder satisfaction.</p></li><li><p style=\"min-height:1.5em\"><strong>Have designed and managed distributed delivery models</strong>, including contractor and BPO capacity, and can translate distributed execution into consistent quality, speed, and judgment.</p></li><li><p style=\"min-height:1.5em\"><strong>Bring strong command of software and services commercial terms</strong> and quick-turn negotiations, and can codify that expertise into guardrails and playbooks others execute confidently.</p></li><li><p style=\"min-height:1.5em\"><strong>Operate with a white-glove service mindset under pressure</strong>, setting expectations early, communicating crisply, handling escalations well, and driving follow-through in a fast-paced environment.</p></li><li><p style=\"min-height:1.5em\"><strong>Use metrics as a management system</strong>, diagnosing bottlenecks and failure modes, prioritizing fixes, and improving cycle time, quality, and exception rates over time.</p></li><li><p style=\"min-height:1.5em\"><strong>Have practical experience applying AI in sourcing and contracting workflows</strong>, improving speed and consistency while maintaining confidentiality, compliance, and contract quality.</p></li><li><p style=\"min-height:1.5em\"><strong>Have strong people leadership fundamentals</strong>, including hiring, performance management, coaching, calibration, and building a high-accountability culture across a mixed workforce.</p></li><li><p style=\"min-height:1.5em\"><strong>Partner effectively across Legal, Security, Privacy, Finance, and Procurement Operations</strong>, driving alignment and clean handoffs without slowing execution.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nOur Procurement team enables OpenAI to scale responsibly, efficiently, and at speed. We partner closely with stakeholders to accelerate business priorities while maintaining strong commercial rigor, compliance, and operational excellence. We run the high volume sourcing engine across the company, including quick turn negotiations, rapid cycle times, complete diligence packages, consistent contract quality, and strong vendor controls. The Sourcing Delivery team ensures Strategic Sourcing can scale without slowing down the business.\n\nAbout the Role\n\nAs the Sourcing Delivery Lead, you will run the high volume negotiation and contracting engine that keeps the business moving. You will support routine, lower spend, lower complexity commercial work that is often time-sensitive and operationally critical. Your team\u2019s speed, judgment, and customer service will directly unblock teams and keep OpenAI operating at pace.\n\nYou will lead the front-end of sourcing engagement as a trusted sourcing partner, guiding requests from intake through negotiation and signature. This is not a transactional, system-processing role. It is a commercial leadership function that pairs operational discipline with strong judgment to deliver fast cycle times, predictable SLAs, and consistently high contract quality at scale.\n\nYou will lead a team of Category Coordinators, with a Contract Delivery Lead reporting to you, and you will run the sourcing execution layer from first stakeholder engagement through signature, moving quickly within clear guardrails and escalating cleanly when required. You will serve Strategic Sourcing Leads as a core execution partner, turning strategy into practical playbooks and executing high volume, low risk negotiations so they can stay focused on complex deals and long-term priorities.\n\nYou will partner closely with Procurement Operations, who owns the enabling systems, policy, and process infrastructure, while your team owns stakeholder engagement, negotiation execution, and contracting throughput. You will also partner closely with Legal to build and maintain contracting playbooks, a clause library, and approved fallback positions that keep standard agreements moving quickly within guardrails.\n\nWe\u2019re looking for a leader who has built and run high volume procurement execution and contracting teams in fast-scaling environments, and who brings a high bar for speed, quality, and stakeholder experience.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Travel is expected up to twice per year to support distributed delivery operations.\n\n\nYou\u2019ll be responsible for:\n\n - Lead and scale a high-performing sourcing execution organization (Category Coordinators, onsite and nearshore commercial negotiators, plus a Contract Delivery Lead), setting clear standards for speed, quality, and stakeholder experience across high-volume, lower-complexity work.\n\n - Design and run the sourcing execution operating model from first stakeholder engagement through negotiation and signature, with crisp decision rights, clear escalation paths, and predictable SLAs.\n\n - Own low-risk contracting throughput end to end, including disciplined redlining within guardrails, approvals coordination, signature readiness, and post-signature contract hygiene (accurate filing, key term capture, auditability).\n\n - Apply AI intentionally to increase speed and consistency, embedding AI-assisted approaches into workflows (intake triage support, drafting and clause analysis, redline acceleration, diligence checklists) while maintaining confidentiality, controls, and contract quality.\n\n - Co-build with Legal the enablement layer that keeps low risk deals moving, including playbooks, clause library, approved fallback positions, and escalation thresholds that keep standardized agreements moving without compromising risk posture.\n\n - Build the talent and quality system that produces consistent execution at scale, including onboarding, training, coaching, calibration, QA sampling, and rework reduction across a distributed set of resources (including vendor-managed capacity as applicable).\n\n - Ensure complete diligence and clean documentation on every deal, triggering the right reviews (Legal, Security, Finance, Privacy, Risk) with full evidence capture and audit-ready packages.\n\n - Run the business with metrics and operational rigor, owning dashboards and reviews across volume, cycle time, SLA attainment, utilization, quality, exceptions, and rework, then using data to remove bottlenecks and improve throughput.\n\n - Drive process improvement, automation, and tooling adoption, continuously reducing friction and increasing consistency across intake, negotiation, and contracting workflows.\n\n - Maintain an executive-grade operating cadence and stakeholder communications, with proactive expectation-setting, clear timelines, crisp updates, and calm escalation management during high-pressure cycles.\n\nWe\u2019re looking for someone with:\n\n - Have built or led a high-volume procurement execution or contract operations function with clear SLA ownership, measurable throughput, and consistently strong stakeholder satisfaction.\n\n - Have designed and managed distributed delivery models, including contractor and BPO capacity, and can translate distributed execution into consistent quality, speed, and judgment.\n\n - Bring strong command of software and services commercial terms and quick-turn negotiations, and can codify that expertise into guardrails and playbooks others execute confidently.\n\n - Operate with a white-glove service mindset under pressure, setting expectations early, communicating crisply, handling escalations well, and driving follow-through in a fast-paced environment.\n\n - Use metrics as a management system, diagnosing bottlenecks and failure modes, prioritizing fixes, and improving cycle time, quality, and exception rates over time.\n\n - Have practical experience applying AI in sourcing and contracting workflows, improving speed and consistency while maintaining confidentiality, compliance, and contract quality.\n\n - Have strong people leadership fundamentals, including hiring, performance management, coaching, calibration, and building a high-accountability culture across a mixed workforce.\n\n - Partner effectively across Legal, Security, Privacy, Finance, and Procurement Operations, driving alignment and clean handoffs without slowing execution.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$234K \u2013 $260K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$234K - $260K",
+      "compensationTiers": [
+        {
+          "id": "16b0a7fe-c664-4815-bb63-2ce374ce36e8",
+          "tierSummary": "$234K \u2013 $260K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "6e03b52d-52f6-4aeb-ad3b-ffcfe9eb23d4",
+              "summary": "$234K \u2013 $260K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 234000,
+              "maxValue": 260000
+            },
+            {
+              "id": "8930bb43-0ed7-456b-a333-52124e36fc7b",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 234000,
+          "maxValue": 260000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
+    "days_since_listed": 0
   },
   {
     "id": "d177ee76-fedc-4b90-aa7b-5e350bd35f5f",
@@ -31754,11 +31750,7 @@
           "maxValue": 385000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "697696a5-6f62-4898-9629-c31c7857959d",
@@ -31831,11 +31823,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c98835d1-ef95-4b9a-99dd-ac51f466578a",
@@ -31908,11 +31896,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "fc38c6bf-5330-435c-99b6-1bcf1f5829a8",
@@ -31985,10 +31969,160 @@
           "maxValue": null
         }
       ]
+    }
+  },
+  {
+    "id": "29dc246a-2240-4843-8050-463c8ecc726a",
+    "title": "Research Scientist, PhD ",
+    "department": "Research",
+    "team": "Research",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-26T21:33:19.990+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/29dc246a-2240-4843-8050-463c8ecc726a",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/29dc246a-2240-4843-8050-463c8ecc726a/application",
+    "descriptionHtml": "<h2>About the Team</h2><p style=\"min-height:1.5em\">The Research team at OpenAI advances the frontier of artificial intelligence by developing new models, algorithms, and learning paradigms that push toward safe and beneficial AGI. Our researchers work across a wide range of domains including multimodal learning, reasoning, robotics, alignment, and large-scale foundation models, collaborating closely with engineering and product teams to translate research breakthroughs into real-world impact.</p><p style=\"min-height:1.5em\"></p><h2>About the Role</h2><p style=\"min-height:1.5em\">As a Research Scientist at OpenAI, you will develop novel machine learning methods and contribute to advancing the research agenda of the team you join. You will work on discovering simple, scalable, and generalizable ideas that improve model capabilities and help shape a unified long-term research vision across the organization.</p><p style=\"min-height:1.5em\">We\u2019re looking for people who are excited to pursue ambitious research problems, operate independently, and collaborate deeply with interdisciplinary teams to bring cutting-edge ideas from concept to impactful systems.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><h2>In this role, you will:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Conduct original research to advance the state of the art in machine learning and artificial intelligence.</p></li><li><p style=\"min-height:1.5em\">Design, implement, and evaluate novel algorithms, models, or training approaches at large scale.</p></li><li><p style=\"min-height:1.5em\">Collaborate with researchers and engineers to translate research insights into production systems and real-world applications.</p></li></ul><p style=\"min-height:1.5em\"></p><h2>You might thrive in this role if you:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Are pursuing or have recently completed a PhD in Machine Learning, Computer Science, Robotics, or a related technical field.</p></li><li><p style=\"min-height:1.5em\">Have demonstrated research impact through first-author publications, open-source projects, or significant technical contributions.</p></li><li><p style=\"min-height:1.5em\">Can independently define and execute on a research agenda, identifying impactful problems and driving long-term projects forward.</p></li><li><p style=\"min-height:1.5em\">Are motivated by OpenAI\u2019s mission and excited to work on research that contributes toward beneficial AGI.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Nice to have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Interest in the societal impacts and responsible deployment of AI systems.</p></li><li><p style=\"min-height:1.5em\">Experience building high-performance or large-scale implementations of deep learning systems.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "ABOUT THE TEAM\n\nThe Research team at OpenAI advances the frontier of artificial intelligence by developing new models, algorithms, and learning paradigms that push toward safe and beneficial AGI. Our researchers work across a wide range of domains including multimodal learning, reasoning, robotics, alignment, and large-scale foundation models, collaborating closely with engineering and product teams to translate research breakthroughs into real-world impact.\n\n\nABOUT THE ROLE\n\nAs a Research Scientist at OpenAI, you will develop novel machine learning methods and contribute to advancing the research agenda of the team you join. You will work on discovering simple, scalable, and generalizable ideas that improve model capabilities and help shape a unified long-term research vision across the organization.\n\nWe\u2019re looking for people who are excited to pursue ambitious research problems, operate independently, and collaborate deeply with interdisciplinary teams to bring cutting-edge ideas from concept to impactful systems.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\n\nIN THIS ROLE, YOU WILL:\n\n - Conduct original research to advance the state of the art in machine learning and artificial intelligence.\n\n - Design, implement, and evaluate novel algorithms, models, or training approaches at large scale.\n\n - Collaborate with researchers and engineers to translate research insights into production systems and real-world applications.\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Are pursuing or have recently completed a PhD in Machine Learning, Computer Science, Robotics, or a related technical field.\n\n - Have demonstrated research impact through first-author publications, open-source projects, or significant technical contributions.\n\n - Can independently define and execute on a research agenda, identifying impactful problems and driving long-term projects forward.\n\n - Are motivated by OpenAI\u2019s mission and excited to work on research that contributes toward beneficial AGI.\n\nNice to have:\n\n - Interest in the societal impacts and responsible deployment of AI systems.\n\n - Experience building high-performance or large-scale implementations of deep learning systems.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$250K \u2013 $380K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$250K - $380K",
+      "compensationTiers": [
+        {
+          "id": "0b15396e-1d54-42ea-b552-1f8f43c347f4",
+          "tierSummary": "$250K \u2013 $380K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "a10b0f75-2a16-4f77-a065-91b46796d097",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "31cdeebf-6c40-4cfa-bf51-728b4cabb8b3",
+              "summary": "$250K \u2013 $380K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 250000,
+              "maxValue": 380000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 250000,
+          "maxValue": 380000
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
+    "days_since_listed": 0
+  },
+  {
+    "id": "679cc2c7-e153-480b-8b9f-ecb69a19975a",
+    "title": "Manager, Forward Deployed Engineer (FDE), Life Sciences",
+    "department": "Model Deployment for Business",
+    "team": "Model Deployment for Business",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-27T00:03:20.956+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/679cc2c7-e153-480b-8b9f-ecb69a19975a",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/679cc2c7-e153-480b-8b9f-ecb69a19975a/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s Forward Deployed Engineering (FDE) team partners with global pharma and biotech, CROs, and research institutions to deploy production-grade AI systems across the R&amp;D value chain. We operate at the intersection of customer delivery and core platform development, converting early deployments into repeatable system standards and evaluation practices that scale across regulated environments.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">As a Life Sciences FDE Manager, you\u2019ll lead a team of FDEs delivering production AI systems across drug discovery and development workflows. You\u2019ll own delivery outcomes and team leverage while staying hands-on as a player-coach. This includes building and shipping alongside the team, setting technical direction, and maintaining a high bar for production-grade systems in regulated environments.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">We measure success through the health and quality of your FDE team, production adoption and measurable workflow impact, the quality of eval-driven feedback delivered back to Product and Research, and the repeatability of deployment patterns across life sciences customers.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. This role will require travel up to 25%.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role you will</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Lead and grow a team of FDEs delivering production AI systems across regulated life sciences environments</p></li><li><p style=\"min-height:1.5em\">Be accountable for your team\u2019s end-to-end delivery outcomes, balancing scope, speed, robustness, and risk in high-stakes deployments</p></li><li><p style=\"min-height:1.5em\">Coach and develop engineers through direct feedback, high technical standards, and clear expectations for execution and ownership</p></li><li><p style=\"min-height:1.5em\">Operate as a player-coach, directly contributing to production systems while leading, coaching, and setting technical direction</p></li><li><p style=\"min-height:1.5em\">Guide teams through ambiguous, multi-workstream engagements spanning data, workflows, infrastructure, security, and scientific stakeholders</p></li><li><p style=\"min-height:1.5em\">Run evaluation loops that measure model and system quality against workflow-specific scientific benchmarks, then convert results into crisp roadmap input</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bring 8+ years of engineering or technical delivery experience, including 2+ years managing high-performing customer-facing or systems-oriented engineering teams</p></li><li><p style=\"min-height:1.5em\">Have led complex, high-pressure technical programs from prototype through sustained production use in regulated environments</p></li><li><p style=\"min-height:1.5em\">Have experience working in or adjacent to life sciences R&amp;D, clinical research, scientific software, or regulated scientific data environments</p></li><li><p style=\"min-height:1.5em\">Write and review production-grade code and can guide architectural decisions across backend, data, and ML-adjacent systems</p></li><li><p style=\"min-height:1.5em\">Translate scientific and technical tradeoffs into clear delivery plans, risk posture, and measurable outcomes across scientific, clinical, technical, and executive audiences</p></li><li><p style=\"min-height:1.5em\">Elevate team performance through clarity, judgment, and technical credibility</p></li><li><p style=\"min-height:1.5em\">Turn field experience into precise, actionable feedback for Product, Research, and GTM teams</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the team\n\nOpenAI\u2019s Forward Deployed Engineering (FDE) team partners with global pharma and biotech, CROs, and research institutions to deploy production-grade AI systems across the R&D value chain. We operate at the intersection of customer delivery and core platform development, converting early deployments into repeatable system standards and evaluation practices that scale across regulated environments.\n\nAbout the role\n\nAs a Life Sciences FDE Manager, you\u2019ll lead a team of FDEs delivering production AI systems across drug discovery and development workflows. You\u2019ll own delivery outcomes and team leverage while staying hands-on as a player-coach. This includes building and shipping alongside the team, setting technical direction, and maintaining a high bar for production-grade systems in regulated environments.\n\nWe measure success through the health and quality of your FDE team, production adoption and measurable workflow impact, the quality of eval-driven feedback delivered back to Product and Research, and the repeatability of deployment patterns across life sciences customers.\n\nThis role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. This role will require travel up to 25%.\n\nIn this role you will\n\n - Lead and grow a team of FDEs delivering production AI systems across regulated life sciences environments\n\n - Be accountable for your team\u2019s end-to-end delivery outcomes, balancing scope, speed, robustness, and risk in high-stakes deployments\n\n - Coach and develop engineers through direct feedback, high technical standards, and clear expectations for execution and ownership\n\n - Operate as a player-coach, directly contributing to production systems while leading, coaching, and setting technical direction\n\n - Guide teams through ambiguous, multi-workstream engagements spanning data, workflows, infrastructure, security, and scientific stakeholders\n\n - Run evaluation loops that measure model and system quality against workflow-specific scientific benchmarks, then convert results into crisp roadmap input\n\nYou might thrive in this role if you\n\n - Bring 8+ years of engineering or technical delivery experience, including 2+ years managing high-performing customer-facing or systems-oriented engineering teams\n\n - Have led complex, high-pressure technical programs from prototype through sustained production use in regulated environments\n\n - Have experience working in or adjacent to life sciences R&D, clinical research, scientific software, or regulated scientific data environments\n\n - Write and review production-grade code and can guide architectural decisions across backend, data, and ML-adjacent systems\n\n - Translate scientific and technical tradeoffs into clear delivery plans, risk posture, and measurable outcomes across scientific, clinical, technical, and executive audiences\n\n - Elevate team performance through clarity, judgment, and technical credibility\n\n - Turn field experience into precise, actionable feedback for Product, Research, and GTM teams\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$252K \u2013 $335K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$252K - $335K",
+      "compensationTiers": [
+        {
+          "id": "51751b9a-4663-4599-8ee9-c909fc61b4e0",
+          "tierSummary": "$252K \u2013 $335K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "ab2baf97-35a3-4c85-a94f-e5f59213bef2",
+              "summary": "$252K \u2013 $335K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 252000,
+              "maxValue": 335000
+            },
+            {
+              "id": "d5e942c3-5e21-475f-8a7c-589bb3fd6927",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 252000,
+          "maxValue": 335000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
     "days_since_listed": 0
   },
   {
@@ -32062,10 +32196,83 @@
           "maxValue": null
         }
       ]
+    }
+  },
+  {
+    "id": "c5a99c73-c4c4-4321-a519-e0104dc54747",
+    "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE)",
+    "department": "Model Deployment for Business",
+    "team": "Model Deployment for Business",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-26T21:10:46.893+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/c5a99c73-c4c4-4321-a519-e0104dc54747",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/c5a99c73-c4c4-4321-a519-e0104dc54747/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s Forward Deployed Engineering (FDE) team turns research breakthroughs into production-grade systems. We embed deeply with customers to solve high-leverage problems and act as the delivery engine for our most complex large-scale engagements. We move quickly from prototype to production and surface reusable patterns that shape our platform. We operate at the intersection of deployment and development \u2013 working closely with OpenAI Research, Product and Partnerships.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">As  a Technical Deployment Lead (TDL), you will define how OpenAI delivers complex systems to customers. You will own how they are built, shipped, and adopted. You\u2019ll translate business outcomes into a technical plan, run day-to-day execution across FDEs, Researchers, and Customer Engineers, and partner with customer teams to ensure delivery supports their goals.</p><p style=\"min-height:1.5em\">You will own delivery end-to-end: embedding with customers to map workflows and success criteria, ensuring components ship on time, and leading readiness and change management for adoption. You\u2019ll track progress, manage dependencies, make sequencing decisions, and drive 0\u21921 prototypes through MVP and scale. You will also share field insights with Product and Research to guide roadmap and priorities.</p><p style=\"min-height:1.5em\">Success will be measured first and foremost by impact - deployments that deliver measurable value against customer goals, drive adoption, and become critical to their workflows. Additional measures of success include delivery reliability (milestones hit, low reopen/churn), operating leverage (patterns reused across deployments), judgment under pressure, and product impact (field signal that shifts roadmaps/architectures).</p><p style=\"min-height:1.5em\">This is a high-trust, high-autonomy role. Success requires deep technical project management expertise, extreme ownership of outcomes, and an ability to immerse in customer workflows and partner with customer teams to solve complex engineering problems at pace.</p><p style=\"min-height:1.5em\">This role is based in New York City or San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel between 25%- 50% is required.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Own the technical delivery plan</strong> for multiple interdependent work streams. Translate business objectives into a roadmap with milestones, dependencies, and acceptance criteria.</p></li><li><p style=\"min-height:1.5em\"><strong>Run day-to-day engineering execution.</strong> Track and drive delivery across OpenAI FDE and customer teams. Keep progress unblocked and sequenced. Make real-time trade-offs on scope and priority to protect the critical path.</p></li><li><p style=\"min-height:1.5em\"><strong>Embed with customer teams to land production deployments and drive adoption.</strong> Map workflows, shape tools/integrations, and translate requirements into a delivery plan. Lead onboarding, adoption, and change management.</p></li><li><p style=\"min-height:1.5em\"><strong>Partner with Product and Research </strong>so platform components and research work streams land in time to support deployment goals.</p></li><li><p style=\"min-height:1.5em\"><strong>Codify solution patterns and evals.</strong> Extract reusable patterns and package field signals to improve product and models.</p></li><li><p style=\"min-height:1.5em\"><strong>Own value cases and ROI.</strong> Set impact hypotheses, baselines, and KPIs; run pre-/post-deployment measurement and report to exec sponsors.</p></li></ul><p style=\"min-height:1.5em\"><br /><strong>You\u2019ll thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bring 7+ years of customer\u2011facing technical delivery leadership.</p></li><li><p style=\"min-height:1.5em\">Track record of successfully leading large, complex, high-stakes customer engagements where customer outcomes depended on tight coordination and fast decision making, ideally involving AI.</p></li><li><p style=\"min-height:1.5em\">Excel in high ambiguity environments. Know how to simplify complex and dynamic work.</p></li><li><p style=\"min-height:1.5em\">Move fluidly between system level understanding and execution level detail; can dive into customer workflows/data, map constraints, sketch architectures and move ambiguous problems to shipped systems.</p></li><li><p style=\"min-height:1.5em\">Think strategically and pattern-match. Able to step back from execution detail, recognize broader trends across deployments, and connect customer needs to scalable, reusable solutions.</p></li><li><p style=\"min-height:1.5em\">Have strong technical fluency and sharp sequencing instincts. Confident discussing technical details, pressure-testing architectures, and making trade-offs.</p></li><li><p style=\"min-height:1.5em\">Have shipped AI/LLM systems. You understand solution patterns, integration basics, and production pitfalls.</p></li><li><p style=\"min-height:1.5em\">You\u2019re a translator with executive presence. You make complex technical trade-offs legible to business leaders and convert strategy into day-to-day technical execution.</p></li><li><p style=\"min-height:1.5em\">Have expertise in at least one major sector (e.g., healthcare, energy, financial services, semiconductors, IT) to elevate solution framing and credibility.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the team\n\nOpenAI\u2019s Forward Deployed Engineering (FDE) team turns research breakthroughs into production-grade systems. We embed deeply with customers to solve high-leverage problems and act as the delivery engine for our most complex large-scale engagements. We move quickly from prototype to production and surface reusable patterns that shape our platform. We operate at the intersection of deployment and development \u2013 working closely with OpenAI Research, Product and Partnerships.\n\nAbout the Role\n\nAs a Technical Deployment Lead (TDL), you will define how OpenAI delivers complex systems to customers. You will own how they are built, shipped, and adopted. You\u2019ll translate business outcomes into a technical plan, run day-to-day execution across FDEs, Researchers, and Customer Engineers, and partner with customer teams to ensure delivery supports their goals.\n\nYou will own delivery end-to-end: embedding with customers to map workflows and success criteria, ensuring components ship on time, and leading readiness and change management for adoption. You\u2019ll track progress, manage dependencies, make sequencing decisions, and drive 0\u21921 prototypes through MVP and scale. You will also share field insights with Product and Research to guide roadmap and priorities.\n\nSuccess will be measured first and foremost by impact - deployments that deliver measurable value against customer goals, drive adoption, and become critical to their workflows. Additional measures of success include delivery reliability (milestones hit, low reopen/churn), operating leverage (patterns reused across deployments), judgment under pressure, and product impact (field signal that shifts roadmaps/architectures).\n\nThis is a high-trust, high-autonomy role. Success requires deep technical project management expertise, extreme ownership of outcomes, and an ability to immerse in customer workflows and partner with customer teams to solve complex engineering problems at pace.\n\nThis role is based in New York City or San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel between 25%- 50% is required.\n\nIn this role, you will:\n\n - Own the technical delivery plan for multiple interdependent work streams. Translate business objectives into a roadmap with milestones, dependencies, and acceptance criteria.\n\n - Run day-to-day engineering execution. Track and drive delivery across OpenAI FDE and customer teams. Keep progress unblocked and sequenced. Make real-time trade-offs on scope and priority to protect the critical path.\n\n - Embed with customer teams to land production deployments and drive adoption. Map workflows, shape tools/integrations, and translate requirements into a delivery plan. Lead onboarding, adoption, and change management.\n\n - Partner with Product and Research so platform components and research work streams land in time to support deployment goals.\n\n - Codify solution patterns and evals. Extract reusable patterns and package field signals to improve product and models.\n\n - Own value cases and ROI. Set impact hypotheses, baselines, and KPIs; run pre-/post-deployment measurement and report to exec sponsors.\n\n\nYou\u2019ll thrive in this role if you:\n\n - Bring 7+ years of customer\u2011facing technical delivery leadership.\n\n - Track record of successfully leading large, complex, high-stakes customer engagements where customer outcomes depended on tight coordination and fast decision making, ideally involving AI.\n\n - Excel in high ambiguity environments. Know how to simplify complex and dynamic work.\n\n - Move fluidly between system level understanding and execution level detail; can dive into customer workflows/data, map constraints, sketch architectures and move ambiguous problems to shipped systems.\n\n - Think strategically and pattern-match. Able to step back from execution detail, recognize broader trends across deployments, and connect customer needs to scalable, reusable solutions.\n\n - Have strong technical fluency and sharp sequencing instincts. Confident discussing technical details, pressure-testing architectures, and making trade-offs.\n\n - Have shipped AI/LLM systems. You understand solution patterns, integration basics, and production pitfalls.\n\n - You\u2019re a translator with executive presence. You make complex technical trade-offs legible to business leaders and convert strategy into day-to-day technical execution.\n\n - Have expertise in at least one major sector (e.g., healthcare, energy, financial services, semiconductors, IT) to elevate solution framing and credibility.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$198K \u2013 $335K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$198K - $335K",
+      "compensationTiers": [
+        {
+          "id": "d9b0b3f1-0dea-42b1-9612-18ed1699d48c",
+          "tierSummary": "$198K \u2013 $335K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "e1f60bba-974b-40c9-94c3-7e6da592afc1",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "8d03fc0a-62a3-450c-91c7-990d342ae819",
+              "summary": "$198K \u2013 $335K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 198000,
+              "maxValue": 335000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 198000,
+          "maxValue": 335000
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
     "days_since_listed": 0
   },
   {
@@ -32110,7 +32317,157 @@
           "additionalInformation": null,
           "components": [
             {
+              "id": "ab03b1e4-9029-4d5b-a157-c92da3f5008e",
+              "summary": "$230K \u2013 $385K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 230000,
+              "maxValue": 385000
+            },
+            {
               "id": "07c855c1-03e1-45af-9042-5b56b4b6d032",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 230000,
+          "maxValue": 385000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "70e2feae-4f2c-4b08-94b8-97cd2b18825d",
+    "title": "Technical Revenue Lead",
+    "department": "Finance",
+    "team": "Finance",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-26T22:07:50.434+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/70e2feae-4f2c-4b08-94b8-97cd2b18825d",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/70e2feae-4f2c-4b08-94b8-97cd2b18825d/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI Finance helps ensure the organization is set up for success in pursuit of its mission of ensuring that artificial general intelligence benefits all of humanity.</p><p style=\"min-height:1.5em\">Within Finance, the Revenue Assurance and Strategy team partners with Product, Growth, Legal, Deal Desk, GTM, and Revenue Accounting to support scalable, audit-ready monetization. We focus on:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Revenue Strategy: advising on product and pricing design, monetization models, and contract structuring to enable growth while aligning with ASC 606</p></li><li><p style=\"min-height:1.5em\">Revenue Assurance: ensuring revenue recognition conclusions are technically sound, consistently operationalized, and supported by documentation, controls, and system readiness</p></li></ul><p style=\"min-height:1.5em\">We evaluate revenue impacts of self-serve monetization models, complex enterprise contracts, and evolving offerings, and we work closely with systems and engineering partners to drive automation.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We\u2019re looking for a Technical Revenue Leader to own product and monetization advisory, support revenue recognition across our professional services portfolio, and drive scalable frameworks for revenue accounting as OpenAI\u2019s products and commercial motions evolve.</p><p style=\"min-height:1.5em\">Reporting to the Head of Technical Revenue, you will serve as a trusted advisor in high-ambiguity spaces where product design, pricing, contracting, and accounting intersect. You will help define the accounting posture and operational approach for new and changing revenue streams, and partner across teams to ensure we maintain strong controllership standards as we scale.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Serve as the primary revenue advisor for new product launches, pricing changes, and evolving monetization models, establishing scalable ASC 606 positions where precedent does not yet exist.</p></li><li><p style=\"min-height:1.5em\">Translate technical conclusions into practical guardrails that influence product design, deal structure, and go-to-market strategy.</p></li><li><p style=\"min-height:1.5em\">Partner closely with Growth, GTM, StratFin, Legal, and Deal Desk to proactively embed revenue considerations into contract negotiations and product development.</p></li><li><p style=\"min-height:1.5em\">Draft and maintain technical accounting memos and policies to document positions on complex arrangements under ASC 606.</p></li><li><p style=\"min-height:1.5em\">Collaborate with Finance Systems and Engineering teams to drive automation initiatives for contract intake, SSP allocation, and revenue reporting.</p></li><li><p style=\"min-height:1.5em\">Define long-term priorities for revenue automation and improvements to processes and controls.</p></li><li><p style=\"min-height:1.5em\">Mentor and guide the technical revenue team, elevating the team\u2019s ability to proactively influence product and contract decisions.<br /></p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">10+ years of technical revenue accounting experience, with strong expertise in ASC 606 across SaaS, consumption-based, and professional services arrangements.</p></li><li><p style=\"min-height:1.5em\">Proven experience advising Product and GTM teams on pricing, monetization strategy, and revenue recognition implications \u2014 influencing deal and product design before launch.</p></li><li><p style=\"min-height:1.5em\">Demonstrated ability to bridge technical accounting conclusions with system implementation, ensuring revenue treatment is both GAAP-compliant and operationally scalable.</p></li><li><p style=\"min-height:1.5em\">Experience navigating emerging monetization models such as advertising revenue, hardware-enabled offerings, marketplaces/commerce platforms, or other multi-sided ecosystems is a strong plus.</p></li><li><p style=\"min-height:1.5em\">Deep contract review experience, including multi-element arrangements, milestone-based SOWs, credit/usage models, and complex enterprise agreements.</p></li><li><p style=\"min-height:1.5em\">Familiarity with order-to-cash workflows and revenue automation tools (e.g., Oracle Fusion, NetSuite ARM, RevPro, Salesforce CPQ), with a systems mindset toward scale.</p></li><li><p style=\"min-height:1.5em\">Strong executive communication skills, with the ability to translate complex accounting guidance into clear, actionable advice for non-accounting stakeholders.</p></li><li><p style=\"min-height:1.5em\">CPA strongly preferred; a mix of Big 4 (or accounting advisory) and tech industry experience in high-growth environments is highly valued.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nOpenAI Finance helps ensure the organization is set up for success in pursuit of its mission of ensuring that artificial general intelligence benefits all of humanity.\n\nWithin Finance, the Revenue Assurance and Strategy team partners with Product, Growth, Legal, Deal Desk, GTM, and Revenue Accounting to support scalable, audit-ready monetization. We focus on:\n\n - Revenue Strategy: advising on product and pricing design, monetization models, and contract structuring to enable growth while aligning with ASC 606\n\n - Revenue Assurance: ensuring revenue recognition conclusions are technically sound, consistently operationalized, and supported by documentation, controls, and system readiness\n\nWe evaluate revenue impacts of self-serve monetization models, complex enterprise contracts, and evolving offerings, and we work closely with systems and engineering partners to drive automation.\n\nAbout the Role\n\nWe\u2019re looking for a Technical Revenue Leader to own product and monetization advisory, support revenue recognition across our professional services portfolio, and drive scalable frameworks for revenue accounting as OpenAI\u2019s products and commercial motions evolve.\n\nReporting to the Head of Technical Revenue, you will serve as a trusted advisor in high-ambiguity spaces where product design, pricing, contracting, and accounting intersect. You will help define the accounting posture and operational approach for new and changing revenue streams, and partner across teams to ensure we maintain strong controllership standards as we scale.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Serve as the primary revenue advisor for new product launches, pricing changes, and evolving monetization models, establishing scalable ASC 606 positions where precedent does not yet exist.\n\n - Translate technical conclusions into practical guardrails that influence product design, deal structure, and go-to-market strategy.\n\n - Partner closely with Growth, GTM, StratFin, Legal, and Deal Desk to proactively embed revenue considerations into contract negotiations and product development.\n\n - Draft and maintain technical accounting memos and policies to document positions on complex arrangements under ASC 606.\n\n - Collaborate with Finance Systems and Engineering teams to drive automation initiatives for contract intake, SSP allocation, and revenue reporting.\n\n - Define long-term priorities for revenue automation and improvements to processes and controls.\n\n - Mentor and guide the technical revenue team, elevating the team\u2019s ability to proactively influence product and contract decisions.\n   \n\nYou might thrive in this role if you have:\n\n - 10+ years of technical revenue accounting experience, with strong expertise in ASC 606 across SaaS, consumption-based, and professional services arrangements.\n\n - Proven experience advising Product and GTM teams on pricing, monetization strategy, and revenue recognition implications \u2014 influencing deal and product design before launch.\n\n - Demonstrated ability to bridge technical accounting conclusions with system implementation, ensuring revenue treatment is both GAAP-compliant and operationally scalable.\n\n - Experience navigating emerging monetization models such as advertising revenue, hardware-enabled offerings, marketplaces/commerce platforms, or other multi-sided ecosystems is a strong plus.\n\n - Deep contract review experience, including multi-element arrangements, milestone-based SOWs, credit/usage models, and complex enterprise agreements.\n\n - Familiarity with order-to-cash workflows and revenue automation tools (e.g., Oracle Fusion, NetSuite ARM, RevPro, Salesforce CPQ), with a systems mindset toward scale.\n\n - Strong executive communication skills, with the ability to translate complex accounting guidance into clear, actionable advice for non-accounting stakeholders.\n\n - CPA strongly preferred; a mix of Big 4 (or accounting advisory) and tech industry experience in high-growth environments is highly valued.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$216K - $240K",
+      "compensationTiers": [
+        {
+          "id": "4aa90f4a-3e6c-42ac-8c41-d9736d9c3baa",
+          "tierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "4145d740-5690-49e7-9a47-967c764afba5",
+              "summary": "$216K \u2013 $240K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 216000,
+              "maxValue": 240000
+            },
+            {
+              "id": "ce58d0ac-5e81-47c0-b631-63409c7068e9",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 216000,
+          "maxValue": 240000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
+    "days_since_listed": 0
+  },
+  {
+    "id": "85b0c026-ea2a-4467-8f1f-e8be94ddb6f7",
+    "title": "US Payroll Operations",
+    "department": "Finance",
+    "team": "Finance",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-02-27T17:08:16.268+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/85b0c026-ea2a-4467-8f1f-e8be94ddb6f7",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/85b0c026-ea2a-4467-8f1f-e8be94ddb6f7/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI Finance is responsible for ensuring the organization is set up for success in pursuit of its mission.</p><p style=\"min-height:1.5em\">OpenAI\u2019s Payroll team is responsible for timely and accurate processing of payroll and ensuring compliance with all statutory regulations.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">At OpenAI, payroll is not a back-office function \u2014 it is mission-critical infrastructure. We are seeking a seasoned US Payroll Operations expert to scale, and continuously improve the payroll and payroll-support ecosystem that serves one of the fastest-growing and most technically sophisticated organizations in the world.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Execute end-to-end payroll processing for bi-weekly payroll cycles, ensuring accuracy, timeliness, and compliance across multiple jurisdictions.</p></li><li><p style=\"min-height:1.5em\">Review and validate employee data changes (new hires, terminations, compensation changes, time and attendance inputs) to ensure payroll accuracy.</p></li><li><p style=\"min-height:1.5em\">Proactively identify and resolve payroll discrepancies, working directly with employees and internal partners to troubleshoot and prevent recurrence.</p></li><li><p style=\"min-height:1.5em\">Manage employee payroll support inquiries with a high degree of professionalism, clarity, and service orientation.</p></li><li><p style=\"min-height:1.5em\">Lead day-to-day workflows with outsourced payroll/BPO partners to ensure SLAs are met, quality standards are upheld, and escalations are handled efficiently.</p></li><li><p style=\"min-height:1.5em\">Partner closely with HR and other cross-functional teams to ensure clean upstream inputs and accurate downstream reporting.</p></li><li><p style=\"min-height:1.5em\">Maintain documentation, process maps, and internal controls to support audit readiness and compliance.</p></li><li><p style=\"min-height:1.5em\">Recommend process improvements and identify automation or efficiency opportunities to drive continuous improvement in payroll operations.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">8+ years of progressive experience in payroll operations, preferably in a fast-paced or high-growth environment.</p></li><li><p style=\"min-height:1.5em\">Strong working knowledge of U.S. federal, state, and local payroll regulations, tax requirements, and standard payroll practices.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience with Workday Payroll or other large HCM/payroll systems; ADP or SmartCompliance experience is a plus.</p></li><li><p style=\"min-height:1.5em\">Ability to independently manage priorities, take ownership of outcomes, and deliver high-quality work under tight deadlines.</p></li><li><p style=\"min-height:1.5em\">Strong analytical and problem-solving skills with excellent attention to detail.</p></li><li><p style=\"min-height:1.5em\">Clear and concise communication skills, with the ability to partner effectively with internal and external stakeholders.</p></li><li><p style=\"min-height:1.5em\">Bachelor's degree in Finance, Accounting, HR, or a related field, or equivalent practical experience. CPP certification is a plus.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nOpenAI Finance is responsible for ensuring the organization is set up for success in pursuit of its mission.\n\nOpenAI\u2019s Payroll team is responsible for timely and accurate processing of payroll and ensuring compliance with all statutory regulations.\n\nAbout the Role\n\nAt OpenAI, payroll is not a back-office function \u2014 it is mission-critical infrastructure. We are seeking a seasoned US Payroll Operations expert to scale, and continuously improve the payroll and payroll-support ecosystem that serves one of the fastest-growing and most technically sophisticated organizations in the world.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role, you will:\n\n - Execute end-to-end payroll processing for bi-weekly payroll cycles, ensuring accuracy, timeliness, and compliance across multiple jurisdictions.\n\n - Review and validate employee data changes (new hires, terminations, compensation changes, time and attendance inputs) to ensure payroll accuracy.\n\n - Proactively identify and resolve payroll discrepancies, working directly with employees and internal partners to troubleshoot and prevent recurrence.\n\n - Manage employee payroll support inquiries with a high degree of professionalism, clarity, and service orientation.\n\n - Lead day-to-day workflows with outsourced payroll/BPO partners to ensure SLAs are met, quality standards are upheld, and escalations are handled efficiently.\n\n - Partner closely with HR and other cross-functional teams to ensure clean upstream inputs and accurate downstream reporting.\n\n - Maintain documentation, process maps, and internal controls to support audit readiness and compliance.\n\n - Recommend process improvements and identify automation or efficiency opportunities to drive continuous improvement in payroll operations.\n\nYou might thrive in this role if you have:\n\n - 8+ years of progressive experience in payroll operations, preferably in a fast-paced or high-growth environment.\n\n - Strong working knowledge of U.S. federal, state, and local payroll regulations, tax requirements, and standard payroll practices.\n\n - Hands-on experience with Workday Payroll or other large HCM/payroll systems; ADP or SmartCompliance experience is a plus.\n\n - Ability to independently manage priorities, take ownership of outcomes, and deliver high-quality work under tight deadlines.\n\n - Strong analytical and problem-solving skills with excellent attention to detail.\n\n - Clear and concise communication skills, with the ability to partner effectively with internal and external stakeholders.\n\n - Bachelor's degree in Finance, Accounting, HR, or a related field, or equivalent practical experience. CPP certification is a plus.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$180K \u2013 $200K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$180K - $200K",
+      "compensationTiers": [
+        {
+          "id": "eba4f8f9-cc39-476f-84f5-f650a03f9bb9",
+          "tierSummary": "$180K \u2013 $200K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "019c61b6-262f-43a8-bb6e-e5cac3b07c86",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
               "interval": "1 YEAR",
@@ -32119,13 +32476,13 @@
               "maxValue": null
             },
             {
-              "id": "ab03b1e4-9029-4d5b-a157-c92da3f5008e",
-              "summary": "$230K \u2013 $385K",
+              "id": "d11453a9-6b62-4336-85a9-c53d294f1dfb",
+              "summary": "$180K \u2013 $200K",
               "compensationType": "Salary",
               "interval": "1 YEAR",
               "currencyCode": "USD",
-              "minValue": 230000,
-              "maxValue": 385000
+              "minValue": 180000,
+              "maxValue": 200000
             }
           ]
         }
@@ -32142,14 +32499,14 @@
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
-          "minValue": 230000,
-          "maxValue": 385000
+          "minValue": 180000,
+          "maxValue": 200000
         }
       ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-02-26T20:29:15.288959",
-    "last_seen": "2026-02-26T20:29:15.288959",
+    "first_seen": "2026-02-27T20:21:02.020134",
+    "last_seen": "2026-02-27T20:21:02.020134",
     "days_since_listed": 0
   }
 ]
