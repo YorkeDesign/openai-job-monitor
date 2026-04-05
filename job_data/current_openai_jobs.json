@@ -6735,15 +6735,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "05cd470f-3e19-4a22-861d-812bd60956fb",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "b01fd6c9-8426-4b44-86c0-01bb907f3ada",
               "summary": "$230.4K \u2013 $500K",
               "compensationType": "Salary",
@@ -6751,6 +6742,15 @@
               "currencyCode": "USD",
               "minValue": 230400,
               "maxValue": 500000
+            },
+            {
+              "id": "05cd470f-3e19-4a22-861d-812bd60956fb",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
@@ -27934,79 +27934,6 @@
     }
   },
   {
-    "id": "b75f6b5b-8a84-4796-9093-588cc9334c04",
-    "title": "GTM Partnerships Enablement Lead",
-    "department": "Go To Market",
-    "team": "Partnerships",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-03-18T03:29:05.321+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/b75f6b5b-8a84-4796-9093-588cc9334c04",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/b75f6b5b-8a84-4796-9093-588cc9334c04/application",
-    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">OpenAI\u2019s mission is to ensure that artificial general intelligence (AGI) benefits all of humanity.</p><p style=\"min-height:1.5em\">Our Go-To-Market (GTM) organization helps customers understand, deploy, and scale AI across their businesses. Within GTM, the Partnerships team builds and manages a global ecosystem of strategic partners\u2014including systems integrators, technology partners, and distributors\u2014to accelerate customer success, enable responsible AI adoption, and extend the reach of OpenAI\u2019s platform.</p><p style=\"min-height:1.5em\">We work cross-functionally across Sales, Product, Marketing, Solutions, and RevOps to deliver cohesive, high-impact customer outcomes.<br /></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We\u2019re looking for a GTM Partnerships Enablement Leader to define and scale how OpenAI enables its global partner ecosystem.</p><p style=\"min-height:1.5em\">This role is responsible for translating product and GTM strategy into clear, repeatable programs that empower partners to sell, deliver, and support OpenAI solutions effectively. You will build and lead the partner enablement function, including strategy, programs, content, and systems that drive partner productivity and consistent execution across regions and partner types.</p><p style=\"min-height:1.5em\">This is a highly cross-functional leadership role that combines 0\u21921 building with scaling global programs. You\u2019ll work closely with Partnerships leadership and teams across Sales, Product, Product Marketing, Solutions, and RevOps to ensure partner-facing initiatives land clearly and drive measurable impact.<br /></p><h2><strong>In This Role, You Will</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Define and lead OpenAI\u2019s global partner enablement strategy</p></li><li><p style=\"min-height:1.5em\">Build and scale the partner enablement function, including team, operating model, and systems</p></li><li><p style=\"min-height:1.5em\">Design and operationalize repeatable programs across onboarding, activation, product launches, and GTM motions</p></li><li><p style=\"min-height:1.5em\">Drive global rollout of enablement initiatives, ensuring adaptability across regions and partner segments</p></li><li><p style=\"min-height:1.5em\">Develop partner readiness programs, including training, certifications, and learning pathways across sales, technical, and delivery roles</p></li><li><p style=\"min-height:1.5em\">Create high-quality enablement content such as playbooks, solution guides, and messaging frameworks</p></li><li><p style=\"min-height:1.5em\">Enable partners to identify, qualify, and close AI opportunities aligned with OpenAI\u2019s GTM priorities</p></li><li><p style=\"min-height:1.5em\">Partner cross-functionally to align priorities, messaging, and execution across all partner-facing initiatives</p></li><li><p style=\"min-height:1.5em\">Establish metrics and dashboards to track partner activation, pipeline contribution, and program effectiveness</p></li><li><p style=\"min-height:1.5em\">Build feedback loops to capture partner insights and continuously improve enablement and GTM strategy<br /></p></li></ul><h2><strong>You Might Thrive in This Role If You</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Turn complex product and GTM strategy into clear, scalable execution</p></li><li><p style=\"min-height:1.5em\">Have experience building and scaling partner or GTM enablement programs in high-growth environments</p></li><li><p style=\"min-height:1.5em\">Are an effective operator who can lead cross-functional initiatives across complex organizations</p></li><li><p style=\"min-height:1.5em\">Bring strong executive presence and can influence senior stakeholders across business and technical teams</p></li><li><p style=\"min-height:1.5em\">Thrive in fast-paced, ambiguous environments and enjoy building from 0\u21921</p></li><li><p style=\"min-height:1.5em\">Think in systems, operating models, and scalable solutions rather than one-off efforts</p></li><li><p style=\"min-height:1.5em\">Are passionate about AI and motivated to help partners deliver meaningful customer outcomes</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE TEAM\n\nOpenAI\u2019s mission is to ensure that artificial general intelligence (AGI) benefits all of humanity.\n\nOur Go-To-Market (GTM) organization helps customers understand, deploy, and scale AI across their businesses. Within GTM, the Partnerships team builds and manages a global ecosystem of strategic partners\u2014including systems integrators, technology partners, and distributors\u2014to accelerate customer success, enable responsible AI adoption, and extend the reach of OpenAI\u2019s platform.\n\nWe work cross-functionally across Sales, Product, Marketing, Solutions, and RevOps to deliver cohesive, high-impact customer outcomes.\n\n\n\nABOUT THE ROLE\n\nWe\u2019re looking for a GTM Partnerships Enablement Leader to define and scale how OpenAI enables its global partner ecosystem.\n\nThis role is responsible for translating product and GTM strategy into clear, repeatable programs that empower partners to sell, deliver, and support OpenAI solutions effectively. You will build and lead the partner enablement function, including strategy, programs, content, and systems that drive partner productivity and consistent execution across regions and partner types.\n\nThis is a highly cross-functional leadership role that combines 0\u21921 building with scaling global programs. You\u2019ll work closely with Partnerships leadership and teams across Sales, Product, Product Marketing, Solutions, and RevOps to ensure partner-facing initiatives land clearly and drive measurable impact.\n\n\n\nIN THIS ROLE, YOU WILL\n\n - Define and lead OpenAI\u2019s global partner enablement strategy\n\n - Build and scale the partner enablement function, including team, operating model, and systems\n\n - Design and operationalize repeatable programs across onboarding, activation, product launches, and GTM motions\n\n - Drive global rollout of enablement initiatives, ensuring adaptability across regions and partner segments\n\n - Develop partner readiness programs, including training, certifications, and learning pathways across sales, technical, and delivery roles\n\n - Create high-quality enablement content such as playbooks, solution guides, and messaging frameworks\n\n - Enable partners to identify, qualify, and close AI opportunities aligned with OpenAI\u2019s GTM priorities\n\n - Partner cross-functionally to align priorities, messaging, and execution across all partner-facing initiatives\n\n - Establish metrics and dashboards to track partner activation, pipeline contribution, and program effectiveness\n\n - Build feedback loops to capture partner insights and continuously improve enablement and GTM strategy\n   \n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU\n\n - Turn complex product and GTM strategy into clear, scalable execution\n\n - Have experience building and scaling partner or GTM enablement programs in high-growth environments\n\n - Are an effective operator who can lead cross-functional initiatives across complex organizations\n\n - Bring strong executive presence and can influence senior stakeholders across business and technical teams\n\n - Thrive in fast-paced, ambiguous environments and enjoy building from 0\u21921\n\n - Think in systems, operating models, and scalable solutions rather than one-off efforts\n\n - Are passionate about AI and motivated to help partners deliver meaningful customer outcomes\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$270K \u2013 $300K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$270K - $300K",
-      "compensationTiers": [
-        {
-          "id": "9692bd12-e7f9-44c6-a07c-b26795c73ef7",
-          "tierSummary": "$270K \u2013 $300K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "2e3c64cc-1c07-406e-b31f-356b3fa72689",
-              "summary": "$270K \u2013 $300K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 270000,
-              "maxValue": 300000
-            },
-            {
-              "id": "bdfc2426-37ac-4091-ac25-e83f04886cb5",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 270000,
-          "maxValue": 300000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "85b0c026-ea2a-4467-8f1f-e8be94ddb6f7",
     "title": "US Payroll Operations",
     "department": "Finance",
@@ -34906,15 +34833,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "b36bf5b1-6412-496e-8be6-d4fb4a5f0eea",
-              "summary": "$162.4K \u2013 $180K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 162400,
-              "maxValue": 180000
-            },
-            {
               "id": "f98f4d66-484a-4f12-b154-1ba9191183bd",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -34922,6 +34840,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "b36bf5b1-6412-496e-8be6-d4fb4a5f0eea",
+              "summary": "$162.4K \u2013 $180K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 162400,
+              "maxValue": 180000
             }
           ]
         }
@@ -36563,10 +36490,6 @@
           "maxValue": 230000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-04-04T20:22:05.854767",
-    "last_seen": "2026-04-04T20:22:05.854767",
-    "days_since_listed": 0
+    }
   }
 ]
