@@ -28662,11 +28662,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-09T20:37:16.967569",
-    "last_seen": "2026-05-09T20:37:16.967569",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "7cae487d-f280-4ab0-90cf-c9671ff0c015",
@@ -32875,15 +32871,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "974529c2-df1e-4684-bcb0-2aae5495f2cd",
-              "summary": "$216K \u2013 $240K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 216000,
-              "maxValue": 240000
-            },
-            {
               "id": "9ec0197c-04a3-456a-91e7-8f664ceb68f8",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -32891,31 +32878,36 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "974529c2-df1e-4684-bcb0-2aae5495f2cd",
+              "summary": "$216K \u2013 $240K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 216000,
+              "maxValue": 240000
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 216000,
-          "maxValue": 240000
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 216000,
+          "maxValue": 240000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-09T20:37:16.967569",
-    "last_seen": "2026-05-09T20:37:16.967569",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "d23c6966-e702-4088-860b-0f529745e03c",
@@ -35566,79 +35558,6 @@
     }
   },
   {
-    "id": "273a131c-1654-431b-af0e-a0378e515693",
-    "title": "Revenue Operations Lead, Ads Solutions",
-    "department": "Go To Market",
-    "team": "Ads Solutions",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-05-05T18:03:28.445+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/273a131c-1654-431b-af0e-a0378e515693",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/273a131c-1654-431b-af0e-a0378e515693/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s mission is to ensure the responsible and widespread adoption of artificial intelligence. In support of that mission, the Ads Solutions team partners closely with advertisers to deeply understand their businesses and needs, helping inform the development of products and solutions that drive meaningful revenue growth and long-term success on the platform\u2014while maintaining strong standards for user trust and platform integrity.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">Our team has a unique mission to help customers understand the deep impact that highly capable AI models can bring to their business and users. We are seeking a revenue operations leader to help drive the strategy, plans &amp; execution of our Ads Solutions efforts in the enterprise.</p><p style=\"min-height:1.5em\">We\u2019re seeking an experienced Revenue Operations Lead to drive our Ads Solutions planning, capacity modeling, and compensation design. You will partner cross-functionally with Sales, Operations, Finance, and HR to ensure our Ads Solutions teams are well-equipped to meet business objectives. This role requires strong analytical skills, expert project management, and the ability to collaborate with senior stakeholders.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Oversee end-to-end planning for Ads Solutions (capacity, headcount, quotas, pipeline) and provide strategic recommendations. Collaborate with cross-functional teams to ensure alignment with company objectives.</p></li><li><p style=\"min-height:1.5em\">Build &amp; refine capacity models, partnering with Finance, Recruiting, Ops, and Ads Solutions Leadership for effective planning and hiring execution. Build a streamlined headcount management process.</p></li><li><p style=\"min-height:1.5em\">Design, implement, and manage Ads Solutions incentive programs that boost productivity and revenue growth. Forecast the impact of plan changes and serve as the primary contact for compensation-related queries.</p></li><li><p style=\"min-height:1.5em\">Develop reporting frameworks to measure Ads Solutions productivity and incentive program effectiveness. Present data-driven insights to leadership and evolve pricing/compensation models for continuous optimization.</p></li><li><p style=\"min-height:1.5em\">Liaise with Ads Solutions Leadership, Finance, HR, and Operations teams for strategic alignment and transparent communication. Integrate best practices to optimize Ads Solutions performance.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have: </strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Extensive experience in revenue operations, strategy, and planning at a high-growth, technology company</p></li><li><p style=\"min-height:1.5em\">Strong analytical skills and ability to translate data into impactful insights</p></li><li><p style=\"min-height:1.5em\">Proficiency in compensation plan design and modeling</p></li><li><p style=\"min-height:1.5em\">Working knowledge of Salesforce or equivalent CRM, plus sales commission software</p></li><li><p style=\"min-height:1.5em\">Excellent communication and stakeholder management skills</p></li><li><p style=\"min-height:1.5em\">Experience managing a team of 5+ operational team members</p></li><li><p style=\"min-height:1.5em\">Deep experience designing, implementing and managing a sales compensation strategy </p></li><li><p style=\"min-height:1.5em\">An understanding of the AI landscape, advertising, and the problems they solve for our customers</p></li><li><p style=\"min-height:1.5em\">The ability to thrive in ambiguity and work autonomously</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the team\n\nOpenAI\u2019s mission is to ensure the responsible and widespread adoption of artificial intelligence. In support of that mission, the Ads Solutions team partners closely with advertisers to deeply understand their businesses and needs, helping inform the development of products and solutions that drive meaningful revenue growth and long-term success on the platform\u2014while maintaining strong standards for user trust and platform integrity.\n\nAbout the role\n\nOur team has a unique mission to help customers understand the deep impact that highly capable AI models can bring to their business and users. We are seeking a revenue operations leader to help drive the strategy, plans & execution of our Ads Solutions efforts in the enterprise.\n\nWe\u2019re seeking an experienced Revenue Operations Lead to drive our Ads Solutions planning, capacity modeling, and compensation design. You will partner cross-functionally with Sales, Operations, Finance, and HR to ensure our Ads Solutions teams are well-equipped to meet business objectives. This role requires strong analytical skills, expert project management, and the ability to collaborate with senior stakeholders.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\nIn this role you will:\n\n - Oversee end-to-end planning for Ads Solutions (capacity, headcount, quotas, pipeline) and provide strategic recommendations. Collaborate with cross-functional teams to ensure alignment with company objectives.\n\n - Build & refine capacity models, partnering with Finance, Recruiting, Ops, and Ads Solutions Leadership for effective planning and hiring execution. Build a streamlined headcount management process.\n\n - Design, implement, and manage Ads Solutions incentive programs that boost productivity and revenue growth. Forecast the impact of plan changes and serve as the primary contact for compensation-related queries.\n\n - Develop reporting frameworks to measure Ads Solutions productivity and incentive program effectiveness. Present data-driven insights to leadership and evolve pricing/compensation models for continuous optimization.\n\n - Liaise with Ads Solutions Leadership, Finance, HR, and Operations teams for strategic alignment and transparent communication. Integrate best practices to optimize Ads Solutions performance.\n\nYou might thrive in this role if you have:\n\n - Extensive experience in revenue operations, strategy, and planning at a high-growth, technology company\n\n - Strong analytical skills and ability to translate data into impactful insights\n\n - Proficiency in compensation plan design and modeling\n\n - Working knowledge of Salesforce or equivalent CRM, plus sales commission software\n\n - Excellent communication and stakeholder management skills\n\n - Experience managing a team of 5+ operational team members\n\n - Deep experience designing, implementing and managing a sales compensation strategy\n\n - An understanding of the AI landscape, advertising, and the problems they solve for our customers\n\n - The ability to thrive in ambiguity and work autonomously\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$293K \u2013 $405K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$293K - $405K",
-      "compensationTiers": [
-        {
-          "id": "f966498e-3bc7-43fa-8aab-9dde429937af",
-          "tierSummary": "$293K \u2013 $405K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "7c8d254a-4abf-4a13-a1a8-97ef5584ce5a",
-              "summary": "$293K \u2013 $405K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 293000,
-              "maxValue": 405000
-            },
-            {
-              "id": "61d77d91-e10b-43fa-a50c-e02d08674cac",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 293000,
-          "maxValue": 405000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "791d2486-1e95-483f-ab79-098b255d1a16",
     "title": "Product Manager, ChatGPT and Codex App Ecosystem",
     "department": "Product Management",
@@ -36156,79 +36075,6 @@
           "currencyCode": "USD",
           "minValue": 266000,
           "maxValue": 295000
-        }
-      ]
-    }
-  },
-  {
-    "id": "f659227e-e916-45fc-8726-6861f60979b6",
-    "title": "Ads Product Manager",
-    "department": "Product Management",
-    "team": "Product Management",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-05-06T16:42:26.169+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "workplaceType": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/f659227e-e916-45fc-8726-6861f60979b6",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/f659227e-e916-45fc-8726-6861f60979b6/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\">The ChatGPT Ads team is responsible for building sustainable advertising experiences that help hundreds of millions of people around the world access and derive increasing value from ChatGPT. We work across the advertising ecosystem, including advertiser products, monetization surfaces, relevance, measurement, and user experience.</p><p style=\"min-height:1.5em\">Within Ads, the team focuses on building thoughtful, high-quality advertising experiences that create value for users, advertisers, and the broader ChatGPT ecosystem.</p><h2>About the Role</h2><p style=\"min-height:1.5em\">We\u2019re looking for a product manager to lead Ads product strategy and execution for ChatGPT.</p><p style=\"min-height:1.5em\">As ChatGPT becomes a daily product for consumers and businesses, advertising will play an important role in enabling sustainable growth while maintaining a high-quality user experience. This role is about defining how ads can be introduced in ways that are useful, relevant, and aligned with user trust. You\u2019ll help shape the ads vision, develop new monetization surfaces and formats, and partner across product, engineering, research, sales, and policy teams to build a durable ads platform for the AI era.</p><p style=\"min-height:1.5em\">This role is ideal for a strategic, user-centric, execution-oriented PM who is excited about building entirely new advertising paradigms for conversational and agentic AI products.</p><h2>In this role, you will:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Drive the strategy and roadmap for ads and monetization experiences across ChatGPT</p></li><li><p style=\"min-height:1.5em\">Define new ad formats, targeting approaches, and measurement capabilities designed for conversational AI</p></li><li><p style=\"min-height:1.5em\">Build products and systems that balance user experience, advertiser value, and long-term ecosystem health</p></li><li><p style=\"min-height:1.5em\">Partner closely with engineering, design, research, policy, legal, and GTM teams to launch new monetization capabilities</p></li><li><p style=\"min-height:1.5em\">Develop frameworks for ad relevance, quality, trust, and safety</p></li><li><p style=\"min-height:1.5em\">Use experimentation, analytics, and user research to improve monetization outcomes while maintaining a high-quality user experience</p></li><li><p style=\"min-height:1.5em\">Shape how advertisers and partners engage with emerging AI-native surfaces and workflows</p></li><li><p style=\"min-height:1.5em\">Help establish foundational product principles for advertising in AI systems</p></li></ul><h2>You might thrive in this role if you:</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have 10+ years of product management experience across ads, monetization, marketplaces, or growth products</p></li><li><p style=\"min-height:1.5em\">Have experience building consumer or platform products at scale</p></li><li><p style=\"min-height:1.5em\">Have strong product intuition and care deeply about user trust and experience quality</p></li><li><p style=\"min-height:1.5em\">Are highly analytical and comfortable using experimentation and data to drive product strategy</p></li><li><p style=\"min-height:1.5em\">Thrive in ambiguous, fast-moving environments with rapidly evolving products and technology</p></li><li><p style=\"min-height:1.5em\">Enjoy working cross-functionally across engineering, design, data science, research, sales, marketing, legal, and policy</p></li><li><p style=\"min-height:1.5em\">Are excited about defining the future of advertising and monetization for AI-native products</p></li><li><p style=\"min-height:1.5em\">Have experience with ads ranking, targeting, measurement, auction systems, or advertiser platforms (preferred but not required)</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "The ChatGPT Ads team is responsible for building sustainable advertising experiences that help hundreds of millions of people around the world access and derive increasing value from ChatGPT. We work across the advertising ecosystem, including advertiser products, monetization surfaces, relevance, measurement, and user experience.\n\nWithin Ads, the team focuses on building thoughtful, high-quality advertising experiences that create value for users, advertisers, and the broader ChatGPT ecosystem.\n\n\nABOUT THE ROLE\n\nWe\u2019re looking for a product manager to lead Ads product strategy and execution for ChatGPT.\n\nAs ChatGPT becomes a daily product for consumers and businesses, advertising will play an important role in enabling sustainable growth while maintaining a high-quality user experience. This role is about defining how ads can be introduced in ways that are useful, relevant, and aligned with user trust. You\u2019ll help shape the ads vision, develop new monetization surfaces and formats, and partner across product, engineering, research, sales, and policy teams to build a durable ads platform for the AI era.\n\nThis role is ideal for a strategic, user-centric, execution-oriented PM who is excited about building entirely new advertising paradigms for conversational and agentic AI products.\n\n\nIN THIS ROLE, YOU WILL:\n\n - Drive the strategy and roadmap for ads and monetization experiences across ChatGPT\n\n - Define new ad formats, targeting approaches, and measurement capabilities designed for conversational AI\n\n - Build products and systems that balance user experience, advertiser value, and long-term ecosystem health\n\n - Partner closely with engineering, design, research, policy, legal, and GTM teams to launch new monetization capabilities\n\n - Develop frameworks for ad relevance, quality, trust, and safety\n\n - Use experimentation, analytics, and user research to improve monetization outcomes while maintaining a high-quality user experience\n\n - Shape how advertisers and partners engage with emerging AI-native surfaces and workflows\n\n - Help establish foundational product principles for advertising in AI systems\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Have 10+ years of product management experience across ads, monetization, marketplaces, or growth products\n\n - Have experience building consumer or platform products at scale\n\n - Have strong product intuition and care deeply about user trust and experience quality\n\n - Are highly analytical and comfortable using experimentation and data to drive product strategy\n\n - Thrive in ambiguous, fast-moving environments with rapidly evolving products and technology\n\n - Enjoy working cross-functionally across engineering, design, data science, research, sales, marketing, legal, and policy\n\n - Are excited about defining the future of advertising and monetization for AI-native products\n\n - Have experience with ads ranking, targeting, measurement, auction systems, or advertiser platforms (preferred but not required)\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$441K \u2013 $515K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$441K - $515K",
-      "compensationTiers": [
-        {
-          "id": "d1335179-c186-4334-a868-116caac73327",
-          "tierSummary": "$441K \u2013 $515K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "ba4a9e71-1d1f-42a7-8fe5-7abdc8d521b3",
-              "summary": "$441K \u2013 $515K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 441000,
-              "maxValue": 515000
-            },
-            {
-              "id": "1ccc9b53-a9fb-4a82-85ae-9d324a42a3b1",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 441000,
-          "maxValue": 515000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
         }
       ]
     }
@@ -36945,11 +36791,7 @@
           "maxValue": 405000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-09T20:37:16.967569",
-    "last_seen": "2026-05-09T20:37:16.967569",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "77f87617-4dc5-45af-9b6b-2f408e45a119",
@@ -37033,11 +36875,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-09T20:37:16.967569",
-    "last_seen": "2026-05-09T20:37:16.967569",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "5a3aa817-6606-4490-b73e-c1bec8ba40ff",
@@ -37110,10 +36948,67 @@
           "maxValue": 260000
         }
       ]
+    }
+  },
+  {
+    "id": "9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f",
+    "title": "Software Engineer, Productivity - Inference Runtime",
+    "department": "Scaling",
+    "team": "Runtime",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-05-10T17:33:59.627+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/9d48e2e6-41a9-4a90-8b3b-6cc960e95c2f/application",
+    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">We\u2019re hiring a Developer Productivity engineer to support OpenAI\u2019s Inference Runtime teams. These teams own the systems responsible for serving models reliably, efficiently, and safely across Codex, ChatGPT, API, and internal research workloads. We\u2019re hiring a Developer Productivity Engineer to help scale the engineering systems, safeguards, and developer workflows that enable our teams to move quickly without compromising reliability or performance.</p><p style=\"min-height:1.5em\">This role sits at the intersection of developer experience, CI/CD infrastructure, release engineering, production readiness, and inference systems reliability. You\u2019ll work on the tooling and operational foundations that support model launches, inference optimizations, cloud provider integrations, and large-scale deployments across a rapidly evolving inference stack.</p><p style=\"min-height:1.5em\"></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We\u2019re looking for an autonomous, high-ownership engineer who cares deeply about making other engineers faster, safer, and more confident.</p><p style=\"min-height:1.5em\">A major focus of this role will be improving the tooling and infrastructure around deploy gates for inference engine images. These systems help ensure that every image released to production and research is correct, numerically sound, free of regressions, and performant across key metrics like time-to-first-token (TTFT) and time-between-tokens (TBT).</p><p style=\"min-height:1.5em\">You\u2019ll help harden the systems that catch issues before they reach production, reduce noise from flaky or infrastructure-related test failures, and improve automation around triage, ownership, debugging, and escalation when failures occur. You\u2019ll also work on improving observability, rollout safety, release automation, and developer self-service tooling across a rapidly evolving inference stack.</p><p style=\"min-height:1.5em\">This is not generic internal tools work. The systems you build directly impact OpenAI\u2019s ability to support new model launches, safely ship inference optimizations to the world, onboard new infrastructure providers, and operate one of the largest and most performance-sensitive inference platforms in the world.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">In this role, you will:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Improve systems that ensure inference engine releases are correct, performant, and regression-free by evolving tooling and infrastructure for deploy gate validation</p></li><li><p style=\"min-height:1.5em\">Bring rigor to release, validation, branching, and deployment processes across the inference stack</p></li><li><p style=\"min-height:1.5em\">Improve canary, async, and large-scale validation workflows for inference systems</p></li><li><p style=\"min-height:1.5em\">Harden CI, testing, and validation infrastructure so failures are actionable and trustworthy</p></li><li><p style=\"min-height:1.5em\">Reduce noisy or flaky failures caused by infrastructure instability, GPU scheduling, or test environment issues</p></li><li><p style=\"min-height:1.5em\">Build automation for failure triage, ownership detection, debugging, and escalation</p></li><li><p style=\"min-height:1.5em\">Partner closely with inference teams, research developer productivity, engine acceleration, and infrastructure teams to improve release quality and rollout safety</p></li><li><p style=\"min-height:1.5em\">Reduce developer friction in testing, debugging, and release workflows so engineers can move faster with confidence</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>You might thrive in this role if:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You have strong experience with CI/CD systems, testing infrastructure, release tooling, developer productivity, or large-scale build and validation systems</p></li><li><p style=\"min-height:1.5em\">You are excited by high-impact infrastructure where small regressions in correctness, latency, or reliability meaningfully affect production systems</p></li><li><p style=\"min-height:1.5em\">You care about building systems engineers can trust, not just systems that technically function</p></li><li><p style=\"min-height:1.5em\">You have strong developer empathy and enjoy improving workflows, reducing friction, and making engineers more effective</p></li><li><p style=\"min-height:1.5em\">You demonstrate high ownership and proactively identify problems, drive improvements, and follow issues through resolution</p></li><li><p style=\"min-height:1.5em\">You are comfortable working in Python-heavy environments and debugging complex distributed systems</p></li><li><p style=\"min-height:1.5em\">You enjoy building automation that reduces manual triage, improves signal quality, and scales operational effectiveness</p></li><li><p style=\"min-height:1.5em\">You are comfortable operating in ambiguous areas without a fully predefined roadmap</p></li><li><p style=\"min-height:1.5em\">You enjoy partnering closely with engineers to understand workflows, pain points, and operational challenges</p></li><li><p style=\"min-height:1.5em\">You are pragmatic, collaborative, and motivated by helping teams move faster with more confidence</p></li><li><p style=\"min-height:1.5em\">You are excited to learn about large-scale inference systems, even if you have not worked directly on inference before</p></li></ul><p style=\"min-height:1.5em\">Python experience is highly relevant, as much of the current deploy gate and validation infrastructure is Python-based. C++ experience is helpful, especially for working near inference engine code, CI build issues, or performance-sensitive systems, but it is not required.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Prior inference experience is not required. </p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The ideal candidate is someone with strong instincts around developer productivity, testing, release engineering, and automation who is excited to apply those skills in a deeply impactful inference environment. We\u2019re looking for someone who is technically curious, comfortable navigating ambiguous, cross-functional operational problems, and is motivated to improve the reliability, safety, and developer experience of large-scale production infrastructure.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "ABOUT THE TEAM\n\nWe\u2019re hiring a Developer Productivity engineer to support OpenAI\u2019s Inference Runtime teams. These teams own the systems responsible for serving models reliably, efficiently, and safely across Codex, ChatGPT, API, and internal research workloads. We\u2019re hiring a Developer Productivity Engineer to help scale the engineering systems, safeguards, and developer workflows that enable our teams to move quickly without compromising reliability or performance.\n\nThis role sits at the intersection of developer experience, CI/CD infrastructure, release engineering, production readiness, and inference systems reliability. You\u2019ll work on the tooling and operational foundations that support model launches, inference optimizations, cloud provider integrations, and large-scale deployments across a rapidly evolving inference stack.\n\n\nABOUT THE ROLE\n\nWe\u2019re looking for an autonomous, high-ownership engineer who cares deeply about making other engineers faster, safer, and more confident.\n\nA major focus of this role will be improving the tooling and infrastructure around deploy gates for inference engine images. These systems help ensure that every image released to production and research is correct, numerically sound, free of regressions, and performant across key metrics like time-to-first-token (TTFT) and time-between-tokens (TBT).\n\nYou\u2019ll help harden the systems that catch issues before they reach production, reduce noise from flaky or infrastructure-related test failures, and improve automation around triage, ownership, debugging, and escalation when failures occur. You\u2019ll also work on improving observability, rollout safety, release automation, and developer self-service tooling across a rapidly evolving inference stack.\n\nThis is not generic internal tools work. The systems you build directly impact OpenAI\u2019s ability to support new model launches, safely ship inference optimizations to the world, onboard new infrastructure providers, and operate one of the largest and most performance-sensitive inference platforms in the world.\n\nIn this role, you will:\n\n - Improve systems that ensure inference engine releases are correct, performant, and regression-free by evolving tooling and infrastructure for deploy gate validation\n\n - Bring rigor to release, validation, branching, and deployment processes across the inference stack\n\n - Improve canary, async, and large-scale validation workflows for inference systems\n\n - Harden CI, testing, and validation infrastructure so failures are actionable and trustworthy\n\n - Reduce noisy or flaky failures caused by infrastructure instability, GPU scheduling, or test environment issues\n\n - Build automation for failure triage, ownership detection, debugging, and escalation\n\n - Partner closely with inference teams, research developer productivity, engine acceleration, and infrastructure teams to improve release quality and rollout safety\n\n - Reduce developer friction in testing, debugging, and release workflows so engineers can move faster with confidence\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF:\n\n - You have strong experience with CI/CD systems, testing infrastructure, release tooling, developer productivity, or large-scale build and validation systems\n\n - You are excited by high-impact infrastructure where small regressions in correctness, latency, or reliability meaningfully affect production systems\n\n - You care about building systems engineers can trust, not just systems that technically function\n\n - You have strong developer empathy and enjoy improving workflows, reducing friction, and making engineers more effective\n\n - You demonstrate high ownership and proactively identify problems, drive improvements, and follow issues through resolution\n\n - You are comfortable working in Python-heavy environments and debugging complex distributed systems\n\n - You enjoy building automation that reduces manual triage, improves signal quality, and scales operational effectiveness\n\n - You are comfortable operating in ambiguous areas without a fully predefined roadmap\n\n - You enjoy partnering closely with engineers to understand workflows, pain points, and operational challenges\n\n - You are pragmatic, collaborative, and motivated by helping teams move faster with more confidence\n\n - You are excited to learn about large-scale inference systems, even if you have not worked directly on inference before\n\nPython experience is highly relevant, as much of the current deploy gate and validation infrastructure is Python-based. C++ experience is helpful, especially for working near inference engine code, CI build issues, or performance-sensitive systems, but it is not required.\n\nPrior inference experience is not required.\n\nThe ideal candidate is someone with strong instincts around developer productivity, testing, release engineering, and automation who is excited to apply those skills in a deeply impactful inference environment. We\u2019re looking for someone who is technically curious, comfortable navigating ambiguous, cross-functional operational problems, and is motivated to improve the reliability, safety, and developer experience of large-scale production infrastructure.\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$230K \u2013 $385K",
+      "scrapeableCompensationSalarySummary": "$230K - $385K",
+      "compensationTiers": [
+        {
+          "id": "5b5b177b-3c64-45af-b555-86e67fc50abd",
+          "tierSummary": "$230K \u2013 $385K",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "53ff193a-a022-4edd-ba3e-e90a5c6fafe2",
+              "summary": "$230K \u2013 $385K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 230000,
+              "maxValue": 385000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 230000,
+          "maxValue": 385000
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-05-09T20:37:16.967569",
-    "last_seen": "2026-05-09T20:37:16.967569",
+    "first_seen": "2026-05-10T20:40:11.651552",
+    "last_seen": "2026-05-10T20:40:11.651552",
     "days_since_listed": 0
   }
 ]
