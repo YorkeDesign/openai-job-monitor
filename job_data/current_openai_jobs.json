@@ -2810,6 +2810,83 @@
     }
   },
   {
+    "id": "5bc79fde-2f1d-4bb2-8186-4a700ecff37c",
+    "title": "IT Controls Data Engineer",
+    "department": "IT",
+    "team": "IT",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-05-29T22:08:23.853+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/5bc79fde-2f1d-4bb2-8186-4a700ecff37c",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/5bc79fde-2f1d-4bb2-8186-4a700ecff37c/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The IT and Security organization builds the systems, data foundations, and automation that help OpenAI operate securely and reliably at scale. We support critical domains across identity, access, infrastructure security, enterprise systems, and internal productivity.</p><p style=\"min-height:1.5em\">As OpenAI grows, audit readiness and control assurance increasingly depend on reliable data: accurate system inventories, access populations, change records, configuration state, exception signals, and evidence generated directly from source systems. Our goal is to move beyond manual evidence collection and build scalable data products, automated validation, and continuous control monitoring that make security and IT controls measurable, repeatable, and defensible.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We are looking for an <strong>IT Controls Data Engineer</strong> to build the data infrastructure that powers audit readiness, IT controls, evidence automation, and continuous control monitoring.</p><p style=\"min-height:1.5em\">In this role, you will design and maintain the pipelines, datasets, models, validation logic, dashboards, and evidence exports that make IT controls measurable, repeatable, and defensible. You will work across Security, IT, Infrastructure, Engineering, Finance Risk Management, and auditors to turn complex system behavior into reliable control data products.</p><p style=\"min-height:1.5em\">This is a technical builder role. The ideal candidate is strong in data engineering and analytics engineering, comfortable working with enterprise and security system data, and able to explain data lineage, source-system behavior, and control logic clearly to technical and audit stakeholders.</p><p style=\"min-height:1.5em\"><strong>You\u2019ll be responsible for</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Building reliable data pipelines, models, and datasets for IT controls, including access, identity, configuration, change, ticketing, exception, and evidence data.</p></li><li><p style=\"min-height:1.5em\">Creating data quality, lineage, reconciliation, and completeness checks that make control data defensible for SOX and other audit use cases.</p></li><li><p style=\"min-height:1.5em\">Designing automated evidence generation workflows that produce complete, accurate, and repeatable audit populations, exports, dashboards, and control artifacts.</p></li><li><p style=\"min-height:1.5em\">Developing control monitoring logic to detect drift, missing evidence, stale access, direct system changes, overdue activity, and other control exceptions.</p></li><li><p style=\"min-height:1.5em\">Partnering with Security, IT, Infrastructure, Engineering, Risk Management, and system owners to understand source systems, validate data, and improve automation reliability.</p></li><li><p style=\"min-height:1.5em\">Translating technical system behavior, data flows, access models, and validation results into clear explanations for auditors, control owners, and technical stakeholders.</p></li></ul><p style=\"min-height:1.5em\"><strong>We\u2019re looking for someone with</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Strong data engineering, analytics engineering, or software/data systems experience, including building reliable datasets, pipelines, queries, dashboards, or automated reporting workflows.</p></li><li><p style=\"min-height:1.5em\">Hands-on SQL experience and proficiency with at least one scripting or programming language such as Python.</p></li><li><p style=\"min-height:1.5em\">Experience working with enterprise system data, such as identity platforms, HR systems, ticketing systems, cloud environments, source control systems, SaaS applications, or audit/compliance tooling.</p></li><li><p style=\"min-height:1.5em\">Strong understanding of data modeling, lineage, completeness, accuracy, reconciliation, validation, observability, and repeatability.</p></li><li><p style=\"min-height:1.5em\">Ability to reason through messy source-system data, inconsistent identifiers, nested groups, stale records, missing owners, direct assignments, and downstream application drift.</p></li><li><p style=\"min-height:1.5em\">Experience supporting security, IT controls, SOX, audit readiness, risk, compliance, or regulated technology environments.</p></li><li><p style=\"min-height:1.5em\">Ability to explain technical systems, data flows, and control logic clearly to both engineering and audit stakeholders.</p></li><li><p style=\"min-height:1.5em\">Strong ownership, judgment, and attention to detail in high-stakes, time-sensitive environments.</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice to have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with Entra ID, Workday, GitHub, Databricks, Salesforce, or similar platforms.</p></li><li><p style=\"min-height:1.5em\">Experience with cloud infrastructure environments such as Azure, AWS, or GCP.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You like turning messy operational processes into clean, repeatable systems.</p></li><li><p style=\"min-height:1.5em\">You enjoy working at the intersection of data, controls, engineering, and audit.</p></li><li><p style=\"min-height:1.5em\">You can go deep technically, but also explain your work clearly to auditors and executives.</p></li><li><p style=\"min-height:1.5em\">You care about evidence quality, data integrity, and defensible documentation.</p></li><li><p style=\"min-height:1.5em\">You are energized by building automation that reduces manual effort and improves control reliability.</p></li><li><p style=\"min-height:1.5em\">You can partner with engineers without slowing them down, while still maintaining a strong control standard.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nThe IT and Security organization builds the systems, data foundations, and automation that help OpenAI operate securely and reliably at scale. We support critical domains across identity, access, infrastructure security, enterprise systems, and internal productivity.\n\nAs OpenAI grows, audit readiness and control assurance increasingly depend on reliable data: accurate system inventories, access populations, change records, configuration state, exception signals, and evidence generated directly from source systems. Our goal is to move beyond manual evidence collection and build scalable data products, automated validation, and continuous control monitoring that make security and IT controls measurable, repeatable, and defensible.\n\nAbout the Role\n\nWe are looking for an IT Controls Data Engineer to build the data infrastructure that powers audit readiness, IT controls, evidence automation, and continuous control monitoring.\n\nIn this role, you will design and maintain the pipelines, datasets, models, validation logic, dashboards, and evidence exports that make IT controls measurable, repeatable, and defensible. You will work across Security, IT, Infrastructure, Engineering, Finance Risk Management, and auditors to turn complex system behavior into reliable control data products.\n\nThis is a technical builder role. The ideal candidate is strong in data engineering and analytics engineering, comfortable working with enterprise and security system data, and able to explain data lineage, source-system behavior, and control logic clearly to technical and audit stakeholders.\n\nYou\u2019ll be responsible for\n\n - Building reliable data pipelines, models, and datasets for IT controls, including access, identity, configuration, change, ticketing, exception, and evidence data.\n\n - Creating data quality, lineage, reconciliation, and completeness checks that make control data defensible for SOX and other audit use cases.\n\n - Designing automated evidence generation workflows that produce complete, accurate, and repeatable audit populations, exports, dashboards, and control artifacts.\n\n - Developing control monitoring logic to detect drift, missing evidence, stale access, direct system changes, overdue activity, and other control exceptions.\n\n - Partnering with Security, IT, Infrastructure, Engineering, Risk Management, and system owners to understand source systems, validate data, and improve automation reliability.\n\n - Translating technical system behavior, data flows, access models, and validation results into clear explanations for auditors, control owners, and technical stakeholders.\n\nWe\u2019re looking for someone with\n\n - Strong data engineering, analytics engineering, or software/data systems experience, including building reliable datasets, pipelines, queries, dashboards, or automated reporting workflows.\n\n - Hands-on SQL experience and proficiency with at least one scripting or programming language such as Python.\n\n - Experience working with enterprise system data, such as identity platforms, HR systems, ticketing systems, cloud environments, source control systems, SaaS applications, or audit/compliance tooling.\n\n - Strong understanding of data modeling, lineage, completeness, accuracy, reconciliation, validation, observability, and repeatability.\n\n - Ability to reason through messy source-system data, inconsistent identifiers, nested groups, stale records, missing owners, direct assignments, and downstream application drift.\n\n - Experience supporting security, IT controls, SOX, audit readiness, risk, compliance, or regulated technology environments.\n\n - Ability to explain technical systems, data flows, and control logic clearly to both engineering and audit stakeholders.\n\n - Strong ownership, judgment, and attention to detail in high-stakes, time-sensitive environments.\n\nNice to have:\n\n - Experience with Entra ID, Workday, GitHub, Databricks, Salesforce, or similar platforms.\n\n - Experience with cloud infrastructure environments such as Azure, AWS, or GCP.\n\nYou might thrive in this role if:\n\n - You like turning messy operational processes into clean, repeatable systems.\n\n - You enjoy working at the intersection of data, controls, engineering, and audit.\n\n - You can go deep technically, but also explain your work clearly to auditors and executives.\n\n - You care about evidence quality, data integrity, and defensible documentation.\n\n - You are energized by building automation that reduces manual effort and improves control reliability.\n\n - You can partner with engineers without slowing them down, while still maintaining a strong control standard.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$293K \u2013 $385K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$293K - $385K",
+      "compensationTiers": [
+        {
+          "id": "e9fa84b0-dc85-4142-9be5-d65d746414b9",
+          "tierSummary": "$293K \u2013 $385K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "a0602e19-4ce7-4fc7-8c88-22dbbac36c66",
+              "summary": "$293K \u2013 $385K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 293000,
+              "maxValue": 385000
+            },
+            {
+              "id": "8bd63cb8-60cb-40a3-9803-283e9d49d2be",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 293000,
+          "maxValue": 385000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-05-30T20:48:18.573350",
+    "last_seen": "2026-05-30T20:48:18.573350",
+    "days_since_listed": 0
+  },
+  {
     "id": "98a36c10-3497-4955-9cc0-a6f211e4dc1b",
     "title": "Solutions Engineer, Pre-Sales",
     "department": "Go To Market",
@@ -7135,11 +7212,7 @@
           "maxValue": 555000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "12342ebb-dcd4-45e2-b875-fc5447fdb7d8",
@@ -8099,11 +8172,7 @@
           "maxValue": 380000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "621bb104-9daa-4c9e-949a-03d5730334e8",
@@ -15467,7 +15536,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-08T15:45:29.938+00:00",
+    "publishedAt": "2026-05-29T22:47:58.945+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -22945,7 +23014,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-07T00:05:58.882+00:00",
+    "publishedAt": "2026-05-29T22:47:12.593+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -24595,7 +24664,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-07T00:05:28.383+00:00",
+    "publishedAt": "2026-05-29T22:46:50.374+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -29301,11 +29370,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "25301e84-68bc-4fba-bb20-475a434aa3f1",
@@ -32015,7 +32080,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-06T21:15:36.939+00:00",
+    "publishedAt": "2026-05-29T22:47:43.207+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -34184,11 +34249,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "f0885aed-a422-4237-8e98-9c5311ed7ae0",
@@ -35977,14 +36038,14 @@
   },
   {
     "id": "5c85c498-6459-4e4a-937c-6bc9150f743e",
-    "title": "Senior Technical Accounting Manager, Compute Infrastructure ",
+    "title": "Senior Manager, Technical Accounting (Compute Infrastructure)",
     "department": "Finance",
     "team": "Finance",
     "employmentType": "FullTime",
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-21T05:32:58.475+00:00",
+    "publishedAt": "2026-05-29T22:48:13.889+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -36641,7 +36702,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-22T18:01:46.010+00:00",
+    "publishedAt": "2026-05-29T22:47:26.541+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -36707,14 +36768,14 @@
   },
   {
     "id": "50bf08a4-21ae-4966-9ab1-fb6e7b947374",
-    "title": "Senior Technical Accounting Manager,  Revenue & Strategic Partnerships",
+    "title": "Senior Manager, Technical Accounting (Revenue & Strategic Partnerships)",
     "department": "Finance",
     "team": "Finance",
     "employmentType": "FullTime",
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-05-29T21:40:30.152+00:00",
+    "publishedAt": "2026-05-29T22:48:32.390+00:00",
     "isListed": true,
     "isRemote": true,
     "workplaceType": "Hybrid",
@@ -38279,11 +38340,7 @@
           "maxValue": 555000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "acecf462-236f-4b24-ac0b-dfff835ee711",
@@ -38721,11 +38778,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "5b75027a-a5eb-4d28-a608-aa6bebcb079f",
@@ -38798,11 +38851,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "1a28b2f0-76f4-4fb3-b224-e0ab9f60cee0",
@@ -39197,11 +39246,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "57f0728b-7747-471e-a8d5-9d0f763b057c",
@@ -39274,10 +39319,83 @@
           "maxValue": 385000
         }
       ]
+    }
+  },
+  {
+    "id": "0ce05097-56c7-42ac-8e86-1a1492d7f387",
+    "title": "Producer, Global Events",
+    "department": "Marketing",
+    "team": "Marketing",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-05-29T22:51:13.076+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/0ce05097-56c7-42ac-8e86-1a1492d7f387",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/0ce05097-56c7-42ac-8e86-1a1492d7f387/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About The Team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s mission is to ensure that general-purpose artificial intelligence benefits all of humanity.</p><p style=\"min-height:1.5em\">The Global Events team is a dynamic and ethos-driven group dedicated to crafting one-of-a-kind and extraordinary experiences that encompass OpenAI\u2019s values and mission. Our team is driven by a deep passion for shining the spotlight on others and bringing people together to connect in meaningful ways.</p><p style=\"min-height:1.5em\">The Events Production team, a sub-team of Events, collaborates with Event Managers to transform ideas into well-organized, immersive experiences that resonate with audiences and achieve business goals.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong><br />We\u2019re looking for an exceptional Event Producer to join the Global Events team at OpenAI \u2014 someone who thrives in the controlled chaos of live production and knows how to turn ambitious ideas into beautifully executed experiences.</p><p style=\"min-height:1.5em\">In this role, you\u2019ll help bring some of OpenAI\u2019s most visible moments to life \u2014 from developer events and global launches to product-driven experiences, enterprise events, and entirely new formats we haven\u2019t invented yet. You\u2019ll partner closely with teams across product, marketing, research, and leadership to translate big ideas into real-world productions that feel seamless, thoughtful, and distinctly OpenAI.</p><p style=\"min-height:1.5em\">As a Producer, you\u2019ll own the full production lifecycle \u2014 shaping concepts, building plans, managing vendors and partners, running timelines, and ensuring every detail lands with precision. This role sits at the intersection of creativity and operational excellence: equal parts builder, problem-solver, and calm presence when the stakes are high.</p><p style=\"min-height:1.5em\">Our team takes pride in craft, notices the small things others miss, and moves fast without sacrificing quality. The ideal candidate brings strong experience in live production, stage management, or agency-side event production, along with a curiosity about AI and how it will shape the way people gather, learn, and connect.</p><p style=\"min-height:1.5em\">This contract role is based in San Francisco, CA, with a hybrid schedule (three days per week in office). Regular domestic and international travel is expected (~30%).</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Manage stage productions : oversee content production, stage management, and AV coordination, ensuring all aspects of stage execution \u2014 from rehearsals to live production \u2014 run seamlessly.</p></li><li><p style=\"min-height:1.5em\">Collaborate on event execution strategies : partner with event managers and business DRIs to shape event plans, aligning on vision, objectives, and goals to deliver impactful experiences.</p></li><li><p style=\"min-height:1.5em\">Support creative production : collaborate with creative teams to bring bold ideas to life, ensuring the vision is translated into every detail of the event. Manage creative vendors and partners onsite to deliver exceptional experiences.</p></li><li><p style=\"min-height:1.5em\">Source and negotiate vendors : identify and secure top-tier vendors, agencies, and suppliers, negotiate contracts, and build lasting partnerships.</p></li><li><p style=\"min-height:1.5em\">Oversee risk management and contingency planning : secure necessary permits and insurance while managing risks and resolving onsite issues to keep events running smoothly.</p></li><li><p style=\"min-height:1.5em\">Track budgets and financials : manage event production budgets meticulously, track expenses, and ensure events stay within allocated limits.</p></li><li><p style=\"min-height:1.5em\">Coordinate project management : oversee detailed project workbacks, facilitate weekly progress meetings, and keep teams aligned on timelines and deliverables.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have 4 years of experience in production / stage management, event production, agency event management / production, or similar roles.</p></li><li><p style=\"min-height:1.5em\">Find deep value in bringing your whole self to work, celebrating differences in perspectives, and prioritize bringing joy to the front of your projects.</p></li><li><p style=\"min-height:1.5em\">Have a proven track record of managing budgets over $500k.</p></li><li><p style=\"min-height:1.5em\">Thrive in fast-paced environments and enjoy working across multiple events.</p></li><li><p style=\"min-height:1.5em\">Understand the value of stagecraft, nuanced transitional scripting in show flow development, and how to translate brand values to stages and screens.</p></li><li><p style=\"min-height:1.5em\">A strong working knowledge of full-stack event audio visual elements, including Audio, Video, and Lighting.  An understanding of fundamental video and audio signal flows in event and broadcast environments while not required, is a plus.</p></li><li><p style=\"min-height:1.5em\">A hunger and desire to keep on top of the latest cutting edge event technology, and a desire to elevate and drive improvement in event quality.</p></li><li><p style=\"min-height:1.5em\">Demonstrate strong cross-functional team management experience, with a deep commitment to fostering open communication, embracing a diversity of backgrounds and perspectives, and bringing your true self to work every day.</p></li><li><p style=\"min-height:1.5em\">Enjoy finding innovative ways to use OpenAI tools and products to scale your team\u2019s work.</p></li><li><p style=\"min-height:1.5em\">Show a deep interest in artificial intelligence that benefits all of humanity.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About The Team\n\nOpenAI\u2019s mission is to ensure that general-purpose artificial intelligence benefits all of humanity.\n\nThe Global Events team is a dynamic and ethos-driven group dedicated to crafting one-of-a-kind and extraordinary experiences that encompass OpenAI\u2019s values and mission. Our team is driven by a deep passion for shining the spotlight on others and bringing people together to connect in meaningful ways.\n\nThe Events Production team, a sub-team of Events, collaborates with Event Managers to transform ideas into well-organized, immersive experiences that resonate with audiences and achieve business goals.\n\nAbout the Role\nWe\u2019re looking for an exceptional Event Producer to join the Global Events team at OpenAI \u2014 someone who thrives in the controlled chaos of live production and knows how to turn ambitious ideas into beautifully executed experiences.\n\nIn this role, you\u2019ll help bring some of OpenAI\u2019s most visible moments to life \u2014 from developer events and global launches to product-driven experiences, enterprise events, and entirely new formats we haven\u2019t invented yet. You\u2019ll partner closely with teams across product, marketing, research, and leadership to translate big ideas into real-world productions that feel seamless, thoughtful, and distinctly OpenAI.\n\nAs a Producer, you\u2019ll own the full production lifecycle \u2014 shaping concepts, building plans, managing vendors and partners, running timelines, and ensuring every detail lands with precision. This role sits at the intersection of creativity and operational excellence: equal parts builder, problem-solver, and calm presence when the stakes are high.\n\nOur team takes pride in craft, notices the small things others miss, and moves fast without sacrificing quality. The ideal candidate brings strong experience in live production, stage management, or agency-side event production, along with a curiosity about AI and how it will shape the way people gather, learn, and connect.\n\nThis contract role is based in San Francisco, CA, with a hybrid schedule (three days per week in office). Regular domestic and international travel is expected (~30%).\n\nIn this role, you will:\n\n - Manage stage productions : oversee content production, stage management, and AV coordination, ensuring all aspects of stage execution \u2014 from rehearsals to live production \u2014 run seamlessly.\n\n - Collaborate on event execution strategies : partner with event managers and business DRIs to shape event plans, aligning on vision, objectives, and goals to deliver impactful experiences.\n\n - Support creative production : collaborate with creative teams to bring bold ideas to life, ensuring the vision is translated into every detail of the event. Manage creative vendors and partners onsite to deliver exceptional experiences.\n\n - Source and negotiate vendors : identify and secure top-tier vendors, agencies, and suppliers, negotiate contracts, and build lasting partnerships.\n\n - Oversee risk management and contingency planning : secure necessary permits and insurance while managing risks and resolving onsite issues to keep events running smoothly.\n\n - Track budgets and financials : manage event production budgets meticulously, track expenses, and ensure events stay within allocated limits.\n\n - Coordinate project management : oversee detailed project workbacks, facilitate weekly progress meetings, and keep teams aligned on timelines and deliverables.\n\nYou might thrive in this role if you have:\n\n - Have 4 years of experience in production / stage management, event production, agency event management / production, or similar roles.\n\n - Find deep value in bringing your whole self to work, celebrating differences in perspectives, and prioritize bringing joy to the front of your projects.\n\n - Have a proven track record of managing budgets over $500k.\n\n - Thrive in fast-paced environments and enjoy working across multiple events.\n\n - Understand the value of stagecraft, nuanced transitional scripting in show flow development, and how to translate brand values to stages and screens.\n\n - A strong working knowledge of full-stack event audio visual elements, including Audio, Video, and Lighting. An understanding of fundamental video and audio signal flows in event and broadcast environments while not required, is a plus.\n\n - A hunger and desire to keep on top of the latest cutting edge event technology, and a desire to elevate and drive improvement in event quality.\n\n - Demonstrate strong cross-functional team management experience, with a deep commitment to fostering open communication, embracing a diversity of backgrounds and perspectives, and bringing your true self to work every day.\n\n - Enjoy finding innovative ways to use OpenAI tools and products to scale your team\u2019s work.\n\n - Show a deep interest in artificial intelligence that benefits all of humanity.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$162K - $180K",
+      "compensationTiers": [
+        {
+          "id": "d88b8f59-3b08-40e1-9624-c8116c67d387",
+          "tierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "617f2c66-64a4-4bf6-abab-64371f514dfe",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "48c8f4ff-a55e-476f-b334-b75f91b8088e",
+              "summary": "$162K \u2013 $180K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 162000,
+              "maxValue": 180000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 162000,
+          "maxValue": 180000
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
+    "first_seen": "2026-05-30T20:48:18.573350",
+    "last_seen": "2026-05-30T20:48:18.573350",
     "days_since_listed": 0
   },
   {
@@ -39351,11 +39469,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "30d32d0b-26ba-4ce4-a164-d8d00a3ef1a1",
@@ -39428,11 +39542,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "8b725c86-2640-4afb-9a33-53b857eae9c9",
@@ -39505,11 +39615,7 @@
           "maxValue": 330000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "8728beb4-1ad9-4140-b701-e7e12f6c9a4d",
@@ -39582,10 +39688,83 @@
           "maxValue": null
         }
       ]
+    }
+  },
+  {
+    "id": "a28b368e-3318-4b9b-8a33-1ebcdb990aec",
+    "title": "DAQ Station Engineer",
+    "department": "Research",
+    "team": "Robotics",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-05-29T23:42:45.910+00:00",
+    "isListed": true,
+    "isRemote": false,
+    "workplaceType": "OnSite",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/a28b368e-3318-4b9b-8a33-1ebcdb990aec",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/a28b368e-3318-4b9b-8a33-1ebcdb990aec/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The OpenAI Robotics team is focused on unlocking general-purpose robotics and pushing towards AGI-level intelligence in dynamic, real-world settings. Working across the entire model stack, we integrate cutting-edge hardware and software to explore a broad range of robotic form factors. We strive to seamlessly blend high-level AI capabilities with the constraints of physical systems to improve peoples\u2019 lives.<br /></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We\u2019re looking for a DAQ Station Hardware Engineer to develop and improve the physical hardware that goes into OpenAI\u2019s robotic data collection stations. This role will design, prototype, validate, and deploy station hardware such as fixtures, mounts, operator interfaces, workcell equipment, safety mechanisms, and other electromechanical systems that support reliable daily operation.</p><p style=\"min-height:1.5em\">You will work closely with Robotics Engineering, Research, Software, and Operations to translate evolving needs into practical hardware solutions that are robust, serviceable, and scalable across an expanding DAQ footprint.<br /></p><h2><strong>What You\u2019ll Do</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and develop <strong>station hardware and electromechanical subsystems</strong>, including fixtures, equipment mounts, operator-facing hardware, sensing support structures, enclosures, and safety-related components.</p></li><li><p style=\"min-height:1.5em\">Translate program and operational needs into <strong>clear hardware requirements, prototypes, and production-ready designs</strong>.</p></li><li><p style=\"min-height:1.5em\">Support hardware through the full lifecycle: concept, detailed design, build, test, deployment, issue resolution, and iteration.</p></li><li><p style=\"min-height:1.5em\">Partner with cross-functional teams to ensure station hardware integrates cleanly with robotics platforms, software, data collection workflows, and operator use cases.</p></li><li><p style=\"min-height:1.5em\">Improve station reliability, usability, and serviceability by diagnosing field issues and driving durable engineering fixes.</p></li><li><p style=\"min-height:1.5em\">Work with vendors, machine shops, and fabrication partners to produce custom hardware and manage technical build quality.</p></li><li><p style=\"min-height:1.5em\">Contribute to design standards, documentation, and validation practices that support repeatable station deployments.</p></li></ul><h2><strong>You Might Thrive in This Role If You</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have strong experience developing <strong>mechanical or electromechanical hardware</strong> for complex physical systems.</p></li><li><p style=\"min-height:1.5em\">Have designed equipment, fixtures, workcells, test systems, automation hardware, or similar operator-facing environments.</p></li><li><p style=\"min-height:1.5em\">Are comfortable moving from ambiguous requirements to hands-on prototypes and robust released designs.</p></li><li><p style=\"min-height:1.5em\">Bring sound judgment around mechanical design, DFM/DFA, serviceability, durability, ergonomics, and real-world use conditions.</p></li><li><p style=\"min-height:1.5em\">Work effectively across engineering and operations teams and enjoy solving problems that show up in live physical environments.</p></li></ul><h2><strong>Preferred Qualifications</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience in robotics, automation, advanced manufacturing, test systems, or high-complexity hardware environments.</p></li><li><p style=\"min-height:1.5em\">Familiarity with CAD, prototyping, fabrication methods, design documentation, and issue tracking.</p></li><li><p style=\"min-height:1.5em\">Experience developing hardware intended for repeated daily use in operational settings.</p></li><li><p style=\"min-height:1.5em\">Experience working with external suppliers, machine shops, or contract fabricators.</p></li></ul><h2><strong>Workplace &amp; Location</strong></h2><p style=\"min-height:1.5em\">This role is based in <strong>San Francisco, CA</strong> and will require substantial in-person presence to support hardware development, validation, and deployment.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nThe OpenAI Robotics team is focused on unlocking general-purpose robotics and pushing towards AGI-level intelligence in dynamic, real-world settings. Working across the entire model stack, we integrate cutting-edge hardware and software to explore a broad range of robotic form factors. We strive to seamlessly blend high-level AI capabilities with the constraints of physical systems to improve peoples\u2019 lives.\n\n\n\nABOUT THE ROLE\n\nWe\u2019re looking for a DAQ Station Hardware Engineer to develop and improve the physical hardware that goes into OpenAI\u2019s robotic data collection stations. This role will design, prototype, validate, and deploy station hardware such as fixtures, mounts, operator interfaces, workcell equipment, safety mechanisms, and other electromechanical systems that support reliable daily operation.\n\nYou will work closely with Robotics Engineering, Research, Software, and Operations to translate evolving needs into practical hardware solutions that are robust, serviceable, and scalable across an expanding DAQ footprint.\n\n\n\nWHAT YOU\u2019LL DO\n\n - Design and develop station hardware and electromechanical subsystems, including fixtures, equipment mounts, operator-facing hardware, sensing support structures, enclosures, and safety-related components.\n\n - Translate program and operational needs into clear hardware requirements, prototypes, and production-ready designs.\n\n - Support hardware through the full lifecycle: concept, detailed design, build, test, deployment, issue resolution, and iteration.\n\n - Partner with cross-functional teams to ensure station hardware integrates cleanly with robotics platforms, software, data collection workflows, and operator use cases.\n\n - Improve station reliability, usability, and serviceability by diagnosing field issues and driving durable engineering fixes.\n\n - Work with vendors, machine shops, and fabrication partners to produce custom hardware and manage technical build quality.\n\n - Contribute to design standards, documentation, and validation practices that support repeatable station deployments.\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU\n\n - Have strong experience developing mechanical or electromechanical hardware for complex physical systems.\n\n - Have designed equipment, fixtures, workcells, test systems, automation hardware, or similar operator-facing environments.\n\n - Are comfortable moving from ambiguous requirements to hands-on prototypes and robust released designs.\n\n - Bring sound judgment around mechanical design, DFM/DFA, serviceability, durability, ergonomics, and real-world use conditions.\n\n - Work effectively across engineering and operations teams and enjoy solving problems that show up in live physical environments.\n\n\nPREFERRED QUALIFICATIONS\n\n - Experience in robotics, automation, advanced manufacturing, test systems, or high-complexity hardware environments.\n\n - Familiarity with CAD, prototyping, fabrication methods, design documentation, and issue tracking.\n\n - Experience developing hardware intended for repeated daily use in operational settings.\n\n - Experience working with external suppliers, machine shops, or contract fabricators.\n\n\nWORKPLACE & LOCATION\n\nThis role is based in San Francisco, CA and will require substantial in-person presence to support hardware development, validation, and deployment.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$342K \u2013 $380K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$342K - $380K",
+      "compensationTiers": [
+        {
+          "id": "4c5ad2b9-9da0-424b-92c4-4177e4f69fc0",
+          "tierSummary": "$342K \u2013 $380K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "4b8bd17c-d6f7-43e4-8901-37f5debfb44e",
+              "summary": "$342K \u2013 $380K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 342000,
+              "maxValue": 380000
+            },
+            {
+              "id": "54344c4c-abae-4d46-a1fa-cac9c6b606ff",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 342000,
+          "maxValue": 380000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
+    "first_seen": "2026-05-30T20:48:18.573350",
+    "last_seen": "2026-05-30T20:48:18.573350",
     "days_since_listed": 0
   },
   {
@@ -39659,10 +39838,6 @@
           "maxValue": 456000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-29T21:47:42.997270",
-    "last_seen": "2026-05-29T21:47:42.997270",
-    "days_since_listed": 0
+    }
   }
 ]
