@@ -1645,15 +1645,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "9e30c06e-7a93-4a0f-ab98-687de585e46c",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "f8816940-6ab5-40d1-869b-01484469e4f1",
               "summary": "$230K \u2013 $385K",
               "compensationType": "Salary",
@@ -1661,24 +1652,33 @@
               "currencyCode": "USD",
               "minValue": 230000,
               "maxValue": 385000
+            },
+            {
+              "id": "9e30c06e-7a93-4a0f-ab98-687de585e46c",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 230000,
           "maxValue": 385000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -2880,11 +2880,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-30T20:48:18.573350",
-    "last_seen": "2026-05-30T20:48:18.573350",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "98a36c10-3497-4955-9cc0-a6f211e4dc1b",
@@ -9882,15 +9878,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "4b75c357-86c0-4a76-b965-3eb68d649d9d",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "30df76fa-bd55-4ab0-a3ca-a1f0e289325e",
               "summary": "$182.7K \u2013 $202.5K",
               "compensationType": "Salary",
@@ -9898,6 +9885,15 @@
               "currencyCode": "USD",
               "minValue": 182700,
               "maxValue": 202500
+            },
+            {
+              "id": "4b75c357-86c0-4a76-b965-3eb68d649d9d",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -14855,90 +14851,6 @@
     }
   },
   {
-    "id": "bf9d9e1c-7967-41a4-a7ae-0bf9b6a768c2",
-    "title": "Client Partner, Ads Solutions",
-    "department": "Go To Market",
-    "team": "Ads Solutions",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [
-      {
-        "location": "New York City",
-        "address": {
-          "postalAddress": {
-            "addressRegion": "New York",
-            "addressCountry": "United States",
-            "addressLocality": "New York"
-          }
-        }
-      }
-    ],
-    "publishedAt": "2026-04-29T15:44:51.710+00:00",
-    "isListed": true,
-    "isRemote": null,
-    "workplaceType": null,
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/bf9d9e1c-7967-41a4-a7ae-0bf9b6a768c2",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/bf9d9e1c-7967-41a4-a7ae-0bf9b6a768c2/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s mission is to ensure the responsible and widespread adoption of artificial intelligence. In support of that mission, the Sales team partners closely with customers to deeply understand their businesses and needs, helping inform the development of products and solutions that drive meaningful revenue growth and long-term success on the platform\u2014while maintaining strong standards for user trust and platform integrity.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the role</strong></p><p style=\"min-height:1.5em\">This role is focused on driving new and expanded advertising revenue and ensuring successful business results for advertisers. You will own the full sales cycle \u2014 from prospecting to deal closure, developing long-term commercial partnerships to help advertisers achieve their business objectives while ensuring a strong and responsible experience on our platform.</p><p style=\"min-height:1.5em\">You\u2019ll work closely with Account Managers and key cross-functional partners to ensure advertisers achieve successful outcomes after the sale, while maintaining primary ownership of revenue growth and commercial strategy.</p><p style=\"min-height:1.5em\"></p><h2><strong>In this role you will:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Prospect, qualify, and close new advertising opportunities, leading the full sales cycle from initial engagement through contract execution.</p></li><li><p style=\"min-height:1.5em\">Own and achieve a defined revenue target within an assigned territory or vertical.</p></li><li><p style=\"min-height:1.5em\">Develop and execute structured account plans to drive advertiser ROI and long-term revenue growth.</p></li><li><p style=\"min-height:1.5em\">Build and maintain relationships with senior-level advertising decision-makers, delivering strategic guidance and actively gathering their feedback.</p></li><li><p style=\"min-height:1.5em\">Structure and negotiate complex commercial agreements.</p></li><li><p style=\"min-height:1.5em\">Quantify opportunities through clear, data-driven business cases aligned to advertiser objectives.</p></li><li><p style=\"min-height:1.5em\">Lead cross-functional collaboration across Product, Engineering, Marketing, Policy, and Operations to support complex deals.</p></li><li><p style=\"min-height:1.5em\">Partner with Account Managers to ensure seamless post-sale transitions and coordinated expansion strategies.</p></li><li><p style=\"min-height:1.5em\">Maintain rigorous pipeline management and accurate revenue forecasting.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>You might thrive in this role if you:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Has 10+ years of experience in performance marketing, digital marketing, or client-facing strategy and consulting roles.</p></li><li><p style=\"min-height:1.5em\">Has 3+ years of experience as proven advisor influencing executives and clients.</p></li><li><p style=\"min-height:1.5em\">Has experience owning revenue targets and closing complex deals.</p></li><li><p style=\"min-height:1.5em\">Can build structured business cases and influencing senior stakeholders (internally and externally).</p></li><li><p style=\"min-height:1.5em\">Has strong verbal and written communication skills.</p></li><li><p style=\"min-height:1.5em\">Can operate in ambiguous, fast-changing environments.</p></li><li><p style=\"min-height:1.5em\">Understands the client\u2019s business and priorities to define success metrics and align on partnership goals.</p></li><li><p style=\"min-height:1.5em\">Translates.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the team\n\nOpenAI\u2019s mission is to ensure the responsible and widespread adoption of artificial intelligence. In support of that mission, the Sales team partners closely with customers to deeply understand their businesses and needs, helping inform the development of products and solutions that drive meaningful revenue growth and long-term success on the platform\u2014while maintaining strong standards for user trust and platform integrity.\n\n\n\nAbout the role\n\nThis role is focused on driving new and expanded advertising revenue and ensuring successful business results for advertisers. You will own the full sales cycle \u2014 from prospecting to deal closure, developing long-term commercial partnerships to help advertisers achieve their business objectives while ensuring a strong and responsible experience on our platform.\n\nYou\u2019ll work closely with Account Managers and key cross-functional partners to ensure advertisers achieve successful outcomes after the sale, while maintaining primary ownership of revenue growth and commercial strategy.\n\n\n\n\nIN THIS ROLE YOU WILL:\n\n - Prospect, qualify, and close new advertising opportunities, leading the full sales cycle from initial engagement through contract execution.\n\n - Own and achieve a defined revenue target within an assigned territory or vertical.\n\n - Develop and execute structured account plans to drive advertiser ROI and long-term revenue growth.\n\n - Build and maintain relationships with senior-level advertising decision-makers, delivering strategic guidance and actively gathering their feedback.\n\n - Structure and negotiate complex commercial agreements.\n\n - Quantify opportunities through clear, data-driven business cases aligned to advertiser objectives.\n\n - Lead cross-functional collaboration across Product, Engineering, Marketing, Policy, and Operations to support complex deals.\n\n - Partner with Account Managers to ensure seamless post-sale transitions and coordinated expansion strategies.\n\n - Maintain rigorous pipeline management and accurate revenue forecasting.\n\n\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU:\n\n - Has 10+ years of experience in performance marketing, digital marketing, or client-facing strategy and consulting roles.\n\n - Has 3+ years of experience as proven advisor influencing executives and clients.\n\n - Has experience owning revenue targets and closing complex deals.\n\n - Can build structured business cases and influencing senior stakeholders (internally and externally).\n\n - Has strong verbal and written communication skills.\n\n - Can operate in ambiguous, fast-changing environments.\n\n - Understands the client\u2019s business and priorities to define success metrics and align on partnership goals.\n\n - Translates.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$261K \u2013 $335K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$261K - $335K",
-      "compensationTiers": [
-        {
-          "id": "cbc0263b-128d-4a2e-a667-f2f9972515fa",
-          "tierSummary": "$261K \u2013 $335K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "4a301df6-cd4b-447f-aa8d-88000fb3b937",
-              "summary": "$261K \u2013 $335K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 261000,
-              "maxValue": 335000
-            },
-            {
-              "id": "7e846c99-eacc-4e99-80f8-32be1bdeac78",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 261000,
-          "maxValue": 335000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "c47bd03b-800f-4e17-8240-e83c68766937",
     "title": "Android Engineer, ChatGPT Engineering",
     "department": "Applied AI",
@@ -16036,15 +15948,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "d0c9ce4a-22be-4ebd-a28b-959b509c307d",
-              "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $234.9K \u2013 $261K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 234900,
-              "maxValue": 261000
-            },
-            {
               "id": "440f1104-9328-4a62-a07f-750cc6240db8",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -16052,6 +15955,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "d0c9ce4a-22be-4ebd-a28b-959b509c307d",
+              "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $234.9K \u2013 $261K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 234900,
+              "maxValue": 261000
             }
           ]
         }
@@ -23902,15 +23814,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "afb903cf-1134-465d-8b4f-72e0c1cc8139",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "51db9487-7f0f-4aa1-868f-744f2af33481",
               "summary": "$182.7K \u2013 $202.5K",
               "compensationType": "Salary",
@@ -23918,6 +23821,15 @@
               "currencyCode": "USD",
               "minValue": 182700,
               "maxValue": 202500
+            },
+            {
+              "id": "afb903cf-1134-465d-8b4f-72e0c1cc8139",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -39392,11 +39304,7 @@
           "maxValue": 180000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-30T20:48:18.573350",
-    "last_seen": "2026-05-30T20:48:18.573350",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "d336dea8-d064-4964-8534-20526b4dbc2a",
@@ -39761,11 +39669,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-05-30T20:48:18.573350",
-    "last_seen": "2026-05-30T20:48:18.573350",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "12337cdb-cb54-4095-a138-10c3e5b01974",
