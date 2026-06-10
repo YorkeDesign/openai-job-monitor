@@ -20288,11 +20288,7 @@
           "maxValue": 240000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-10T09:00:00.020693",
-    "last_seen": "2026-06-10T09:00:00.020693",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "19b9af1a-6a6e-42e3-824b-a9f3794fef2b",
@@ -36969,11 +36965,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-10T09:00:00.020693",
-    "last_seen": "2026-06-10T09:00:00.020693",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "a28b368e-3318-4b9b-8a33-1ebcdb990aec",
@@ -39782,10 +39774,6 @@
           "maxValue": 295000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-10T09:00:00.020693",
-    "last_seen": "2026-06-10T09:00:00.020693",
-    "days_since_listed": 0
+    }
   }
 ]
