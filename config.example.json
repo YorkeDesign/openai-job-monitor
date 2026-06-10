@@ -1,0 +1,14 @@
+{
+  "email_enabled": true,
+  "email_from": "your.sender@gmail.com",
+  "email_to": "your.recipient@example.com",
+  "email_password": "REPLACE_WITH_GITHUB_ACTIONS_SECRET",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "check_time": "09:00",
+  "first_run_days": 7,
+  "include_remote": [],
+  "attach_csv": true,
+  "enable_cv_matching": true,
+  "profile_path": "profile.json"
+}

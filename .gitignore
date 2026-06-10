@@ -1,0 +1,7 @@
+# Never commit the real config - it holds the Gmail app password.
+# CI regenerates config.json from GitHub Actions secrets (see .github/workflows/main.yml).
+# For local runs, copy config.example.json to config.json and fill it in.
+config.json
+
+__pycache__/
+.DS_Store
