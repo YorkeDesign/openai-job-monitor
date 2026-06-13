@@ -4554,11 +4554,7 @@
           "maxValue": 278000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "49ae54dc-3d33-4107-8112-63fac1ee86ca",
@@ -5568,11 +5564,7 @@
           "maxValue": 380000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "3f99bfef-5b1a-48ea-aed0-2dbd57b12722",
@@ -8433,11 +8425,7 @@
           "maxValue": 310000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "8eaa92fb-b908-4624-9b34-1ec7b5aa03d6",
@@ -15700,15 +15688,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "440f1104-9328-4a62-a07f-750cc6240db8",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "d0c9ce4a-22be-4ebd-a28b-959b509c307d",
               "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $234.9K \u2013 $261K",
               "compensationType": "Salary",
@@ -15716,6 +15695,15 @@
               "currencyCode": "USD",
               "minValue": 234900,
               "maxValue": 261000
+            },
+            {
+              "id": "440f1104-9328-4a62-a07f-750cc6240db8",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
@@ -17154,11 +17142,7 @@
           "maxValue": 295000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "6fbb72e6-1d69-4863-aaf3-3c5830e49e8a",
@@ -19086,79 +19070,6 @@
           "currencyCode": "USD",
           "minValue": 230000,
           "maxValue": 385000
-        }
-      ]
-    }
-  },
-  {
-    "id": "c98835d1-ef95-4b9a-99dd-ac51f466578a",
-    "title": "Compliance Program Manager",
-    "department": "Legal",
-    "team": "Legal",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-02-26T01:05:24.057+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/c98835d1-ef95-4b9a-99dd-ac51f466578a",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/c98835d1-ef95-4b9a-99dd-ac51f466578a/application",
-    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">At OpenAI, our Compliance team is dedicated to fostering a culture of integrity and adherence to regulatory and legal requirements. We collaborate closely with Legal, Security, People, Finance, and operational teams to ensure our compliance programs support the organization\u2019s mission while mitigating risk in a rapidly evolving AI landscape.</p><p style=\"min-height:1.5em\"></p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">The Compliance Program Manager will play a key role in building and scaling OpenAI\u2019s compliance program\u2014translating requirements into practical processes, driving program execution, and improving how we detect, assess, and mitigate compliance risk. You\u2019ll help run the day-to-day operational backbone of the program (e.g., disclosures, training, investigations tracking, controls, and reporting) and partner cross-functionally to keep the program effective as the company grows. This role represents an exciting opportunity to innovate compliance operations using the latest AI technology. This role reports to the Chief Compliance Officer.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p><p style=\"min-height:1.5em\"></p><h2><strong>In this role, you will:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Build and scale compliance program operations:</strong> design and implement repeatable workflows (intake, triage, escalation, documentation, follow-up), and continuously improve them as risks and business needs evolve.</p></li><li><p style=\"min-height:1.5em\"><strong>Own program execution:</strong> create project plans, define milestones, drive cross-functional action items, and ensure initiatives land on time (policy rollouts, training launches, controls implementation, tooling improvements).</p></li><li><p style=\"min-height:1.5em\"><strong>Support disclosures and investigations processes:</strong> help manage intake and tracking, coordinate with stakeholders, maintain documentation, and ensure timely resolution and remediation follow-through.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive compliance training and communications:</strong> help develop, launch, and measure training and awareness programs that are clear, practical, and aligned to risk.</p></li><li><p style=\"min-height:1.5em\"><strong>Monitor and assess compliance risk:</strong> partner with internal stakeholders to identify gaps, conduct internal assessments, recommend corrective actions, and track remediation.</p></li><li><p style=\"min-height:1.5em\"><strong>Support audit and regulatory readiness:</strong> assist with responses to inquiries, audits, and examinations; maintain evidence, reporting decks, and program artifacts.</p></li><li><p style=\"min-height:1.5em\"><strong>Develop metrics and reporting:</strong> build dashboards and recurring reporting for leadership (and the Audit Committee as needed) on risk areas, program health, and key initiatives.</p></li><li><p style=\"min-height:1.5em\"><strong>Stay current on evolving requirements:</strong> track relevant regulatory developments and best practices; translate them into actionable program updates.</p></li></ul><p style=\"min-height:1.5em\"></p><h3>For all of the above, we expect you to leverage our products, including ChatGPT and agentic workflows to reduce workload, improve results, and upgrade the user experience.</h3><p style=\"min-height:1.5em\"></p><h2><strong>You might thrive in this role if you have:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>5+ years</strong> of experience in compliance, risk, audit, investigations ops, or program management in a regulated and/or fast-scaling environment.</p></li><li><p style=\"min-height:1.5em\">Demonstrated experience <strong>building and running programs</strong> (process design, stakeholder management, project plans, metrics, continuous improvement).</p></li><li><p style=\"min-height:1.5em\">Demonstrated ability <strong>using AI to improve compliance processe</strong>s, or demonstrated skill in technical innovation.</p></li><li><p style=\"min-height:1.5em\">Strong execution: you can <strong>plan the work and work the plan</strong>, with good judgment about prioritization in ambiguity.</p></li><li><p style=\"min-height:1.5em\">Excellent communication skills and the ability to write and speak in <strong>plain English</strong> (not \u201ccompliance speak\u201d).</p></li><li><p style=\"min-height:1.5em\">Comfort partnering across teams (Legal, Security, People, Finance, Eng/Operations) and navigating competing priorities.</p></li><li><p style=\"min-height:1.5em\">Strong analytical and problem-solving skills; attention to detail without losing the big picture.</p></li><li><p style=\"min-height:1.5em\">Ability to independently manage multiple work streams in a fast-paced environment.</p></li><li><p style=\"min-height:1.5em\">Experience in technology (and ideally AI) is a plus.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Nice to have</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience supporting Audit Committee or senior leadership reporting.</p></li><li><p style=\"min-height:1.5em\">Familiarity with common compliance program elements (training, disclosures, investigations, third-party risk, policies/controls, audit readiness).</p></li><li><p style=\"min-height:1.5em\">Certifications such as CCEP/CCEP-I (or similar).</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE TEAM\n\nAt OpenAI, our Compliance team is dedicated to fostering a culture of integrity and adherence to regulatory and legal requirements. We collaborate closely with Legal, Security, People, Finance, and operational teams to ensure our compliance programs support the organization\u2019s mission while mitigating risk in a rapidly evolving AI landscape.\n\n\n\n\nABOUT THE ROLE\n\nThe Compliance Program Manager will play a key role in building and scaling OpenAI\u2019s compliance program\u2014translating requirements into practical processes, driving program execution, and improving how we detect, assess, and mitigate compliance risk. You\u2019ll help run the day-to-day operational backbone of the program (e.g., disclosures, training, investigations tracking, controls, and reporting) and partner cross-functionally to keep the program effective as the company grows. This role represents an exciting opportunity to innovate compliance operations using the latest AI technology. This role reports to the Chief Compliance Officer.\n\n\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.\n\n\n\n\nIN THIS ROLE, YOU WILL:\n\n - Build and scale compliance program operations: design and implement repeatable workflows (intake, triage, escalation, documentation, follow-up), and continuously improve them as risks and business needs evolve.\n\n - Own program execution: create project plans, define milestones, drive cross-functional action items, and ensure initiatives land on time (policy rollouts, training launches, controls implementation, tooling improvements).\n\n - Support disclosures and investigations processes: help manage intake and tracking, coordinate with stakeholders, maintain documentation, and ensure timely resolution and remediation follow-through.\n\n - Drive compliance training and communications: help develop, launch, and measure training and awareness programs that are clear, practical, and aligned to risk.\n\n - Monitor and assess compliance risk: partner with internal stakeholders to identify gaps, conduct internal assessments, recommend corrective actions, and track remediation.\n\n - Support audit and regulatory readiness: assist with responses to inquiries, audits, and examinations; maintain evidence, reporting decks, and program artifacts.\n\n - Develop metrics and reporting: build dashboards and recurring reporting for leadership (and the Audit Committee as needed) on risk areas, program health, and key initiatives.\n\n - Stay current on evolving requirements: track relevant regulatory developments and best practices; translate them into actionable program updates.\n\n\n\n\nFOR ALL OF THE ABOVE, WE EXPECT YOU TO LEVERAGE OUR PRODUCTS, INCLUDING CHATGPT AND AGENTIC WORKFLOWS TO REDUCE WORKLOAD, IMPROVE RESULTS, AND UPGRADE THE USER EXPERIENCE.\n\n\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU HAVE:\n\n - 5+ years of experience in compliance, risk, audit, investigations ops, or program management in a regulated and/or fast-scaling environment.\n\n - Demonstrated experience building and running programs (process design, stakeholder management, project plans, metrics, continuous improvement).\n\n - Demonstrated ability using AI to improve compliance processes, or demonstrated skill in technical innovation.\n\n - Strong execution: you can plan the work and work the plan, with good judgment about prioritization in ambiguity.\n\n - Excellent communication skills and the ability to write and speak in plain English (not \u201ccompliance speak\u201d).\n\n - Comfort partnering across teams (Legal, Security, People, Finance, Eng/Operations) and navigating competing priorities.\n\n - Strong analytical and problem-solving skills; attention to detail without losing the big picture.\n\n - Ability to independently manage multiple work streams in a fast-paced environment.\n\n - Experience in technology (and ideally AI) is a plus.\n\n\n\n\nNICE TO HAVE\n\n - Experience supporting Audit Committee or senior leadership reporting.\n\n - Familiarity with common compliance program elements (training, disclosures, investigations, third-party risk, policies/controls, audit readiness).\n\n - Certifications such as CCEP/CCEP-I (or similar).\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$162K - $180K",
-      "compensationTiers": [
-        {
-          "id": "cc1d579b-ef4e-453b-b96c-21c09d1b5572",
-          "tierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "54e68daa-4fd1-47fb-999e-8abfdd4e62a2",
-              "summary": "$162K \u2013 $180K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 162000,
-              "maxValue": 180000
-            },
-            {
-              "id": "f96624ce-1c6c-4938-8bb6-b5f2d8574864",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 162000,
-          "maxValue": 180000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
         }
       ]
     }
@@ -22363,15 +22274,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "afb903cf-1134-465d-8b4f-72e0c1cc8139",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "51db9487-7f0f-4aa1-868f-744f2af33481",
               "summary": "$182.7K \u2013 $202.5K",
               "compensationType": "Salary",
@@ -22379,6 +22281,15 @@
               "currencyCode": "USD",
               "minValue": 182700,
               "maxValue": 202500
+            },
+            {
+              "id": "afb903cf-1134-465d-8b4f-72e0c1cc8139",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -22389,15 +22300,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "b36bf5b1-6412-496e-8be6-d4fb4a5f0eea",
-              "summary": "$162.4K \u2013 $180K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 162400,
-              "maxValue": 180000
-            },
-            {
               "id": "f98f4d66-484a-4f12-b154-1ba9191183bd",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -22405,6 +22307,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "b36bf5b1-6412-496e-8be6-d4fb4a5f0eea",
+              "summary": "$162.4K \u2013 $180K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 162400,
+              "maxValue": 180000
             }
           ]
         }
@@ -24249,108 +24160,6 @@
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
-        }
-      ]
-    }
-  },
-  {
-    "id": "34d2c085-c86f-41b7-8ca2-7964161c876d",
-    "title": "Data Center Security Engineer",
-    "department": "Security",
-    "team": "Security",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [
-      {
-        "location": "Seattle",
-        "address": {
-          "postalAddress": {
-            "addressRegion": "Washington",
-            "addressCountry": "United States",
-            "addressLocality": "Seattle"
-          }
-        }
-      },
-      {
-        "location": "New York City",
-        "address": {
-          "postalAddress": {
-            "addressRegion": "New York",
-            "addressCountry": "United States",
-            "addressLocality": "New York"
-          }
-        }
-      },
-      {
-        "location": "Remote - US",
-        "address": {
-          "postalAddress": {
-            "addressCountry": "United States"
-          }
-        }
-      }
-    ],
-    "publishedAt": "2026-04-13T22:09:33.283+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/34d2c085-c86f-41b7-8ca2-7964161c876d",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/34d2c085-c86f-41b7-8ca2-7964161c876d/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Security is foundational to OpenAI\u2019s mission of ensuring that artificial general intelligence benefits all of humanity. As OpenAI builds and operates increasingly powerful systems, security helps make that progress durable, trustworthy, and resilient.</p><p style=\"min-height:1.5em\">The Security team protects OpenAI\u2019s technology, people, and products, but our role goes beyond defense alone. We help enable the infrastructure, research, and product work that powers frontier AI, bringing deep technical judgment and hands-on operational execution to some of the most important systems being built today. Our work is grounded in impact, pragmatism, and preparing for the security challenges that come with increasingly capable technology.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We are seeking an experienced and highly technical Data Center Security Engineer to help secure the infrastructure behind OpenAI\u2019s rapidly expanding data center footprint. This is a chance to work on high-consequence systems at the intersection of cybersecurity, critical infrastructure, and advanced AI, where strong technical judgment and careful execution have direct, lasting impact.</p><p style=\"min-height:1.5em\">In this role, you will operate with substantial agency and ownership alongside a small team of data center security experts, driving security architecture, control validation, and defensive improvements across multiple, diverse environments, with particular emphasis on IT, Enterprise, ICS and Operational Technology (OT) networking. You will help define and raise the security bar for infrastructure programs already in flight while shaping how future deployments are secured from the start.</p><p style=\"min-height:1.5em\">This role's preferred location is one of our OpenAI offices in San Francisco, Seattle, or New York City and relocation assistance is available. We are also open to considering candidates who are remote.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and implement security controls that protect data center infrastructure across a growing global footprint, with particular focus on both OT and IT networking environments.</p></li><li><p style=\"min-height:1.5em\">Partner closely with a small team of data center security specialists, as well as engineering, operations, and broader security teams, to deliver resilient and practical security outcomes.</p></li><li><p style=\"min-height:1.5em\">Secure OT and IT networking environments through strong segmentation, access control, monitoring, hardening, and connectivity patterns suited to critical infrastructure.</p></li><li><p style=\"min-height:1.5em\">Contribute to security architecture and design reviews for data center systems, including OT and IT networking, network segmentation, identity and access management, provisioning workflows, hardware and firmware trust boundaries, and operational safeguards.</p></li><li><p style=\"min-height:1.5em\">Perform recurring audits, control assessments, and validation activities across OT and IT networking environments to ensure continued compliance against defined controls.</p></li><li><p style=\"min-height:1.5em\">Drive ongoing evidence collection, gap tracking, and remediation follow-through so control deficiencies are identified quickly and closed durably.</p></li><li><p style=\"min-height:1.5em\">Help define measurable security standards, control objectives, audit procedures, evidence requirements, and validation mechanisms for infrastructure and facility security programs.</p></li><li><p style=\"min-height:1.5em\">Support security monitoring, incident response, and post-incident improvement efforts for data center, OT, and IT networking environments.</p></li><li><p style=\"min-height:1.5em\">Work with suppliers, partners, and internal stakeholders to evaluate and reduce risks associated with third-party hardware, firmware, software, and operational dependencies.</p></li><li><p style=\"min-height:1.5em\">Continually evolve the security of our data centers alongside changes in adversary activity, infrastructure complexity, and the increasing demands of OpenAI\u2019s systems.</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you have:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">15+ years of experience in security, including meaningful hands-on experience securing large-scale infrastructure, industrial environments, or data center systems.</p></li><li><p style=\"min-height:1.5em\">Deep expertise securing OT and IT networking environments in critical infrastructure settings, including segmentation strategies, remote access controls, asset visibility, and compensating controls for operational constraints.</p></li><li><p style=\"min-height:1.5em\">Experience building audit or assurance programs that validate ongoing compliance with defined security controls, especially across OT and IT networking environments, rather than relying on one-time point-in-time reviews.</p></li><li><p style=\"min-height:1.5em\">Strong cross-functional collaboration skills including the ability to partner effectively with internal and external stakeholders while operating with a high degree of autonomy.</p></li><li><p style=\"min-height:1.5em\">Strong knowledge of security engineering and operations across network security, IAM and PAM, hardening, provisioning, monitoring, incident response, and secure lifecycle practices.</p></li><li><p style=\"min-height:1.5em\">Experience protecting hyperscale, colocation, or hybrid infrastructure environments against sophisticated adversaries.</p></li><li><p style=\"min-height:1.5em\">Familiarity with control and governance frameworks such as NIST, ISO 27001, or SOC 2, and the ability to translate them into concrete technical and operational requirements.</p></li><li><p style=\"min-height:1.5em\">The ability to operate as a high-ownership individual contributor who influences through technical judgment, collaboration, and execution.</p></li><li><p style=\"min-height:1.5em\">Clear written and verbal communication skills, including the ability to explain risk, controls, and tradeoffs to both technical and non-technical partners.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nSecurity is foundational to OpenAI\u2019s mission of ensuring that artificial general intelligence benefits all of humanity. As OpenAI builds and operates increasingly powerful systems, security helps make that progress durable, trustworthy, and resilient.\n\nThe Security team protects OpenAI\u2019s technology, people, and products, but our role goes beyond defense alone. We help enable the infrastructure, research, and product work that powers frontier AI, bringing deep technical judgment and hands-on operational execution to some of the most important systems being built today. Our work is grounded in impact, pragmatism, and preparing for the security challenges that come with increasingly capable technology.\n\n\n\nAbout the Role\n\nWe are seeking an experienced and highly technical Data Center Security Engineer to help secure the infrastructure behind OpenAI\u2019s rapidly expanding data center footprint. This is a chance to work on high-consequence systems at the intersection of cybersecurity, critical infrastructure, and advanced AI, where strong technical judgment and careful execution have direct, lasting impact.\n\nIn this role, you will operate with substantial agency and ownership alongside a small team of data center security experts, driving security architecture, control validation, and defensive improvements across multiple, diverse environments, with particular emphasis on IT, Enterprise, ICS and Operational Technology (OT) networking. You will help define and raise the security bar for infrastructure programs already in flight while shaping how future deployments are secured from the start.\n\nThis role's preferred location is one of our OpenAI offices in San Francisco, Seattle, or New York City and relocation assistance is available. We are also open to considering candidates who are remote.\n\n\n\nIn this role, you will:\n\n - Design and implement security controls that protect data center infrastructure across a growing global footprint, with particular focus on both OT and IT networking environments.\n\n - Partner closely with a small team of data center security specialists, as well as engineering, operations, and broader security teams, to deliver resilient and practical security outcomes.\n\n - Secure OT and IT networking environments through strong segmentation, access control, monitoring, hardening, and connectivity patterns suited to critical infrastructure.\n\n - Contribute to security architecture and design reviews for data center systems, including OT and IT networking, network segmentation, identity and access management, provisioning workflows, hardware and firmware trust boundaries, and operational safeguards.\n\n - Perform recurring audits, control assessments, and validation activities across OT and IT networking environments to ensure continued compliance against defined controls.\n\n - Drive ongoing evidence collection, gap tracking, and remediation follow-through so control deficiencies are identified quickly and closed durably.\n\n - Help define measurable security standards, control objectives, audit procedures, evidence requirements, and validation mechanisms for infrastructure and facility security programs.\n\n - Support security monitoring, incident response, and post-incident improvement efforts for data center, OT, and IT networking environments.\n\n - Work with suppliers, partners, and internal stakeholders to evaluate and reduce risks associated with third-party hardware, firmware, software, and operational dependencies.\n\n - Continually evolve the security of our data centers alongside changes in adversary activity, infrastructure complexity, and the increasing demands of OpenAI\u2019s systems.\n   \n   \n\nYou might thrive in this role if you have:\n\n - 15+ years of experience in security, including meaningful hands-on experience securing large-scale infrastructure, industrial environments, or data center systems.\n\n - Deep expertise securing OT and IT networking environments in critical infrastructure settings, including segmentation strategies, remote access controls, asset visibility, and compensating controls for operational constraints.\n\n - Experience building audit or assurance programs that validate ongoing compliance with defined security controls, especially across OT and IT networking environments, rather than relying on one-time point-in-time reviews.\n\n - Strong cross-functional collaboration skills including the ability to partner effectively with internal and external stakeholders while operating with a high degree of autonomy.\n\n - Strong knowledge of security engineering and operations across network security, IAM and PAM, hardening, provisioning, monitoring, incident response, and secure lifecycle practices.\n\n - Experience protecting hyperscale, colocation, or hybrid infrastructure environments against sophisticated adversaries.\n\n - Familiarity with control and governance frameworks such as NIST, ISO 27001, or SOC 2, and the ability to translate them into concrete technical and operational requirements.\n\n - The ability to operate as a high-ownership individual contributor who influences through technical judgment, collaboration, and execution.\n\n - Clear written and verbal communication skills, including the ability to explain risk, controls, and tradeoffs to both technical and non-technical partners.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$293K \u2013 $385K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$293K - $385K",
-      "compensationTiers": [
-        {
-          "id": "b66abe88-0e3b-49ae-9f4d-c2b3e4053e27",
-          "tierSummary": "$293K \u2013 $385K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "d8cfea7f-1c84-47fc-a009-4de88d4baed1",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "e2a81f23-d545-4952-ad08-09470789dfd6",
-              "summary": "$293K \u2013 $385K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 293000,
-              "maxValue": 385000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 293000,
-          "maxValue": 385000
         }
       ]
     }
@@ -34875,7 +34684,7 @@
   },
   {
     "id": "cad5c6da-1a37-4fa4-afd9-ed48cb0dfd3a",
-    "title": "Workplace Business Partner",
+    "title": "Senior Workplace Business Partner",
     "department": "Workplace",
     "team": "Workplace",
     "employmentType": "FullTime",
@@ -38818,11 +38627,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "f50fb206-ae4b-45b2-998c-28e275c6d961",
@@ -39039,79 +38844,6 @@
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
-        }
-      ]
-    }
-  },
-  {
-    "id": "067c4444-4214-49e8-8397-7afba5346a8f",
-    "title": "Senior Legal Program Manager, Legal Operations",
-    "department": "Legal",
-    "team": "Legal",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-06-09T04:55:40.536+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/067c4444-4214-49e8-8397-7afba5346a8f",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/067c4444-4214-49e8-8397-7afba5346a8f/application",
-    "descriptionHtml": "<h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">We are seeking a Legal Program Manager to support and scale our contracting operations and legal systems infrastructure. This role will primarily focus on owning and evolving our contracting and legal systems processes, partnering closely with Legal and other Business Teams (GTM, Ads, Finance, IT, and Procurement Systems) to improve operational efficiency and user experience across legal and their business partners. In addition, this role will develop and monitor key legal performance metrics and reporting frameworks.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This is a highly cross-functional role for someone who enjoys building structure in ambiguous environments, driving projects end-to-end, and improving how legal teams operate at scale. The ideal candidate is equally comfortable managing programs, optimizing processes, and translating business needs into scalable systems and workflow solutions.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week.</p><p style=\"min-height:1.5em\"></p><h2><strong>In this role, you will:</strong></h2><h3><strong>System Ownership &amp; Operational Scaling</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, build, and maintain contracting workflows and automations to improve scalability and operational efficiency.</p></li><li><p style=\"min-height:1.5em\">Partner with Legal, Sales, Deal Desk, Procurement, Finance, and Systems teams to identify workflow pain points and implement process improvements.</p></li><li><p style=\"min-height:1.5em\">Support integrations and coordination between our contract lifecycle management platform and adjacent business systems.</p></li><li><p style=\"min-height:1.5em\">Build and monitor reporting dashboards to identify areas and action plans for scaling and improved efficiency.</p></li><li><p style=\"min-height:1.5em\">Identify and implement solutions to utilize OpenAI\u2019s latest technology to scale legal contracting processes.</p></li><li><p style=\"min-height:1.5em\">Troubleshoot workflow and system issues, coordinate testing and rollout activities, and support ongoing platform maintenance and enhancements.</p></li><li><p style=\"min-height:1.5em\">Develop documentation, training materials, and enablement resources to support user adoption and operational consistency.</p></li></ul><h3><strong>Legal Program &amp; Project Management</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Independently manage medium-scope legal operations programs and projects from planning through execution.</p></li><li><p style=\"min-height:1.5em\">Establish project plans, timelines, stakeholder communications, and success metrics across cross-functional initiatives.</p></li><li><p style=\"min-height:1.5em\">Anticipate project risks and operational gaps, proactively proposing solutions and driving initiatives to completion.</p></li><li><p style=\"min-height:1.5em\">Track and communicate project progress, dependencies, and outcomes to stakeholders.</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>You might thrive in this role if you have:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelor\u2019s degree or equivalent practical experience.</p></li><li><p style=\"min-height:1.5em\">8+ years of experience in operations, program management, contract operations, or related operational roles.</p></li><li><p style=\"min-height:1.5em\">Experience supporting cross functional technical systems across Procurement, GTM, Commercial Contracting, and Operations.</p></li><li><p style=\"min-height:1.5em\">Familiarity with business systems integrations involving CLM, CRM, eSignature, or ERP platforms.</p></li><li><p style=\"min-height:1.5em\">Experience developing workflow documentation, training, or operational enablement materials.</p></li><li><p style=\"min-height:1.5em\">Demonstrated ability to independently manage projects and drive cross-functional initiatives in fast-paced environments.</p></li><li><p style=\"min-height:1.5em\">Strong organizational and project management skills, with the ability to manage multiple priorities simultaneously.</p></li><li><p style=\"min-height:1.5em\">Experience collaborating with technical and systems teams to implement workflow or process improvements.</p></li><li><p style=\"min-height:1.5em\">Strong written and verbal communication skills with the ability to work effectively across technical and non-technical stakeholders.</p></li><li><p style=\"min-height:1.5em\">Comfortable operating in ambiguous environments and building processes where structure may not yet exist.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE ROLE\n\nWe are seeking a Legal Program Manager to support and scale our contracting operations and legal systems infrastructure. This role will primarily focus on owning and evolving our contracting and legal systems processes, partnering closely with Legal and other Business Teams (GTM, Ads, Finance, IT, and Procurement Systems) to improve operational efficiency and user experience across legal and their business partners. In addition, this role will develop and monitor key legal performance metrics and reporting frameworks.\n\n\n\nThis is a highly cross-functional role for someone who enjoys building structure in ambiguous environments, driving projects end-to-end, and improving how legal teams operate at scale. The ideal candidate is equally comfortable managing programs, optimizing processes, and translating business needs into scalable systems and workflow solutions.\n\n\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week.\n\n\n\n\nIN THIS ROLE, YOU WILL:\n\n\nSYSTEM OWNERSHIP & OPERATIONAL SCALING\n\n - Design, build, and maintain contracting workflows and automations to improve scalability and operational efficiency.\n\n - Partner with Legal, Sales, Deal Desk, Procurement, Finance, and Systems teams to identify workflow pain points and implement process improvements.\n\n - Support integrations and coordination between our contract lifecycle management platform and adjacent business systems.\n\n - Build and monitor reporting dashboards to identify areas and action plans for scaling and improved efficiency.\n\n - Identify and implement solutions to utilize OpenAI\u2019s latest technology to scale legal contracting processes.\n\n - Troubleshoot workflow and system issues, coordinate testing and rollout activities, and support ongoing platform maintenance and enhancements.\n\n - Develop documentation, training materials, and enablement resources to support user adoption and operational consistency.\n\n\nLEGAL PROGRAM & PROJECT MANAGEMENT\n\n - Independently manage medium-scope legal operations programs and projects from planning through execution.\n\n - Establish project plans, timelines, stakeholder communications, and success metrics across cross-functional initiatives.\n\n - Anticipate project risks and operational gaps, proactively proposing solutions and driving initiatives to completion.\n\n - Track and communicate project progress, dependencies, and outcomes to stakeholders.\n\n\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU HAVE:\n\n - Bachelor\u2019s degree or equivalent practical experience.\n\n - 8+ years of experience in operations, program management, contract operations, or related operational roles.\n\n - Experience supporting cross functional technical systems across Procurement, GTM, Commercial Contracting, and Operations.\n\n - Familiarity with business systems integrations involving CLM, CRM, eSignature, or ERP platforms.\n\n - Experience developing workflow documentation, training, or operational enablement materials.\n\n - Demonstrated ability to independently manage projects and drive cross-functional initiatives in fast-paced environments.\n\n - Strong organizational and project management skills, with the ability to manage multiple priorities simultaneously.\n\n - Experience collaborating with technical and systems teams to implement workflow or process improvements.\n\n - Strong written and verbal communication skills with the ability to work effectively across technical and non-technical stakeholders.\n\n - Comfortable operating in ambiguous environments and building processes where structure may not yet exist.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$216K - $240K",
-      "compensationTiers": [
-        {
-          "id": "db11365a-8b31-481e-9768-e3110d23ea12",
-          "tierSummary": "$216K \u2013 $240K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "5c873583-bcf8-4b1d-b693-179f00f271f2",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "3321c8e5-f19f-4070-969b-4cbf7b3b5066",
-              "summary": "$216K \u2013 $240K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 216000,
-              "maxValue": 240000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 216000,
-          "maxValue": 240000
         }
       ]
     }
@@ -40220,11 +39952,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "0f887fe6-39f4-44f6-8ee5-230c3002f0d7",
@@ -40297,11 +40025,7 @@
           "maxValue": 385000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "32e50a9a-53bc-4212-bdbf-5c3cc06d6ce1",
@@ -40374,10 +40098,83 @@
           "maxValue": null
         }
       ]
+    }
+  },
+  {
+    "id": "cf1e5c80-f42e-45ab-a937-2a4024b961e1",
+    "title": "GRC Program Manager, Product and Customer Trust",
+    "department": "Security",
+    "team": "Security",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-06-13T02:05:22.551+00:00",
+    "isListed": true,
+    "isRemote": true,
+    "workplaceType": "Hybrid",
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/cf1e5c80-f42e-45ab-a937-2a4024b961e1",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/cf1e5c80-f42e-45ab-a937-2a4024b961e1/application",
+    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">Governance, Risk, and Compliance (GRC) is foundational to Security delivering mission outcomes at OpenAI. The GRC team provides security assurances and builds compliance for OpenAI\u2019s technology, people, and products. We are technical in what we build but operational in how we do our work, and we partner deeply with Product, Security, Legal, Privacy, GTM, and Field Security to help OpenAI move quickly while maintaining trust with customers, auditors, regulators, and the public.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We are looking for an experienced Regulatory &amp; Product Assurance IC to help scale OpenAI\u2019s GRC function across product launches, regulatory readiness, and customer trust. You will partner closely with Product, Security, Legal, Privacy, Field Security, and GTM teams to make sure OpenAI can move quickly while maintaining our security and compliance claims and giving customers, auditors, and regulators accurate and actionable information about how OpenAI handles user data.</p><p style=\"min-height:1.5em\">This role is <strong>not </strong>about supporting SOC or ISO audits; it's a highly cross-functional and deeply operational role to ensure that our products launch with the right controls; our external narratives remain true and GTM and customers are enabled with the right information to assess OpenAI\u2019s security and compliance. You will help build the systems, content, escalation paths, and automation that allow OpenAI to support enterprise customers, strategic launches, and emerging regulatory expectations without turning GRC into a bottleneck. You should be comfortable working across high-visibility product launches, data handling policy creation, customer security reviews, public trust content, launch readiness, regulated products, release risk assessments, and product assurance evidence.</p><p style=\"min-height:1.5em\"><strong>We\u2019re looking for people who bring:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Strong product assurance, product launch review, customer trust, security compliance, or enterprise trust experience in a technical environment.</p></li><li><p style=\"min-height:1.5em\">Ability to support GTM teams with accurate, approved, customer-facing security and compliance narratives.</p></li><li><p style=\"min-height:1.5em\">Judgment to distinguish what can be answered directly, what requires Product/Security/Legal review, and what should not be claimed externally.</p></li><li><p style=\"min-height:1.5em\">Experience building scalable operating models, metrics, content systems, and automation for repeated assurance workflows.</p></li><li><p style=\"min-height:1.5em\">Excellent written communication and comfort translating technical security concepts for customers, auditors, regulators, Sales, and Field Security.</p></li></ul><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own and improve the customer trust operating model with other org members and partner teams, including intake, triage, escalations, SLAs, metrics, and quality review.</p></li><li><p style=\"min-height:1.5em\">Support strategic customer trust needs, including security questionnaires, customer calls, Trust Center updates, and high-priority deal support.</p></li><li><p style=\"min-height:1.5em\">Partner with Product, Security, Legal, Privacy, and GTM teams to prepare accurate, approved trust materials for launches and regulated product changes.</p></li><li><p style=\"min-height:1.5em\">Build reusable customer-facing narratives, FAQs, evidence paths, and whitepapers that reduce one-off work while keeping claims controlled.</p></li><li><p style=\"min-height:1.5em\">Ensure external security and compliance claims are supported by internal processes and controls.</p></li><li><p style=\"min-height:1.5em\">Ensure product launches support our external security and compliance narrative; scale launch reviews to ensure GRC is not a bottleneck.</p></li><li><p style=\"min-height:1.5em\">Develop data handling guidance as needed to provide product teams a paved path consistent with our external commitments.</p></li><li><p style=\"min-height:1.5em\">Use automation and AI-native workflows across internal and external tooling, Codex, and related systems to improve speed and consistency.</p></li><li><p style=\"min-height:1.5em\">Turn recurring customer discovery into reusable content, product feedback, evidence improvements, and control-gap signals.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You have operated as a senior IC in GRC, product assurance, customer trust/assurance, security compliance, enterprise trust, product security assurance, or a closely related function.</p></li><li><p style=\"min-height:1.5em\">You have technical fluency across SaaS, cloud, security controls, product launches, and enterprise assurance workflows.</p></li><li><p style=\"min-height:1.5em\">You have experience in scaling product launch reviews.</p></li><li><p style=\"min-height:1.5em\">You have vertical specific experience in Healthcare, Financial Services and Advertising.</p></li><li><p style=\"min-height:1.5em\">You have supported GTM, Field Security, Sales Engineering, Customer Success, or strategic enterprise customers.</p></li><li><p style=\"min-height:1.5em\">You write clearly, precisely, and with excellent judgment about external claims and evidence.</p></li><li><p style=\"min-height:1.5em\">You can build systems, metrics, and escalation paths that scale a high-volume assurance function without sacrificing quality.</p></li><li><p style=\"min-height:1.5em\">You are excited to use Codex and other AI-native tools to reduce manual review, automate launch review processes, and keep approved content current.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "About the Team\n\nGovernance, Risk, and Compliance (GRC) is foundational to Security delivering mission outcomes at OpenAI. The GRC team provides security assurances and builds compliance for OpenAI\u2019s technology, people, and products. We are technical in what we build but operational in how we do our work, and we partner deeply with Product, Security, Legal, Privacy, GTM, and Field Security to help OpenAI move quickly while maintaining trust with customers, auditors, regulators, and the public.\n\nAbout the Role\n\nWe are looking for an experienced Regulatory & Product Assurance IC to help scale OpenAI\u2019s GRC function across product launches, regulatory readiness, and customer trust. You will partner closely with Product, Security, Legal, Privacy, Field Security, and GTM teams to make sure OpenAI can move quickly while maintaining our security and compliance claims and giving customers, auditors, and regulators accurate and actionable information about how OpenAI handles user data.\n\nThis role is not about supporting SOC or ISO audits; it's a highly cross-functional and deeply operational role to ensure that our products launch with the right controls; our external narratives remain true and GTM and customers are enabled with the right information to assess OpenAI\u2019s security and compliance. You will help build the systems, content, escalation paths, and automation that allow OpenAI to support enterprise customers, strategic launches, and emerging regulatory expectations without turning GRC into a bottleneck. You should be comfortable working across high-visibility product launches, data handling policy creation, customer security reviews, public trust content, launch readiness, regulated products, release risk assessments, and product assurance evidence.\n\nWe\u2019re looking for people who bring:\n\n - Strong product assurance, product launch review, customer trust, security compliance, or enterprise trust experience in a technical environment.\n\n - Ability to support GTM teams with accurate, approved, customer-facing security and compliance narratives.\n\n - Judgment to distinguish what can be answered directly, what requires Product/Security/Legal review, and what should not be claimed externally.\n\n - Experience building scalable operating models, metrics, content systems, and automation for repeated assurance workflows.\n\n - Excellent written communication and comfort translating technical security concepts for customers, auditors, regulators, Sales, and Field Security.\n\nIn this role, you will:\n\n - Own and improve the customer trust operating model with other org members and partner teams, including intake, triage, escalations, SLAs, metrics, and quality review.\n\n - Support strategic customer trust needs, including security questionnaires, customer calls, Trust Center updates, and high-priority deal support.\n\n - Partner with Product, Security, Legal, Privacy, and GTM teams to prepare accurate, approved trust materials for launches and regulated product changes.\n\n - Build reusable customer-facing narratives, FAQs, evidence paths, and whitepapers that reduce one-off work while keeping claims controlled.\n\n - Ensure external security and compliance claims are supported by internal processes and controls.\n\n - Ensure product launches support our external security and compliance narrative; scale launch reviews to ensure GRC is not a bottleneck.\n\n - Develop data handling guidance as needed to provide product teams a paved path consistent with our external commitments.\n\n - Use automation and AI-native workflows across internal and external tooling, Codex, and related systems to improve speed and consistency.\n\n - Turn recurring customer discovery into reusable content, product feedback, evidence improvements, and control-gap signals.\n\nYou might thrive in this role if:\n\n - You have operated as a senior IC in GRC, product assurance, customer trust/assurance, security compliance, enterprise trust, product security assurance, or a closely related function.\n\n - You have technical fluency across SaaS, cloud, security controls, product launches, and enterprise assurance workflows.\n\n - You have experience in scaling product launch reviews.\n\n - You have vertical specific experience in Healthcare, Financial Services and Advertising.\n\n - You have supported GTM, Field Security, Sales Engineering, Customer Success, or strategic enterprise customers.\n\n - You write clearly, precisely, and with excellent judgment about external claims and evidence.\n\n - You can build systems, metrics, and escalation paths that scale a high-volume assurance function without sacrificing quality.\n\n - You are excited to use Codex and other AI-native tools to reduce manual review, automate launch review processes, and keep approved content current.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$216K \u2013 $252K \u2022 Offers Equity",
+      "scrapeableCompensationSalarySummary": "$216K - $252K",
+      "compensationTiers": [
+        {
+          "id": "1147485e-75b2-4088-a9d5-80d95f61627e",
+          "tierSummary": "$216K \u2013 $252K \u2022 Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "f243594b-807f-4638-8661-ebb5d8966e0a",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "5747596e-781a-4011-8b4e-4b2c52e3d74b",
+              "summary": "$216K \u2013 $252K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 216000,
+              "maxValue": 252000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 216000,
+          "maxValue": 252000
+        }
+      ]
     },
     "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
+    "first_seen": "2026-06-13T21:06:05.591851",
+    "last_seen": "2026-06-13T21:06:05.591851",
     "days_since_listed": 0
   },
   {
@@ -40415,15 +40212,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "c5553e18-26a7-4182-ab54-45194545a61d",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "116356b4-6fca-4f67-821f-5217b5eace53",
               "summary": "San Francisco $216K \u2013 $295K",
               "compensationType": "Salary",
@@ -40431,30 +40219,35 @@
               "currencyCode": "USD",
               "minValue": 216000,
               "maxValue": 295000
+            },
+            {
+              "id": "c5553e18-26a7-4182-ab54-45194545a61d",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 216000,
           "maxValue": 295000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-12T21:26:21.511297",
-    "last_seen": "2026-06-12T21:26:21.511297",
-    "days_since_listed": 0
+    }
   }
 ]
