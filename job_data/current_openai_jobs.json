@@ -2619,11 +2619,7 @@
           "maxValue": 190000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "130a5389-83e1-493f-9205-542d3ff53afb",
@@ -6000,11 +5996,7 @@
           "maxValue": 335000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "250c5184-edb5-49eb-bb7e-1ddb47f1140d",
@@ -7857,11 +7849,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "3306b8e2-123c-4040-b490-08298f6dc88f",
@@ -8210,11 +8198,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "3544fb7b-669b-43e3-8828-94972620bac7",
@@ -11606,15 +11590,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "00fabc9b-22f1-48e9-ac2a-1744fc3f3c49",
-              "summary": "\u00a3131K \u2013 \u00a3245K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "GBP",
-              "minValue": 131000,
-              "maxValue": 245000
-            },
-            {
               "id": "039daf95-50b9-4a0e-a35e-094546722c09",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -11622,6 +11597,15 @@
               "currencyCode": "GBP",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "00fabc9b-22f1-48e9-ac2a-1744fc3f3c49",
+              "summary": "\u00a3131K \u2013 \u00a3245K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "GBP",
+              "minValue": 131000,
+              "maxValue": 245000
             }
           ]
         }
@@ -14728,11 +14712,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "61e8051b-6510-448d-b4b1-b9836518462e",
@@ -15514,11 +15494,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "68f7ef0f-97a4-47ce-ac0a-a442572ab7a7",
@@ -16086,11 +16062,7 @@
           "maxValue": 325000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "6df6a3d8-c72b-4e65-acf8-a5d91559533c",
@@ -19003,11 +18975,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "7e198d81-34e0-48b6-b64e-a501a75f9d53",
@@ -21824,11 +21792,7 @@
           "maxValue": 295000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "92ab4a9c-803c-43fe-82b2-2f18a6b59f27",
@@ -23385,11 +23349,7 @@
           "maxValue": 385000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "9b11373c-1643-4ea6-bbcd-033d5b8a0d3e",
@@ -24014,11 +23974,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "9dfe4c27-84c0-4150-9ebe-8d4f12a95404",
@@ -26334,11 +26290,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "abd2a56b-6aa3-4721-a924-2c2f225d0e1f",
@@ -28057,11 +28009,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "bb97fffc-cdda-43a3-a6bc-234f9c031720",
@@ -28189,15 +28137,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "807ee0cd-2afa-4a77-abe0-62b753c02508",
-              "summary": "$277.6K \u2013 $490K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 277600,
-              "maxValue": 490000
-            },
-            {
               "id": "588dfea5-68ed-4d4b-8b05-cedea68b32c1",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -28205,6 +28144,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "807ee0cd-2afa-4a77-abe0-62b753c02508",
+              "summary": "$277.6K \u2013 $490K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 277600,
+              "maxValue": 490000
             }
           ]
         }
@@ -29724,11 +29672,7 @@
           "maxValue": 385000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c44268f1-717b-4da3-9943-2557f7d739f0",
@@ -33961,11 +33905,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-27T20:53:22.040914",
-    "last_seen": "2026-06-27T20:53:22.040914",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "df8a1d73-58b9-4571-86f5-da9a12155fbb",
@@ -34674,79 +34614,6 @@
           "currencyCode": "USD",
           "minValue": 293000,
           "maxValue": 385000
-        }
-      ]
-    }
-  },
-  {
-    "id": "e3d2e434-dca8-4fc4-9e7b-31f027af7a37",
-    "title": "Startup Content Marketing Lead",
-    "department": "Marketing",
-    "team": "Marketing",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-06-05T22:05:28.339+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/e3d2e434-dca8-4fc4-9e7b-31f027af7a37",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/e3d2e434-dca8-4fc4-9e7b-31f027af7a37/application",
-    "descriptionHtml": "<h2><strong>About the Team</strong></h2><p style=\"min-height:1.5em\">Like every team at OpenAI, the Marketing team contributes to our broader mission of ensuring responsible and widespread adoption of AI. With that aim in mind, we are responsible for developing and executing strategies that drive awareness, engagement, and usage for OpenAI\u2019s products and platform amongst our core audiences.</p><p style=\"min-height:1.5em\">We take a data-driven approach to understand our customers' needs and challenges, ensuring that their voices are reflected in product development and messaging. We then partner closely with product, engineering, developer relations, comms, and sales teams to create a cohesive customer experience across all our channels.</p><p style=\"min-height:1.5em\">Our focus extends beyond just promoting product features; we aim to provide valuable insights and resources that help our users make the most out of AI technologies.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\">\u00a0</div><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">As a Startup Content Marketing Lead, you will define and drive how OpenAI co-markets with top startups. You will build social-first content series highlighting how founders use OpenAI, partner with field teams to capture high-quality moments from events, and support OpenAI's startup narrative so it lands clearly and consistently in field programs.</p><p style=\"min-height:1.5em\">This role sits at the center of how OpenAI tells startup stories at scale. As a high-ownership IC marketer, you will shape the narratives founders and builders see, connect field programs to always-on content engines, and turn founder experiences into durable content franchises that drive awareness, engagement, and measurable GTM impact\u2014helping startups build successfully with OpenAI.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\">\u00a0</div><h2><strong>In This Role, You Will</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Define OpenAI's startup co-marketing content strategy across channels and audience segments</p></li><li><p style=\"min-height:1.5em\">Build social-first series featuring founders and builders using OpenAI in real workflows</p></li><li><p style=\"min-height:1.5em\">Partner with field/event teams to capture, package, and publish content from startup programs</p></li><li><p style=\"min-height:1.5em\">Translate high-performing field moments into snackable content formats and recurring series</p></li><li><p style=\"min-height:1.5em\">Partner with social, startup GTM, customer marketing, PMM, and comms to align narrative, timing, and distribution</p></li><li><p style=\"min-height:1.5em\">Build editorial systems and playbooks to scale output without losing quality or technical credibility</p></li><li><p style=\"min-height:1.5em\">Track performance and business impact, and evolve formats based on data and feedback</p></li></ul><h2><strong>You Might Thrive in This Role If You</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have 8-10+ years of content marketing experience with clear ownership of strategy and execution</p></li><li><p style=\"min-height:1.5em\">Have meaningful startup experience (in-house at a startup, startup-focused role, or deep founder ecosystem work)</p></li><li><p style=\"min-height:1.5em\">Have built social-first and multi-channel B2B content programs that drove measurable outcomes</p></li><li><p style=\"min-height:1.5em\">Can move fast and deliver high-quality work across ambiguity, tight timelines, and shifting priorities</p></li><li><p style=\"min-height:1.5em\">Are an excellent cross-functional partner across social, GTM, field, and startup marketing teams</p></li><li><p style=\"min-height:1.5em\">Have strong editorial judgment and know how to balance storytelling, accuracy, and business goals</p></li><li><p style=\"min-height:1.5em\">Are energized by AI, developers, and startup builders</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "ABOUT THE TEAM\n\nLike every team at OpenAI, the Marketing team contributes to our broader mission of ensuring responsible and widespread adoption of AI. With that aim in mind, we are responsible for developing and executing strategies that drive awareness, engagement, and usage for OpenAI\u2019s products and platform amongst our core audiences.\n\nWe take a data-driven approach to understand our customers' needs and challenges, ensuring that their voices are reflected in product development and messaging. We then partner closely with product, engineering, developer relations, comms, and sales teams to create a cohesive customer experience across all our channels.\n\nOur focus extends beyond just promoting product features; we aim to provide valuable insights and resources that help our users make the most out of AI technologies.\n\n\u00a0\n\n\nABOUT THE ROLE\n\nAs a Startup Content Marketing Lead, you will define and drive how OpenAI co-markets with top startups. You will build social-first content series highlighting how founders use OpenAI, partner with field teams to capture high-quality moments from events, and support OpenAI's startup narrative so it lands clearly and consistently in field programs.\n\nThis role sits at the center of how OpenAI tells startup stories at scale. As a high-ownership IC marketer, you will shape the narratives founders and builders see, connect field programs to always-on content engines, and turn founder experiences into durable content franchises that drive awareness, engagement, and measurable GTM impact\u2014helping startups build successfully with OpenAI.\n\n\u00a0\n\n\nIN THIS ROLE, YOU WILL\n\n - Define OpenAI's startup co-marketing content strategy across channels and audience segments\n\n - Build social-first series featuring founders and builders using OpenAI in real workflows\n\n - Partner with field/event teams to capture, package, and publish content from startup programs\n\n - Translate high-performing field moments into snackable content formats and recurring series\n\n - Partner with social, startup GTM, customer marketing, PMM, and comms to align narrative, timing, and distribution\n\n - Build editorial systems and playbooks to scale output without losing quality or technical credibility\n\n - Track performance and business impact, and evolve formats based on data and feedback\n\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU\n\n - Have 8-10+ years of content marketing experience with clear ownership of strategy and execution\n\n - Have meaningful startup experience (in-house at a startup, startup-focused role, or deep founder ecosystem work)\n\n - Have built social-first and multi-channel B2B content programs that drove measurable outcomes\n\n - Can move fast and deliver high-quality work across ambiguity, tight timelines, and shifting priorities\n\n - Are an excellent cross-functional partner across social, GTM, field, and startup marketing teams\n\n - Have strong editorial judgment and know how to balance storytelling, accuracy, and business goals\n\n - Are energized by AI, developers, and startup builders\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$266K \u2013 $295K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$266K - $295K",
-      "compensationTiers": [
-        {
-          "id": "ade3506d-00b8-4a37-8cf8-28bed9b3a788",
-          "tierSummary": "$266K \u2013 $295K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "2142cf0f-d126-4d22-9bdc-d45cbf4073d7",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "0bbd624a-0349-4978-9023-2377a9a6d7d1",
-              "summary": "$266K \u2013 $295K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 266000,
-              "maxValue": 295000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 266000,
-          "maxValue": 295000
         }
       ]
     }
@@ -38066,15 +37933,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "ffb86c51-0906-43d2-9e72-e2f82ad28a69",
-              "summary": "$205K \u2013 $268K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 205000,
-              "maxValue": 268000
-            },
-            {
               "id": "cfd19ef0-b312-46c3-95c9-65290a4647e2",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -38082,6 +37940,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "ffb86c51-0906-43d2-9e72-e2f82ad28a69",
+              "summary": "$205K \u2013 $268K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 205000,
+              "maxValue": 268000
             }
           ]
         }
