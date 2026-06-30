@@ -11318,6 +11318,15 @@
           "additionalInformation": null,
           "components": [
             {
+              "id": "f948bac2-6a1f-43af-ac9c-3f06dff0c472",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
               "id": "a310450c-2125-44e9-aa7a-2d4ff297fe2e",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -11334,20 +11343,18 @@
               "currencyCode": "USD",
               "minValue": 189000,
               "maxValue": 240000
-            },
-            {
-              "id": "f948bac2-6a1f-43af-ac9c-3f06dff0c472",
-              "summary": "Offers Commission",
-              "compensationType": "Commission",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
+        {
+          "compensationType": "Commission",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
         {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
@@ -11361,13 +11368,6 @@
           "currencyCode": "USD",
           "minValue": 189000,
           "maxValue": 240000
-        },
-        {
-          "compensationType": "Commission",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
         }
       ]
     }
@@ -11539,79 +11539,6 @@
           "currencyCode": "USD",
           "minValue": 230000,
           "maxValue": 385000
-        }
-      ]
-    }
-  },
-  {
-    "id": "4f147f00-b592-4fcb-a4cb-f81cbbc9d2c1",
-    "title": "Events Manager",
-    "department": "Marketing",
-    "team": "Marketing",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-06-24T17:20:30.590+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/4f147f00-b592-4fcb-a4cb-f81cbbc9d2c1",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/4f147f00-b592-4fcb-a4cb-f81cbbc9d2c1/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. The Events team helps bring that mission to life through high-impact experiences that require rigorous planning, thoughtful guest experience, reliable cross-functional coordination, and careful execution.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">This role will work under the guidance of the Enterprise Events Lead to support high-impact OpenAI enterprise events, with ownership across operations, vendor coordination, guest experience, safety, budgets, communications, and post-event reporting. The ideal candidate is a detail-heavy event operator who can move quickly, solve creatively, manage front-of-house moments gracefully, and use event systems confidently.</p><p style=\"min-height:1.5em\">This role is expected to be based in San Francisco, CA, and three days a week in office.</p><p style=\"min-height:1.5em\"><strong>In this role you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Manage high-profile events end to end, including workstreams, registration, guest experience, catering, and onsite production.</p></li><li><p style=\"min-height:1.5em\">Build and maintain project timelines that track milestones, deliverables, dependencies, and deadlines.</p></li><li><p style=\"min-height:1.5em\">Source, negotiate with, and coordinate vendors, including catering, AV, and creative production teams.</p></li><li><p style=\"min-height:1.5em\">Own attendee registration, check-in, and pre- and post-event communications.</p></li><li><p style=\"min-height:1.5em\">Track budgets, invoices, and spend against targets with meticulous financial records.</p></li><li><p style=\"min-height:1.5em\">Coordinate across design, procurement, security, vendors, and internal stakeholders to align execution with strategy and brand guidelines.</p></li><li><p style=\"min-height:1.5em\">Implement safety and security protocols that protect attendee well-being and meet compliance expectations.</p></li><li><p style=\"min-height:1.5em\">Analyze event metrics, attendee feedback, and key learnings to improve future events and measure ROI.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">4+ years of event production experience across end-to-end planning, onsite execution, and post-event analysis.</p></li><li><p style=\"min-height:1.5em\">Strong ownership of guest experience, front-of-house operations, and vendor coordination for high-profile corporate events.</p></li><li><p style=\"min-height:1.5em\">Comfort working in a fast-paced, detail-heavy environment with meticulous planning and creative problem-solving.</p></li><li><p style=\"min-height:1.5em\">Tech-savvy operator fluent on Mac and event software systems such as Airtable, Luma, Swoogo, Google Sheets, or similar tools.</p></li><li><p style=\"min-height:1.5em\">Passion for OpenAI's mission and excitement about showcasing AI technology through impactful event experiences.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. The Events team helps bring that mission to life through high-impact experiences that require rigorous planning, thoughtful guest experience, reliable cross-functional coordination, and careful execution.\n\nAbout the Role\n\nThis role will work under the guidance of the Enterprise Events Lead to support high-impact OpenAI enterprise events, with ownership across operations, vendor coordination, guest experience, safety, budgets, communications, and post-event reporting. The ideal candidate is a detail-heavy event operator who can move quickly, solve creatively, manage front-of-house moments gracefully, and use event systems confidently.\n\nThis role is expected to be based in San Francisco, CA, and three days a week in office.\n\nIn this role you will:\n\n - Manage high-profile events end to end, including workstreams, registration, guest experience, catering, and onsite production.\n\n - Build and maintain project timelines that track milestones, deliverables, dependencies, and deadlines.\n\n - Source, negotiate with, and coordinate vendors, including catering, AV, and creative production teams.\n\n - Own attendee registration, check-in, and pre- and post-event communications.\n\n - Track budgets, invoices, and spend against targets with meticulous financial records.\n\n - Coordinate across design, procurement, security, vendors, and internal stakeholders to align execution with strategy and brand guidelines.\n\n - Implement safety and security protocols that protect attendee well-being and meet compliance expectations.\n\n - Analyze event metrics, attendee feedback, and key learnings to improve future events and measure ROI.\n\nYou might thrive in this role if you:\n\n - 4+ years of event production experience across end-to-end planning, onsite execution, and post-event analysis.\n\n - Strong ownership of guest experience, front-of-house operations, and vendor coordination for high-profile corporate events.\n\n - Comfort working in a fast-paced, detail-heavy environment with meticulous planning and creative problem-solving.\n\n - Tech-savvy operator fluent on Mac and event software systems such as Airtable, Luma, Swoogo, Google Sheets, or similar tools.\n\n - Passion for OpenAI's mission and excitement about showcasing AI technology through impactful event experiences.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$162K - $180K",
-      "compensationTiers": [
-        {
-          "id": "f90ce322-569d-46bb-897a-0e01a68dd385",
-          "tierSummary": "$162K \u2013 $180K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "8ce26027-1d4a-46a0-b73b-da89e8d14e3f",
-              "summary": "$162K \u2013 $180K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 162000,
-              "maxValue": 180000
-            },
-            {
-              "id": "b18fb645-e19b-4634-b202-b31b5f3d3368",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 162000,
-          "maxValue": 180000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
         }
       ]
     }
@@ -15978,11 +15905,7 @@
           "maxValue": 385000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-29T21:18:53.680537",
-    "last_seen": "2026-06-29T21:18:53.680537",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "6df6a3d8-c72b-4e65-acf8-a5d91559533c",
@@ -19498,11 +19421,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-29T21:18:53.680537",
-    "last_seen": "2026-06-29T21:18:53.680537",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "826a1977-8ac8-41d7-b331-f73dbf787cfb",
@@ -19941,6 +19860,99 @@
         }
       ]
     }
+  },
+  {
+    "id": "867d0199-98d7-40ef-8f1f-fd2d7e66084b",
+    "title": "Sales Manager, Enterprise Digital Natives",
+    "department": "Go To Market",
+    "team": "Sales",
+    "employmentType": "FullTime",
+    "location": "San Francisco",
+    "shouldDisplayCompensationOnJobPostings": true,
+    "secondaryLocations": [],
+    "publishedAt": "2026-06-30T04:41:35.504+00:00",
+    "isListed": true,
+    "isRemote": null,
+    "workplaceType": null,
+    "address": {
+      "postalAddress": {
+        "addressRegion": "California",
+        "addressCountry": "United States",
+        "addressLocality": "San Francisco"
+      }
+    },
+    "jobUrl": "https://jobs.ashbyhq.com/openai/867d0199-98d7-40ef-8f1f-fd2d7e66084b",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/867d0199-98d7-40ef-8f1f-fd2d7e66084b/application",
+    "descriptionHtml": "<h2>About the Role</h2><p style=\"min-height:1.5em\">As Enterprise Sales Manager, Digital Natives, you will build and lead a team of Account Directors serving OpenAI's enterprise Digital Native customers: scaled technology companies, AI-native businesses, product-led platforms, and digitally native enterprises adopting AI across core products, operations, and customer experiences.</p><p style=\"min-height:1.5em\">This is an enterprise leadership role in a segment that moves quickly but buys, deploys, and governs AI at scale. You will coach senior sellers through complex technical and executive sales cycles, deepen founder and C-suite relationships, and build durable account strategies across API/platform, ChatGPT Enterprise, Codex, and emerging AI use cases.</p><p style=\"min-height:1.5em\">You will help define the GTM strategy, operating model, and customer playbook for enterprise Digital Natives where product velocity, usage expansion, technical credibility, security posture, procurement rigor, and executive alignment all matter.</p><p style=\"min-height:1.5em\"></p><h2>Key Responsibilities</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Recruit, develop, and lead a high-performing team of Account Directors responsible for strategic enterprise Digital Native accounts, large revenue opportunities, consumption growth, and multi-product expansion.</p></li><li><p style=\"min-height:1.5em\">Set the GTM strategy for enterprise Digital Natives, including segmentation, account prioritization, territory design, executive engagement, expansion coverage, and usage growth.</p></li><li><p style=\"min-height:1.5em\">Coach sellers through complex, multi-threaded cycles involving founders, CEOs, CTOs, CPOs, CIOs, engineering leaders, product leaders, security, legal, procurement, finance, and business executives.</p></li><li><p style=\"min-height:1.5em\">Drive disciplined pipeline generation, forecast accuracy, deal inspection, consumption planning, expansion planning, and executive alignment across high-value accounts.</p></li><li><p style=\"min-height:1.5em\">Build an operating cadence for account planning, deal reviews, technical discovery, mutual action plans, customer adoption reviews, and structured 1:1s that raise team performance.</p></li><li><p style=\"min-height:1.5em\">Partner with Solutions Architecture, FDE, Technical Success, Product, Legal, Security, Finance, and Support to land and expand enterprise-grade AI deployments.</p></li><li><p style=\"min-height:1.5em\">Translate enterprise Digital Native customer needs into product and commercial feedback across APIs, ChatGPT Enterprise, Codex, governance, trust and safety, security, pricing, packaging, and deployment patterns.</p></li><li><p style=\"min-height:1.5em\">Help customers move from experimentation to production AI adoption across product experiences, developer workflows, customer support, employee productivity, workflow automation, and AI-native business models.</p></li><li><p style=\"min-height:1.5em\">Build a culture of accountability, customer empathy, low-ego collaboration, and operating rigor while preserving the speed and curiosity that make the Digital Natives motion effective.</p></li></ul><h2>What We're Looking For</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A senior enterprise sales leader who has built and scaled teams serving strategic Digital Native, technology, SaaS, cloud, developer-platform, or AI-native customers.</p></li><li><p style=\"min-height:1.5em\">A technical GTM thinker who can connect customer strategy to OpenAI's platform, ChatGPT Enterprise, Codex, and emerging AI use cases.</p></li><li><p style=\"min-height:1.5em\">An executive-facing operator who can engage founders, CEOs, CTOs, CPOs, CIOs, AI leaders, product leaders, engineering leaders, and enterprise platform teams.</p></li><li><p style=\"min-height:1.5em\">A disciplined builder who can install enterprise-grade rigor in forecasting, account planning, deal inspection, and performance management without slowing customer pace.</p></li><li><p style=\"min-height:1.5em\">A talent-first leader who raises the bar for senior sellers through clear hiring standards, coaching, accountability, and low-ego leadership.</p></li><li><p style=\"min-height:1.5em\">A cross-functional partner who can turn customer signal into practical product, commercial, security, and deployment feedback.</p></li></ul><h2>Skills &amp; Experience</h2><p style=\"min-height:1.5em\"><strong>Required</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">15+ years of enterprise sales, GTM, or sales leadership experience, including leadership of teams selling to strategic Digital Native or technology accounts.</p></li><li><p style=\"min-height:1.5em\">Experience with complex enterprise buying motions involving technical, security, legal, procurement, finance, and executive stakeholders.</p></li><li><p style=\"min-height:1.5em\">Working fluency in APIs, platform technologies, ChatGPT Enterprise, AI/ML concepts, governance, enterprise architecture, and consumption-based commercial models.</p></li><li><p style=\"min-height:1.5em\">Demonstrated operating discipline across forecasting, pipeline quality, account prioritization, inspection, and performance management.</p></li></ul><p style=\"min-height:1.5em\"><strong>Preferred</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience selling platform, cloud, infrastructure, developer, data, AI, workflow, or consumption-based solutions.</p></li><li><p style=\"min-height:1.5em\">Experience with scaled digital enterprises or late-stage technology companies moving from pilots to production AI adoption.</p></li><li><p style=\"min-height:1.5em\">Public company or other high-accountability operating experience.</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice to Have</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Exposure to marketplaces, fintech, consumer internet, modern SaaS, data/ML platforms, or AI-native applications.</p></li><li><p style=\"min-height:1.5em\">Experience helping a high-growth segment mature into enterprise-grade account strategy, governance, procurement, and expansion.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+    "descriptionPlain": "ABOUT THE ROLE\n\nAs Enterprise Sales Manager, Digital Natives, you will build and lead a team of Account Directors serving OpenAI's enterprise Digital Native customers: scaled technology companies, AI-native businesses, product-led platforms, and digitally native enterprises adopting AI across core products, operations, and customer experiences.\n\nThis is an enterprise leadership role in a segment that moves quickly but buys, deploys, and governs AI at scale. You will coach senior sellers through complex technical and executive sales cycles, deepen founder and C-suite relationships, and build durable account strategies across API/platform, ChatGPT Enterprise, Codex, and emerging AI use cases.\n\nYou will help define the GTM strategy, operating model, and customer playbook for enterprise Digital Natives where product velocity, usage expansion, technical credibility, security posture, procurement rigor, and executive alignment all matter.\n\n\n\n\nKEY RESPONSIBILITIES\n\n - Recruit, develop, and lead a high-performing team of Account Directors responsible for strategic enterprise Digital Native accounts, large revenue opportunities, consumption growth, and multi-product expansion.\n\n - Set the GTM strategy for enterprise Digital Natives, including segmentation, account prioritization, territory design, executive engagement, expansion coverage, and usage growth.\n\n - Coach sellers through complex, multi-threaded cycles involving founders, CEOs, CTOs, CPOs, CIOs, engineering leaders, product leaders, security, legal, procurement, finance, and business executives.\n\n - Drive disciplined pipeline generation, forecast accuracy, deal inspection, consumption planning, expansion planning, and executive alignment across high-value accounts.\n\n - Build an operating cadence for account planning, deal reviews, technical discovery, mutual action plans, customer adoption reviews, and structured 1:1s that raise team performance.\n\n - Partner with Solutions Architecture, FDE, Technical Success, Product, Legal, Security, Finance, and Support to land and expand enterprise-grade AI deployments.\n\n - Translate enterprise Digital Native customer needs into product and commercial feedback across APIs, ChatGPT Enterprise, Codex, governance, trust and safety, security, pricing, packaging, and deployment patterns.\n\n - Help customers move from experimentation to production AI adoption across product experiences, developer workflows, customer support, employee productivity, workflow automation, and AI-native business models.\n\n - Build a culture of accountability, customer empathy, low-ego collaboration, and operating rigor while preserving the speed and curiosity that make the Digital Natives motion effective.\n\n\nWHAT WE'RE LOOKING FOR\n\n - A senior enterprise sales leader who has built and scaled teams serving strategic Digital Native, technology, SaaS, cloud, developer-platform, or AI-native customers.\n\n - A technical GTM thinker who can connect customer strategy to OpenAI's platform, ChatGPT Enterprise, Codex, and emerging AI use cases.\n\n - An executive-facing operator who can engage founders, CEOs, CTOs, CPOs, CIOs, AI leaders, product leaders, engineering leaders, and enterprise platform teams.\n\n - A disciplined builder who can install enterprise-grade rigor in forecasting, account planning, deal inspection, and performance management without slowing customer pace.\n\n - A talent-first leader who raises the bar for senior sellers through clear hiring standards, coaching, accountability, and low-ego leadership.\n\n - A cross-functional partner who can turn customer signal into practical product, commercial, security, and deployment feedback.\n\n\nSKILLS & EXPERIENCE\n\nRequired\n\n - 15+ years of enterprise sales, GTM, or sales leadership experience, including leadership of teams selling to strategic Digital Native or technology accounts.\n\n - Experience with complex enterprise buying motions involving technical, security, legal, procurement, finance, and executive stakeholders.\n\n - Working fluency in APIs, platform technologies, ChatGPT Enterprise, AI/ML concepts, governance, enterprise architecture, and consumption-based commercial models.\n\n - Demonstrated operating discipline across forecasting, pipeline quality, account prioritization, inspection, and performance management.\n\nPreferred\n\n - Experience selling platform, cloud, infrastructure, developer, data, AI, workflow, or consumption-based solutions.\n\n - Experience with scaled digital enterprises or late-stage technology companies moving from pilots to production AI adoption.\n\n - Public company or other high-accountability operating experience.\n\nNice to Have\n\n - Exposure to marketplaces, fintech, consumer internet, modern SaaS, data/ML platforms, or AI-native applications.\n\n - Experience helping a high-growth segment mature into enterprise-grade account strategy, governance, procurement, and expansion.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
+    "compensation": {
+      "compensationTierSummary": "$240K \u2013 $252K \u2022 Offers Equity \u2022 Offers Commission",
+      "scrapeableCompensationSalarySummary": "$240K - $252K",
+      "compensationTiers": [
+        {
+          "id": "0c0790c4-82a4-4a12-a23a-bff981e82740",
+          "tierSummary": "$240K \u2013 $252K \u2022 Offers Equity \u2022 Offers Commission",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "0d6229e5-7ba9-46cf-8556-0e3d2c36f385",
+              "summary": "$240K \u2013 $252K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 240000,
+              "maxValue": 252000
+            },
+            {
+              "id": "02a6d14a-ee86-4fa8-b947-f21cd923cd23",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "ced5350a-d21a-4ee7-ae75-a4678919f6e0",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 240000,
+          "maxValue": 252000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Commission",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "status": "ACTIVE",
+    "first_seen": "2026-06-30T21:23:10.831668",
+    "last_seen": "2026-06-30T21:23:10.831668",
+    "days_since_listed": 0
   },
   {
     "id": "8699d48a-273b-440a-9bdb-ccb6afe0a853",
@@ -29509,15 +29521,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "8b7496ef-c885-44be-894b-ae98047dff98",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "bf8e2028-26db-4c3e-b6cd-1831f91effb5",
               "summary": "$207K \u2013 $285K",
               "compensationType": "Salary",
@@ -29525,6 +29528,15 @@
               "currencyCode": "USD",
               "minValue": 207000,
               "maxValue": 285000
+            },
+            {
+              "id": "8b7496ef-c885-44be-894b-ae98047dff98",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -29583,17 +29595,17 @@
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "minValue": null,
-          "maxValue": null,
-          "interval": "1 YEAR"
-        },
-        {
           "minValue": 165400,
           "maxValue": 285000,
           "currencyCode": "USD",
           "interval": "1 YEAR",
           "compensationType": "Salary"
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "minValue": null,
+          "maxValue": null,
+          "interval": "1 YEAR"
         }
       ]
     }
@@ -39370,11 +39382,7 @@
           "maxValue": 325000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-06-29T21:18:53.680537",
-    "last_seen": "2026-06-29T21:18:53.680537",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "fdf2201f-e2ad-4b4a-9da4-776f64b4fa62",
