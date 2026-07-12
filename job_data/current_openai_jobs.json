@@ -17525,11 +17525,7 @@
           "maxValue": 240000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "65780e7c-6cbd-4e01-a437-2142363d855d",
@@ -34369,11 +34365,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "b73e3a42-bc48-4490-882e-66f9e11bbfc5",
@@ -38712,11 +38704,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "7caca966-29a4-4175-af15-359eda38ebc6",
@@ -38873,11 +38861,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "55f36629-8351-41d9-b2f5-3d63c5e26bf7",
@@ -39169,11 +39153,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "0fca402a-56f7-45f7-91d8-097ea703db86",
@@ -39246,10 +39226,6 @@
           "maxValue": 425000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-07-11T20:40:11.236677",
-    "last_seen": "2026-07-11T20:40:11.236677",
-    "days_since_listed": 0
+    }
   }
 ]
