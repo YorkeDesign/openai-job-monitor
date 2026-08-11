@@ -7,6 +7,8 @@ Commit autonomy: move-fast
 
 ## Operations reporting (hardware + services)
 
+**Reports to: hardware-planning (direct)**
+
 This project reports to the central **hardware-planning** repo, which plans one
 shared fleet and one wallet across the whole portfolio. Two living docs:
 
