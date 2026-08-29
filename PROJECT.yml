@@ -1,0 +1,70 @@
+# PROJECT.yml - how this project tells Harvestry what it is.
+#
+# Harvestry syncs this file from GitHub daily (05:30 UTC) and feeds it to the
+# project alignment agent, the relevance gate and the Curator. Without it, the
+# vault scores this project against a paragraph generated from the README -
+# which describes only the code, so every project reads as a software project.
+#
+# Template + field reference: ~/.claude/templates/PROJECT.yml
+# To author or review this file properly: run /write-project-profile
+
+
+name: openai-job-monitor
+harvestry_project: openai-job-monitor
+stage: beta
+
+# What this project IS. Decides whether physical signal is core or a tangent.
+nature:
+  - "software"
+  - "data"
+
+mission: >
+  Python job scraper that monitors OpenAI postings in San Francisco daily and
+  matches them against a CV database, maintaining a persistent job store with
+  CV-based relevance filtering.
+
+# Categories this project is actively hunting. A high interest scores 7+.
+signal_interests:
+  - label: "Job board scraping, ATS platforms and structured extraction"
+    weight: high
+  - label: "Resume and job matching, embeddings and relevance scoring"
+    weight: high
+  - label: "AI lab hiring signals: what roles are opening and where"
+    weight: high
+  - label: "Scheduling, change detection and de-duplication for scrapers"
+    weight: medium
+
+# ---------------------------------------------------------------------------
+# open_decisions - NOT YET FILLED IN. This is the highest-value field.
+# ---------------------------------------------------------------------------
+# An item that informs a live decision scores 8+; nothing else in this file
+# comes close. It is deliberately empty rather than guessed.
+#
+# It was left out because a first pass on another project drafted this field
+# from its README and TASKS.md and got THREE OF FOUR DECISIONS WRONG - the docs
+# lagged reality by hours, which is the normal state during active work, not an
+# aberration. Only a session actually working this project knows what is open.
+#
+# Fill it in at the next real working session (run /write-project-profile), and
+# from then on move it in the SAME COMMIT as the decision. When you CLOSE one,
+# do not delete it: set `status: closed` and add `rests_on` naming the facts the
+# closure depends on, with numbers. A closure is a claim resting on facts, and
+# facts move.
+#
+# open_decisions:
+#   - id: example
+#     question: Which X should we use?
+#     status: open          # open | imminent | blocked | closing | closed
+#     notes: >
+#       What has been ruled out, on what grounds, and what would reopen it.
+
+# Explicit negatives. Scored 0-2 however well they otherwise match.
+not_interested:
+  - "Recruitment agency marketing"
+  - "Career coaching content"
+
+keywords:
+  - "scraping"
+  - "ats"
+  - "job-matching"
+  - "embeddings"
