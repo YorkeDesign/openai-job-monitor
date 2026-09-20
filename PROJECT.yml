@@ -34,29 +34,64 @@ signal_interests:
   - label: "Scheduling, change detection and de-duplication for scrapers"
     weight: medium
 
-# ---------------------------------------------------------------------------
-# open_decisions - NOT YET FILLED IN. This is the highest-value field.
-# ---------------------------------------------------------------------------
-# An item that informs a live decision scores 8+; nothing else in this file
-# comes close. It is deliberately empty rather than guessed.
-#
-# It was left out because a first pass on another project drafted this field
-# from its README and TASKS.md and got THREE OF FOUR DECISIONS WRONG - the docs
-# lagged reality by hours, which is the normal state during active work, not an
-# aberration. Only a session actually working this project knows what is open.
-#
-# Fill it in at the next real working session (run /write-project-profile), and
-# from then on move it in the SAME COMMIT as the decision. When you CLOSE one,
-# do not delete it: set `status: closed` and add `rests_on` naming the facts the
-# closure depends on, with numbers. A closure is a claim resting on facts, and
-# facts move.
-#
-# open_decisions:
-#   - id: example
-#     question: Which X should we use?
-#     status: open          # open | imminent | blocked | closing | closed
-#     notes: >
-#       What has been ruled out, on what grounds, and what would reopen it.
+# Live questions the OUTSIDE WORLD could help answer. An item that informs one
+# of these scores 8+, which is higher than anything else in this file can earn.
+# When one closes, set `status: closed` and add `rests_on` naming the facts the
+# closure depends on - never delete it.
+open_decisions:
+  - id: job-source-durability
+    question: >
+      Is OpenAI's public Ashby job-board endpoint a durable data source, or does
+      this need a versioned feed, an aggregator API, or a fallback path to
+      survive the company moving or changing its ATS?
+    status: open
+    notes: >
+      Everything the monitor knows comes from one unauthenticated, undocumented
+      URL: api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true.
+      There is no key, no version in the path, no schema contract, and no second
+      source; a rename, a rate limit, or a move off Ashby silently empties the
+      daily run. The whole record - 625 rows keyed on jobUrl, compensation
+      parsed out of scrapeableCompensationSalarySummary - assumes that one
+      response shape. Anything that reports on Ashby's public posting API terms
+      or stability, an official OpenAI careers feed, a job-board aggregator with
+      a real contract, or the general question of how to make a single-endpoint
+      scraper fail loudly rather than quietly, moves this.
+
+  - id: match-scoring-method
+    question: >
+      What is the right instrument for scoring a role against a CV - hand-tuned
+      keyword weights, an LLM judge per job, or embedding similarity - and how
+      do we know a relevance score is any good without labelled data?
+    status: open
+    notes: >
+      Two scorers exist and disagree in kind. The daily GitHub Actions run uses
+      the keyword path: hand-weighted skill, title, experience and location
+      buckets capped at 60/30/15/10. The Claude path (one call per job returning
+      a 0-100 JSON match_score with reasons) is written but gets no
+      ANTHROPIC_API_KEY in the workflow, so it has never run in production. The
+      real blocker is not which to pick but that there is no ground truth to
+      judge either against, and a bad score is invisible - it just produces a
+      digest that reads plausibly. Resume/job-matching benchmarks, embedding
+      models suited to long job descriptions, work on calibrating or evaluating
+      LLM-as-judge scores, and any cheap way to build a labelled set all move
+      this.
+
+  - id: job-store-shape
+    question: >
+      Does a full job history committed back to the repo as flat JSON stay
+      viable as it grows, or does the store need to move somewhere that is not
+      git history?
+    status: open
+    notes: >
+      Three files under job_data/ are about 10-11MB each, hold the full
+      descriptionHtml of every role seen, and are rewritten and committed by the
+      Actions job every single day, so each run adds roughly its whole size to
+      history rather than a diff. The pack is already 137MB after a few months.
+      Nothing prunes, nothing compresses, and the static dashboard reads the
+      largest file directly, so the fix cannot just be "stop committing it".
+      Approaches to versioning a daily-rewritten dataset - SQLite or Parquet in
+      git, Actions artifacts or a release asset, a free-tier hosted store, or a
+      split between a small dashboard extract and a cold archive - move this.
 
 # Explicit negatives. Scored 0-2 however well they otherwise match.
 not_interested:
