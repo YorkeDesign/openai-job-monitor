@@ -15806,11 +15806,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-09T23:45:05.530022",
-    "last_seen": "2026-10-09T23:45:05.530022",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "e36955a7-403d-41e4-b54e-37edc7039173",
@@ -28233,11 +28229,7 @@
           "maxValue": 445000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-09T23:45:05.530022",
-    "last_seen": "2026-10-09T23:45:05.530022",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "341561ae-9892-4ba1-9ffb-faafff4f0fb2",
@@ -42470,13 +42462,13 @@
       "scrapeableCompensationSalarySummary": "$257K - $335K",
       "compensationTiers": [
         {
-          "id": "72df5cd6-0203-4e55-aaee-33144381dbc4",
+          "id": "31d45765-d92c-4154-89b7-ccac4f740f4d",
           "tierSummary": "$257K \u2013 $335K \u2022 Offers Equity",
           "title": null,
           "additionalInformation": null,
           "components": [
             {
-              "id": "8d19c186-070b-441a-a536-a8958c60ce56",
+              "id": "03c0aceb-0b13-41b0-b5c7-c8adaec8ca6e",
               "summary": "$257K \u2013 $335K",
               "compensationType": "Salary",
               "interval": "1 YEAR",
@@ -42485,7 +42477,7 @@
               "maxValue": 335000
             },
             {
-              "id": "1a855f86-f6ae-4fe0-ac96-c3c305614fc0",
+              "id": "68477724-072f-4f33-80e1-07e5984ec3bd",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
               "interval": "1 YEAR",
@@ -44868,11 +44860,7 @@
           "maxValue": 268000
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-09T23:45:05.530022",
-    "last_seen": "2026-10-09T23:45:05.530022",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "e8ab15cc-f1f9-43cd-8658-e51d925af98c",
@@ -44945,10 +44933,6 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-09T23:45:05.530022",
-    "last_seen": "2026-10-09T23:45:05.530022",
-    "days_since_listed": 0
+    }
   }
 ]
