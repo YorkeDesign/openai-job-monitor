@@ -1226,15 +1226,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "123a301d-8c65-45e3-9193-9bcda07f7fc8",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "22e704e2-45ad-4148-a7dd-c9cbe37292db",
               "summary": "$186.3K \u2013 $256.5K",
               "compensationType": "Salary",
@@ -1242,6 +1233,15 @@
               "currencyCode": "USD",
               "minValue": 186300,
               "maxValue": 256500
+            },
+            {
+              "id": "123a301d-8c65-45e3-9193-9bcda07f7fc8",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         },
@@ -1746,15 +1746,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "f8816940-6ab5-40d1-869b-01484469e4f1",
-              "summary": "$347K \u2013 $510K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 347000,
-              "maxValue": 510000
-            },
-            {
               "id": "9e30c06e-7a93-4a0f-ab98-687de585e46c",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -1762,24 +1753,33 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "f8816940-6ab5-40d1-869b-01484469e4f1",
+              "summary": "$347K \u2013 $510K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 347000,
+              "maxValue": 510000
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 347000,
-          "maxValue": 510000
-        },
-        {
           "compensationType": "EquityCashValue",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": null,
           "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 347000,
+          "maxValue": 510000
         }
       ]
     }
@@ -3095,15 +3095,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a15ebac0-5309-4261-9f44-b3ff11b5017d",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "a4fdb43e-3663-4b08-af75-2ae592c3465e",
               "summary": "$156.6K \u2013 $220.5K",
               "compensationType": "Salary",
@@ -3116,6 +3107,15 @@
               "id": "5403defa-4b0e-4f66-99e5-d904c04eb689",
               "summary": "Offers Commission",
               "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "a15ebac0-5309-4261-9f44-b3ff11b5017d",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
               "interval": "1 YEAR",
               "currencyCode": "USD",
               "minValue": null,
@@ -11796,6 +11796,15 @@
           "additionalInformation": null,
           "components": [
             {
+              "id": "70052173-b529-43bf-ae81-7b383584df99",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
               "id": "f930974e-9317-4abb-b00a-50448806d80c",
               "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $176K \u2013 $350K",
               "compensationType": "Salary",
@@ -11808,15 +11817,6 @@
               "id": "0cc48c18-eb00-4f93-8e59-1f717a381b1c",
               "summary": "Offers Commission",
               "compensationType": "Commission",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "70052173-b529-43bf-ae81-7b383584df99",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
               "interval": "1 YEAR",
               "currencyCode": "USD",
               "minValue": null,
@@ -17172,90 +17172,6 @@
           "currencyCode": "USD",
           "minValue": 223000,
           "maxValue": 423000
-        }
-      ]
-    }
-  },
-  {
-    "id": "ec0a4e03-bbcc-4c64-813f-b53dabb8f53a",
-    "title": "Workload Porting & Performance Engineer",
-    "department": "Scaling",
-    "team": "Compute",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [
-      {
-        "location": "Seattle",
-        "address": {
-          "postalAddress": {
-            "addressRegion": "Washington",
-            "addressCountry": "United States",
-            "addressLocality": "Seattle"
-          }
-        }
-      }
-    ],
-    "publishedAt": "2026-04-20T22:07:54.793+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/ec0a4e03-bbcc-4c64-813f-b53dabb8f53a",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/ec0a4e03-bbcc-4c64-813f-b53dabb8f53a/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">OpenAI\u2019s Infrastructure organization builds and evaluates the systems that power advanced AI workloads. We work closely with hardware, modeling, and architecture teams to ensure that new platforms deliver real-world performance aligned with workload needs.</p><p style=\"min-height:1.5em\">Our team focuses on understanding workload behavior across evolving hardware platforms\u2014bridging the gap between theoretical capability and observed system performance.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We are seeking a Workload Porting &amp; Performance Engineer to evaluate new hardware platforms by porting benchmarks and real-world workloads, analyzing performance, and identifying system bottlenecks.</p><p style=\"min-height:1.5em\">In this role, you will bring up workloads on new systems, characterize performance behavior, and adapt workloads to better utilize hardware capabilities. You will play a critical role in validating new platforms and ensuring that performance aligns with expectations across compute, memory, and networking subsystems.</p><p style=\"min-height:1.5em\">This role requires strong hands-on experience with performance analysis, workload optimization, and system-level debugging across hardware and software boundaries.</p><p style=\"min-height:1.5em\">This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance.</p><p style=\"min-height:1.5em\"><strong>Key Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Port and enable benchmarks and real-world workloads on new hardware platforms.</p></li><li><p style=\"min-height:1.5em\">Evaluate system performance across compute, memory, storage, and networking subsystems.</p></li><li><p style=\"min-height:1.5em\">Identify and analyze performance bottlenecks and inefficiencies.</p></li><li><p style=\"min-height:1.5em\">Adapt and optimize workloads to better utilize hardware capabilities.</p></li><li><p style=\"min-height:1.5em\">Develop and run performance experiments and profiling workflows.</p></li><li><p style=\"min-height:1.5em\">Compare expected vs. observed performance and provide feedback to:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">hardware architecture teams</p></li><li><p style=\"min-height:1.5em\">performance modeling teams</p></li><li><p style=\"min-height:1.5em\">system and software engineers.</p></li></ul></li><li><p style=\"min-height:1.5em\">Debug issues across the stack, including software, runtime, and hardware interactions.</p></li><li><p style=\"min-height:1.5em\">Provide actionable insights to guide platform readiness and deployment decisions.</p></li></ul><p style=\"min-height:1.5em\"><strong>Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with performance analysis, benchmarking, or workload optimization.</p></li><li><p style=\"min-height:1.5em\">Strong understanding of system architecture, including CPU/GPU, memory, and I/O subsystems.</p></li><li><p style=\"min-height:1.5em\">Experience porting or adapting workloads across different hardware platforms.</p></li><li><p style=\"min-height:1.5em\">Familiarity with profiling tools and performance debugging techniques.</p></li><li><p style=\"min-height:1.5em\">Ability to identify root causes of performance issues across hardware/software boundaries.</p></li><li><p style=\"min-height:1.5em\">Experience working in large-scale or distributed system environments.</p></li></ul><p style=\"min-height:1.5em\"><strong>Preferred Skills</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with AI/ML workloads, including training or inference systems.</p></li><li><p style=\"min-height:1.5em\">Familiarity with GPU or accelerator-based systems.</p></li><li><p style=\"min-height:1.5em\">Experience working with low-level performance tools (profilers, tracing, microbenchmarks).</p></li><li><p style=\"min-height:1.5em\">Background in systems software, compilers, or runtime optimization.</p></li><li><p style=\"min-height:1.5em\">Experience collaborating with hardware and architecture teams on performance validation.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nOpenAI\u2019s Infrastructure organization builds and evaluates the systems that power advanced AI workloads. We work closely with hardware, modeling, and architecture teams to ensure that new platforms deliver real-world performance aligned with workload needs.\n\nOur team focuses on understanding workload behavior across evolving hardware platforms\u2014bridging the gap between theoretical capability and observed system performance.\n\nAbout the Role\n\nWe are seeking a Workload Porting & Performance Engineer to evaluate new hardware platforms by porting benchmarks and real-world workloads, analyzing performance, and identifying system bottlenecks.\n\nIn this role, you will bring up workloads on new systems, characterize performance behavior, and adapt workloads to better utilize hardware capabilities. You will play a critical role in validating new platforms and ensuring that performance aligns with expectations across compute, memory, and networking subsystems.\n\nThis role requires strong hands-on experience with performance analysis, workload optimization, and system-level debugging across hardware and software boundaries.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance.\n\nKey Responsibilities\n\n - Port and enable benchmarks and real-world workloads on new hardware platforms.\n\n - Evaluate system performance across compute, memory, storage, and networking subsystems.\n\n - Identify and analyze performance bottlenecks and inefficiencies.\n\n - Adapt and optimize workloads to better utilize hardware capabilities.\n\n - Develop and run performance experiments and profiling workflows.\n\n - Compare expected vs. observed performance and provide feedback to:\n   \n   - hardware architecture teams\n   \n   - performance modeling teams\n   \n   - system and software engineers.\n\n - Debug issues across the stack, including software, runtime, and hardware interactions.\n\n - Provide actionable insights to guide platform readiness and deployment decisions.\n\nQualifications\n\n - Experience with performance analysis, benchmarking, or workload optimization.\n\n - Strong understanding of system architecture, including CPU/GPU, memory, and I/O subsystems.\n\n - Experience porting or adapting workloads across different hardware platforms.\n\n - Familiarity with profiling tools and performance debugging techniques.\n\n - Ability to identify root causes of performance issues across hardware/software boundaries.\n\n - Experience working in large-scale or distributed system environments.\n\nPreferred Skills\n\n - Experience with AI/ML workloads, including training or inference systems.\n\n - Familiarity with GPU or accelerator-based systems.\n\n - Experience working with low-level performance tools (profilers, tracing, microbenchmarks).\n\n - Background in systems software, compilers, or runtime optimization.\n\n - Experience collaborating with hardware and architecture teams on performance validation.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. \n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$347K \u2013 $445K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$347K - $445K",
-      "compensationTiers": [
-        {
-          "id": "0172264a-6c1a-4ad0-98df-9be80a81f532",
-          "tierSummary": "$347K \u2013 $445K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "c715e51a-0b23-4152-98a9-c79098253c27",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
-              "id": "bf777a0f-3b0f-4fb7-b417-5c345c78f368",
-              "summary": "$347K \u2013 $445K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 347000,
-              "maxValue": 445000
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 347000,
-          "maxValue": 445000
         }
       ]
     }
@@ -41347,15 +41263,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a9e91f9c-2bef-4da6-94f4-45fb33a21788",
-              "summary": "$145.8K \u2013 $279K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 145800,
-              "maxValue": 279000
-            },
-            {
               "id": "ed364e2a-777f-4c82-b2e4-30ac2292c5ab",
               "summary": "Offers Equity",
               "compensationType": "EquityCashValue",
@@ -41363,6 +41270,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "a9e91f9c-2bef-4da6-94f4-45fb33a21788",
+              "summary": "$145.8K \u2013 $279K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 145800,
+              "maxValue": 279000
             }
           ]
         },
@@ -41373,15 +41289,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "b8b64d86-d5ae-4fc8-8427-1e43bac37c0b",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "874b0792-bcb1-4c2b-b3ec-cfc124aff78e",
               "summary": "$129.6K \u2013 $248K",
               "compensationType": "Salary",
@@ -41389,6 +41296,15 @@
               "currencyCode": "USD",
               "minValue": 129600,
               "maxValue": 248000
+            },
+            {
+              "id": "b8b64d86-d5ae-4fc8-8427-1e43bac37c0b",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
