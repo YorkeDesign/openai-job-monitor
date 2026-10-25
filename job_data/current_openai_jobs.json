@@ -1527,15 +1527,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "9e30c06e-7a93-4a0f-ab98-687de585e46c",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            },
-            {
               "id": "f8816940-6ab5-40d1-869b-01484469e4f1",
               "summary": "$347K \u2013 $510K",
               "compensationType": "Salary",
@@ -1543,24 +1534,33 @@
               "currencyCode": "USD",
               "minValue": 347000,
               "maxValue": 510000
+            },
+            {
+              "id": "9e30c06e-7a93-4a0f-ab98-687de585e46c",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
             }
           ]
         }
       ],
       "summaryComponents": [
         {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        },
-        {
           "compensationType": "Salary",
           "interval": "1 YEAR",
           "currencyCode": "USD",
           "minValue": 347000,
           "maxValue": 510000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
         }
       ]
     }
@@ -10804,15 +10804,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "d0c9ce4a-22be-4ebd-a28b-959b509c307d",
-              "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $234.9K \u2013 $261K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 234900,
-              "maxValue": 261000
-            },
-            {
               "id": "3f2d6358-7737-4987-88a2-fc7a7a13786a",
               "summary": "Offers Commission",
               "compensationType": "Commission",
@@ -10829,6 +10820,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "d0c9ce4a-22be-4ebd-a28b-959b509c307d",
+              "summary": "The base pay offered may vary depending on multiple individualized factors, including market location. $234.9K \u2013 $261K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 234900,
+              "maxValue": 261000
             }
           ]
         }
@@ -29038,7 +29038,7 @@
     "location": "San Francisco",
     "shouldDisplayCompensationOnJobPostings": true,
     "secondaryLocations": [],
-    "publishedAt": "2026-08-31T22:52:22.537+00:00",
+    "publishedAt": "2026-10-25T15:10:07.342+00:00",
     "isListed": true,
     "isRemote": null,
     "workplaceType": null,
@@ -42734,79 +42734,6 @@
     }
   },
   {
-    "id": "6ef9babb-e210-496f-a004-fed919a9ed2d",
-    "title": "Applied Scientist, Product Policy",
-    "department": "Product Policy",
-    "team": "Product Policy",
-    "employmentType": "FullTime",
-    "location": "San Francisco",
-    "shouldDisplayCompensationOnJobPostings": true,
-    "secondaryLocations": [],
-    "publishedAt": "2026-10-21T19:11:47.392+00:00",
-    "isListed": true,
-    "isRemote": true,
-    "workplaceType": "Hybrid",
-    "address": {
-      "postalAddress": {
-        "addressRegion": "California",
-        "addressCountry": "United States",
-        "addressLocality": "San Francisco"
-      }
-    },
-    "jobUrl": "https://jobs.ashbyhq.com/openai/6ef9babb-e210-496f-a004-fed919a9ed2d",
-    "applyUrl": "https://jobs.ashbyhq.com/openai/6ef9babb-e210-496f-a004-fed919a9ed2d/application",
-    "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Team</strong></p><p style=\"min-height:1.5em\">The Product Policy research team studies how people use and experience AI, generating evidence to inform product, policy, and safety decisions. We partner with researchers, data scientists, engineers, and cross-functional teams to understand AI\u2019s effects on people\u2019s lives, including well-being, youth experiences, and social and emotional use.</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">We\u2019re looking for an Applied Scientist to help design, execute, and analyze large-scale longitudinal research on AI use and well-being. You\u2019ll work closely with research leads to translate scientific questions into rigorous studies, combining survey responses with behavioral data to understand how people\u2019s experiences with AI evolve over time.</p><p style=\"min-height:1.5em\">This is a hands-on role spanning applied analysis, research methods, and study execution. You\u2019ll build reproducible analytical workflows, assess data quality and representativeness, and help establish reliable infrastructure for ongoing panel research. Your work will support research involving teens and adults, including studies of AI companionship, and help turn findings into useful evidence for product, policy, and safety partners.</p><p style=\"min-height:1.5em\"><strong>In this role, you will:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Partner with research leads to develop study designs, survey measures, and analysis plans for longitudinal research on AI use and well-being.</p></li><li><p style=\"min-height:1.5em\">Conduct statistical analyses of survey and behavioral data, including evaluating selection and response bias, account-linkage patterns, and sample representativeness.</p></li><li><p style=\"min-height:1.5em\">Prepare and validate analysis-ready datasets, implement analysis plans, and produce clear summaries and visualizations using reproducible workflows.</p></li><li><p style=\"min-height:1.5em\">Develop quality checks across survey programming, fieldwork, data delivery, and repeated study waves to identify inconsistencies and improve research reliability.</p></li><li><p style=\"min-height:1.5em\">Own day-to-day study execution, coordinating timelines, vendors, and cross-functional dependencies to deliver high-quality research on schedule.</p></li><li><p style=\"min-height:1.5em\">Collaborate with data engineering and privacy partners on responsible account linkage, data flows, logging, and retention.</p></li><li><p style=\"min-height:1.5em\">Support human-subjects research review, including Institutional Review Board (IRB) documentation, protocol amendments, and consent and assent processes.</p></li><li><p style=\"min-height:1.5em\">Maintain clear documentation of methods, measures, assumptions, and protocol changes, and contribute analysis and methodological materials for research readouts, publications, and peer review.</p></li><li><p style=\"min-height:1.5em\">Communicate findings, limitations, and practical recommendations to technical and nontechnical partners, and build reusable tools and processes that improve future studies.</p></li></ul><p style=\"min-height:1.5em\"><strong>You might thrive in this role if you:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have experience conducting applied quantitative research in social science, behavioral science, human-computer interaction, statistics, or a related field.</p></li><li><p style=\"min-height:1.5em\">Bring strong foundations in survey research and statistical analysis, with experience working on panel studies, longitudinal datasets, or human-subjects research.</p></li><li><p style=\"min-height:1.5em\">Are comfortable using SQL and Python or R to prepare data, implement analyses, validate results, and create visualizations.</p></li><li><p style=\"min-height:1.5em\">Understand how recruitment, missing data, participant attrition, and measurement choices can affect the interpretation and generalizability of findings.</p></li><li><p style=\"min-height:1.5em\">Can move between analytical work and practical execution, managing multiple timelines and collaborators while maintaining scientific rigor.</p></li><li><p style=\"min-height:1.5em\">Communicate clearly, lead with the key takeaway, and connect methodological choices and findings to the decisions they inform.</p></li><li><p style=\"min-height:1.5em\">Exercise sound judgment when working with sensitive data and research involving minors.</p></li><li><p style=\"min-height:1.5em\">Enjoy building structure in ambiguous environments and collaborating across disciplines.</p></li></ul><p style=\"min-height:1.5em\"><strong>Nice to Have</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience combining survey responses with behavioral or product data.</p></li><li><p style=\"min-height:1.5em\">Familiarity with preregistration, measure validation, reproducible research, and academic publication or peer-review processes.</p></li><li><p style=\"min-height:1.5em\">Experience working with research vendors, survey platforms, or IRB and ethics-review partners.</p></li><li><p style=\"min-height:1.5em\">Research experience related to AI-human interaction, digital well-being, youth development, or social and emotional uses of technology.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About OpenAI</strong></p><p style=\"min-height:1.5em\">OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0</p><p style=\"min-height:1.5em\">We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. </p><p style=\"min-height:1.5em\">For additional information, please see <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://cdn.openai.com/policies/eeo-policy-statement.pdf\"><u>OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement</u></a>.</p><p style=\"min-height:1.5em\">Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p><p style=\"min-height:1.5em\">To notify OpenAI that you believe this job posting is non-compliant, please submit a report through <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://form.asana.com/?d=57018692298241&amp;k=5MqR40fZd7jlxVUh5J-UeA\">this form</a>. No response will be provided to inquiries unrelated to job posting compliance.</p><p style=\"min-height:1.5em\">We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this <a target=\"_blank\" rel=\"noopener noreferrer\" class=\"c-link c-link--underline\" href=\"https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&amp;d=57018692298241\"><u>link</u></a>.</p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"c-link\" href=\"https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\">OpenAI Global Applicant Privacy Policy</a></p><p style=\"min-height:1.5em\">At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
-    "descriptionPlain": "About the Team\n\nThe Product Policy research team studies how people use and experience AI, generating evidence to inform product, policy, and safety decisions. We partner with researchers, data scientists, engineers, and cross-functional teams to understand AI\u2019s effects on people\u2019s lives, including well-being, youth experiences, and social and emotional use.\n\nAbout the Role\n\nWe\u2019re looking for an Applied Scientist to help design, execute, and analyze large-scale longitudinal research on AI use and well-being. You\u2019ll work closely with research leads to translate scientific questions into rigorous studies, combining survey responses with behavioral data to understand how people\u2019s experiences with AI evolve over time.\n\nThis is a hands-on role spanning applied analysis, research methods, and study execution. You\u2019ll build reproducible analytical workflows, assess data quality and representativeness, and help establish reliable infrastructure for ongoing panel research. Your work will support research involving teens and adults, including studies of AI companionship, and help turn findings into useful evidence for product, policy, and safety partners.\n\nIn this role, you will:\n\n - Partner with research leads to develop study designs, survey measures, and analysis plans for longitudinal research on AI use and well-being.\n\n - Conduct statistical analyses of survey and behavioral data, including evaluating selection and response bias, account-linkage patterns, and sample representativeness.\n\n - Prepare and validate analysis-ready datasets, implement analysis plans, and produce clear summaries and visualizations using reproducible workflows.\n\n - Develop quality checks across survey programming, fieldwork, data delivery, and repeated study waves to identify inconsistencies and improve research reliability.\n\n - Own day-to-day study execution, coordinating timelines, vendors, and cross-functional dependencies to deliver high-quality research on schedule.\n\n - Collaborate with data engineering and privacy partners on responsible account linkage, data flows, logging, and retention.\n\n - Support human-subjects research review, including Institutional Review Board (IRB) documentation, protocol amendments, and consent and assent processes.\n\n - Maintain clear documentation of methods, measures, assumptions, and protocol changes, and contribute analysis and methodological materials for research readouts, publications, and peer review.\n\n - Communicate findings, limitations, and practical recommendations to technical and nontechnical partners, and build reusable tools and processes that improve future studies.\n\nYou might thrive in this role if you:\n\n - Have experience conducting applied quantitative research in social science, behavioral science, human-computer interaction, statistics, or a related field.\n\n - Bring strong foundations in survey research and statistical analysis, with experience working on panel studies, longitudinal datasets, or human-subjects research.\n\n - Are comfortable using SQL and Python or R to prepare data, implement analyses, validate results, and create visualizations.\n\n - Understand how recruitment, missing data, participant attrition, and measurement choices can affect the interpretation and generalizability of findings.\n\n - Can move between analytical work and practical execution, managing multiple timelines and collaborators while maintaining scientific rigor.\n\n - Communicate clearly, lead with the key takeaway, and connect methodological choices and findings to the decisions they inform.\n\n - Exercise sound judgment when working with sensitive data and research involving minors.\n\n - Enjoy building structure in ambiguous environments and collaborating across disciplines.\n\nNice to Have\n\n - Experience combining survey responses with behavioral or product data.\n\n - Familiarity with preregistration, measure validation, reproducible research, and academic publication or peer-review processes.\n\n - Experience working with research vendors, survey platforms, or IRB and ethics-review partners.\n\n - Research experience related to AI-human interaction, digital well-being, youth development, or social and emotional uses of technology.\n\n\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\u00a0\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic. \n\nFor additional information, please see OpenAI\u2019s Affirmative Action and Equal Employment Opportunity Policy Statement https://cdn.openai.com/policies/eeo-policy-statement.pdf.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form https://form.asana.com/?d=57018692298241&k=5MqR40fZd7jlxVUh5J-UeA. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link https://form.asana.com/?k=bQ7w9h3iexRlicUdWRiwvg&d=57018692298241.\n\nOpenAI Global Applicant Privacy Policy https://cdn.openai.com/policies/global-employee-and-contractor-privacy-policy.pdf\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",
-    "compensation": {
-      "compensationTierSummary": "$207K \u2013 $230K \u2022 Offers Equity",
-      "scrapeableCompensationSalarySummary": "$207K - $230K",
-      "compensationTiers": [
-        {
-          "id": "310da71a-dcbd-4655-906a-70cfe9eb21c5",
-          "tierSummary": "$207K \u2013 $230K \u2022 Offers Equity",
-          "title": null,
-          "additionalInformation": null,
-          "components": [
-            {
-              "id": "357a50cb-855e-4ef0-904c-39f6168fa513",
-              "summary": "$207K \u2013 $230K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 207000,
-              "maxValue": 230000
-            },
-            {
-              "id": "d183e79e-4405-45b9-86fb-e27b347e09c4",
-              "summary": "Offers Equity",
-              "compensationType": "EquityCashValue",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": null,
-              "maxValue": null
-            }
-          ]
-        }
-      ],
-      "summaryComponents": [
-        {
-          "compensationType": "Salary",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": 207000,
-          "maxValue": 230000
-        },
-        {
-          "compensationType": "EquityCashValue",
-          "interval": "1 YEAR",
-          "currencyCode": "USD",
-          "minValue": null,
-          "maxValue": null
-        }
-      ]
-    }
-  },
-  {
     "id": "1441816f-6429-426e-8f6d-8e5930a818f9",
     "title": "Research Scientist / Research Engineer, Search - Knowledge Graphs",
     "department": "Research",
@@ -43310,11 +43237,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-24T22:09:43.435351",
-    "last_seen": "2026-10-24T22:09:43.435351",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "b73e46a6-881a-4413-835a-94b9d5f35d2f",
@@ -43460,11 +43383,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-24T22:09:43.435351",
-    "last_seen": "2026-10-24T22:09:43.435351",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c9832989-edc1-4f2f-8a79-8fa29f5623e2",
@@ -43537,11 +43456,7 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-24T22:09:43.435351",
-    "last_seen": "2026-10-24T22:09:43.435351",
-    "days_since_listed": 0
+    }
   },
   {
     "id": "c2921990-3fff-469a-a117-f6a8f2a3d50c",
@@ -43625,10 +43540,6 @@
           "maxValue": null
         }
       ]
-    },
-    "status": "ACTIVE",
-    "first_seen": "2026-10-24T22:09:43.435351",
-    "last_seen": "2026-10-24T22:09:43.435351",
-    "days_since_listed": 0
+    }
   }
 ]
