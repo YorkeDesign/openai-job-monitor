@@ -2584,15 +2584,6 @@
           "additionalInformation": null,
           "components": [
             {
-              "id": "a4fdb43e-3663-4b08-af75-2ae592c3465e",
-              "summary": "$156.6K \u2013 $220.5K",
-              "compensationType": "Salary",
-              "interval": "1 YEAR",
-              "currencyCode": "USD",
-              "minValue": 156600,
-              "maxValue": 220500
-            },
-            {
               "id": "5403defa-4b0e-4f66-99e5-d904c04eb689",
               "summary": "Offers Commission",
               "compensationType": "Commission",
@@ -2609,6 +2600,15 @@
               "currencyCode": "USD",
               "minValue": null,
               "maxValue": null
+            },
+            {
+              "id": "a4fdb43e-3663-4b08-af75-2ae592c3465e",
+              "summary": "$156.6K \u2013 $220.5K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 156600,
+              "maxValue": 220500
             }
           ]
         }
